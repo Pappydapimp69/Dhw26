@@ -306,9 +306,6 @@ window.DHW_EVENTS = [
     time: "6–8pm", venue: "TWU Student Union / Amphitheater", address: "304 Administration Dr.", cost: "Free ($12 Build-A-Boo Buddy)", tags: ["family", "free"],
     desc: "Trick-or-treating, petting zoo, rides, crafts, costume contest (check-in 6–7pm). Rain date Oct. 29.",
     link: "https://events.twu.edu/event/boo-at-the-u-2048", source: "https://events.twu.edu/event/boo-at-the-u-2048", verified: true , dbIds: ["recnZ5ZS15yiZnP2Z"]},
-  { id: "addams", title: "The Addams Family Musical", start: "2026-10-08", end: "2026-10-18",
-    time: "Thu–Sun (Oct 8–11, 15–18)", venue: "Campus Theatre (Theatre Denton)", address: "214 W. Hickory St.", cost: "Ticketed", tags: ["family", "show"],
-    desc: "Theatre Denton's Halloween musical. Tickets: buy.ticketstothecity.com.", link: "https://theatredenton.com/event/the-addams-family-musical/2026-10-17/2/", source: "https://era19963.softr.app/event-submissions-details?recordId=recdwCOpD2k0Ovs8r", verified: true , days: [4,5,6,0], dbIds: ["recdwCOpD2k0Ovs8r"]},
   { id: "glowgolf", title: "Goblins & Glow Golf", start: "2026-10-16",
     time: "7–10pm", venue: "Golf course (Parks & Rec)", address: "2009 W. Windsor Dr.", cost: "No ticket needed", tags: ["family"],
     desc: "Halloween golf social on a glow-in-the-dark haunted green, with a closest-to-the-pin challenge after dark.", link: "https://www.cityofdenton.com/calendar.aspx?CID=23", source: "https://era19963.softr.app/event-submissions-details?recordId=recgx7I9SDJIV4C3T", verified: true , dbIds: ["recgx7I9SDJIV4C3T"]},
@@ -932,7 +929,17 @@ window.DHW_DB_EVENTS = [
 "2026-10-17",
 "2026-10-18"
 ],
-"time": "Times vary by date"
+"time": "Times vary by date",
+"times": {
+"2026-10-08": "7:30pm–10pm",
+"2026-10-09": "7:30pm–10pm",
+"2026-10-10": "2pm–4:30pm & 7:30pm–10pm",
+"2026-10-11": "2pm–4:30pm",
+"2026-10-15": "7:30pm–10pm",
+"2026-10-16": "7:30pm–10pm",
+"2026-10-17": "2pm–4:30pm & 7:30pm–10pm",
+"2026-10-18": "2pm–4:30pm"
+}
 },
 {
 "title": "The Haunted Rodeo",
@@ -1279,7 +1286,18 @@ window.DHW_DB_EVENTS = [
 "2026-10-30",
 "2026-10-31"
 ],
-"time": "Times vary by date"
+"time": "Times vary by date",
+"times": {
+"2026-10-09": "10:45pm",
+"2026-10-10": "10:45pm–12:30am",
+"2026-10-16": "10:45pm–midnight",
+"2026-10-17": "10:45pm–1am",
+"2026-10-23": "10:45pm–1am",
+"2026-10-24": "10:45pm–1am",
+"2026-10-29": "8pm–10:45pm",
+"2026-10-30": "8pm–10:45pm",
+"2026-10-31": "8pm–10:45pm"
+}
 },
 {
 "title": "Nightmare on Elm St., House of Doom ; Haunted House",
@@ -1657,7 +1675,13 @@ window.DHW_DB_EVENTS = [
 "2026-10-25",
 "2026-10-31"
 ],
-"time": "Times vary by date"
+"time": "Times vary by date",
+"times": {
+"2026-10-10": "2:30pm–4:30pm",
+"2026-10-11": "noon–2pm & 3pm–5pm",
+"2026-10-25": "3pm–5pm",
+"2026-10-31": "2:30pm–4:30pm"
+}
 },
 {
 "title": "Karaoke and Costumes under the Big Top",
@@ -2038,7 +2062,13 @@ window.DHW_DB_EVENTS = [
 "2026-10-18",
 "2026-10-21"
 ],
-"time": "Times vary by date"
+"time": "Times vary by date",
+"times": {
+"2026-10-11": "6pm–10pm",
+"2026-10-14": "7pm–10pm",
+"2026-10-18": "6pm–10pm",
+"2026-10-21": "7pm–10pm"
+}
 },
 {
 "title": "Hallow-Weenie Fest",
@@ -3606,7 +3636,20 @@ window.DHW_DB_EVENTS = [
 "2026-10-29",
 "2026-10-30"
 ],
-"time": "Times vary by date"
+"time": "Times vary by date",
+"times": {
+"2026-10-20": "noon–10pm",
+"2026-10-21": "noon–9pm",
+"2026-10-22": "noon–9pm",
+"2026-10-23": "noon–9pm",
+"2026-10-24": "noon–9pm",
+"2026-10-25": "noon–9pm",
+"2026-10-26": "noon–9pm",
+"2026-10-27": "noon–9pm",
+"2026-10-28": "noon–9pm",
+"2026-10-29": "noon–9pm",
+"2026-10-30": "noon–9pm"
+}
 },
 {
 "title": "Thrift & Treat",
@@ -4224,7 +4267,15 @@ window.DHW_DB_EVENTS = [
 "2026-10-31",
 "2026-11-01"
 ],
-"time": "Times vary by date"
+"time": "Times vary by date",
+"times": {
+"2026-10-23": "7:30pm–10pm",
+"2026-10-24": "7:30pm–10pm",
+"2026-10-25": "2:30pm–5pm",
+"2026-10-30": "7:30pm–10pm",
+"2026-10-31": "7:30pm–10pm",
+"2026-11-01": "2:30pm–5pm"
+}
 },
 {
 "title": "Cirque du Horror : Day of the Dead Matinee",
@@ -5834,7 +5885,7 @@ window.DHW_DB_EVENTS = [
     return Object.entries(by).map(([m, n]) => `${m} ${n.join(", ")}`).join("; ");
   }
   function gcal(e, day) {
-    const m = /(\d{1,2})(?::(\d\d))?\s*(am|pm|noon)/i.exec(e.time || "");
+    const m = /(\d{1,2})(?::(\d\d))?\s*(am|pm|noon)/i.exec((e.times && e.times[day]) || e.time || "");
     const date = day.replace(/-/g, "");
     let dates;
     if (m) {
@@ -5850,7 +5901,7 @@ window.DHW_DB_EVENTS = [
   }
   function card(e, day) {
     const past = endOf(e) < today || (day && day < today);
-    const time = longRun(e) && !day ? "All month" : (e.time || "—");
+    const time = longRun(e) && !day ? "All month" : ((day && e.times && e.times[day]) || e.time || "—");
     const where = [e.venue, e.address].filter(Boolean).filter((v, i, a) => a.indexOf(v) === i).join(" · ");
     const when = longRun(e) ? `${d(e.start).toLocaleDateString("en-US", { month: "short", day: "numeric" })} – ${d(endOf(e)).toLocaleDateString("en-US", { month: "short", day: "numeric" })}`
       : e.dates && e.dates.length > 1 ? "Also " + fmtDates(e.dates.filter(x => x !== day)) : "";
@@ -5913,7 +5964,8 @@ window.DHW_DB_EVENTS = [
     } else {
       const keys = Object.keys(groups).sort();
       list.innerHTML = keys.map(k => {
-        const g = groups[k].sort((a, b) => (longRun(a) - longRun(b)) || timeKey(a.time) - timeKey(b.time) || a.title.localeCompare(b.title));
+        const tk = e => timeKey((e.times && e.times[k]) || e.time);
+        const g = groups[k].sort((a, b) => (longRun(a) - longRun(b)) || tk(a) - tk(b) || a.title.localeCompare(b.title));
         return dayHead(k) + g.map(e => card(e, k)).join("");
       }).join("");
     }

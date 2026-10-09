@@ -4,6 +4,10 @@ Usage:
   node tools/fetch_list.js https://era19963.softr.app/ raw/list.json
   node tools/fetch_details.js raw/list.json raw/details.json
   python3 tools/build_db.py raw/list.json raw/details.json > events-db.js
+
+The live database only returns events that have not ended, so every fetch is merged into
+data/records.json. A record that drops out of the feed is kept only if it had already ended
+(it aged out); one that vanishes before its end date was cancelled or unapproved and is dropped.
 """
 import json, re, sys
 from datetime import datetime, timedelta, timezone
@@ -39,15 +43,36 @@ def norm(s):
     return re.sub(r"[^a-z0-9 ]", "", s.lower().replace("’", "'")).strip()
 
 
-def main(list_path, det_path, curated_path=None):
+ARCHIVE = __import__("pathlib").Path(__file__).resolve().parent.parent / "data" / "records.json"
+
+
+def merge_archive(list_path, det_path):
+    """Merge a fresh fetch into the archive; returns the record list to build from."""
     tags = {x["id"]: [t["label"] for t in x["fields"].get("Tags", [])] for x in json.load(open(list_path))}
-    rows = []
+    now = datetime.now(timezone.utc).isoformat()
+    fresh = {}
     for x in json.load(open(det_path)):
+        f = {k: v for k, v in x["fields"].items() if k != "Event Photo"}
+        f["Tags"] = tags.get(x["id"], [])
+        fresh[x["id"]] = {"id": x["id"], "fields": f, "seen": now}
+    old = json.loads(ARCHIVE.read_text()) if ARCHIVE.exists() else {}
+    kept = {rid: r for rid, r in old.items() if rid not in fresh and r["fields"]["Event End Date"] <= now}
+    dropped = [r["fields"]["Event Name"] for rid, r in old.items() if rid not in fresh and rid not in kept]
+    merged = {**kept, **fresh}
+    ARCHIVE.parent.mkdir(exist_ok=True)
+    ARCHIVE.write_text(json.dumps(merged, ensure_ascii=False, indent=0, sort_keys=True))
+    print(f"archive: {len(fresh)} live + {len(kept)} ended kept; {len(dropped)} dropped (vanished early): {dropped[:5]}", file=sys.stderr)
+    return list(merged.values())
+
+
+def main(list_path, det_path):
+    rows = []
+    for x in merge_archive(list_path, det_path):
         f = x["fields"]
         if (f.get("Approval Status") or {}).get("label") != "Approved":
             continue
         a, b = local(f["Event Start Date"]), local(f["Event End Date"])
-        labels = tags.get(x["id"], [])
+        labels = f.get("Tags", [])
         ticketed = any(t.get("label") == "Yes" for t in (f.get("Ticketed") or [])) or "Ticket Required" in labels
         t = sorted({TAGMAP[l] for l in labels if l in TAGMAP})
         if not ticketed:
@@ -74,9 +99,14 @@ def main(list_path, det_path, curated_path=None):
                     source=DETAIL + r0["rid"], verified=True, db=True)
         dates = sorted({r["a"].date().isoformat() for r in g})
         if len(dates) >= RECUR_MIN:
-            times = {timestr(r["a"], r["b"]) for r in g}
+            per = {}
+            for r in g:
+                per.setdefault(r["a"].date().isoformat(), []).append(timestr(r["a"], r["b"]))
+            per = {k: " & ".join(dict.fromkeys(v)) for k, v in per.items()}
+            same = len(set(per.values())) == 1
             out.append(dict(base, id="db-" + r0["rid"], start=dates[0], end=dates[-1], dates=dates,
-                            time=times.pop() if len(times) == 1 else "Times vary by date",
+                            time=next(iter(per.values())) if same else "Times vary by date",
+                            **({} if same else {"times": per}),
                             tags=sorted(set(base["tags"]) | {"allmonth"})))
         else:
             for r in g:

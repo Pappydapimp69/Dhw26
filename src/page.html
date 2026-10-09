@@ -280,7 +280,7 @@
     return Object.entries(by).map(([m, n]) => `${m} ${n.join(", ")}`).join("; ");
   }
   function gcal(e, day) {
-    const m = /(\d{1,2})(?::(\d\d))?\s*(am|pm|noon)/i.exec(e.time || "");
+    const m = /(\d{1,2})(?::(\d\d))?\s*(am|pm|noon)/i.exec((e.times && e.times[day]) || e.time || "");
     const date = day.replace(/-/g, "");
     let dates;
     if (m) {
@@ -296,7 +296,7 @@
   }
   function card(e, day) {
     const past = endOf(e) < today || (day && day < today);
-    const time = longRun(e) && !day ? "All month" : (e.time || "—");
+    const time = longRun(e) && !day ? "All month" : ((day && e.times && e.times[day]) || e.time || "—");
     const where = [e.venue, e.address].filter(Boolean).filter((v, i, a) => a.indexOf(v) === i).join(" · ");
     const when = longRun(e) ? `${d(e.start).toLocaleDateString("en-US", { month: "short", day: "numeric" })} – ${d(endOf(e)).toLocaleDateString("en-US", { month: "short", day: "numeric" })}`
       : e.dates && e.dates.length > 1 ? "Also " + fmtDates(e.dates.filter(x => x !== day)) : "";
@@ -359,7 +359,8 @@
     } else {
       const keys = Object.keys(groups).sort();
       list.innerHTML = keys.map(k => {
-        const g = groups[k].sort((a, b) => (longRun(a) - longRun(b)) || timeKey(a.time) - timeKey(b.time) || a.title.localeCompare(b.title));
+        const tk = e => timeKey((e.times && e.times[k]) || e.time);
+        const g = groups[k].sort((a, b) => (longRun(a) - longRun(b)) || tk(a) - tk(b) || a.title.localeCompare(b.title));
         return dayHead(k) + g.map(e => card(e, k)).join("");
       }).join("");
     }

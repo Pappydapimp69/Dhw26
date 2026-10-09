@@ -20,7 +20,7 @@ node tools/match.js   # curated entries that may duplicate DB records -> add dbI
 python3 tools/bundle.py
 ```
 
-Needs Playwright + Chromium. The DB only returns events that haven't ended yet, so past events drop off on refresh.
+Needs Playwright + Chromium. `fetch_list.js` exits with an error if it gets fewer records than the database reports. The DB only returns events that haven't ended yet, so every fetch is merged into `data/records.json` (committed): records that aged out are kept, records that vanished before their end date (cancelled/unapproved) are dropped.
 
 Other sources: cityofdenton.com, Denton Record-Chronicle, dentondayofthedeadfestival.com, Prekindle (Big Top Tent), TWU, Denton Enterprise Airport, dentoncommunityvoice.com.
 

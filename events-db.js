@@ -551,7 +551,17 @@ window.DHW_DB_EVENTS = [
 "2026-10-17",
 "2026-10-18"
 ],
-"time": "Times vary by date"
+"time": "Times vary by date",
+"times": {
+"2026-10-08": "7:30pm–10pm",
+"2026-10-09": "7:30pm–10pm",
+"2026-10-10": "2pm–4:30pm & 7:30pm–10pm",
+"2026-10-11": "2pm–4:30pm",
+"2026-10-15": "7:30pm–10pm",
+"2026-10-16": "7:30pm–10pm",
+"2026-10-17": "2pm–4:30pm & 7:30pm–10pm",
+"2026-10-18": "2pm–4:30pm"
+}
 },
 {
 "title": "The Haunted Rodeo",
@@ -898,7 +908,18 @@ window.DHW_DB_EVENTS = [
 "2026-10-30",
 "2026-10-31"
 ],
-"time": "Times vary by date"
+"time": "Times vary by date",
+"times": {
+"2026-10-09": "10:45pm",
+"2026-10-10": "10:45pm–12:30am",
+"2026-10-16": "10:45pm–midnight",
+"2026-10-17": "10:45pm–1am",
+"2026-10-23": "10:45pm–1am",
+"2026-10-24": "10:45pm–1am",
+"2026-10-29": "8pm–10:45pm",
+"2026-10-30": "8pm–10:45pm",
+"2026-10-31": "8pm–10:45pm"
+}
 },
 {
 "title": "Nightmare on Elm St., House of Doom ; Haunted House",
@@ -1276,7 +1297,13 @@ window.DHW_DB_EVENTS = [
 "2026-10-25",
 "2026-10-31"
 ],
-"time": "Times vary by date"
+"time": "Times vary by date",
+"times": {
+"2026-10-10": "2:30pm–4:30pm",
+"2026-10-11": "noon–2pm & 3pm–5pm",
+"2026-10-25": "3pm–5pm",
+"2026-10-31": "2:30pm–4:30pm"
+}
 },
 {
 "title": "Karaoke and Costumes under the Big Top",
@@ -1657,7 +1684,13 @@ window.DHW_DB_EVENTS = [
 "2026-10-18",
 "2026-10-21"
 ],
-"time": "Times vary by date"
+"time": "Times vary by date",
+"times": {
+"2026-10-11": "6pm–10pm",
+"2026-10-14": "7pm–10pm",
+"2026-10-18": "6pm–10pm",
+"2026-10-21": "7pm–10pm"
+}
 },
 {
 "title": "Hallow-Weenie Fest",
@@ -3225,7 +3258,20 @@ window.DHW_DB_EVENTS = [
 "2026-10-29",
 "2026-10-30"
 ],
-"time": "Times vary by date"
+"time": "Times vary by date",
+"times": {
+"2026-10-20": "noon–10pm",
+"2026-10-21": "noon–9pm",
+"2026-10-22": "noon–9pm",
+"2026-10-23": "noon–9pm",
+"2026-10-24": "noon–9pm",
+"2026-10-25": "noon–9pm",
+"2026-10-26": "noon–9pm",
+"2026-10-27": "noon–9pm",
+"2026-10-28": "noon–9pm",
+"2026-10-29": "noon–9pm",
+"2026-10-30": "noon–9pm"
+}
 },
 {
 "title": "Thrift & Treat",
@@ -3843,7 +3889,15 @@ window.DHW_DB_EVENTS = [
 "2026-10-31",
 "2026-11-01"
 ],
-"time": "Times vary by date"
+"time": "Times vary by date",
+"times": {
+"2026-10-23": "7:30pm–10pm",
+"2026-10-24": "7:30pm–10pm",
+"2026-10-25": "2:30pm–5pm",
+"2026-10-30": "7:30pm–10pm",
+"2026-10-31": "7:30pm–10pm",
+"2026-11-01": "2:30pm–5pm"
+}
 },
 {
 "title": "Cirque du Horror : Day of the Dead Matinee",
