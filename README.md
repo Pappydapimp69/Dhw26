@@ -2,7 +2,7 @@
 
 One-page guide to the **31 Days of Denton Halloween** (Oct 2026). `index.html` is self-contained — open it anywhere.
 
-After editing `events.js` or `events-db.js`, run `python3 tools/bundle.py` to inline the data into `index.html`.
+The page source is `src/page.html`. After editing it, `events.js` or `events-db.js`, run `python3 tools/bundle.py` — it writes `index.html` (standalone) and `dist/artifact.html` (published at https://claude.ai/artifact/PL6hpEYq7ZzXmWjBSy5t8k).
 
 - `events-db.js` — generated from the official dentonhalloween.com event database (a Softr app backed by Airtable that the site's Events page embeds). 623 records → 247 events after collapsing repeat dates. Don't hand-edit.
 - `events.js` — hand-checked entries (attractions, Day of the Dead schedule, prices, notes). `dbIds` on an entry hides the matching DB records so nothing shows twice.
