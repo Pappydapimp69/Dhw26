@@ -1,6 +1,8 @@
 # dhw26 — Denton Halloween 2026
 
-One-page guide to the **31 Days of Denton Halloween** (Oct 2026). Open `index.html` in a browser — no build step.
+One-page guide to the **31 Days of Denton Halloween** (Oct 2026). `index.html` is self-contained — open it anywhere.
+
+After editing `events.js` or `events-db.js`, run `python3 tools/bundle.py` to inline the data into `index.html`.
 
 - `events-db.js` — generated from the official dentonhalloween.com event database (a Softr app backed by Airtable that the site's Events page embeds). 623 records → 247 events after collapsing repeat dates. Don't hand-edit.
 - `events.js` — hand-checked entries (attractions, Day of the Dead schedule, prices, notes). `dbIds` on an entry hides the matching DB records so nothing shows twice.
@@ -15,6 +17,7 @@ NODE_PATH=$(npm root -g) node tools/fetch_list.js https://era19963.softr.app/ ra
 NODE_PATH=$(npm root -g) node tools/fetch_details.js raw/list.json raw/details.json
 python3 tools/build_db.py raw/list.json raw/details.json > events-db.js
 node tools/match.js   # curated entries that may duplicate DB records -> add dbIds
+python3 tools/bundle.py
 ```
 
 Needs Playwright + Chromium. The DB only returns events that haven't ended yet, so past events drop off on refresh.
