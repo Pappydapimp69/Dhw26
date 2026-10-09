@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Denton Halloween 2026</title>
+<meta name="description" content="Every 31 Days of Denton Halloween event in one place — dates, times, addresses, and real links.">
+<style>
+  :root {
+    --bg: #fbf7f2; --surface: #ffffff; --ink: #1d1a17; --muted: #6b635b;
+    --line: #e7dfd5; --accent: #c2410c; --accent-ink: #fff; --chip: #f3ece4;
+    --warn: #a16207; --warn-bg: #fef3c7; --past: .45;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #121014; --surface: #1c191f; --ink: #f1ece6; --muted: #a49c94;
+      --line: #2e2a32; --accent: #f97316; --accent-ink: #1a0d04; --chip: #26222a;
+      --warn: #fbbf24; --warn-bg: #3a2c0b;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #121014; --surface: #1c191f; --ink: #f1ece6; --muted: #a49c94;
+    --line: #2e2a32; --accent: #f97316; --accent-ink: #1a0d04; --chip: #26222a;
+    --warn: #fbbf24; --warn-bg: #3a2c0b;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 24px 16px 64px; }
+  header h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 4px; letter-spacing: -.01em; }
+  header h1 span { color: var(--accent); }
+  header p { margin: 0; color: var(--muted); }
+  .controls { position: sticky; top: 0; background: var(--bg); padding: 12px 0; z-index: 2;
+    border-bottom: 1px solid var(--line); margin: 16px 0 8px; display: grid; gap: 10px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { border: 1px solid var(--line); background: var(--chip); color: var(--ink);
+    padding: 6px 12px; border-radius: 999px; font: inherit; font-size: .9rem; cursor: pointer; }
+  .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  input[type=search] { width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line);
+    background: var(--surface); color: var(--ink); font: inherit; }
+  label.past { font-size: .9rem; color: var(--muted); display: flex; gap: 6px; align-items: center; }
+  h2.day { font-size: 1rem; margin: 28px 0 8px; color: var(--muted); font-weight: 600;
+    text-transform: uppercase; letter-spacing: .05em; }
+  h2.day.today { color: var(--accent); }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+    padding: 14px 16px; margin-bottom: 10px; }
+  .card.isPast { opacity: var(--past); }
+  .card h3 { margin: 0 0 4px; font-size: 1.05rem; }
+  .meta { color: var(--muted); font-size: .92rem; }
+  .meta b { color: var(--ink); font-weight: 600; }
+  .card p { margin: 8px 0 0; font-size: .95rem; }
+  .row { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 10px; font-size: .88rem; align-items: center; }
+  .row a { color: var(--accent); }
+  .tag { background: var(--chip); border-radius: 6px; padding: 2px 8px; font-size: .78rem; color: var(--muted); }
+  .unv { background: var(--warn-bg); color: var(--warn); border-radius: 6px; padding: 2px 8px; font-size: .78rem; }
+  button.ics { background: none; border: 0; color: var(--accent); font: inherit; text-decoration: underline; cursor: pointer; padding: 0; }
+  .empty { color: var(--muted); padding: 24px 0; }
+  footer { margin-top: 40px; color: var(--muted); font-size: .85rem; }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>31 Days of <span>Denton Halloween</span> 2026</h1>
+    <p>Every event we could find, in one list — with real times, addresses, and links (or a note when there isn't one).</p>
+  </header>
+
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search events, venues…" aria-label="Search events">
+    <div class="chips" id="chips"></div>
+    <label class="past"><input type="checkbox" id="showPast"> Show past events</label>
+  </div>
+
+  <main id="list"></main>
+
+  <footer>
+    <p>Updated <span id="updated"></span>. <span class="unv">Unconfirmed</span> = single secondary source or sources disagree; double-check before you go.</p>
+    <p>Official hub: <a href="https://www.dentonhalloween.com">dentonhalloween.com</a> · Parking: <a href="https://www.dentonhalloween.com/planyourvisit">plan your visit</a> · Text updates: <a href="https://joinsubtext.com/c/dentonhalloween">Subtext</a></p>
+  </footer>
+</div>
+
+<script src="events.js"></script>
+<script>
+(function () {
+  const EVENTS = window.DHW_EVENTS || [];
+  const TZ = "America/Chicago";
+  const todayStr = new Intl.DateTimeFormat("en-CA", { timeZone: TZ }).format(new Date());
+
+  const FILTERS = [
+    { key: "upcoming", label: "Dated events" },
+    { key: "today", label: "Today" },
+    { key: "weekend", label: "This weekend" },
+    { key: "allmonth", label: "All-month attractions" },
+    { key: "family", label: "Kids & family" },
+    { key: "free", label: "Free" },
+    { key: "21plus", label: "21+" },
+    { key: "show", label: "Shows" },
+    { key: "tour", label: "Ghost tours" },
+  ];
+  let active = "upcoming";
+  try { active = localStorage.getItem("dhw-filter") || active; } catch (e) {}
+
+  const d = s => new Date(s + "T12:00:00");
+  const ymd = dt => dt.toISOString().slice(0, 10);
+  const addDays = (s, n) => { const x = d(s); x.setDate(x.getDate() + n); return ymd(x); };
+  const fmtDay = s => d(s).toLocaleDateString("en-US", { weekday: "long", month: "short", day: "numeric" });
+  const fmtShort = s => d(s).toLocaleDateString("en-US", { month: "short", day: "numeric" });
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  function weekendRange() {
+    const dow = d(todayStr).getDay(); // 0 Sun
+    if (dow === 0) return [todayStr, todayStr];
+    const fri = addDays(todayStr, Math.max(0, 5 - dow));
+    return [dow >= 5 ? todayStr : fri, addDays(todayStr, 7 - dow)];
+  }
+  const endOf = e => e.end || e.start;
+  const isMulti = e => e.end && e.end !== e.start;
+  const overlaps = (e, a, b) => e.start <= b && endOf(e) >= a;
+
+  function matches(e) {
+    switch (active) {
+      case "upcoming": return !isMulti(e);
+      case "today": return overlaps(e, todayStr, todayStr) && (!e.days || e.days.includes(d(todayStr).getDay()));
+      case "weekend": { const [a, b] = weekendRange(); return overlaps(e, a, b); }
+      case "allmonth": return isMulti(e);
+      default: return (e.tags || []).includes(active);
+    }
+  }
+
+  function card(e) {
+    const past = endOf(e) < todayStr;
+    const when = isMulti(e) ? `${fmtShort(e.start)} – ${fmtShort(e.end)}` : "";
+    const where = [e.venue, e.address].filter(Boolean).filter((v, i, a) => a.indexOf(v) === i).join(" · ");
+    const tags = (e.tags || []).filter(t => !["allmonth", "info"].includes(t))
+      .map(t => `<span class="tag">${esc(({ "21plus": "21+", family: "kids/family" })[t] || t)}</span>`).join("");
+    const link = e.link ? `<a href="${esc(e.link)}" target="_blank" rel="noopener">Details ↗</a>` : `<span class="tag">No official page</span>`;
+    const src = e.source && e.source !== e.link ? `<a href="${esc(e.source)}" target="_blank" rel="noopener">Source</a>` : "";
+    const ics = !isMulti(e) ? `<button class="ics" data-id="${esc(e.id)}">Add to calendar</button>` : "";
+    const map = e.address && /\d/.test(e.address) ? `<a href="https://maps.google.com/?q=${encodeURIComponent(e.address + ", Denton, TX")}" target="_blank" rel="noopener">Map</a>` : "";
+    return `<article class="card${past ? " isPast" : ""}">
+      <h3>${esc(e.title)}</h3>
+      <div class="meta">${[when && `<b>${when}</b>`, e.time && `<b>${esc(e.time)}</b>`, esc(where), e.cost && esc(e.cost)].filter(Boolean).join(" · ")}</div>
+      ${e.desc ? `<p>${esc(e.desc)}</p>` : ""}
+      <div class="row">${link}${src}${map}${ics}${e.verified === false ? `<span class="unv">Unconfirmed</span>` : ""}${tags}</div>
+    </article>`;
+  }
+
+  function render() {
+    const q = document.getElementById("q").value.trim().toLowerCase();
+    const showPast = document.getElementById("showPast").checked;
+    let items = EVENTS.filter(matches).filter(e => showPast || endOf(e) >= todayStr || active === "today")
+      .filter(e => !q || [e.title, e.venue, e.address, e.desc].join(" ").toLowerCase().includes(q))
+      .sort((a, b) => a.start.localeCompare(b.start) || (a.time || "").localeCompare(b.time || ""));
+
+    const list = document.getElementById("list");
+    if (!items.length) { list.innerHTML = `<p class="empty">Nothing matches. Try another filter or tick “Show past events”.</p>`; return; }
+
+    if (active === "allmonth") { list.innerHTML = items.map(card).join(""); return; }
+    const groups = {};
+    items.forEach(e => {
+      const key = isMulti(e) ? (e.start <= todayStr ? "ongoing" : e.start) : e.start;
+      (groups[key] = groups[key] || []).push(e);
+    });
+    list.innerHTML = Object.keys(groups).sort((a, b) => a === "ongoing" ? -1 : b === "ongoing" ? 1 : a.localeCompare(b))
+      .map(k => `<h2 class="day${k === todayStr ? " today" : ""}">${k === "ongoing" ? "Running now" : (k === todayStr ? "Today · " : "") + fmtDay(k)}</h2>` + groups[k].map(card).join(""))
+      .join("");
+  }
+
+  function icsFor(e) {
+    const date = e.start.replace(/-/g, "");
+    const m = /(\d{1,2})(?::(\d\d))?\s*(am|pm)/i.exec(e.time || "");
+    let dt;
+    if (m) {
+      let h = +m[1] % 12 + (m[3].toLowerCase() === "pm" ? 12 : 0);
+      const start = `${date}T${String(h).padStart(2, "0")}${m[2] || "00"}00`;
+      const end = `${date}T${String(Math.min(h + 2, 23)).padStart(2, "0")}${m[2] || "00"}00`;
+      dt = `DTSTART;TZID=${TZ}:${start}\r\nDTEND;TZID=${TZ}:${end}`;
+    } else {
+      dt = `DTSTART;VALUE=DATE:${date}\r\nDTEND;VALUE=DATE:${addDays(e.start, 1).replace(/-/g, "")}`;
+    }
+    const clean = s => String(s || "").replace(/[,;\\]/g, m => "\\" + m).replace(/\n/g, "\\n");
+    return ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//dhw26//EN", "BEGIN:VEVENT",
+      `UID:${e.id}@dhw26`, `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, "").slice(0, 15)}Z`, dt,
+      `SUMMARY:${clean(e.title)}`, `LOCATION:${clean([e.venue, e.address, "Denton, TX"].filter(Boolean).join(", "))}`,
+      `DESCRIPTION:${clean([e.time, e.cost, e.desc, e.link].filter(Boolean).join("\n"))}`,
+      "END:VEVENT", "END:VCALENDAR"].join("\r\n");
+  }
+
+  const chips = document.getElementById("chips");
+  chips.innerHTML = FILTERS.map(f => `<button class="chip" data-k="${f.key}" aria-pressed="${f.key === active}">${f.label}</button>`).join("");
+  chips.addEventListener("click", ev => {
+    const b = ev.target.closest(".chip"); if (!b) return;
+    active = b.dataset.k;
+    try { localStorage.setItem("dhw-filter", active); } catch (e) {}
+    chips.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", c.dataset.k === active));
+    render();
+  });
+  document.getElementById("q").addEventListener("input", render);
+  document.getElementById("showPast").addEventListener("change", render);
+  document.getElementById("list").addEventListener("click", ev => {
+    const b = ev.target.closest(".ics"); if (!b) return;
+    const e = EVENTS.find(x => x.id === b.dataset.id);
+    const url = URL.createObjectURL(new Blob([icsFor(e)], { type: "text/calendar" }));
+    const a = Object.assign(document.createElement("a"), { href: url, download: e.id + ".ics" });
+    document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+  });
+  document.getElementById("updated").textContent = fmtShort(window.DHW_UPDATED || todayStr) + ", 2026";
+  render();
+})();
+</script>
+</body>
+</html>
