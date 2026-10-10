@@ -37,6 +37,7 @@
   }
 
   * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
   body { background: var(--night); color: var(--bone); font: 16px/1.5 var(--f-body); margin: 0; }
   a { color: var(--pumpkin); text-underline-offset: 3px; }
   button { font: inherit; color: inherit; }
@@ -44,20 +45,79 @@
 
   .wrap { max-width: 1180px; margin: 0 auto; padding-inline: 16px; padding-block: 0 64px; }
 
-  /* Hero */
-  .hero { padding-block: 40px 28px; display: grid; gap: 14px; position: relative; }
+  /* Hero: a wall of real event flyers, drifting like a telephone pole in a breeze */
+  .hero { position: relative; overflow: hidden; isolation: isolate; padding-block: 0; }
+  .wall { position: absolute; inset: -40px 0 0; display: grid; gap: 22px; align-content: start; z-index: -2; transform: rotate(-4deg) scale(1.08); }
+  .row { display: flex; gap: 22px; width: max-content; animation: drift 140s linear infinite; }
+  .row.rev { animation-direction: reverse; animation-duration: 170s; }
+  .flyer { position: relative; width: 150px; flex: none; transform: rotate(var(--r, 0deg)); }
+  .flyer img { display: block; width: 150px; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 3px; box-shadow: 0 6px 18px rgb(0 0 0 / .35); }
+  .flyer::before { content: ""; position: absolute; top: -8px; left: 50%; width: 46px; height: 16px; translate: -50% 0; rotate: var(--t, 3deg);
+    background: color-mix(in srgb, var(--bone) 55%, transparent); z-index: 1; }
+  @keyframes drift { to { transform: translateX(-50%); } }
+  .hero::after { content: ""; position: absolute; inset: 0; z-index: -1;
+    background: linear-gradient(100deg, var(--night) 0 30%, color-mix(in srgb, var(--night) 72%, transparent) 55%, color-mix(in srgb, var(--night) 30%, transparent) 100%),
+                linear-gradient(to bottom, transparent 55%, var(--night)); }
+  .hero-in { max-width: 1180px; margin: 0 auto; padding-inline: 16px; padding-block: 72px 56px; display: grid; gap: 16px; }
+  .hero-in h1 { text-shadow: 0 2px 30px var(--night); }
+  .stats .big b { font-size: 3.6rem; color: var(--pumpkin); }
+  @media (prefers-reduced-motion: reduce) { .row { animation: none; } }
+
+  /* Up next */
+  .upnext { margin-block: 8px 34px; }
+  .upnext-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 12px; }
+  .upnext-head h2 { font: 400 2.2rem/1 var(--f-display); margin: 0; }
+  .upnext-head .dn, .tile .dn { font: .74rem var(--f-mono); color: var(--bone-dim); letter-spacing: .08em; text-transform: uppercase; }
+  .rail { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(210px, 240px); gap: 16px; overflow-x: auto; padding-bottom: 10px;
+    scroll-snap-type: x mandatory; scrollbar-width: thin; }
+  .rail .tile { scroll-snap-align: start; }
+
+  /* Poster tiles */
+  .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); gap: 22px 18px; margin-top: 4px; }
+  .tile { display: grid; gap: 8px; align-content: start; background: none; border: 0; padding: 0; text-align: left; cursor: pointer; min-width: 0; color: inherit; }
+  .tile .pic { position: relative; aspect-ratio: 4 / 5; max-width: 100%; border-radius: 12px; overflow: hidden; background: var(--night-2); transition: transform .18s, box-shadow .18s; }
+  .tile:hover .pic, .tile:focus-visible .pic { transform: translateY(-3px) rotate(-.6deg); box-shadow: 0 14px 30px rgb(0 0 0 / .28); }
+  .tile .pic img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+  .tile .badge { position: absolute; left: 8px; top: 8px; background: rgb(15 10 16 / .82); color: #f6ead9; font: 500 .74rem/1 var(--f-mono);
+    padding: 6px 8px; border-radius: 6px; letter-spacing: .02em; font-variant-numeric: tabular-nums; max-width: calc(100% - 16px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .tile .badge.hot { background: var(--pumpkin); color: var(--pumpkin-ink); }
+  .tile .flag { position: absolute; right: 8px; bottom: 8px; display: flex; gap: 4px; }
+  .tile .flag span { background: rgb(15 10 16 / .82); color: #f6ead9; font: 500 .66rem var(--f-mono); padding: 4px 6px; border-radius: 5px; }
+  .tile h4 { margin: 0; font-size: 1rem; line-height: 1.25; font-weight: 700; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .tile .vn { font-size: .84rem; color: var(--bone-dim); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: -4px; }
+  .tile.past { opacity: .5; }
+  /* generated poster for events with no photo */
+  .gen { position: absolute; inset: 0; display: grid; align-content: end; padding: 14px; background: var(--g1);
+    background-image: radial-gradient(circle at 80% 18%, var(--g2) 0 18%, transparent 19%), repeating-linear-gradient(-35deg, transparent 0 14px, rgb(0 0 0 / .06) 14px 15px); }
+  .gen b { font: 400 1.65rem/1 var(--f-display); color: var(--g3); overflow-wrap: anywhere; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; }
+
+  /* Detail sheet */
+  .sheet { position: fixed; inset: 0; z-index: 50; display: grid; place-items: end center; }
+  .sheet-bg { position: absolute; inset: 0; background: rgb(10 6 12 / .62); backdrop-filter: blur(3px); }
+  .sheet-panel { position: relative; width: min(680px, 100%); max-height: 88vh; overflow: auto; background: var(--night); border-radius: 18px 18px 0 0;
+    padding: 0 18px calc(22px + env(safe-area-inset-bottom, 0px)); box-shadow: 0 -10px 40px rgb(0 0 0 / .4); animation: up .22s ease-out; }
+  @media (min-width: 700px) { .sheet { place-items: center; } .sheet-panel { border-radius: 18px; } }
+  @keyframes up { from { transform: translateY(30px); opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .sheet-panel { animation: none; } .tile .pic { transition: none; } }
+  .sheet-x { position: absolute; top: 12px; right: 12px; z-index: 2; color: var(--bone); width: 38px; height: 38px; border-radius: 50%; border: 0;
+    background: var(--night-2); font-size: 1.5rem; line-height: 1; cursor: pointer; }
+  .sheet-hero { margin: 0 -18px 4px; max-height: 340px; overflow: hidden; }
+  .sheet-hero img { width: 100%; max-width: 100%; max-height: 340px; object-fit: cover; display: block; }
+  .sheet .ev { border: 0; grid-template-columns: 84px minmax(0, 1fr); }
+  .sheet .ev .ph { display: none; }
+  .sheet .ev h4 { font: 400 2rem/1.05 var(--f-display); }
+  .sheet .ev .desc { -webkit-line-clamp: unset; display: block; }
+
+  /* Hero (text) */
+
   .eyebrow { font: 500 .75rem/1 var(--f-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--bone-dim); }
   .hero h1 { font: 400 clamp(3rem, 9vw, 6.2rem)/.9 var(--f-display); margin: 0; text-wrap: balance; letter-spacing: .005em; }
   .hero h1 em { font-style: normal; color: var(--pumpkin); }
   @media (prefers-reduced-motion: reduce) { .pin circle { transition: none; } }
-  .hero .eyebrow, .hero h1 { padding-right: clamp(80px, 16vw, 160px); }
   .hero p { margin: 0; max-width: 58ch; color: var(--bone-dim); font-size: 1.05rem; }
   .stats { display: flex; flex-wrap: wrap; gap: 10px 28px; margin-top: 6px; font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
   .stats b { display: block; font: 400 2.1rem/1 var(--f-display); color: var(--bone); letter-spacing: .02em; }
   .stats span { font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--bone-dim); }
-  .moon { position: absolute; right: 0; top: 34px; width: clamp(70px, 14vw, 140px); aspect-ratio: 1; border-radius: 50%;
-    background: radial-gradient(circle at 36% 38%, var(--night-2) 0 22%, transparent 23%), radial-gradient(circle at 62% 62%, var(--night-2) 0 12%, transparent 13%), var(--marigold);
-    opacity: .9; box-shadow: 0 0 60px rgb(var(--heat) / .25); max-width: 100%; }
 
   /* Main grid */
   .main { display: grid; gap: 28px; grid-template-columns: minmax(0, 1fr); }
@@ -166,30 +226,43 @@
   @media (max-width: 899px) {
     .chips.scroll { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
     .chips.scroll .chip { flex: none; }
-    .moon { top: 26px; }
+  }
+  @media (max-width: 560px) {
+    .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 12px; }
+    .gen b { font-size: 1.3rem; }
+    .hero-in { padding-block: 190px 36px; }
+    .hero::after { background: linear-gradient(to bottom, color-mix(in srgb, var(--night) 25%, transparent) 0, color-mix(in srgb, var(--night) 60%, transparent) 130px, var(--night) 200px); }
+    .flyer, .flyer img { width: 110px; }
+    .stats .big b { font-size: 2.8rem; }
   }
   @media (max-width: 480px) {
     .ev, .ev.has-img { grid-template-columns: minmax(0, 1fr) 76px; gap: 4px 12px; }
     .ev .t { grid-column: 1 / -1; }
     .ev:not(.has-img) > div:nth-child(2) { grid-column: 1 / -1; }
     .ev .ph { width: 76px; }
-    .hero { padding-block: 28px 20px; }
   }
   @media (prefers-reduced-motion: reduce) { .day { transition: none; } }
 </style>
 
-<div class="wrap">
-  <header class="hero">
-    <div class="moon" aria-hidden="true"></div>
-    <div class="eyebrow">Denton, Texas · October 2026 · unofficial guide</div>
+<header class="hero">
+  <div class="wall" aria-hidden="true"><div class="row" id="wall1"></div><div class="row rev" id="wall2"></div><div class="row" id="wall3"></div></div>
+  <div class="hero-in">
+    <div class="eyebrow">Denton, Texas · Halloween Capital of Texas · October 2026</div>
     <h1>31 Days of<br><em>Denton Halloween</em></h1>
-    <p>Every event on and around the Square in one list. Real times, real addresses, and a link that goes somewhere (or a note saying there isn't one).</p>
+    <p>Every flyer on every pole, in one place. Real times, real addresses, and a link that goes somewhere.</p>
     <div class="stats">
-      <div><b id="st-days">–</b><span>days to Halloween</span></div>
-      <div><b id="st-count">–</b><span>events listed</span></div>
-      <div><b id="st-today">–</b><span>happening today</span></div>
+      <div class="big"><b id="st-days">–</b><span>days to Halloween</span></div>
+      <div><b id="st-count">–</b><span>events</span></div>
+      <div><b id="st-today">–</b><span>on today</span></div>
     </div>
-  </header>
+  </div>
+</header>
+
+<div class="wrap">
+  <section class="upnext" aria-label="Up next">
+    <div class="upnext-head"><h2>Up next</h2><span class="dn" id="upnext-sub"></span></div>
+    <div class="rail" id="rail"></div>
+  </section>
 
   <div class="main">
     <aside class="side">
@@ -223,6 +296,14 @@
     <div>Compiled from the city's Denton Halloween event database, City of Denton calendar, Denton Record-Chronicle, Day of the Dead Festival, TWU, UNT and venue pages. Not affiliated with the City of Denton. Updated <span id="upd"></span>.</div>
     <div>Official hub: <a href="https://www.dentonhalloween.com" target="_blank" rel="noopener">dentonhalloween.com</a> · Parking and shuttles: <a href="https://www.dentonhalloween.com/planyourvisit" target="_blank" rel="noopener">plan your visit</a></div>
   </footer>
+</div>
+
+<div class="sheet" id="sheet" hidden>
+  <div class="sheet-bg" data-close></div>
+  <div class="sheet-panel" role="dialog" aria-modal="true" aria-label="Event details">
+    <button class="sheet-x" data-close aria-label="Close">×</button>
+    <div id="sheet-body"></div>
+  </div>
 </div>
 
 <!--DATA-->
@@ -391,6 +472,77 @@
     return `<div class="${cls}"><h3>${label}</h3><span class="dn">${x.toLocaleDateString("en-US", { month: "long", day: "numeric" })}${note}</span></div>`;
   }
 
+  // ---- poster tiles ----
+  const BY_ID = Object.fromEntries(EVENTS.map(e => [e.id, e]));
+  const PALETTES = [["#2b1430", "#ff8a3d", "#ffd9b8"], ["#ff7a1a", "#2b1430", "#1c0d03"], ["#f2b134", "#7a2e0e", "#2a1205"], ["#1f3a2b", "#c6e3a0", "#eaf6d8"], ["#5b2a6e", "#f2b134", "#fbe9ff"], ["#0f1a2e", "#ff8a3d", "#e6efff"]];
+  const hash = s => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
+  function poster(e) {
+    return genHTML(e) + (e.img ? `<img src="${esc(e.img)}" alt="" loading="lazy" decoding="async" onerror="this.remove()">` : "");
+  }
+  function genHTML(e) {
+    const [g1, g2, g3] = PALETTES[hash(e.title) % PALETTES.length];
+    return `<div class="gen" style="--g1:${g1};--g2:${g2};--g3:${g3}"><b>${esc(e.title)}</b></div>`;
+  }
+  function nowMin() { const p = new Intl.DateTimeFormat("en-US", { timeZone: TZ, hour: "numeric", minute: "numeric", hourCycle: "h23" }).formatToParts(new Date()); return +p.find(x => x.type === "hour").value * 60 + +p.find(x => x.type === "minute").value; }
+  function badgeFor(e, day) {
+    const t = (day && e.times && e.times[day]) || e.time || "";
+    if (longRun(e) && !day) return { txt: "All month", hot: false };
+    if (day === today) {
+      const st = timeKey(t), now = nowMin();
+      if (st < 9999 && st >= 0) {
+        if (st > now && st - now <= 180) return { txt: st - now < 60 ? `In ${st - now} min` : `In ${Math.round((st - now) / 60)} hr`, hot: true };
+        const m = /[–-]\s*(\d{1,2}(?::\d\d)?\s*(?:am|pm)|noon|midnight)/i.exec(t); const en = m ? (/midnight/i.test(m[1]) ? 1440 : timeKey(m[1])) : st + 120;
+        if (st <= now && now < (en < st ? en + 1440 : en)) return { txt: "Happening now", hot: true };
+      }
+    }
+    return { txt: t.split(/\s*[–-]\s*/)[0] || "Time TBA", hot: false };
+  }
+  function tile(e, day) {
+    const past = endOf(e) < today || (day && day < today);
+    const b = badgeFor(e, day);
+    const v = (GEO.venues[GEO.byId[e.id]] || {}).name || e.venue || (e.address || "").split(",")[0];
+    const flags = [(e.tags || []).includes("free") && "free", (e.tags || []).includes("21plus") && "21+", (e.tags || []).includes("family") && "kids"].filter(Boolean).slice(0, 2);
+    return `<button class="tile${past ? " past" : ""}" data-id="${esc(e.id)}" data-day="${day || ""}">
+      <div class="pic">${poster(e)}<span class="badge${b.hot ? " hot" : ""}">${esc(b.txt)}</span>${flags.length ? `<span class="flag">${flags.map(f => `<span>${f}</span>`).join("")}</span>` : ""}</div>
+      <h4>${esc(e.title)}</h4><div class="vn">${esc(v || "")}</div></button>`;
+  }
+  function openSheet(id, day) {
+    const e = BY_ID[id]; if (!e) return;
+    const img = e.img ? `<div class="sheet-hero"><img src="${esc(e.img)}" alt=""></div>` : "";
+    document.getElementById("sheet-body").innerHTML = img + card(e, day || null, !!day);
+    const sh = document.getElementById("sheet"); sh.hidden = false; document.body.style.overflow = "hidden";
+    sh.querySelector(".sheet-x").focus();
+  }
+  function closeSheet() { document.getElementById("sheet").hidden = true; document.body.style.overflow = ""; }
+  document.getElementById("sheet").addEventListener("click", ev => { if (ev.target.closest("[data-close]")) closeSheet(); });
+  document.addEventListener("keydown", ev => { if (ev.key === "Escape") closeSheet(); });
+  document.addEventListener("click", ev => { const t = ev.target.closest(".tile"); if (t) openSheet(t.dataset.id, t.dataset.day); });
+
+  // ---- flyer wall + up next ----
+  (function wall() {
+    const pics = EVENTS.filter(e => e.img && endOf(e) >= today);
+    pics.sort((a, b) => hash(a.id) - hash(b.id));
+    ["wall1", "wall2", "wall3"].forEach((id, r) => {
+      const row = pics.filter((_, i) => i % 3 === r).slice(0, 14);
+      const html = row.map((e, i) => `<div class="flyer" style="--r:${((hash(e.id + i) % 9) - 4) * 1.1}deg;--t:${(hash(e.id) % 11) - 5}deg"><img src="${esc(e.img)}" alt="" loading="${r === 0 ? "eager" : "lazy"}" decoding="async" onerror="this.parentNode.remove()"></div>`).join("");
+      document.getElementById(id).innerHTML = html + html;
+    });
+  })();
+  function drawRail() {
+    const now = nowMin(), out = [];
+    for (let k = today, n = 0; n < 3 && out.length < 12; k = addDays(k, 1), n++) {
+      EVENTS.filter(e => !longRun(e) && occursOn(e, k)).map(e => [e, k]).filter(([e]) => {
+        if (k !== today) return true;
+        const t = timeKey((e.times && e.times[k]) || e.time); return t >= now - 60 && t < 9999;
+      }).sort((p, q) => timeKey((p[0].times && p[0].times[p[1]]) || p[0].time) - timeKey((q[0].times && q[0].times[q[1]]) || q[0].time))
+        .forEach(p => { if (out.length < 12) out.push(p); });
+    }
+    document.getElementById("rail").innerHTML = out.map(([e, k]) => tile(e, k)).join("");
+    const days = [...new Set(out.map(p => p[1]))];
+    document.getElementById("upnext-sub").textContent = days.map(k => k === today ? "tonight" : k === addDays(today, 1) ? "tomorrow" : d(k).toLocaleDateString("en-US", { weekday: "long" })).join(" · ");
+    document.querySelector(".upnext").hidden = !out.length;
+  }
+
   const GEO = window.DHW_GEO || { byId: {}, venues: {}, streets: [] };
   state.view = "list"; state.venue = null; state.showFar = false;
   const SQUARE = [33.21475, -97.13315];
@@ -458,10 +610,10 @@
     || timeKey((p[0].times && p[0].times[p[1]]) || p[0].time) - timeKey((q[0].times && q[0].times[q[1]]) || q[0].time) || p[0].title.localeCompare(q[0].title));
 
   function listHTML(pairs) {
-    if (state.when === "allmonth" && !state.day) return pairs.map(p => p[0]).sort((a, b) => a.title.localeCompare(b.title)).map(e => card(e)).join("");
+    if (state.when === "allmonth" && !state.day) return `<div class="tiles">${pairs.map(p => p[0]).sort((a, b) => a.title.localeCompare(b.title)).map(e => tile(e)).join("")}</div>`;
     const groups = {};
     sortPairs(pairs).forEach(([e, k]) => (groups[k] = groups[k] || []).push(e));
-    return Object.keys(groups).sort().map(k => dayHead(k) + groups[k].map(e => card(e, k)).join("")).join("");
+    return Object.keys(groups).sort().map(k => dayHead(k) + `<div class="tiles">${groups[k].map(e => tile(e, k)).join("")}</div>`).join("");
   }
   function byVenue(pairs) {
     const g = {};
@@ -500,8 +652,10 @@
     return { mapEl, sel };
   }
 
+  let railDrawn = false;
   function render() {
     drawCal(); drawChips();
+    if (!railDrawn) { drawRail(); railDrawn = true; }
     const { pairs, status } = currentPairs();
     const list = document.getElementById("list"), mw = document.getElementById("mapwrap");
     document.querySelectorAll(".views button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === state.view));
