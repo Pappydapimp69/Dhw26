@@ -11,7 +11,7 @@
 //   cost, tags[], desc, link (official page or null), source, verified (bool)
 //   verified=false means only one secondary source, or sources disagree.
 
-window.DHW_UPDATED = "2026-10-09";
+window.DHW_UPDATED = "2026-10-10";
 
 window.DHW_EVENTS = [
   // ---------- All month ----------
@@ -65,11 +65,6 @@ window.DHW_EVENTS = [
     time: "CoLab hours", venue: "UNT CoLab", address: "207 N. Elm St.", cost: "Free", tags: ["allmonth", "art", "free"],
     desc: "Folklore art exhibit. Opening reception during First Fright-Day (Oct. 2).",
     link: null, source: "https://dentonrc.com/entertainment/13-scarily-fun-denton-halloween-events-to-check-out-this-october/article_4f6f8939-1b02-4039-aab9-07394f68097a.html", verified: true },
-  { id: "videocrypt", title: "The Video Crypt", start: "2026-10-10", end: "2026-10-24",
-    time: "Saturdays 7pm–1am (Oct 10, 17, 24)", venue: "Rubber Gun Gallery / Rubber Gloves", address: "411 E. Sycamore St.",
-    cost: "No ticket needed", tags: ["allmonth", "art"],
-    desc: "Pop-up throwback video store: original VHS box art, posters and memorabilia.",
-    link: "https://www.instagram.com/videocrypttx/", source: "https://era19963.softr.app/event-submissions-details?recordId=recYIWapzJxd8JD2X", verified: true , days: [6], dbIds: ["recYIWapzJxd8JD2X","recKk9LOwwwT6oZ1m","recFNlvLpbybE2U1M"]},
   { id: "area940", title: "Area 940 — cosmic Halloween experience", start: "2026-10-01", end: "2026-10-31",
     time: "Show times not posted", venue: "Hickory St. (Denton Makers Center build)", address: "219 E. Hickory St.",
     cost: "Not posted", tags: ["allmonth", "family"],
@@ -102,15 +97,10 @@ window.DHW_EVENTS = [
     link: "https://www.dentonhalloween.com/planyourvisit", source: "https://dentonrc.com/news/denton/denton-halloween-2026-what-s-new-what-s-returning-and-what-to-expect/article_9f42a4e6-ed89-4717-89a8-19d5ae3e77e5.html", verified: true, days: [6, 0] },
 
   // ---------- Dated events ----------
-  { id: "ghostwalk", title: "Denton Haunts Ghost Walk", start: "2026-10-02",
-    time: "6:30pm", venue: "Starts at John B. Denton grave (Courthouse lawn)", address: "110 W. Hickory St.",
-    cost: "Ticketed", tags: ["tour"],
-    desc: "90-minute guided ghost walk around the Square. PG-13. Tickets usually sell out — check Denton Haunts' Facebook.",
-    link: "https://www.facebook.com/DentonHaunts", source: "https://communityimpact.com/denton/events/ghost-walk-wand-making-check-out-8-halloween-themed-events-in-denton/", verified: false },
   { id: "firstfright", title: "First Fright-Day", start: "2026-10-02",
     time: "Evening", venue: "Downtown Denton", address: "Denton Square", cost: "Free", tags: ["free", "art"],
     desc: "October's First Friday art walk, Halloween edition. Includes the Legend of Eppy opening at UNT CoLab.",
-    link: "https://www.downtowndenton.org/first-fridays", source: "https://dentonrc.com/entertainment/13-scarily-fun-denton-halloween-events-to-check-out-this-october/article_4f6f8939-1b02-4039-aab9-07394f68097a.html", verified: true },
+    link: "https://www.downtowndenton.org/first-fridays", source: "https://dentonrc.com/entertainment/13-scarily-fun-denton-halloween-events-to-check-out-this-october/article_4f6f8939-1b02-4039-aab9-07394f68097a.html", verified: true , dbIds: ["recf8Ks4qHi0xZYHI"]},
   { id: "bats", title: "Bats as Pollinators", start: "2026-10-07",
     time: "6–7pm", venue: "North Branch Library", address: "3020 N. Locust St.", cost: "Free", tags: ["family", "free"],
     desc: "Library talk on bats.", link: "https://denton.bibliocommons.com/v2/events", source: "https://denton.bibliocommons.com/v2/events", verified: true },

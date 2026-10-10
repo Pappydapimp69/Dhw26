@@ -49,6 +49,7 @@
   .eyebrow { font: 500 .75rem/1 var(--f-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--bone-dim); }
   .hero h1 { font: 400 clamp(3rem, 9vw, 6.2rem)/.9 var(--f-display); margin: 0; text-wrap: balance; letter-spacing: .005em; }
   .hero h1 em { font-style: normal; color: var(--pumpkin); }
+  @media (prefers-reduced-motion: reduce) { .pin circle { transition: none; } }
   .hero .eyebrow, .hero h1 { padding-right: clamp(80px, 16vw, 160px); }
   .hero p { margin: 0; max-width: 58ch; color: var(--bone-dim); font-size: 1.05rem; }
   .stats { display: flex; flex-wrap: wrap; gap: 10px 28px; margin-top: 6px; font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
@@ -121,6 +122,45 @@
   .empty { padding: 40px 0; color: var(--bone-dim); }
   .empty b { display: block; font: 400 2rem var(--f-display); color: var(--bone); margin-bottom: 6px; }
 
+  /* Photos */
+  .ev.has-img { grid-template-columns: 84px minmax(0, 1fr) 120px; }
+  .ev .ph { width: 120px; aspect-ratio: 1; max-width: 100%; border-radius: 10px; object-fit: cover; background: var(--night-2); display: block; }
+  .ev .t small { display: block; color: var(--bone-dim); font-weight: 400; }
+
+  /* View switch */
+  .listhead { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+  .views { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; gap: 2px; }
+  .views button { border: 0; background: transparent; padding: 6px 14px; border-radius: 999px; font-size: .88rem; cursor: pointer; }
+  .views button[aria-pressed="true"] { background: var(--bone); color: var(--night); }
+  .listhead .status { margin: 0; }
+
+  /* Map */
+  .mapbox { background: var(--night-2); border-radius: 16px; overflow: hidden; position: relative; }
+  .mapbox svg { display: block; width: 100%; height: auto; max-width: 100%; }
+  .st { fill: none; stroke: var(--line); stroke-linecap: round; stroke-linejoin: round; }
+  .st.major { stroke: var(--bone-dim); stroke-opacity: .45; }
+  .sq { fill: var(--marigold); fill-opacity: .25; stroke: var(--marigold); }
+  .sqlabel { fill: var(--marigold); paint-order: stroke; stroke: var(--night-2); stroke-width: 4px; font-family: var(--f-mono); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+  .stlabel { fill: var(--bone-dim); font: 13px var(--f-mono); letter-spacing: .06em; opacity: .85; paint-order: stroke; stroke: var(--night-2); stroke-width: 4px; }
+  .pin { cursor: pointer; }
+  .pin circle { fill: var(--pumpkin); fill-opacity: .88; stroke: var(--night-2); stroke-width: 2; transition: r .15s; }
+  .pin text { fill: var(--pumpkin-ink); font-family: var(--f-mono); font-weight: 600; text-anchor: middle; dominant-baseline: central; pointer-events: none; }
+  .pin.sel circle { fill: var(--marigold); stroke: var(--bone); }
+  .pin:focus-visible circle { stroke: var(--bone); stroke-width: 3; }
+  .maphint { position: absolute; left: 12px; bottom: 10px; font: .72rem var(--f-mono); color: var(--bone-dim); }
+  .venuehead { display: grid; gap: 2px; margin: 26px 0 6px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+  .venuehead h3 { font: 400 1.7rem/1.05 var(--f-display); margin: 0; text-wrap: balance; }
+  .venuehead .dn { font: .74rem var(--f-mono); color: var(--bone-dim); letter-spacing: .06em; }
+  .venuehead .dn a { margin-left: 8px; }
+  .outside { margin-top: 18px; }
+  .outside h4 { font: 500 .74rem var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--bone-dim); margin: 0 0 8px; }
+  .farlist { list-style: none; margin: 0 0 10px; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 0 18px; }
+  .farlist button { width: 100%; display: flex; justify-content: space-between; gap: 12px; text-align: left; background: none; border: 0;
+    border-bottom: 1px dashed var(--line); padding: 8px 2px; cursor: pointer; font-size: .9rem; }
+  .farlist button span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .farlist button small { flex: none; font: .75rem var(--f-mono); color: var(--bone-dim); font-variant-numeric: tabular-nums; }
+  .farlist button:hover span, .farlist button.sel span { color: var(--pumpkin); }
+
   footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--line); font-size: .85rem; color: var(--bone-dim); display: grid; gap: 8px; max-width: 80ch; }
 
   @media (max-width: 899px) {
@@ -128,7 +168,13 @@
     .chips.scroll .chip { flex: none; }
     .moon { top: 26px; }
   }
-  @media (max-width: 480px) { .ev { grid-template-columns: 1fr; gap: 4px; } .hero { padding-block: 28px 20px; } }
+  @media (max-width: 480px) {
+    .ev, .ev.has-img { grid-template-columns: minmax(0, 1fr) 76px; gap: 4px 12px; }
+    .ev .t { grid-column: 1 / -1; }
+    .ev:not(.has-img) > div:nth-child(2) { grid-column: 1 / -1; }
+    .ev .ph { width: 76px; }
+    .hero { padding-block: 28px 20px; }
+  }
   @media (prefers-reduced-motion: reduce) { .day { transition: none; } }
 </style>
 
@@ -160,7 +206,15 @@
     </aside>
 
     <main class="list">
-      <p class="status" id="status"></p>
+      <div class="listhead">
+        <p class="status" id="status"></p>
+        <div class="views" role="group" aria-label="View">
+          <button data-v="list" aria-pressed="true">List</button>
+          <button data-v="map" aria-pressed="false">Map</button>
+          <button data-v="venues" aria-pressed="false">By venue</button>
+        </div>
+      </div>
+      <div id="mapwrap" hidden></div>
       <div id="list"></div>
     </main>
   </div>
@@ -177,7 +231,11 @@
 (function () {
   const CURATED = window.DHW_EVENTS || [];
   const hidden = new Set(CURATED.flatMap(e => e.dbIds || []));
-  const EVENTS = CURATED.concat((window.DHW_DB_EVENTS || []).filter(e => !hidden.has(e.id.slice(3))));
+  const DB = window.DHW_DB_EVENTS || [];
+  const isHidden = e => hidden.has(e.id.slice(3)) || (e.rids || []).some(r => hidden.has(r));
+  // hand-checked entries borrow the photo of the DB record they replace
+  CURATED.forEach(c => { if (!c.img && c.dbIds) { const m = DB.find(e => c.dbIds.includes(e.id.slice(3)) || (e.rids || []).some(r => c.dbIds.includes(r))); if (m && m.img) c.img = m.img; } });
+  const EVENTS = CURATED.concat(DB.filter(e => !isHidden(e)));
   const SPREAD_MAX = 10;
   const TZ = "America/Chicago";
   const today = new Intl.DateTimeFormat("en-CA", { timeZone: TZ }).format(new Date());
@@ -294,7 +352,7 @@
       details: [e.time, e.cost, e.link].filter(Boolean).join("\n") });
     return "https://calendar.google.com/calendar/render?" + p.toString();
   }
-  function card(e, day) {
+  function card(e, day, showDate) {
     const past = endOf(e) < today || (day && day < today);
     const time = longRun(e) && !day ? "All month" : ((day && e.times && e.times[day]) || e.time || "—");
     const where = [e.venue, e.address].filter(Boolean).filter((v, i, a) => a.indexOf(v) === i).join(" · ");
@@ -309,14 +367,17 @@
       e.address && /\d/.test(e.address) ? `<a href="https://maps.google.com/?q=${encodeURIComponent(e.address + (/denton/i.test(e.address) ? "" : ", Denton, TX"))}" target="_blank" rel="noopener">Map</a>` : "",
       !longRun(e) || day ? `<a href="${esc(gcal(e, day || e.start))}" target="_blank" rel="noopener">+ Calendar</a>` : "",
     ].join("");
-    return `<article class="ev${past ? " past" : ""}">
-      <div class="t">${esc(time)}</div>
+    const dateLbl = showDate && day ? `<small>${d(day).toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" })}</small>` : "";
+    const ph = e.img ? `<img class="ph" src="${esc(e.img)}" alt="" loading="lazy" decoding="async" onerror="this.remove()">` : "";
+    return `<article class="ev${past ? " past" : ""}${ph ? " has-img" : ""}">
+      <div class="t">${dateLbl}${esc(time)}</div>
       <div>
         <h4>${esc(e.title)}</h4>
         ${where || when ? `<div class="where">${esc([when, where].filter(Boolean).join(" · "))}</div>` : ""}
         ${e.desc ? `<p class="desc">${esc(e.desc)}</p>` : ""}
         <div class="meta">${links}${cost}${tags}${e.verified === false ? `<span class="tag unv">unconfirmed</span>` : ""}</div>
       </div>
+      ${ph}
     </article>`;
   }
   document.getElementById("list").addEventListener("click", ev => { const p = ev.target.closest(".desc"); if (p) p.classList.toggle("open"); });
@@ -330,43 +391,139 @@
     return `<div class="${cls}"><h3>${label}</h3><span class="dn">${x.toLocaleDateString("en-US", { month: "long", day: "numeric" })}${note}</span></div>`;
   }
 
-  function render() {
-    drawCal(); drawChips();
-    const q = state.q;
-    let base = EVENTS.filter(e => (!state.what || (e.tags || []).includes(state.what))
-      && (!q || [e.title, e.venue, e.address, e.desc].join(" ").toLowerCase().includes(q)));
-    const groups = {}; const put = (k, e) => (groups[k] = groups[k] || []).push(e);
-    let status = "", flat = null;
+  const GEO = window.DHW_GEO || { byId: {}, venues: {}, streets: [] };
+  state.view = "list"; state.venue = null; state.showFar = false;
+  const SQUARE = [33.21475, -97.13315];
+  const BOX = { s: SQUARE[0] - 0.0056, n: SQUARE[0] + 0.0074, w: SQUARE[1] - 0.0095, e: SQUARE[1] + 0.0095 };
+  const kx = Math.cos(SQUARE[0] * Math.PI / 180);
+  const W = 1000, H = Math.round(W * (BOX.n - BOX.s) / ((BOX.e - BOX.w) * kx));
+  const px = (lat, lon) => [((lon - BOX.w) / (BOX.e - BOX.w)) * W, ((BOX.n - lat) / (BOX.n - BOX.s)) * H];
+  const inBox = v => v && v.lat != null && v.lat > BOX.s && v.lat < BOX.n && v.lon > BOX.w && v.lon < BOX.e;
+  const miles = v => { const dy = (v.lat - SQUARE[0]) * 69.05, dx = (v.lon - SQUARE[1]) * 69.17 * kx; return Math.hypot(dx, dy); };
+  const MAJOR = /^(University|Carroll|Locust|Elm|Hickory|Oak|McKinney|Eagle|Dallas|Bell|Mulberry|Sycamore)/i;
+  const LABEL = /^(?:North |South |East |West )?(Locust|Elm|Hickory|Oak|McKinney|Carroll|Mulberry|Sycamore|Bell|University|Eagle|Congress|Prairie)\b/i;
+  let streetSvg = null;
+  function drawStreets() {
+    if (streetSvg) return streetSvg;
+    const parts = [];
+    for (const w of GEO.streets) {
+      const major = /primary|secondary|trunk/.test(w.k) || MAJOR.test(w.n.replace(/^(North|South|East|West)\s/, ""));
+      parts.push(`<polyline class="st${major ? " major" : ""}" stroke-width="${major ? 5 : 2.5}" points="${w.c.map(c => px(c[0], c[1]).map(n => n.toFixed(1)).join(",")).join(" ")}"/>`);
+    }
+    // one label per street name, on its longest in-view stretch
+    const best = {};
+    for (const w of GEO.streets) {
+      const m = LABEL.exec(w.n); if (!m) continue;
+      const pts = w.c.map(c => px(c[0], c[1])).filter(([x, y]) => x > 40 && x < W - 40 && y > 30 && y < H - 30);
+      if (pts.length < 2) continue;
+      const a = pts[0], b = pts[pts.length - 1], len = Math.hypot(b[0] - a[0], b[1] - a[1]);
+      const name = m[1][0].toUpperCase() + m[1].slice(1).toLowerCase().replace("mckinney", "McKinney");
+      if (!best[name] || best[name].len < len) best[name] = { a, b, len };
+    }
+    for (const [name, { a, b, len }] of Object.entries(best)) {
+      if (len < 120) continue;
+      let ang = Math.atan2(b[1] - a[1], b[0] - a[0]) * 180 / Math.PI; if (ang > 90) ang -= 180; if (ang < -90) ang += 180;
+      const mx = a[0] + (b[0] - a[0]) * 0.22, my = a[1] + (b[1] - a[1]) * 0.22;
+      parts.push(`<text class="stlabel" transform="translate(${mx.toFixed(0)},${my.toFixed(0)}) rotate(${ang.toFixed(0)})" dy="-6">${name}</text>`);
+    }
+    const [sx, sy] = px(SQUARE[0], SQUARE[1]);
+    parts.push(`<rect class="sq" x="${sx - 22}" y="${sy - 18}" width="44" height="36" rx="3"/>`);
+    return (streetSvg = parts.join(""));
+  }
 
+  // [event, day] pairs for the current filters, shared by every view
+  function currentPairs() {
+    const q = state.q;
+    const base = EVENTS.filter(e => (!state.what || (e.tags || []).includes(state.what))
+      && (!q || [e.title, e.venue, e.address, e.desc].join(" ").toLowerCase().includes(q)));
+    const pairs = []; let status = "";
     if (state.day || state.when === "today") {
       const k = state.day || today;
-      base.filter(e => occursOn(e, k)).forEach(e => put(k, e));
-      status = `${(groups[k] || []).length} events`;
+      base.filter(e => occursOn(e, k)).forEach(e => pairs.push([e, k]));
+      status = `${pairs.length} events`;
     } else if (state.when === "weekend") {
       const [a, b] = weekendRange();
-      for (let x = a; x <= b; x = addDays(x, 1)) base.filter(e => occursOn(e, x)).forEach(e => put(x, e));
+      for (let x = a; x <= b; x = addDays(x, 1)) base.filter(e => occursOn(e, x)).forEach(e => pairs.push([e, x]));
       status = "This weekend";
     } else if (state.when === "allmonth") {
-      flat = base.filter(longRun).filter(e => state.past || endOf(e) >= today);
-      status = `${flat.length} things open all month`;
+      base.filter(longRun).filter(e => state.past || endOf(e) >= today).forEach(e => pairs.push([e, null]));
+      status = `${pairs.length} things open all month`;
     } else {
-      base.filter(e => !longRun(e)).forEach(e => daysOf(e).forEach(x => { if (state.past || x >= today) put(x, e); }));
-      status = `${Object.values(groups).reduce((n, g) => n + g.length, 0)} upcoming`;
+      base.filter(e => !longRun(e)).forEach(e => daysOf(e).forEach(x => { if (state.past || x >= today) pairs.push([e, x]); }));
+      status = `${pairs.length} upcoming`;
     }
-    const list = document.getElementById("list");
-    if (flat) {
-      list.innerHTML = flat.length ? flat.sort((a, b) => a.title.localeCompare(b.title)).map(e => card(e)).join("") : "";
+    return { pairs, status };
+  }
+  const sortPairs = ps => ps.sort((p, q) => (p[1] || "").localeCompare(q[1] || "") || (longRun(p[0]) - longRun(q[0]))
+    || timeKey((p[0].times && p[0].times[p[1]]) || p[0].time) - timeKey((q[0].times && q[0].times[q[1]]) || q[0].time) || p[0].title.localeCompare(q[0].title));
+
+  function listHTML(pairs) {
+    if (state.when === "allmonth" && !state.day) return pairs.map(p => p[0]).sort((a, b) => a.title.localeCompare(b.title)).map(e => card(e)).join("");
+    const groups = {};
+    sortPairs(pairs).forEach(([e, k]) => (groups[k] = groups[k] || []).push(e));
+    return Object.keys(groups).sort().map(k => dayHead(k) + groups[k].map(e => card(e, k)).join("")).join("");
+  }
+  function byVenue(pairs) {
+    const g = {};
+    pairs.forEach(p => { const k = GEO.byId[p[0].id] || "?"; (g[k] = g[k] || []).push(p); });
+    return g;
+  }
+  function venueBlock(k, ps, cap) {
+    const v = GEO.venues[k] || { name: "Location not listed", addr: "" };
+    const far = v.lat != null && !inBox(v) ? ` · ${miles(v).toFixed(1)} mi from the Square` : "";
+    const map = v.addr ? `<a href="https://maps.google.com/?q=${encodeURIComponent(v.addr + ", Denton, TX")}" target="_blank" rel="noopener">Map ↗</a>` : "";
+    const shown = cap ? ps.slice(0, cap) : ps;
+    const more = cap && ps.length > cap ? `<p class="side-note">+ ${ps.length - cap} more here. Tap the venue on the map to see all.</p>` : "";
+    return `<div class="venuehead"><h3>${esc(v.name)}</h3><span class="dn">${esc(v.addr)}${far} · ${ps.length} event${ps.length === 1 ? "" : "s"}${map}</span></div>`
+      + sortPairs(shown).map(([e, k]) => card(e, k, true)).join("") + more;
+  }
+  function mapHTML(pairs) {
+    const g = byVenue(pairs);
+    const pins = Object.entries(g).filter(([k]) => inBox(GEO.venues[k])).sort((a, b) => b[1].length - a[1].length);
+    // pins stay finger-sized on phones: scale radius and type up as the map renders smaller
+    const sc = Math.max(1, Math.min(2.2, 640 / (document.querySelector(".list").clientWidth || 640)));
+    const pinSvg = pins.slice().reverse().map(([k, ps]) => {
+      const v = GEO.venues[k], [x, y] = px(v.lat, v.lon), r = Math.min(30, 10 + Math.sqrt(ps.length) * 4) * sc;
+      return `<g class="pin${state.venue === k ? " sel" : ""}" data-k="${esc(k)}" tabindex="0" role="button" aria-label="${esc(v.name)}, ${ps.length} events"><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r.toFixed(1)}"/><text x="${x.toFixed(1)}" y="${y.toFixed(1)}" font-size="${(11 * sc).toFixed(1)}">${ps.length}</text></g>`;
+    }).join("");
+    const [sx, sy] = px(SQUARE[0], SQUARE[1]);
+    const sqLabel = `<text class="sqlabel" x="${(sx - 40 * sc).toFixed(0)}" y="${(sy + 52 * sc).toFixed(0)}" font-size="${(14 * sc).toFixed(1)}" text-anchor="end">The Square</text>`;
+    const outside = Object.entries(g).filter(([k]) => !inBox(GEO.venues[k])).sort((a, b) => b[1].length - a[1].length);
+    outside.sort((a, b) => (a[0] === "?") - (b[0] === "?"));
+    const FAR_SHOW = 8, rows = state.showFar ? outside : outside.slice(0, FAR_SHOW);
+    const outHtml = outside.length ? `<div class="outside"><h4>Outside the downtown map</h4><ul class="farlist">${rows.map(([k, ps]) => {
+      const v = GEO.venues[k] || { name: "No street address given" };
+      return `<li><button class="vchip${state.venue === k ? " sel" : ""}" data-k="${esc(k)}"><span>${esc(v.name)}</span><small>${ps.length} · ${v.lat != null ? miles(v).toFixed(1) + " mi" : "—"}</small></button></li>`;
+    }).join("")}</ul>${outside.length > FAR_SHOW ? `<button class="chip farmore">${state.showFar ? "Show fewer" : `Show all ${outside.length}`}</button>` : ""}</div>` : "";
+    const mapEl = `<div class="mapbox"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Map of downtown Denton with event venues">${drawStreets()}${pinSvg}${sqLabel}</svg><span class="maphint">Tap a pin · bigger pin, more events</span></div>${outHtml}`;
+    const sel = state.venue && g[state.venue] ? venueBlock(state.venue, g[state.venue]) : `<p class="side-note" style="margin-top:16px">Tap a pin to see what's on there.</p>`;
+    return { mapEl, sel };
+  }
+
+  function render() {
+    drawCal(); drawChips();
+    const { pairs, status } = currentPairs();
+    const list = document.getElementById("list"), mw = document.getElementById("mapwrap");
+    document.querySelectorAll(".views button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === state.view));
+    mw.hidden = state.view !== "map";
+    if (state.view === "map") {
+      const m = mapHTML(pairs); mw.innerHTML = m.mapEl; list.innerHTML = m.sel;
+    } else if (state.view === "venues") {
+      const g = byVenue(pairs);
+      list.innerHTML = Object.entries(g).sort((a, b) => b[1].length - a[1].length).map(([k, ps]) => venueBlock(k, ps, 6)).join("");
     } else {
-      const keys = Object.keys(groups).sort();
-      list.innerHTML = keys.map(k => {
-        const tk = e => timeKey((e.times && e.times[k]) || e.time);
-        const g = groups[k].sort((a, b) => (longRun(a) - longRun(b)) || tk(a) - tk(b) || a.title.localeCompare(b.title));
-        return dayHead(k) + g.map(e => card(e, k)).join("");
-      }).join("");
+      list.innerHTML = listHTML(pairs);
     }
     if (!list.innerHTML) list.innerHTML = `<div class="empty"><b>Nothing here</b>Try another day or clear the filter.</div>`;
     document.getElementById("status").textContent = status + (state.what ? ` · ${WHAT.find(w => w.k === state.what).label}` : "");
   }
+  document.querySelector(".views").addEventListener("click", ev => {
+    const b = ev.target.closest("button"); if (!b) return;
+    state.view = b.dataset.v; render();
+  });
+  function pickVenue(k) { state.venue = state.venue === k ? null : k; render(); if (state.venue) document.getElementById("list").scrollIntoView({ behavior: "smooth", block: "start" }); }
+  document.getElementById("mapwrap").addEventListener("click", ev => { if (ev.target.closest(".farmore")) { state.showFar = !state.showFar; render(); return; } const p = ev.target.closest(".pin, .vchip"); if (p) pickVenue(p.dataset.k); });
+  document.getElementById("mapwrap").addEventListener("keydown", ev => { const p = ev.target.closest(".pin"); if (p && (ev.key === "Enter" || ev.key === " ")) { ev.preventDefault(); pickVenue(p.dataset.k); } });
   render();
 })();
 </script>

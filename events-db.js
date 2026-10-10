@@ -3,30 +3,3061 @@
 window.DHW_DB_UPDATED = "2026-10-09";
 window.DHW_DB_EVENTS = [
 {
+"title": "Nightmare on Elm St., House of Doom ; Haunted House",
+"venue": "",
+"address": "1807 n elm st Denton tx 76201",
+"cost": "Ticketed",
+"tags": [
+"allmonth",
+"family",
+"haunted"
+],
+"desc": "Join us for a Haunted House experience unlike anything you ever seen. \nFull contact Haunted House, hear the screams, shrieks and excitement at Bad Habits Music and Events / Drippy Eyes INk . We are shutting down half of our building and converting it into an indoor and outdoor Haunted House experience.\nHaunted House should last about 15 to 25 minutes of pure horror . See if you can find the bonus room after you’ve escaped the house of doom  ..\n\nEnjoy the after life with drinks and good vibes at Bad Habits, music and events !! \n\nAll ages welcome in the Haunted House!\nParent advisory suggested!! Tickets on sale now! Check out our eventbright link to purchase tickets",
+"link": "https://www.eventbrite.com/e/1998644384155?aff=oddtdtcreator",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recqQErIP71PteDbn",
+"verified": true,
+"db": true,
+"id": "db-recqQErIP71PteDbn",
+"rids": [
+"recqQErIP71PteDbn",
+"recMprn1DPyMe38a6",
+"rec8jVO0dc5elR6zU",
+"receVH3cKuACl0a1Y",
+"recrdGUJyfGWky8IW",
+"rec8XhIxgVmOAzxUx",
+"recIHbHa6ZYphcbw0",
+"recYc3vtWrUL83AMC",
+"recypGTHy6BHy276P",
+"recZmreJelgbtSGBo",
+"recdOC6OrlzrztjWz",
+"rechErIin7zg8Jc5p",
+"rec7AbZOcontEMcrG",
+"recVSdJXaLhoGMX5F"
+],
+"start": "2026-09-18",
+"end": "2026-10-31",
+"dates": [
+"2026-09-18",
+"2026-09-19",
+"2026-09-25",
+"2026-09-26",
+"2026-10-02",
+"2026-10-03",
+"2026-10-09",
+"2026-10-10",
+"2026-10-16",
+"2026-10-17",
+"2026-10-23",
+"2026-10-24",
+"2026-10-30",
+"2026-10-31"
+],
+"time": "9pm–11:59pm",
+"img": "img/attSU24bZb3dGRl3H.webp"
+},
+{
+"title": "Pumpkin Patch at Trinity",
+"venue": "",
+"address": "Trinity United Methodist Church, 633 Hobson Lane, Denton, TX 76205",
+"cost": "No ticket needed",
+"tags": [
+"allmonth",
+"family",
+"free"
+],
+"desc": "Celebrate fall with us at the Trinity United Methodist Church Pumpkin Patch in Denton!\n\nOur Pumpkin Patch is a fun, family-friendly fall tradition filled with pumpkins of all shapes and sizes, festive photo opportunities, and plenty of space to enjoy the season with family and friends. Whether you’re searching for the perfect carving pumpkin, decorating your front porch, snapping fall photos, or simply looking for a festive place to spend an afternoon, we would love to welcome you to the patch.\n\nThe Pumpkin Patch opens Sunday, September 20 and continues through October 31.\n\nHours:\nMonday–Saturday: 10:00 AM–7:00 PM\nSunday: 12:00 PM–7:00 PM\n\nThroughout the season, Trinity will also host special activities and opportunities for our community to gather, including our Trunk or Treat celebration on Saturday, October 24 from 5:00–7:00 PM.\n\nAdmission to the Pumpkin Patch is free, and visitors are welcome to come take pictures and enjoy the patch even if they are not purchasing a pumpkin. Pumpkins are available for purchase in a variety of sizes and styles.\n\nProceeds from the Pumpkin Patch help support the Youth, Children's and Music ministries of Trinity United Methodist Church.\n\nBring your family, invite your friends, take some fall pictures, pick out a pumpkin, and enjoy a little bit of autumn right here in Denton. We can’t wait to welcome you to the Trinity Pumpkin Patch!",
+"link": "https://trinitydenton.org/",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recqUY1f6JuOy6F90",
+"verified": true,
+"db": true,
+"id": "db-recqUY1f6JuOy6F90",
+"rids": [
+"recqUY1f6JuOy6F90",
+"recqL0stYafPVo5fq",
+"recMDVZJ8fuiO12kc",
+"rec84QT1qjS1ORChg",
+"recY04Au2zMYby6z8",
+"recrJfCl0voNNK2FN",
+"recjANUbq1MtkKHcN",
+"recKzJOcYGo0eNLCW",
+"recwMl5vy2SXarjxl",
+"recmstD9cFPCz86rZ",
+"recedHbGG5S946sEL",
+"rec3ORqfOZG6KAPo3",
+"recwQ5hiWMbDewu2U",
+"recTwRQY3ueMbEF3l",
+"recO0MToKWK5XTEjd",
+"recZjQwGF7yExmA5a",
+"reccfmGMuVorJD5rh",
+"recRJXWPWembNYCAd",
+"rec7XLjpbkzl7MgRd",
+"recWd557JvUbxBS3c",
+"rec2gUVdO8PBUZHvI",
+"recjD6Nw4XGhOv9uv",
+"recJqy9VXEDdrD76M",
+"recIgK0cyAiBnVvL9",
+"recRqjaHxflbWKYwV",
+"recVE4Pj8Iw8hwYKt",
+"recAs4acSFuor7C2L",
+"recgojBrpFcjSVB0t",
+"rec39ERi4TuFmTls4",
+"recc7FZdhEljqtEYy",
+"recjwaSOIUH7l8zND",
+"recYMtP5AtltxhCyG",
+"recpqBY3P7nqMNEXr",
+"recP35iQxqcV7M52E",
+"rec3eesWryTNKaF4H",
+"rec0lCleFr0iWl4cN",
+"recmKbW0WBTDVQKbR",
+"recc727Xnf48IwFbh",
+"rec1D5WYuS1VhovmS",
+"recri0z0HVRFfICCH",
+"rec91y7GQvGICqzFk",
+"recVfHeW0lsQV3CEt"
+],
+"start": "2026-09-20",
+"end": "2026-10-31",
+"dates": [
+"2026-09-20",
+"2026-09-21",
+"2026-09-22",
+"2026-09-23",
+"2026-09-24",
+"2026-09-25",
+"2026-09-26",
+"2026-09-27",
+"2026-09-28",
+"2026-09-29",
+"2026-09-30",
+"2026-10-01",
+"2026-10-02",
+"2026-10-03",
+"2026-10-04",
+"2026-10-05",
+"2026-10-06",
+"2026-10-07",
+"2026-10-08",
+"2026-10-09",
+"2026-10-10",
+"2026-10-11",
+"2026-10-12",
+"2026-10-13",
+"2026-10-14",
+"2026-10-15",
+"2026-10-16",
+"2026-10-17",
+"2026-10-18",
+"2026-10-19",
+"2026-10-20",
+"2026-10-21",
+"2026-10-22",
+"2026-10-23",
+"2026-10-24",
+"2026-10-25",
+"2026-10-26",
+"2026-10-27",
+"2026-10-28",
+"2026-10-29",
+"2026-10-30",
+"2026-10-31"
+],
+"time": "Times vary by date",
+"times": {
+"2026-09-20": "noon–7pm",
+"2026-09-21": "noon–6pm",
+"2026-09-22": "noon–6pm",
+"2026-09-23": "noon–6pm",
+"2026-09-24": "noon–6pm",
+"2026-09-25": "noon–6pm",
+"2026-09-26": "noon–6pm",
+"2026-09-27": "noon–6pm",
+"2026-09-28": "noon–6pm",
+"2026-09-29": "noon–6pm",
+"2026-09-30": "noon–6pm",
+"2026-10-01": "noon–6pm",
+"2026-10-02": "noon–6pm",
+"2026-10-03": "noon–6pm",
+"2026-10-04": "noon–6pm",
+"2026-10-05": "noon–6pm",
+"2026-10-06": "noon–6pm",
+"2026-10-07": "noon–6pm",
+"2026-10-08": "noon–6pm",
+"2026-10-09": "noon–6pm",
+"2026-10-10": "noon–6pm",
+"2026-10-11": "noon–6pm",
+"2026-10-12": "noon–6pm",
+"2026-10-13": "noon–6pm",
+"2026-10-14": "noon–6pm",
+"2026-10-15": "noon–6pm",
+"2026-10-16": "noon–6pm",
+"2026-10-17": "noon–6pm",
+"2026-10-18": "noon–6pm",
+"2026-10-19": "noon–6pm",
+"2026-10-20": "noon–6pm",
+"2026-10-21": "noon–6pm",
+"2026-10-22": "noon–6pm",
+"2026-10-23": "noon–6pm",
+"2026-10-24": "noon–6pm",
+"2026-10-25": "noon–6pm",
+"2026-10-26": "noon–6pm",
+"2026-10-27": "noon–6pm",
+"2026-10-28": "noon–6pm",
+"2026-10-29": "noon–6pm",
+"2026-10-30": "noon–6pm",
+"2026-10-31": "noon–6pm"
+},
+"img": "img/attDGeGOgxfZTqfo8.webp"
+},
+{
+"title": "The Haunted Rodeo",
+"venue": "",
+"address": "122 n Locust st. Denton, Tx 76201",
+"cost": "No ticket needed",
+"tags": [
+"21plus",
+"allmonth",
+"food",
+"free",
+"music"
+],
+"desc": "Come to The Haunted Rodeo for delicious and Instagram worth cocktails and bites!  Stay for live music and dance the night away",
+"link": "https://linktr.ee/rubyrodeo.dtx?utm_source=linktree_profile_share&ltsid=088be88d-4f13-4397-aeba-1d5c3756a1e6",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recVkWN0TvegZ4Kjc",
+"verified": true,
+"db": true,
+"id": "db-recVkWN0TvegZ4Kjc",
+"rids": [
+"recVkWN0TvegZ4Kjc",
+"recY236mbMHJ15OVJ",
+"rec4eXjVqTcjFdYLi",
+"recPgDoE8oRhGYFrc",
+"rec8i9zoUHh4Tqrck",
+"recFPhqsaEegLE8xf",
+"recErIsAAtdva4uSI",
+"recyukcsTxGbQ5eQa",
+"recXWGzxxEDR9wMFV",
+"recOG0zsJ5CPZPMhU",
+"recTibZgzWomGXYFQ",
+"recGzliSOWMtDVpuC",
+"recVLUOphn5WCC5gR",
+"rec5QtnPHqXm87mJI",
+"recuJgHPh1QwH84H7",
+"rec26pJ8EjeZo5uNg",
+"recrPnX3GMO9LWmpN",
+"rec90FZkvgDJqrYdx",
+"rec4ghbR4PJ5RB0U5",
+"recUiJ7ZpGYk2lE2r",
+"recezZlBruaIT0g7e",
+"recdsh4RhczUiqXZ1",
+"recbqvre0QB07cCga",
+"recf2Cez7ywoUc0Wp",
+"rece6XLMNxdrYfxkK",
+"recTSiHlPCt1ecvou",
+"recBDmOWFHxWv58EF",
+"rec3t43LovD9tvUvS",
+"recTMISPbjdzHe20B",
+"recKEi2VQvT6fEKZi",
+"recTqWgfePcVSVNM1",
+"recHckmjvJJmNqb5F",
+"recO1TtmQNSPSJ9ld",
+"rec40A7pGpFFSODWI",
+"recaFsrOngfh8rk3N",
+"recZbijBt9ZGfvE1u",
+"recMM76UZk6Czt37C",
+"recZWXitChwbyBHQF"
+],
+"start": "2026-09-24",
+"end": "2026-10-31",
+"dates": [
+"2026-09-24",
+"2026-09-25",
+"2026-09-26",
+"2026-09-27",
+"2026-09-28",
+"2026-09-29",
+"2026-09-30",
+"2026-10-01",
+"2026-10-02",
+"2026-10-03",
+"2026-10-04",
+"2026-10-05",
+"2026-10-06",
+"2026-10-07",
+"2026-10-08",
+"2026-10-09",
+"2026-10-10",
+"2026-10-11",
+"2026-10-12",
+"2026-10-13",
+"2026-10-14",
+"2026-10-15",
+"2026-10-16",
+"2026-10-17",
+"2026-10-18",
+"2026-10-19",
+"2026-10-20",
+"2026-10-21",
+"2026-10-22",
+"2026-10-23",
+"2026-10-24",
+"2026-10-25",
+"2026-10-26",
+"2026-10-27",
+"2026-10-28",
+"2026-10-29",
+"2026-10-30",
+"2026-10-31"
+],
+"time": "4pm–2am",
+"img": "img/attty2FpedJMy7ex0.webp"
+},
+{
+"title": "DENTON HAUNTS Ghost Tours",
+"venue": "",
+"address": "Tour meetups are at the Gravesite of Capt. John B. Denton on the downtown Denton Courthouse Square museum.c",
+"cost": "Ticketed",
+"tags": [
+"allmonth",
+"tour"
+],
+"desc": "Equal parts history and mystery, the DENTON HAUNTS Ghost Tour shares wild true tales in a 1.5-hour walking tour of the historic Denton Courthouse Square on Friday and Saturday evenings during October. This Haunted History comes from archival research, oral history nterviews, and local folklore about ghostly legends. Founded by “Doc” in the fall of 2011, our mission is to both educate and entertain with TRUE ghost stories, hidden history, and undertold secrets from Denton’s past AND present. \nPrivate group tours are also offered, send inquiries to DentonHaunts@gmail.com to check availability and follow us on Facebook for more events.",
+"link": "https://www.facebook.com/DentonHaunts",
+"tickets": "https://www.eventbrite.com/e/2026-denton-haunts-ghost-walk-tickets-1994097729990",
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recQt3z8og4jtLShA",
+"verified": true,
+"db": true,
+"id": "db-recQt3z8og4jtLShA",
+"rids": [
+"recQt3z8og4jtLShA",
+"reckFmEuhpg4mA4Rb",
+"recjygfMfXVARCALf",
+"recjIGVKDz40OuPKn",
+"recV1dqsfewDJbzH2",
+"recFluuyDSbfQdX84",
+"recFnX8P2qeEPtmPk",
+"recnjGeuJ6tlqozET",
+"recTeJJvzO5bBj0oD",
+"recW2PzYyITITAW7V",
+"recQRT8elWSVBsZGs"
+],
+"start": "2026-09-25",
+"end": "2026-11-07",
+"dates": [
+"2026-09-25",
+"2026-10-02",
+"2026-10-03",
+"2026-10-09",
+"2026-10-10",
+"2026-10-16",
+"2026-10-17",
+"2026-10-23",
+"2026-10-24",
+"2026-11-06",
+"2026-11-07"
+],
+"time": "6:30pm–9:30pm",
+"img": "img/attB5x6KO3gPrltsW.webp"
+},
+{
+"title": "Intro to Pottery: Clay Pumpkins",
+"venue": "",
+"address": "Wildflower Art Studio: 715 North Locust Street Denton, Texas 76201",
+"cost": "Ticketed",
+"tags": [
+"allmonth",
+"art",
+"food"
+],
+"desc": "Date: September 26, 2026\n\nTime: 6:00-8:00pm \n\nThis introductory-level workshop is a fun way to explore the relaxing art of Clay Pottery. This 2 hour workshop covers basic hand-building clay techniques.\n\nEach student will create and glaze a small clay pumpkin. \n\nGlazed Pottery will be available for pickup after being fired in the kiln (within 2-3 weeks). Shipping option available ($18).\n\nAll supplies included. Workshop includes snacks + coffee.\n\nTake-Home Supply Kit ($55) includes: air-dry clay, reusable clay mat + pottery tools to continue creating at home. Includes supplies for 3-4 additional clay projects (not food-safe).",
+"link": "https://www.wildflowerartstudio.net/workshops/clay-workshop-pumpkin-sept26",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recTBCsztNPUVfGKN",
+"verified": true,
+"db": true,
+"id": "db-recTBCsztNPUVfGKN",
+"rids": [
+"recTBCsztNPUVfGKN",
+"recC7nXHpfE9I4PGg",
+"recnKxADqRz1N6AaV",
+"receyTlOyeIByubUz",
+"recK1sjBWVbxNE71G"
+],
+"start": "2026-09-26",
+"end": "2026-10-31",
+"dates": [
+"2026-09-26",
+"2026-10-04",
+"2026-10-17",
+"2026-10-24",
+"2026-10-31"
+],
+"time": "Times vary by date",
+"times": {
+"2026-09-26": "6pm–8pm",
+"2026-10-04": "3pm–5pm",
+"2026-10-17": "2:30pm",
+"2026-10-24": "2:30pm–4:30pm",
+"2026-10-31": "6pm–8pm"
+},
+"img": "img/att5446WzQMvxa8IF.webp"
+},
+{
+"title": "Video Crypt",
+"venue": "",
+"address": "411 E Sycamore St, Denton, TX 76205 (Rubber Gun Gallery)",
+"cost": "No ticket needed",
+"tags": [
+"allmonth",
+"art",
+"free"
+],
+"desc": "The Video Crypt is a nostalgic video store pop-up give fans of film a chance to relive or experience what passing through the aisles of a video store was like back in the day. You will be able to enjoy seeing original video box covers on display along with video store posters and other memorabilia that takes you back to a time before streaming, when you ventured to your favorite video store and planned your weekend around pizza and movies. The Video Crypt is a great opportunity for fun photography and talk movies with clerks on staff during your visit. While VHS tapes will not be for sale, this art installation will have t-shirts, stickers, zines, and other collectables to mark your video store experience all October at The Video Crypt.",
+"link": "https://www.instagram.com/videocrypttx/",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recUP7wvUhCmzgllD",
+"verified": true,
+"db": true,
+"id": "db-recUP7wvUhCmzgllD",
+"rids": [
+"recUP7wvUhCmzgllD",
+"recXeFOIpEa2M5JWv",
+"recYIWapzJxd8JD2X",
+"recKk9LOwwwT6oZ1m",
+"recFNlvLpbybE2U1M"
+],
+"start": "2026-09-26",
+"end": "2026-10-24",
+"dates": [
+"2026-09-26",
+"2026-10-03",
+"2026-10-10",
+"2026-10-17",
+"2026-10-24"
+],
+"time": "7pm–1am",
+"img": "img/attOImVGASCYJFyGc.webp"
+},
+{
+"title": "Little Lil' D- A Haunted Diorama",
+"venue": "",
+"address": "UNT CoLab 207 North Elm Street, Denton, TX, 76201",
+"cost": "No ticket needed",
+"tags": [
+"allmonth",
+"art",
+"family",
+"free"
+],
+"desc": "Little Lil' D is a massive, hyper-detailed miniature haunted version of Denton's most beloved landmarks reimagined for 2026. Built entirely by locals, this indoor exhibit is free and fun for all ages complete with an interactive scavenger hunt that puts you right in the middle of the magic. Don't forget to sign the tiny town's guest book and vote for your favorite time period at the end of your visit!",
+"link": "https://www.instagram.com/dentondiorama",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recGNV3ukJIG2lKzE",
+"verified": true,
+"db": true,
+"id": "db-recGNV3ukJIG2lKzE",
+"rids": [
+"recGNV3ukJIG2lKzE",
+"recPLTOGGjGuQSNou",
+"rec0gfo5h9jxjEAha",
+"recYishvwNW0R70vi",
+"recIAs6ekR8ozAHYU",
+"recDCree0zH6Dj4GO",
+"recoRcSwyOG6L0SM5",
+"rec5s1HxyT3uXRqPJ",
+"recmyLTZrjnuoXRIt",
+"recbwil0YyShhI9sa",
+"recVwbzjkUY4STSiy",
+"rec86ACUVafAI8cjw",
+"recpVXhIMziMSBvUR",
+"rec4ykI0f8JRyXl0D",
+"rec7NBmwQMD8gkHZ9",
+"recAlWLZlN2scrtRC",
+"recx8no8z5oUBKKhT",
+"recqMQ3R7vllK8Lli",
+"recglkYxHU8FapYVf",
+"recOnFNK2qTd5Qg01",
+"receFZa2mDw4qx8DM",
+"reclb6TloUoF4HDW9",
+"recFRhSYlQxtW61rn",
+"recaT1ZFX3fbStBbM",
+"recoDhOEvzLACRcPm",
+"recczWDFrZfOsfLIs",
+"reccOBE6yQIMZb3uZ",
+"recDY3hrb6muxLbN7",
+"recsyQ3DreU8NUc5h",
+"rec0iA5AYm4lknVB2",
+"recRV2CS75e8jfwi0",
+"recECAKpl8MEwmEVX",
+"recjYMijfY0AVkfIw"
+],
+"start": "2026-09-29",
+"end": "2026-10-31",
+"dates": [
+"2026-09-29",
+"2026-09-30",
+"2026-10-01",
+"2026-10-02",
+"2026-10-03",
+"2026-10-04",
+"2026-10-05",
+"2026-10-06",
+"2026-10-07",
+"2026-10-08",
+"2026-10-09",
+"2026-10-10",
+"2026-10-11",
+"2026-10-12",
+"2026-10-13",
+"2026-10-14",
+"2026-10-15",
+"2026-10-16",
+"2026-10-17",
+"2026-10-18",
+"2026-10-19",
+"2026-10-20",
+"2026-10-21",
+"2026-10-22",
+"2026-10-23",
+"2026-10-24",
+"2026-10-25",
+"2026-10-26",
+"2026-10-27",
+"2026-10-28",
+"2026-10-29",
+"2026-10-30",
+"2026-10-31"
+],
+"time": "midnight–10pm",
+"img": "img/attCyoY35S8EW6h27.webp"
+},
+{
 "title": "Bad Movie Bingo @ Yellow Dog",
 "venue": "",
 "address": "219 E. Hickory St. Denton, 76201",
 "cost": "No ticket needed",
 "tags": [
 "allmonth",
+"art",
 "free"
 ],
 "desc": "Bad Movie Bingo goes full Halloween all October long at Yellow Dog! Every Thursday at 8:30 PM, we’re breaking out a different spooky, ridiculous, cult-favorite movie and turning it into a bingo game.\n\nThis October’s lineup:\n\nOct. 1 — Scary Movie\nOct. 8 — Killer Klowns from Outer Space\nOct. 15 — Shaun of the Dead\nOct. 22 — Army of Darkness\nOct. 29 — An American Werewolf in London\n\nSo how does Bad Movie Bingo work? Grab a bingo card with any purchase, then watch the movie and keep an eye out for the ridiculous things listed on your card. Maybe it’s an over-the-top death, a terrible decision, a horror-movie cliché, an absurd special effect, or something that just makes you say, “Yep… that counts.”\n\nSee it happen on screen? Mark your square. Get a bingo and win a prize!\n\nIt’s part movie night and part excuse for the whole room to laugh at the screen together.\n\nFree popcorn, great drinks, bingo prizes, and five weeks of Halloween movie chaos.\n\nThursdays at 8:30 PM at Yellow Dog Art Bar & Gallery.\nWatch. Play. Laugh. Win.",
 "link": "https://www.facebook.com/Bramblitt/events",
 "tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=rec2pOfSPkXPpTOky",
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recNJ33f1SixBFEem",
 "verified": true,
 "db": true,
-"id": "db-rec2pOfSPkXPpTOky",
-"start": "2026-10-08",
+"id": "db-recNJ33f1SixBFEem",
+"rids": [
+"recNJ33f1SixBFEem",
+"rec2pOfSPkXPpTOky",
+"recYOqtszN9GCcaDh",
+"reckTCLIEjuMbLhbb",
+"recclKfIaBFZ3UAVy"
+],
+"start": "2026-10-01",
 "end": "2026-10-29",
 "dates": [
+"2026-10-01",
 "2026-10-08",
 "2026-10-15",
 "2026-10-22",
 "2026-10-29"
 ],
-"time": "8:30pm–10:30pm"
+"time": "8:30pm–10:30pm",
+"img": "img/attxew5vtXpJSWpRb.webp"
+},
+{
+"title": "Brite Smiles by Heather, Smile if you Dare photo booth",
+"venue": "",
+"address": "207 W Hickory Denton TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"allmonth",
+"family",
+"free",
+"show"
+],
+"desc": "Bring your friends, family, and little ghosts and goblins for a fun Halloween photo opportunity.  Strike a pose, show off your best smile, and don’t forget to share your photo and tag Brite Smiles by Heather for a chance to win a FREE Teeth Whitening",
+"link": "https://facebook.com/events/s/smile-if-you-dare-halloween-ph/1592353088921719/",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recyEvLnu6VDPmATk",
+"verified": true,
+"db": true,
+"id": "db-recyEvLnu6VDPmATk",
+"rids": [
+"recyEvLnu6VDPmATk",
+"recHWQ13FNv8ugts9",
+"recY4Uw5gqD0vaT4A",
+"rectmLKhdBFuY2Ct0",
+"recGuWkzJBTf9lKfM",
+"recaOLqBgvAHIPur9",
+"rec7mCdQkxcQ8AUP0",
+"recWzINeigVFfyDd9",
+"recpOq9B4vjrRDFeA",
+"recgK3PO8PzgGSks2",
+"recp0cKDk6rOGZkA6",
+"recNmIJKhumZKXHxt",
+"recjGzmz8EyVwAoNM",
+"recUCDJO9XXcQAh90",
+"recYdsUgv6qFxp88b",
+"recCYGFfi1qXkdbW0",
+"recYwQTZqXDyn0U39",
+"recat6UVOoF6AqRu1",
+"rec53Tch0mLO1shke",
+"recZ78n4D02yhp9vs",
+"recEpp4xZhGrRbiy6",
+"recqQGmAYdBkYpzB7",
+"recQioxPmNp4FgynE",
+"recux414v0lvgEPqh",
+"recOGVmNwY72IsbPO",
+"recjM4fZRP5lNYA0b",
+"recREHaOYoSfyF2YR",
+"recsjcgAouHUqg5dv",
+"recQy7MFDXxVO6kTl",
+"recLICtkvHAMXzv9T"
+],
+"start": "2026-10-01",
+"end": "2026-10-30",
+"dates": [
+"2026-10-01",
+"2026-10-02",
+"2026-10-03",
+"2026-10-04",
+"2026-10-05",
+"2026-10-06",
+"2026-10-07",
+"2026-10-08",
+"2026-10-09",
+"2026-10-10",
+"2026-10-11",
+"2026-10-12",
+"2026-10-13",
+"2026-10-14",
+"2026-10-15",
+"2026-10-16",
+"2026-10-17",
+"2026-10-18",
+"2026-10-19",
+"2026-10-20",
+"2026-10-21",
+"2026-10-22",
+"2026-10-23",
+"2026-10-24",
+"2026-10-25",
+"2026-10-26",
+"2026-10-27",
+"2026-10-28",
+"2026-10-29",
+"2026-10-30"
+],
+"time": "8am–11:59pm",
+"img": "img/attm948dOz5TFdY2r.webp"
+},
+{
+"title": "Gooey's Ectoplasmic Queso",
+"venue": "",
+"address": "108 E Oak Street, Denton TX",
+"cost": "No ticket needed",
+"tags": [
+"allmonth",
+"food",
+"free"
+],
+"desc": "Come to Blind Man's Corner on Oak and Austin and try Gooey's Ectoplasmic Queso! Green, gooey, delicious and with the option to add jalapeno slices, every order of Gooey's Ectoplasmic Queso is served with chips, and has the option to be upgraded to a loaded queso bowl or Walking Taco! A ghost never tasted so good!",
+"link": "https://www.instagram.com/blindmanscorner/",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recKD2Ev152wE3Ygs",
+"verified": true,
+"db": true,
+"id": "db-recKD2Ev152wE3Ygs",
+"rids": [
+"recKD2Ev152wE3Ygs",
+"reccUEkRn2vXZb5oz",
+"reckJWZoGrH5ow8PO",
+"recT5JIzregciywKz",
+"recML0eHjgomFj5rQ",
+"recJ9W6NCgnIz7u6x",
+"recC6suOiQhiOOYGC",
+"recLFu4SXsJGWU8VR",
+"rec4VEz2VF9roPsvS",
+"recuNTHkR3GsmaLAH",
+"rec1jPUbeTxXDopOo",
+"reccAakDdz9yvRuqE",
+"recvkEfaBMV6YxNM2",
+"recjuB9ER8eaz6U26",
+"rechKzEyNKhAcWoQ3",
+"recq2ZqdDNmbyqhRU",
+"recAcNzaIpF9kYTSg",
+"recnzzUme8BGsPAo4",
+"recTnKExoJBACw9mq",
+"recK1J6jCT63iOCRr",
+"rec9QOKitqXra8ffO",
+"rec9FiEuuHc1tkpNq",
+"rec3Wr291DrTwaQw0",
+"recJLPRrVc2AhWkNs",
+"rec32MsseDLpfbfdU",
+"rec3jWqrDOmGmwMOc",
+"recsSqnQSx6s7Roxd",
+"recmmLCFHo4U4eyf3",
+"recj4QYfvpWwE8DpO",
+"recyhvDT24IN8nToJ",
+"recjIgJbuUAVzq2oR"
+],
+"start": "2026-10-01",
+"end": "2026-10-31",
+"dates": [
+"2026-10-01",
+"2026-10-02",
+"2026-10-03",
+"2026-10-04",
+"2026-10-05",
+"2026-10-06",
+"2026-10-07",
+"2026-10-08",
+"2026-10-09",
+"2026-10-10",
+"2026-10-11",
+"2026-10-12",
+"2026-10-13",
+"2026-10-14",
+"2026-10-15",
+"2026-10-16",
+"2026-10-17",
+"2026-10-18",
+"2026-10-19",
+"2026-10-20",
+"2026-10-21",
+"2026-10-22",
+"2026-10-23",
+"2026-10-24",
+"2026-10-25",
+"2026-10-26",
+"2026-10-27",
+"2026-10-28",
+"2026-10-29",
+"2026-10-30",
+"2026-10-31"
+],
+"time": "Times vary by date",
+"times": {
+"2026-10-01": "1pm",
+"2026-10-02": "1pm–2am",
+"2026-10-03": "1pm–2am",
+"2026-10-04": "1pm–2am",
+"2026-10-05": "1pm–2am",
+"2026-10-06": "1pm–2am",
+"2026-10-07": "1pm–2am",
+"2026-10-08": "1pm–2am",
+"2026-10-09": "1pm–2am",
+"2026-10-10": "1pm–2am",
+"2026-10-11": "1pm–2am",
+"2026-10-12": "1pm–2am",
+"2026-10-13": "1pm–2am",
+"2026-10-14": "1pm–2am",
+"2026-10-15": "1pm–2am",
+"2026-10-16": "1pm–2am",
+"2026-10-17": "1pm–2am",
+"2026-10-18": "1pm–2am",
+"2026-10-19": "1pm–2am",
+"2026-10-20": "1pm–2am",
+"2026-10-21": "1pm–2am",
+"2026-10-22": "1pm–2am",
+"2026-10-23": "1pm–2am",
+"2026-10-24": "1pm–2am",
+"2026-10-25": "1pm–2am",
+"2026-10-26": "1pm–2am",
+"2026-10-27": "1pm–2am",
+"2026-10-28": "1pm–2am",
+"2026-10-29": "1pm–2am",
+"2026-10-30": "1pm–2am",
+"2026-10-31": "1pm–2am"
+},
+"img": "img/attxBnEwuxYjNrwhO.webp"
+},
+{
+"title": "Halloween Wine Tasting",
+"venue": "",
+"address": "111 Industrial Street, Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"free"
+],
+"desc": "Join us on the First Thursday each month for a special wine tasting event.\n\nThis month, we kick off 31 days of Halloween with wines with a spooky theme/label/name. Perfect for your Halloween gatherings.\n\nEach month, we will pick a few wines to feature at special prices and offer a tasting of those wines on the First Thursday. $10 to taste each wine. Purchase two or more bottles, and your tasting is complimentary. Bringing more than just you? Each tasting will be comped for every two bottles purchased.",
+"link": "www.steveswinebar.com/events",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recrW7uUxqvxY6wJd",
+"verified": true,
+"db": true,
+"id": "db-recrW7uUxqvxY6wJd",
+"start": "2026-10-01",
+"time": "6pm–8pm",
+"img": "img/att3MkS6nPuOLQJaY.webp"
+},
+{
+"title": "Hannah's Halloween Cocktails Menu",
+"venue": "",
+"address": "111 W Mulberry Street, Denton, Texas 76201",
+"cost": "No ticket needed",
+"tags": [
+"21plus",
+"allmonth",
+"food",
+"free"
+],
+"desc": "🎃 Raise a Glass to a Spirited October at Hannah’s 🍸✨\n\nOur Halloween Cocktail Menu is back, and so is the unforgettable Carrie — dramatic, delicious, and dressed for her prom queen debut. 🩸\n\nAnd Carrie isn’t arriving on stage alone. Our magical mixologists have conjured up a full menu of other spirits.\nHalloween Cocktail Menu: Available Tuesday–Sunday during regular business hours throughout October.\n\n🌙 Closed Mondays\n\nAlso see Hannah’s Spookeasy Nights: Fridays & Saturdays in October.",
+"link": "https://www.facebook.com/hannahsoffthesquare",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recDDPMj1W7K1T2z0",
+"verified": true,
+"db": true,
+"id": "db-recDDPMj1W7K1T2z0",
+"rids": [
+"recDDPMj1W7K1T2z0",
+"recBUwpK1FR6y4R3k",
+"recZZSY1EEBtmSZYW",
+"recADWpTOXGqBjtfm",
+"rec3jB8zt7X65FbMe",
+"reciShRZ3mnEi6cRX",
+"recwWoJ5eDAtOrhwT",
+"recJlaGTj50v7VRDz",
+"recRDCwuKkBhjHvD8",
+"recQT1CSQCPcbdvnA",
+"recJBfDkcVOIbKLfC",
+"rec8Y4q5TKTX6lkPS",
+"recrUnDhzk4oLCYGT",
+"recdkjXtZ1LQVCkiX",
+"recpg0kQ3ZYlCSceI",
+"rec78m6UwTeUbgWZs",
+"recMU5SpxAxGxwox2",
+"recZO6KGiZltpR4Qj",
+"recllNYpK2J0B1e2Y",
+"rec2HnNGxM7RzUySh",
+"recHHMa13H71rkkaT",
+"recowJvRvbvTMbXa8",
+"rec7r0sZ25gZqDKk6",
+"recxsN23guLekSdoK",
+"rectk1qUr5p92EfDm",
+"recOlu5HvTqndX35O",
+"recOskjS8fgujoB2H",
+"recHGjAm7VVm1g3Xb",
+"recUeYtttomYn6vxf",
+"recuT7wFmsM8sSFUJ"
+],
+"start": "2026-10-01",
+"end": "2026-10-30",
+"dates": [
+"2026-10-01",
+"2026-10-02",
+"2026-10-03",
+"2026-10-04",
+"2026-10-05",
+"2026-10-06",
+"2026-10-07",
+"2026-10-08",
+"2026-10-09",
+"2026-10-10",
+"2026-10-11",
+"2026-10-12",
+"2026-10-13",
+"2026-10-14",
+"2026-10-15",
+"2026-10-16",
+"2026-10-17",
+"2026-10-18",
+"2026-10-19",
+"2026-10-20",
+"2026-10-21",
+"2026-10-22",
+"2026-10-23",
+"2026-10-24",
+"2026-10-25",
+"2026-10-26",
+"2026-10-27",
+"2026-10-28",
+"2026-10-29",
+"2026-10-30"
+],
+"time": "11am–10pm",
+"img": "img/attfGLnMERiyS7CSF.webp"
+},
+{
+"title": "Haunted Dungeons & Dragons",
+"venue": "",
+"address": "d20 Tavern, 112 West Oak St.",
+"cost": "Ticketed",
+"tags": [
+"allmonth"
+],
+"desc": "Calling all brave adventurers! Embark on an exciting and terrifying journey into the world of Dungeons and Dragons, where you'll encounter zombies, ghosts, and demons. Join our ongoing Adventurers Collective every Thursday for a drop in style campaign. The world continues to evolve with every session while players play as often as they like. Every session is hosted by a d20 Tavern House Dungeon Master. We provide everything you need to play. Whether you're a seasoned adventurer or a curious newcomer, there's a seat for you at our table!",
+"link": "https://d20-tavern.square.site/event-registration",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rec0y9sfhsOqOLCLo",
+"verified": true,
+"db": true,
+"id": "db-rec0y9sfhsOqOLCLo",
+"rids": [
+"rec0y9sfhsOqOLCLo",
+"recB2wUeIe5hbrZmr",
+"rec7PoTuWqmxZoSgH",
+"recQRPUfBzDj7PVud"
+],
+"start": "2026-10-01",
+"end": "2026-10-22",
+"dates": [
+"2026-10-01",
+"2026-10-08",
+"2026-10-15",
+"2026-10-22"
+],
+"time": "7pm",
+"img": "img/attoIaGm1e192zJOa.webp"
+},
+{
+"title": "Lacy's Haunted Cantina",
+"venue": "",
+"address": "100 West Oak Street #160, Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"21plus",
+"allmonth",
+"food",
+"free"
+],
+"desc": "Join us in our Mexican Oak tequila lounge for a horrifying good time! As our tequila lounge transform into the iconic Lacy's Haunted Cantina, we invite you to take part in it's haunting transformation. We will be showing old black and white horror movies, a terrifyingly elevated cocktail menu and surprisingly spooky bites menu. Don't worry it doesn't bite back, maybe...",
+"link": "mexicanoak.com",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recSiKyzKqALWj1tC",
+"verified": true,
+"db": true,
+"id": "db-recSiKyzKqALWj1tC",
+"rids": [
+"recSiKyzKqALWj1tC",
+"recmL5qusEwugjWN2",
+"recTAZIWkCNwaielD",
+"recZ4tsJbdVF3xNaQ",
+"recpRvRjyjgxUUTM1",
+"recQzLvqECupuA5Zo",
+"recUkhRxbNxNNjhi5",
+"recT25R3pZ4RyBSiS",
+"recWZxoyowctnzgo2",
+"recRoufzfdYgljMhp",
+"rec2eq6C19Ij2ILm6",
+"recRAPOSD0DX7P3oO",
+"recQQxF2zpTxqdqxL",
+"recZfLhI56C5g3gqU"
+],
+"start": "2026-10-01",
+"end": "2026-10-31",
+"dates": [
+"2026-10-01",
+"2026-10-02",
+"2026-10-03",
+"2026-10-08",
+"2026-10-09",
+"2026-10-10",
+"2026-10-15",
+"2026-10-17",
+"2026-10-22",
+"2026-10-23",
+"2026-10-24",
+"2026-10-29",
+"2026-10-30",
+"2026-10-31"
+],
+"time": "7pm–11:59pm",
+"img": "img/attuFdvAeplgN2T7A.webp"
+},
+{
+"title": "Looking for Players (LFP) Thursday",
+"venue": "",
+"address": "d20 Tavern, 112 West Oak St.",
+"cost": "Ticketed",
+"tags": [
+"21plus",
+"allmonth"
+],
+"desc": "Join us every Thursday for Looking for Players (LFP). A d20 Tavern Game Master will teach a different game every week. We take care of the set up, instructions, and clean up. All October long we will be featuring horror themed board games so be prepared for a scare! Tickets admit one and come with a beer flight.",
+"link": "https://www.instagram.com/d20_tavern/",
+"tickets": "https://d20-tavern.square.site/event-registration",
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recRTbFYu4jhdwhrI",
+"verified": true,
+"db": true,
+"id": "db-recRTbFYu4jhdwhrI",
+"rids": [
+"recRTbFYu4jhdwhrI",
+"recbp6a3TsCWCrFw8",
+"recNHdkwYI3PWMgrS",
+"reciGEqGcLPki5m45",
+"recTz4QQoyOQUYMkU"
+],
+"start": "2026-10-01",
+"end": "2026-10-29",
+"dates": [
+"2026-10-01",
+"2026-10-08",
+"2026-10-15",
+"2026-10-22",
+"2026-10-29"
+],
+"time": "Times vary by date",
+"times": {
+"2026-10-01": "7pm–11pm",
+"2026-10-08": "7pm–10pm",
+"2026-10-15": "7pm–10pm",
+"2026-10-22": "7pm–10pm",
+"2026-10-29": "7pm–10pm"
+},
+"img": "img/attRE6v39ZxZ6cOqV.webp"
+},
+{
+"title": "Paint Taper Candles Craft",
+"venue": "",
+"address": "118 E McKinney StDenton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"allmonth",
+"art",
+"free"
+],
+"desc": "Stop by the shop and paint your own tapered candles any time during the month of October! Choose from a rainbow of beautiful colors and make candles to match your home, your Halloween decor, or simply your own style.\n\nTaper candles are available for purchase starting at $6.50 for a pair of two. Our tapered candles are hand-dipped and made with beeswax, premium waxes, and beautiful dyes.\n\nWe’ll provide the paints and a place to create. While you’re here, enjoy our other free, all-ages activities!\n\nThe Dime Store is an artist owned, artist run local shop in the heart of Denton featuring the work of talented local artists and makers. Stop by, paint some candles, explore the shop, and discover our collection of Halloween goodies and seasonal handmade goods!\n\nStore Hours are Tuesday-Friday 11am-5pm, Saturday 10am-5pm, and Sunday 1-5pm.",
+"link": "https://www.dimehandmade.com/in-person/first-friday-oct-j2t3t",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rec5DXnwC2HbMViWD",
+"verified": true,
+"db": true,
+"id": "db-rec5DXnwC2HbMViWD",
+"rids": [
+"rec5DXnwC2HbMViWD",
+"recHwrVZ90L7NV5aj",
+"recpCXkphVwUmJbsn",
+"recQa2x6RmNYembhg",
+"recSK5i6k5Hp90Bzh",
+"rec9E0ItqFP60ST6w",
+"rechB7l7gRs1ugg4R",
+"reciEUdBieqx0lHyC",
+"rec6rrkX2S0MkeQ3x",
+"recGeYKLWCZsOHEPq",
+"recYqYBTIpTNlp7pJ",
+"recwHYavzAvfYy9J9",
+"recnNVTJbsh2cI7ld",
+"recjaR7c6hozKEqbb",
+"recjn93YTtNH2HatW",
+"rec47uMTS35hh5pR4",
+"recaI05cDz0Md1Qis",
+"recrLYajLRUYbsLOM",
+"recL2ooEhIfi2Fiuu",
+"recbO3pw7qR7p7G8K",
+"rectN5mAN8EsPnbkp",
+"recWQMdZo6sx3ZS4k",
+"rec4DisW6vOFZbukV",
+"recpegCm9dkBoPuSo",
+"recUu97kQsFT6Sx4A",
+"recz1yCMBg4INLvvG",
+"rec2s8U6fXU5DcGob",
+"recXVrilKtUT9421V",
+"recemhqF56I3BEiW9",
+"reczoLOWSHCWnnEDi",
+"recMJNXbLJvexyelJ"
+],
+"start": "2026-10-01",
+"end": "2026-10-31",
+"dates": [
+"2026-10-01",
+"2026-10-02",
+"2026-10-03",
+"2026-10-04",
+"2026-10-05",
+"2026-10-06",
+"2026-10-07",
+"2026-10-08",
+"2026-10-09",
+"2026-10-10",
+"2026-10-11",
+"2026-10-12",
+"2026-10-13",
+"2026-10-14",
+"2026-10-15",
+"2026-10-16",
+"2026-10-17",
+"2026-10-18",
+"2026-10-19",
+"2026-10-20",
+"2026-10-21",
+"2026-10-22",
+"2026-10-23",
+"2026-10-24",
+"2026-10-25",
+"2026-10-26",
+"2026-10-27",
+"2026-10-28",
+"2026-10-29",
+"2026-10-30",
+"2026-10-31"
+],
+"time": "11am–8pm",
+"img": "img/attiRl9TnPQJqUxON.webp"
+},
+{
+"title": "Paint Tapered Candles",
+"venue": "",
+"address": "118 E McKinney St, Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"art",
+"free"
+],
+"desc": "Stop by the shop and paint your own tapered candles! Choose from a rainbow of beautiful colors and make candles to match your home, your Halloween decor, or simply your own style.\n\nTapered candles are available for purchase starting at $6.50 for a pair of two. Our tapered candles are hand-dipped and made with beeswax, premium waxes, and beautiful dyes.\n\nWe’ll provide the paints and a place to create. While you’re here, enjoy our other free, all-ages activities! \n\nThe Dime Store is an artist owned, artist run local shop in the heart of Denton featuring the work of talented local artists and makers. Stop by, paint some candles, explore the shop, and discover our collection of Halloween goodies and seasonal handmade goods!\n\nNo need to register. Just drop by and create! Store Hours are Tuesday-Friday 11am-5pm, Saturday 10am-5pm, and Sunday 1-5pm.",
+"link": "https://www.dimehandmade.com/in-person/first-friday-oct-j2t3t",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recXzlMSVi2Psvm5q",
+"verified": true,
+"db": true,
+"id": "db-recXzlMSVi2Psvm5q",
+"start": "2026-10-01",
+"time": "10am",
+"img": "img/attugL9CqUmV5fFmv.webp"
+},
+{
+"title": "Postcards from Halloween Town",
+"venue": "",
+"address": "118 E McKinney Street, Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"allmonth",
+"art",
+"family",
+"free"
+],
+"desc": "Send a little spooky cheer to someone you love!\n\nStop by The Dime Store anytime during our regular store hours to pick out a special Halloween postcard designed and illustrated by local artists. We’ll have art supplies available so you can color, decorate, and make your postcard your own.\n\nThen, choose your adventure: Keep it as a little Halloween collectible or drop it in our spooky lil’ mailbox and we’ll mail it for you!\n\nThis is a free craft for all ages and abilities, and no registration is required. Just drop in, get creative, and enjoy some seasonal crafting!\n\nStore Hours\nTuesday–Friday: 11am–5pm\nSaturday: 10am–5pm\nSunday: 1–5pm\n\nThe Dime Store is an artist-owned, artist-run handmade shop in the heart of Denton, featuring the work of artists and makers we love. We’ll also have a fun selection of Halloween goodies waiting for you!",
+"link": "https://www.dimehandmade.com/in-person/october-crafting",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recyLYZUd5vlpAcBA",
+"verified": true,
+"db": true,
+"id": "db-recyLYZUd5vlpAcBA",
+"rids": [
+"recyLYZUd5vlpAcBA",
+"recVwGO3a8ChGkKqL",
+"rec3lfG8XJEshXtaQ",
+"recjpJ5IRk7JwzPM4",
+"recaigDonI0fVdIAa",
+"recOhCDdgDg2WUvi6",
+"recKGba8qD9oYTMXJ",
+"recMNGyANBWQbvQsa",
+"recxKK1n5UvcafBG7",
+"recTshHGmbbwnyngD",
+"recxcYs1B6WfuBIfy",
+"recSWfNv1VR02f8BO",
+"recrfyHca1X7IUOCc",
+"recom5kjEd4pCe1oF",
+"reciZA9iKGSrX9hM0",
+"recPHJI6jDRHyglkR",
+"recnKIoSIBXPUyHjB",
+"recyS7fcbRDRCWLe0",
+"recbKudN7SNioI3Mk",
+"recoaaMaebfwnEgNc",
+"recrNEIcnPbd30DaH",
+"recOMG89XKPbccE1j",
+"recbSveOAfSewKJDI",
+"rec9FXY6DnhbzCAGN",
+"recUXIsTUN0qTr9G9",
+"rec8nJFtXfoSFfCoW",
+"reckeSPnYa4gzoGD0",
+"recXayYHbMF0uuwtn",
+"recFMjzQ2VcdviP5k",
+"rec0pwbzTTVO3IXPX",
+"rec6UiKrmZ3t4Jh4T",
+"rec6puOGBDZe6ZoD2"
+],
+"start": "2026-10-01",
+"end": "2026-10-31",
+"dates": [
+"2026-10-01",
+"2026-10-02",
+"2026-10-03",
+"2026-10-04",
+"2026-10-05",
+"2026-10-06",
+"2026-10-07",
+"2026-10-08",
+"2026-10-09",
+"2026-10-10",
+"2026-10-11",
+"2026-10-12",
+"2026-10-13",
+"2026-10-14",
+"2026-10-15",
+"2026-10-16",
+"2026-10-17",
+"2026-10-18",
+"2026-10-19",
+"2026-10-20",
+"2026-10-21",
+"2026-10-22",
+"2026-10-23",
+"2026-10-24",
+"2026-10-25",
+"2026-10-26",
+"2026-10-27",
+"2026-10-28",
+"2026-10-29",
+"2026-10-30",
+"2026-10-31"
+],
+"time": "Times vary by date",
+"times": {
+"2026-10-01": "10am–5pm & 11am–8pm",
+"2026-10-02": "11am–8pm",
+"2026-10-03": "11am–8pm",
+"2026-10-04": "11am–8pm",
+"2026-10-05": "11am–8pm",
+"2026-10-06": "11am–8pm",
+"2026-10-07": "11am–8pm",
+"2026-10-08": "11am–8pm",
+"2026-10-09": "11am–8pm",
+"2026-10-10": "11am–8pm",
+"2026-10-11": "11am–8pm",
+"2026-10-12": "11am–8pm",
+"2026-10-13": "11am–8pm",
+"2026-10-14": "11am–8pm",
+"2026-10-15": "11am–8pm",
+"2026-10-16": "11am–8pm",
+"2026-10-17": "11am–8pm",
+"2026-10-18": "11am–8pm",
+"2026-10-19": "11am–8pm",
+"2026-10-20": "11am–8pm",
+"2026-10-21": "11am–8pm",
+"2026-10-22": "11am–8pm",
+"2026-10-23": "11am–8pm",
+"2026-10-24": "11am–8pm",
+"2026-10-25": "11am–8pm",
+"2026-10-26": "11am–8pm",
+"2026-10-27": "11am–8pm",
+"2026-10-28": "11am–8pm",
+"2026-10-29": "11am–8pm",
+"2026-10-30": "11am–8pm",
+"2026-10-31": "11am–8pm"
+},
+"img": "img/attxabGbZrFrAY7tT.webp"
+},
+{
+"title": "Rocky Horror Picture Show",
+"venue": "",
+"address": "331 E Hickory St Denton, TX 76201",
+"cost": "Ticketed",
+"tags": [
+"21plus",
+"food",
+"show"
+],
+"desc": "Get ready to do the Time Warp again!? Lost Bastardos is bringing their cult-favorite, high-energy shadow cast performance of The Rocky Horror Picture Show back to Harvest House in the Home of Happiness - DENTON.\nThis one-of-a-kind experience combines the iconic film with live performance, outrageous audience participation, and all the wild energy that makes Rocky Horror a tradition.\nTickets are available at the door only! (And the best part, they’re only $2)\n21+\nProp packs will be $7 - no outside prop packs/food/drinks",
+"link": "https://www.facebook.com/share/1EaRZkVLig/",
+"tickets": "At the door",
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rectVnfxCADLmXwgt",
+"verified": true,
+"db": true,
+"id": "db-rectVnfxCADLmXwgt",
+"start": "2026-10-01",
+"time": "8:30pm–11:59pm",
+"img": "img/attUXk4d04xm7fmKx.webp"
+},
+{
+"title": "Spirits of the cantina",
+"venue": "",
+"address": "110 w mulberry st",
+"cost": "No ticket needed",
+"tags": [
+"21plus",
+"allmonth",
+"food",
+"free"
+],
+"desc": "The Spirits of the Cantina\n\n\nStep away from the crowds and into A Fine Cantina for The Spirits of the Cantina — a month-long celebration of Mexican legends, cocktails, food, and a little Halloween mystery.\n\nDiscover The Spirits Collection, five limited-edition cocktails inspired by Mexican legends and tradition: La Llorona, El Charro Negro, El Nahual, La Pascualita, and Las Ánimas.\n\nCome hungry, too. October brings Barbacoa Tacos and our Pumpkin Spice Tres Leches Cake, alongside our menu of Mexican-inspired tapas.\n\nWhether you’re visiting Denton for Halloween or already call it home, make Wild Cactus part of your October. Settle in, share a few plates, try a Spirit, and experience the cocktails, atmosphere, and warm hospitality of the cantina.\n\nCome hungry. Try a Spirit. Stay awhile.",
+"link": "Wildcactuscantina.com",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recxgOJuw23DWoYun",
+"verified": true,
+"db": true,
+"id": "db-recxgOJuw23DWoYun",
+"rids": [
+"recxgOJuw23DWoYun",
+"recTovAONOEPZJS1R",
+"recoxD02mY0I75sdS",
+"recKqp7j71deABhCR",
+"recVqP2em1SxlbgeM",
+"recvc1y4PGOW4tHtF",
+"recFy5H3gTaN6PpI1",
+"recXsQJFrQMqcEtMW",
+"recSLHVgcwkhreMbV",
+"recg4PFgXtNU0tEk9",
+"recTzGITYbl6KqGvo",
+"recgQZ6BvHpHzAyi8",
+"rec75mQja38J87J0e",
+"recVVN2ymjVOs6YDI",
+"recbb0Nto2nyPvzow",
+"recuU6YnABWGC92I9",
+"recNahpgTPUKdZts5",
+"rectuCzPUgCKSZle9",
+"reco5XEI07VEa8LGu",
+"recgQTuFB3ErpXjUp",
+"recbkFuElb7wZ3LQw",
+"receVcRW1dD5zjftO",
+"recM9rcY4Gedk61Zj",
+"rec8w7uKtjp72mwzZ",
+"recco5p6IYkj8eYAL",
+"rechgN39fxUxqAPVT",
+"recXijL6E1GMCJ2OH",
+"recwTH7TBgpHFY5KU",
+"reccJBu5yf9Ir8JQZ",
+"recxTqDR310rkt502",
+"rec1KdumhXiDrJzcx"
+],
+"start": "2026-10-01",
+"end": "2026-10-31",
+"dates": [
+"2026-10-01",
+"2026-10-02",
+"2026-10-03",
+"2026-10-04",
+"2026-10-05",
+"2026-10-06",
+"2026-10-07",
+"2026-10-08",
+"2026-10-09",
+"2026-10-10",
+"2026-10-11",
+"2026-10-12",
+"2026-10-13",
+"2026-10-14",
+"2026-10-15",
+"2026-10-16",
+"2026-10-17",
+"2026-10-18",
+"2026-10-19",
+"2026-10-20",
+"2026-10-21",
+"2026-10-22",
+"2026-10-23",
+"2026-10-24",
+"2026-10-25",
+"2026-10-26",
+"2026-10-27",
+"2026-10-28",
+"2026-10-29",
+"2026-10-30",
+"2026-10-31"
+],
+"time": "5pm–11:59pm",
+"img": "img/attwdaoh0EqV0n23k.webp"
+},
+{
+"title": "The Haunted Lacy Hotel at Mexican Oak",
+"venue": "",
+"address": "100 West Oak Street #160, Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"haunted",
+"free"
+],
+"desc": "You are invited to travel back in time at Mexican Oak as it is reimagined into the Haunted Lacy Hotel! The Lacy Hotel was the 1st building built right where Mexican Oak stands! It was also the 1st hotel and known for one of the best places to eat in Denton. So for the haunting details...... A known outlaw Sam Bass worked at The Lacy hotel.It was said that one of his associates may have been responsible for the tragic fire that burned the hotel down in 1884, taking with it one of the last known survivors of the Texas Revolution! Then it get's spooky, in 1924 The May building, that was built where the Lacy once stood also burned to the ground. With these tragic misfortunes many say you can still feel the restless souls affected by these events. So, travel back with us to bellhops, southern belles, gentleman and carpetbaggers. Too bad all they can do is haunt us... you'll have to come visit and see if you catch a haunting glimpse in to The Lacy's background, be greeted by a zombified bellhop or be served by a long dead server. You never know what you may experience around every corner.",
+"link": "mexicanoak.com",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=reckx1soYWStz21WT",
+"verified": true,
+"db": true,
+"id": "db-reckx1soYWStz21WT",
+"start": "2026-10-01",
+"time": "11am–11pm",
+"img": "img/attvazh4K6qYTrjti.webp"
+},
+{
+"title": "The Haunted Lacy Hotel at Mexican Oak",
+"venue": "",
+"address": "100 West Oak Street #160, Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"haunted",
+"free"
+],
+"desc": "You are invited to travel back in time at Mexican Oak as it is reimagined into the Haunted Lacy Hotel! The Lacy Hotel was the 1st building built right where Mexican Oak stands! It was also the 1st hotel and known for one of the best places to eat in Denton. So for the haunting details...... A known outlaw Sam Bass worked at The Lacy hotel.It was said that one of his associates may have been responsible for the tragic fire that burned the hotel down in 1884, taking with it one of the last known survivors of the Texas Revolution! Then it get's spooky, in 1924 The May building, that was built where the Lacy once stood also burned to the ground. With these tragic misfortunes many say you can still feel the restless souls affected by these events. So, travel back with us to bellhops, southern belles, gentleman and carpetbaggers. Too bad all they can do is haunt us... you'll have to come visit and see if you catch a haunting glimpse in to The Lacy's background, be greeted by a zombified bellhop or be served by a long dead server. You never know what you may experience around every corner.",
+"link": "mexicanoak.com",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recyMBXotIIFGSS4b",
+"verified": true,
+"db": true,
+"id": "db-recyMBXotIIFGSS4b",
+"start": "2026-10-01",
+"time": "11am–11:59pm",
+"img": "img/attl4uzEoflJIG03D.webp"
+},
+{
+"title": "Twilight Tunes",
+"venue": "",
+"address": "108 Industrial St, Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"allmonth",
+"free",
+"market",
+"music"
+],
+"desc": "Twilight Tunes is a Free Concert Series in Downtown Denton. Every Thursday in October, enjoy live music from local bands. Bring your chair and a bite to eat and enjoy the sounds of Denton. This fall there will be a Twilight Market with local artists and makers selling their Halloween and Fall themed works!",
+"link": "https://www.downtowndenton.org/twilight-tunes",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recw40BeIc93FQ0Lf",
+"verified": true,
+"db": true,
+"id": "db-recw40BeIc93FQ0Lf",
+"rids": [
+"recw40BeIc93FQ0Lf",
+"reclagNXchbtsySqP",
+"recQirWjDF58tnIAA",
+"rechj7ZUASIX95OET"
+],
+"start": "2026-10-01",
+"end": "2026-10-22",
+"dates": [
+"2026-10-01",
+"2026-10-08",
+"2026-10-15",
+"2026-10-22"
+],
+"time": "6pm–7:30pm",
+"img": "img/attCkEPkixkX0YuqK.webp"
+},
+{
+"title": "WinCo Foods Food Drive for Freedom House Food Pantry",
+"venue": "",
+"address": "WinCo Foods, 2645 W University Dr., Denton TX 76209",
+"cost": "No ticket needed",
+"tags": [
+"allmonth",
+"food",
+"free"
+],
+"desc": "WinCo Foods and Freedom Food Pantry are partnering together this month to eliminate the fear of hunger!\nPlease consider donating items to help our neighbors in need!\n\nItems Needed Most:\n-Canned Food\n-Peanut Butter\n-Rice\n-Beans\n-Pasta\n\n*Other non-perishable items accepted as well. No Expired items please. \n\nShop WinCo. Feed a Neighbor.",
+"link": null,
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rec3oBU7wIVKgjUnB",
+"verified": true,
+"db": true,
+"id": "db-rec3oBU7wIVKgjUnB",
+"rids": [
+"rec3oBU7wIVKgjUnB",
+"recyGZ0jVonVrbgMj",
+"recAs9SRsCyF2iltW",
+"rechkpWY2pt2GVc6r",
+"recnhdS0OwD1qz3p5"
+],
+"start": "2026-10-01",
+"end": "2026-10-29",
+"dates": [
+"2026-10-01",
+"2026-10-08",
+"2026-10-15",
+"2026-10-22",
+"2026-10-29"
+],
+"time": "Times vary by date",
+"times": {
+"2026-10-01": "1:30pm–11:30pm",
+"2026-10-08": "1:30pm–10:30pm",
+"2026-10-15": "1:30pm–10:30pm",
+"2026-10-22": "1:30pm–10:30pm",
+"2026-10-29": "1:30pm–10:30pm"
+}
+},
+{
+"title": "Creature Feature - Opening Reception",
+"venue": "",
+"address": "207 N. Elm St, Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"art",
+"free"
+],
+"desc": "Join us on Friday, October 2 from 6 p.m. - 8 p.m. for the opening reception of Creature Feature!\n\nExperience the mysterious, the weird and the unexplained in this special Halloween exhibition featuring various creatures of lore! From cute to creepy to fantastically freaky, you will encounter a wide range of wild and weirdly-wonderous critters.\n\nThis juried exhibit features 35 works of various mediums from artists around the country and will be on display in the Mezzanine Level gallery. Light refreshments will be served during the reception. \n\nPLEASE NOTE: The Mezzanine Level is only accessible via staircase.\n\nThe exhibition will be available to view from October 1 - 31 at the UNT CoLab.",
+"link": "https://www.facebook.com/events/1060178390221748/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22external_search_engine%22%7D%2C%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rec46sCYhbJpjDIkK",
+"verified": true,
+"db": true,
+"id": "db-rec46sCYhbJpjDIkK",
+"start": "2026-10-02",
+"time": "6pm–8pm",
+"img": "img/att0JOfGJn64B5mr1.webp"
+},
+{
+"title": "DENTON HAUNTS Ghost Tour",
+"venue": "",
+"address": "John B. Denton's gravesite is 110 West Hickory Street, Denton",
+"cost": "Ticketed",
+"tags": [
+"allmonth",
+"tour"
+],
+"desc": "DENTON HAUNTS Ghost Tour is a 1.5-hour walking tour of the downtown Denton Square which educates & entertains with TRUE local ghost stories! Join us for spooky evening stroll around the Denton County Courthouse-on-the-Square Museum and downtown Denton Square! This in-person meetup at the Grave of Capt. Denton on the downtown Courthouse lawn will take you on a thrilling walkabout tour through the haunted history of Denton's ghostly legends. Be ready to explore eerie tales, ghostly legends, and just maybe experience the paranormal firsthand yourself.\n\nWhether you're a seasoned ghost hunter or just looking for chilling true tales, this rated PG-13 event is perfect for adventurous thrill-seekers. Don't miss out on this unforgettable opportunity to uncover the mysteries lurking in the shadows of Denton TX, but availability is limited!",
+"link": "https://www.facebook.com/DentonHaunts/",
+"tickets": "https://www.eventbrite.com/e/2026-denton-haunts-ghost-walk-tickets-1994097729990",
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recx5vFa4CDB82s2n",
+"verified": true,
+"db": true,
+"id": "db-recx5vFa4CDB82s2n",
+"rids": [
+"recx5vFa4CDB82s2n",
+"recewe3uOweMFMZcR",
+"rec5DRmnNQBK7C3x6",
+"recLM91rXlqWifcco",
+"recqvBEvrSYamVy3c",
+"recFhbgbalxzEcboo"
+],
+"start": "2026-10-02",
+"end": "2026-11-07",
+"dates": [
+"2026-10-02",
+"2026-10-09",
+"2026-10-16",
+"2026-10-23",
+"2026-10-30",
+"2026-11-07"
+],
+"time": "5:30pm–8pm",
+"img": "img/attuOX7S2ZZZIYFli.webp"
+},
+{
+"title": "Denton Historic Tours presents, \"Spooks, Spirits, and Shadows Walking Tour\"",
+"venue": "",
+"address": "Meet at the tomb of John Denton located near the courthouse on the square in Denton, Texas.",
+"cost": "Ticketed",
+"tags": [
+"allmonth",
+"tour"
+],
+"desc": "Step into the haunted heart of Denton this Halloween season for the Spooks, Spirits, and Shadows Walking Tour. Stroll the historic Denton Square as chilling tales of restless spirits, local legends, and mysterious happenings come to life. Not all spirits will be spectral, some may be hard. Whether you're a skeptic, a believer, or just looking for a unique Halloween experience, this 1.5 hour walking tour blends history, haunting stories, and fun into one delightfully eerie adventure.",
+"link": "https://www.dentoncountyevents.com/business-two",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rectLbuwpq5Qnkx1W",
+"verified": true,
+"db": true,
+"id": "db-rectLbuwpq5Qnkx1W",
+"rids": [
+"rectLbuwpq5Qnkx1W",
+"rec7YBzaHinjqffNH",
+"recTF6uTeyhgE5UyN",
+"recMj5JHMDX8lqOOI"
+],
+"start": "2026-10-02",
+"end": "2026-10-23",
+"dates": [
+"2026-10-02",
+"2026-10-09",
+"2026-10-16",
+"2026-10-23"
+],
+"time": "6pm",
+"img": "img/attvucKsBJgb46FYc.webp"
+},
+{
+"title": "Denton Senior Center Spook-tacular Cinema Night",
+"venue": "",
+"address": "509 N Bell Ave, Denton, TX 76201",
+"cost": "Ticketed",
+"tags": [
+"food"
+],
+"desc": "Get ready for a spook-tacular evening of delicious food, fun, and a frightfully good movie! Join us for a 3-course Halloween dinner and movie night at the Senior Center. But there’s a special twist—you get to vote on the movie we watch!",
+"link": "https://secure.rec1.com/TX/city-of-denton-tx/catalog/index/f94a82c22c32e99980774d06b4655fee?filter=c2VhcmNoPWNpbmVtYQ==",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recPVFMYJeRc0QiRA",
+"verified": true,
+"db": true,
+"id": "db-recPVFMYJeRc0QiRA",
+"start": "2026-10-02",
+"time": "6pm–9pm",
+"img": "img/attiP4U2VRoZbLond.webp"
+},
+{
+"title": "First FRIGHT-day",
+"venue": "",
+"address": "Events take place all around Downtown Denton!, 317 W Mulberry St, Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"art",
+"food",
+"music",
+"free"
+],
+"desc": "The First Friday of every month, Downtown Denton comes alive with art, live music, food, drinks and something happening on every block, and October is no exception. Explore the live music, gallery openings, and a chance to meet the local artists that helped make Denton Halloween come alive! There are tours, florals, and even a spook-easy. See all the details & more on the website.",
+"link": "https://www.downtowndenton.org/first-fridays",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recf8Ks4qHi0xZYHI",
+"verified": true,
+"db": true,
+"id": "db-recf8Ks4qHi0xZYHI",
+"start": "2026-10-02",
+"time": "4pm–10pm",
+"img": "img/attsNOUCQ1CKWisca.webp"
+},
+{
+"title": "Halloween Decor & Ghost Stories Tour - First FRIGHTday",
+"venue": "",
+"address": "207 N Elm St, Denton, TX 76201",
+"cost": "Ticketed",
+"tags": [
+"tour"
+],
+"desc": "Join lil'D tours for the First Friday Halloween Decor Preview on October 2nd at 5pm! Enjoy the start of the 31 Days of Denton Halloween! 🎃 Explore Downtown Denton Foundation's decoration grant winners and hear their thrilling ghost stories, and meet some of the artists that helped turn Downtown into The Halloween Capital of Texas 👻",
+"link": "https://www.facebook.com/share/1Mtx9Gw7C3/",
+"tickets": "https://www.downtowndenton.org/product/first-friday-halloween-decor-preview/6OO3HF5M5ZXM4HXXTHXANM2N",
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rec5uEqn9lLyxNTy0",
+"verified": true,
+"db": true,
+"id": "db-rec5uEqn9lLyxNTy0",
+"start": "2026-10-02",
+"time": "5pm–6:30pm",
+"img": "img/attyMiQXK2PZGrBD1.webp"
+},
+{
+"title": "Halloween Town Market",
+"venue": "",
+"address": "301 E McKinney St, Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"allmonth",
+"free",
+"market"
+],
+"desc": "Join us Thursdays through Sundays during the month of October for the Halloween Town Market. Get your shop on and peruse the wares of 25 local creatives. Each night will have a different set of artists, so make sure to visit often! While you are there, visit the other artist-made attractions in Quakertown Park, like the Scary Chairy Orchard, Ghastly Gardens, and Don't Look.\n\nVENDORS NEEDED! Apply via the link below.",
+"link": "https://www.dentonhalloween.com/vendors",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=reczQsqFodU3clTQD",
+"verified": true,
+"db": true,
+"id": "db-reczQsqFodU3clTQD",
+"rids": [
+"reczQsqFodU3clTQD",
+"recp2hc2RwthbZGn5",
+"recemkQot4HU6BaIH",
+"rec7HI583qh97IRVG",
+"receEQmEsMwgOZf4M",
+"recTeaYWnMwNceyOL",
+"rec4mivKAR61EZ4mV",
+"rec8FHwFzJe6RQS5R",
+"recGy9KMaJrsL9BV7",
+"recDr8dvf9jY1HLzq",
+"recXrUyqvc3h4NSQL",
+"recF65ju0fROTpeo1",
+"recTGDfu6hz9E9aMI",
+"recbvRZRA7utSEl2T",
+"reca5EEN81pkZmQNG"
+],
+"start": "2026-10-02",
+"end": "2026-10-31",
+"dates": [
+"2026-10-02",
+"2026-10-03",
+"2026-10-04",
+"2026-10-08",
+"2026-10-09",
+"2026-10-10",
+"2026-10-15",
+"2026-10-16",
+"2026-10-17",
+"2026-10-18",
+"2026-10-22",
+"2026-10-23",
+"2026-10-29",
+"2026-10-30",
+"2026-10-31"
+],
+"time": "6pm–10pm",
+"img": "img/attxwlB1bLrZiiYlb.webp"
+},
+{
+"title": "Hannah's Spookeasy",
+"venue": "",
+"address": "111 W Mulberry Street, Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"21plus",
+"allmonth",
+"food",
+"free",
+"music"
+],
+"desc": "As dusk falls, Friday & Saturday nights at Hannah’s, the bar transforms into a Spookeasy—set on the grounds of a turn-of-the-century blacksmith shop and inspired by Denton’s storied haunted history.\n\n🎶 Live music | 8–10 PM\n🍸 Spooky cocktails & zero-proof mocktails\n🍽️ Late-night light bites & frights menu\n☕ Coffee drinks & desserts\n🥃 Last call | 10:30 PM\n\nEvery Friday & Saturday in October",
+"link": "https://www.facebook.com/events/1385280706261384?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22your_upcoming_events_unit%22%2C%22surface%22%3A%22bookmark%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22your_upcoming_events_unit%22%2C%22surface%22%3A%22bookmark%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22your_upcoming_events_unit%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recF0ufcKPS6L3lnD",
+"verified": true,
+"db": true,
+"id": "db-recF0ufcKPS6L3lnD",
+"rids": [
+"recF0ufcKPS6L3lnD",
+"recsUaKQTXQCFGYLA",
+"rectxowM9faydiXfu",
+"recSIOwpUDHInJHSK",
+"rec26buTYHOQZD6si",
+"recJGCOsNplYfnEvn",
+"recHGKVletGnoJb7G",
+"reconqOagWYSrG6qe",
+"recRZWhYx8AXDfeeN"
+],
+"start": "2026-10-02",
+"end": "2026-10-30",
+"dates": [
+"2026-10-02",
+"2026-10-03",
+"2026-10-09",
+"2026-10-10",
+"2026-10-16",
+"2026-10-17",
+"2026-10-23",
+"2026-10-24",
+"2026-10-30"
+],
+"time": "8pm–10:30pm",
+"img": "img/attetFKld1NDlhVNb.webp"
+},
+{
+"title": "Masquerade Mask-Making Craft Night",
+"venue": "",
+"address": "121 N. Elm St. Denton, TX",
+"cost": "No ticket needed",
+"tags": [
+"art",
+"free"
+],
+"desc": "Decorate your very own Venetian-style masquerade mask with feathers, jewels, glitter, & more! \n$10 - includes mask & all decor \nHosted by Les Muses Vintage boutique",
+"link": "https://www.instagram.com/lesmuses_vintage?stkn=NXY2YXhuY251bWE0&utm_source=qr",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recLFSwgjrGqICoko",
+"verified": true,
+"db": true,
+"id": "db-recLFSwgjrGqICoko",
+"start": "2026-10-02",
+"time": "5pm–8pm",
+"img": "img/attlDwTxLduUmrms0.webp"
+},
+{
+"title": "Movie in the Park: The Addams Family (2019)",
+"venue": "",
+"address": "Quakertown Park located at 321 E. McKinney St. Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"family",
+"food",
+"free"
+],
+"desc": "Fun for the whole family! Bring your blankets and lawn chairs to enjoy a FREE showing of The Addams Family (2019). Preshow activities begin at 6 p.m., and the movie starts at 7 p.m., food trucks and refreshments will also available for purchase.",
+"link": "https://www.cityofdenton.com/1240/Movies-in-the-Park",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recwZFuccaZTnkQkB",
+"verified": true,
+"db": true,
+"id": "db-recwZFuccaZTnkQkB",
+"start": "2026-10-02",
+"time": "6pm–9pm",
+"img": "img/attWctiQf746qGhYr.webp"
+},
+{
+"title": "Movie Tavern Denton - Horror Throwbacks!",
+"venue": "",
+"address": "916 W. University, Denton Tx, 76201",
+"cost": "Ticketed",
+"tags": [
+"allmonth"
+],
+"desc": "Join us for this awesome throwback, Donnie Darko, on the 2nd and 4th at 10:45pm at Movie Tavern in Denton!!",
+"link": "https://www.marcustheatres.com/theatre-locations/denton-cinema",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=reclo1nQbBdUhFKvR",
+"verified": true,
+"db": true,
+"id": "db-reclo1nQbBdUhFKvR",
+"rids": [
+"reclo1nQbBdUhFKvR",
+"recjVvAtXu9UBUIcQ",
+"rec6SUdJmbwL5YCcP",
+"rec5eKoljairJ45oQ",
+"recyy88Kky0ohPyQo",
+"rec9QV0fqeiZXoQ2T",
+"rec6PJQu28LLPRaQf",
+"recyOwblxn1VvyOm6",
+"rec67He6W4P9q0RHn",
+"recvKnv9tWi1CViY9"
+],
+"start": "2026-10-02",
+"end": "2026-10-31",
+"dates": [
+"2026-10-02",
+"2026-10-09",
+"2026-10-10",
+"2026-10-16",
+"2026-10-17",
+"2026-10-23",
+"2026-10-24",
+"2026-10-29",
+"2026-10-30",
+"2026-10-31"
+],
+"time": "Times vary by date",
+"times": {
+"2026-10-02": "10:45pm–10:45pm",
+"2026-10-09": "10:45pm",
+"2026-10-10": "10:45pm–12:30am",
+"2026-10-16": "10:45pm–midnight",
+"2026-10-17": "10:45pm–1am",
+"2026-10-23": "10:45pm–1am",
+"2026-10-24": "10:45pm–1am",
+"2026-10-29": "8pm–10:45pm",
+"2026-10-30": "8pm–10:45pm",
+"2026-10-31": "8pm–10:45pm"
+},
+"img": "img/attivReLpeCffyK5M.webp"
+},
+{
+"title": "Open Studio: Drop-In Workshops",
+"venue": "",
+"address": "715 North Locust Street Denton, Texas 76201",
+"cost": "Ticketed",
+"tags": [
+"art",
+"family"
+],
+"desc": "Looking for a fun way to spend time together? Join us for Open Studio at Wildflower! \n\nWhether you’re starting a new family tradition or exploring a fun get-together with friends, drop-in workshops are an easy way to make memories (and a snazzy project to take home)!\n\n• Pre-register for drop-in workshops here or sign up at the door. Space is limited; we recommend registering in advance.\n\n• Projects include: Canvas Painting, Pumpkin Painting, Metallic Watercolor Painting\n\n• All workshop projects are come-and-go & geared toward all ages.",
+"link": "https://www.wildflowerartstudio.net/workshops/october-open-studio",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recZHVbkFldGY6nBc",
+"verified": true,
+"db": true,
+"id": "db-recZHVbkFldGY6nBc",
+"start": "2026-10-02",
+"time": "5:30pm–8:30pm",
+"img": "img/attpWZ31nMbfH1oZg.webp"
+},
+{
+"title": "Open Studio: Drop-In Workshops + All-Ages Fun",
+"venue": "",
+"address": "715 North Locust Street Denton, Texas 76201",
+"cost": "No ticket needed",
+"tags": [
+"art",
+"family",
+"free"
+],
+"desc": "Looking for a fun way to spend time together? Join us for Open Studio at Wildflower! \n\nWhether you’re starting a new family tradition or exploring a fun get-together with friends, drop-in workshops are an easy way to make memories (and a snazzy project to take home)!\n\n• Pre-register for drop-in workshops here or sign up at the door. Space is limited, we recommend registering in advance.\n\n• Projects include: Canvas Painting, Pumpkin Painting, Metallic Watercolor Painting\n\n• All workshop projects are come-and-go & geared toward all ages.\n\n• Not interested in doing an art projects but still want to hang out? Great! You can even check out student artwork on display from our Little Makers & Master Makers Art Classes.",
+"link": "https://www.wildflowerartstudio.net/workshops/october-open-studio",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recDgSGO7TxeTh97V",
+"verified": true,
+"db": true,
+"id": "db-recDgSGO7TxeTh97V",
+"start": "2026-10-02",
+"time": "5:30pm–8:30pm",
+"img": "img/attf8FGaCud0S6mQr.webp"
+},
+{
+"title": "The Legend of Eppy & Other Artifacts of Lore - Opening Reception",
+"venue": "",
+"address": "207 N. Elm St, Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"art",
+"family",
+"free"
+],
+"desc": "Join us for the opening reception of The Legend of Eppy and Other Artifacts of Lore on Friday, October 2 from 6 p.m. - 8 p.m. to explore the history of some of the strangest and most bizarre objects in UNT Special Collections. This is one “lore drop” you won’t want to miss.\n\nEvery artifact has a story, and sometimes the story is so creepy, weird, or fascinating it becomes lore.\n\nLike the apocalyptic paintings made by a Sunday school teacher in Denton to scare kids straight, or the tiny skull kept by a boy who loved his pet hamster, Mildred, so much he could never say goodbye. This exhibit explores the concept of lore through the artifacts we leave behind, like photographs of the infamous “Wyooter” cryptid, and a book so small it caused the typesetter to go blind.\n\nNo artifact in Special Collections has such an inspired lore as Eppy, an infamous former mascot that was lost, found, stolen and returned with a suspicious injury. Countless Reddit threads document student’s search for Eppy. Abandoned after his retirement in the mid-1990’s and relegated to a stairwell in the Union, students sought out and ultimately saved this creepy, but beloved, piece of history.\n\nThe exhibition will be on view from October 1 - 31.",
+"link": "https://www.facebook.com/events/1479227408601049/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22external_search_engine%22%7D%2C%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recbKzDfJ0mA7gK6j",
+"verified": true,
+"db": true,
+"id": "db-recbKzDfJ0mA7gK6j",
+"start": "2026-10-02",
+"time": "6pm–8pm",
+"img": "img/attGmuW3AxThi4edo.webp"
+},
+{
+"title": "The Velvet NV Night Market",
+"venue": "",
+"address": "311 S Locust St Denton TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"allmonth",
+"art",
+"food",
+"free",
+"market"
+],
+"desc": "Salon NV and The Velvet Echo have partnered to bring you The Velvet NV Night Market. Every Friday we will have an incredible Artisan Market full of Vendors and local talent with amazing one of a kind goods. Food, baked goods, music, vintage, beauty, permanent jewelry, Art, tattoo artist, and so much more!! We curated and hand selected folks/businesses who put so much love into what they create…Come experience this community magic!\nEvery Friday in October 5p-9p\n311 S Locust St. Denton TX",
+"link": null,
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recDTHBVJNMrIPqV7",
+"verified": true,
+"db": true,
+"id": "db-recDTHBVJNMrIPqV7",
+"rids": [
+"recDTHBVJNMrIPqV7",
+"recS8Xo8DvE33tRD3",
+"recSMQEeXLqHlxIpZ",
+"recSob3dFwuWPtciX"
+],
+"start": "2026-10-02",
+"end": "2026-10-23",
+"dates": [
+"2026-10-02",
+"2026-10-09",
+"2026-10-16",
+"2026-10-23"
+],
+"time": "Times vary by date",
+"times": {
+"2026-10-02": "5pm–9pm",
+"2026-10-09": "5pm–9pm",
+"2026-10-16": "5pm–9pm",
+"2026-10-23": "5pm–8:30pm"
+},
+"img": "img/attEgDP72ewtI5wAV.webp"
+},
+{
+"title": "Trick or Treat Tattoo Edition",
+"venue": "",
+"address": "325 W McKinney St, Suite 109, Denton, TX, 76201",
+"cost": "No ticket needed",
+"tags": [
+"family",
+"free"
+],
+"desc": "We value artists who create in their own style in our studio so there’s lots of different specialties to peruse. Each artist will have custom tattoo flash ready to go. You can choose to trick or treat once with each artist and pick the design or multiple you vibe with the most or go for the artist who’s style you resonate with the most and see what kind of treat you get!\nA play on get what you get tattoo flash with a little bit of fate involved, what will it choose for you this spooky season?",
+"link": "https://www.instagram.com/theartistsgrove?igsh=aG5jc2N5b2w3cTlx&igsi=aG5jc2N5b2w3cTlx&utm_source=qr",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rec0vce9KmVE2pGdH",
+"verified": true,
+"db": true,
+"id": "db-rec0vce9KmVE2pGdH",
+"start": "2026-10-02",
+"time": "noon–8pm",
+"img": "img/attCftSVYSCXaFZHV.webp"
+},
+{
+"title": "Vampire’s Kiss Cocktail",
+"venue": "",
+"address": "111 Industrial St., Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"21plus",
+"allmonth",
+"food",
+"free"
+],
+"desc": "We have our Hallowine cocktail available all month. It’s a fun mix of tart and sweet, wrapped up in cherry and bubbles. It can also be made as a mocktail.",
+"link": "https://www.steveswinebar.com/",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recaeRWBUhUMG6hrS",
+"verified": true,
+"db": true,
+"id": "db-recaeRWBUhUMG6hrS",
+"rids": [
+"recaeRWBUhUMG6hrS",
+"rec1nm5j9cc0iezAW",
+"rec7VBzCK7SMQfAxt",
+"recdLhRJuob3vgt2H",
+"recSWDYd9DgMQBPCR",
+"recUBIED4vvkJnqZY",
+"recvkqfUJbjVSKzm2",
+"recNHRxjaJUpZcaXV",
+"recxEVEkvXq2uHCEy",
+"rec8FAVr35hVUMSm9",
+"recKnTdSYdyp4JfXP",
+"rec1K2gSC0wiZ5Swh",
+"recUWYwC9JxuspMlT",
+"recVHqFrIIQ0O4YYP",
+"reczR9pQPPJ89Z69m",
+"recB09XrvTdzRqSMx",
+"recbgZHPBf7lvA4Q4",
+"rech0ry24btma07Lw",
+"recvj2uSzvmx6DfuV",
+"receG4OUSc05OjfLT",
+"recyApvVGrrwxWdXy",
+"recCsNkTneQtaGHw6",
+"recd9sTPUP7zfUdvX",
+"recBZwDH9dM7DjrRr",
+"recpygRw25MdXUxXe",
+"recss7FAnn7Zb01i6",
+"recCvWgAIJfzLpB75",
+"recnLolED8tuqs79q",
+"rechfPQZ8KKAOC4NQ",
+"reciEVNelmma9Qjy6"
+],
+"start": "2026-10-02",
+"end": "2026-10-31",
+"dates": [
+"2026-10-02",
+"2026-10-03",
+"2026-10-04",
+"2026-10-05",
+"2026-10-06",
+"2026-10-07",
+"2026-10-08",
+"2026-10-09",
+"2026-10-10",
+"2026-10-11",
+"2026-10-12",
+"2026-10-13",
+"2026-10-14",
+"2026-10-15",
+"2026-10-16",
+"2026-10-17",
+"2026-10-18",
+"2026-10-19",
+"2026-10-20",
+"2026-10-21",
+"2026-10-22",
+"2026-10-23",
+"2026-10-24",
+"2026-10-25",
+"2026-10-26",
+"2026-10-27",
+"2026-10-28",
+"2026-10-29",
+"2026-10-30",
+"2026-10-31"
+],
+"time": "2pm–8pm",
+"img": "img/attGRPZ27LIWkVA6U.webp"
+},
+{
+"title": "Wolvera/ The Infamists/ tea",
+"venue": "",
+"address": "301 E. Oak St. Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"free"
+],
+"desc": "It's opening night in the big top and we're bringing the heavy!!",
+"link": "https://dentondayofthedeadfestival.com",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recow9dFogQvOSZOz",
+"verified": true,
+"db": true,
+"id": "db-recow9dFogQvOSZOz",
+"start": "2026-10-02",
+"time": "6pm–10pm",
+"img": "img/attFTwJylFGklUtVq.webp"
+},
+{
+"title": "Beginning Watercolor: Harvest Bouquet",
+"venue": "",
+"address": "Wildflower Art Studio: 715 North Locust Street Denton, Texas 76201",
+"cost": "Ticketed",
+"tags": [
+"art"
+],
+"desc": "This introductory-level workshop is an inspiring way to explore the relaxing art of Watercolor. This 1.5 hour workshop covers basic watercolor techniques including:\n\nColor-Mixing & Design\n\nIntroductory Brush Strokes & Techniques\n\nWatercolor Shading & Design\n\nAll supplies included. Workshop includes snacks + coffee.\n\nTake-Home Supply Kit ($65) includes: watercolor paint set, 2 watercolor paintbrushes + Strathmore watercolor paper pad.",
+"link": "https://www.wildflowerartstudio.net/workshops/beginning-watercolor-harvest-oct3",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rec5sFlvPAZHE6g9a",
+"verified": true,
+"db": true,
+"id": "db-rec5sFlvPAZHE6g9a",
+"start": "2026-10-03",
+"time": "noon–1:30pm",
+"img": "img/attKsg0SHWxQsVLhw.webp"
+},
+{
+"title": "Beginning Watercolor: Harvest Bouquet",
+"venue": "",
+"address": "Wildflower Art Studio: 715 North Locust Street Denton, Texas 76201",
+"cost": "Ticketed",
+"tags": [
+"art"
+],
+"desc": "This introductory-level workshop is an inspiring way to explore the relaxing art of Watercolor. This 1.5 hour workshop covers basic watercolor techniques including:\n\nColor-Mixing & Design\n\nIntroductory Brush Strokes & Techniques\n\nWatercolor Shading & Design\n\nAll supplies included. Workshop includes snacks + coffee.\n\nTake-Home Supply Kit ($65) includes: watercolor paint set, 2 watercolor paintbrushes + Strathmore watercolor paper pad.",
+"link": "https://www.wildflowerartstudio.net/workshops/beginning-watercolor-harvest-oct3",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recJTJNN6gDq6ugrH",
+"verified": true,
+"db": true,
+"id": "db-recJTJNN6gDq6ugrH",
+"start": "2026-10-03",
+"time": "noon",
+"img": "img/attc1XfbKWpenXhOx.webp"
+},
+{
+"title": "Build-Your-Own BOO-QUET!",
+"venue": "",
+"address": "Salvage Secondhand Shoppe, 225 W Oak St, Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"art",
+"free"
+],
+"desc": "We’re putting the BOO in bouquet with a flower bar pop-up featuring Flowers by Leigh on Saturday 10/3! Come build a “boo-quet” (12pm-3pm) and do a little halloween paper craft with us (all day - while supplies last) to start your spooky season off right!",
+"link": "https://www.instagram.com/p/DdwDiIOFYxN/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recpLmQyT1vLqLJB1",
+"verified": true,
+"db": true,
+"id": "db-recpLmQyT1vLqLJB1",
+"start": "2026-10-03",
+"time": "noon–3pm",
+"img": "img/attKHI0OcvWh3dzt3.webp"
+},
+{
+"title": "Cayuga All-Stars with The Denton Tarantinos",
+"venue": "",
+"address": "301 E. Oak St. Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"family",
+"music",
+"show",
+"free"
+],
+"desc": "Cayuga All-Stars: Join us on October 3, live from The Big Top, as we welcome Dallas-based cumbia band  to Denton for one night only! \nDenton Based Surf Rock masters, The Denton Tarantinos, kick off the night at 7pm\n\nThis family-friendly show is free and open to the public.",
+"link": "www.dentondayofthedeadfestival.com",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recJpbZMC1KDOT14h",
+"verified": true,
+"db": true,
+"id": "db-recJpbZMC1KDOT14h",
+"start": "2026-10-03",
+"time": "6pm–10pm",
+"img": "img/attVrMxgINqokINE3.webp"
+},
+{
+"title": "Denton Haunts Ghost Walk",
+"venue": "",
+"address": "John B. Denton's gravesite is 110 West Hickory Street, Denton",
+"cost": "Ticketed",
+"tags": [
+"allmonth",
+"tour"
+],
+"desc": "DENTON HAUNTS Ghost Tour is a 1.5-hour walking tour of the downtown Denton Square which educates & entertains with TRUE local ghost stories! Join us for spooky evening stroll around the Denton County Courthouse-on-the-Square Museum and downtown Denton Square! This in-person meetup at the Grave of Capt. Denton on the downtown Courthouse lawn will take you on a thrilling walkabout tour through the haunted history of Denton's ghostly legends. Be ready to explore eerie tales, ghostly legends, and just maybe experience the paranormal firsthand yourself.\n\nWhether you're a seasoned ghost hunter or just looking for chilling true tales, this rated PG-13 event is perfect for adventurous thrill-seekers. Don't miss out on this unforgettable opportunity to uncover the mysteries lurking in the shadows of Denton TX, but availability is limited!",
+"link": "https://www.facebook.com/DentonHaunts/",
+"tickets": "https://www.eventbrite.com/e/2026-denton-haunts-ghost-walk-tickets-1994097729990",
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rec4pYXAEKLyQTu2L",
+"verified": true,
+"db": true,
+"id": "db-rec4pYXAEKLyQTu2L",
+"rids": [
+"rec4pYXAEKLyQTu2L",
+"recmKnFWmbeXEnDZV",
+"recdOypUVXb6JOjo6",
+"rec1Bw6K57T5zdpAx",
+"rec3SU4S4QgQaNqql",
+"recDh2npvVE5ghSui"
+],
+"start": "2026-10-03",
+"end": "2026-11-06",
+"dates": [
+"2026-10-03",
+"2026-10-10",
+"2026-10-17",
+"2026-10-24",
+"2026-10-31",
+"2026-11-06"
+],
+"time": "8:30pm–10pm",
+"img": "img/attGCs5mmFCjAcES4.webp"
+},
+{
+"title": "Family Studio Saturday- Costumes",
+"venue": "",
+"address": "516 N Locust Street, Denton TX 76201",
+"cost": "Ticketed",
+"tags": [
+"art",
+"family"
+],
+"desc": "Family Studio Saturdays are an open play experience where children and adults can explore our studio side by side. Build with new materials, create in our art studio, cozy up with a new book, tell your own stories, and discover together in a space meant for making memories, connecting with community, and enjoying the magic of time together.\n\nWe can’t wait to welcome you into our studio!\n\nOn Saturday, October 3rd, the studio will have invitations and provocations set up to explore costuming through designing, making, and wearing.\n\nPrice Structure for tickets:\n$20 for first child + adult\n$10 for each additional child\n$5 for each additional adult",
+"link": "https://www.facebook.com/share/19gmqv6qVY/",
+"tickets": "https://www.thirdbendstudio.com/booking-calendar/family-saturday-studio?referral=service_list_widget",
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recIyqwtSo1SS8twd",
+"verified": true,
+"db": true,
+"id": "db-recIyqwtSo1SS8twd",
+"start": "2026-10-03",
+"time": "8:30am–11:30am",
+"img": "img/att91DE2odkHbNng7.webp"
+},
+{
+"title": "Ghost with Ritual - The U.S. Ultimate Tribute to Ghost",
+"venue": "",
+"address": "331 E Hickory St, Denton, TX 76201",
+"cost": "Ticketed",
+"tags": [
+"family",
+"food",
+"music",
+"show"
+],
+"desc": "Children of Denton… are you ready for spooky season? 👻🕸️\nJoin us at Harvest House on Saturday, October 3rd for a night dedicated to the music and performance of Ghost with Ritual - The U.S. Ultimate Tribute to Ghost. 🖤\nExpect costumes, theatrics, killer music, and plenty of spooky-season energy. Come dressed for the occasion and make a night of it with drinks + food from The Kitchen at Harvest House.\nRitual: A Tribute to Ghost\nSpecial Guest: TBD\nEntry: $20",
+"link": "https://www.facebook.com/share/1CbSmxbmUK/",
+"tickets": "At the Door",
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recSTylzJlYE70oiA",
+"verified": true,
+"db": true,
+"id": "db-recSTylzJlYE70oiA",
+"start": "2026-10-03",
+"time": "8pm–11:59pm",
+"img": "img/attSUnDATg1NVrF1a.webp"
+},
+{
+"title": "Graveyard Tales",
+"venue": "",
+"address": "215 E. Mckinney St. Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"allmonth",
+"family",
+"free"
+],
+"desc": "Join us every Saturday night in October for Graveyard Tales offered by the Lil D Storytelling Guild! From 7:00pm - 8:30pm, our storytellers will be narrating spine-tingling tales at the City Hall Cemetery located at 521 E. Mckinney St. Some seating will be available on-site, but feel free to bring your own chairs and blankets. Family friendly and available to all ages! We hope to see you there!",
+"link": null,
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recIUFuq83TmP2Btf",
+"verified": true,
+"db": true,
+"id": "db-recIUFuq83TmP2Btf",
+"rids": [
+"recIUFuq83TmP2Btf",
+"recXfIxE4wVtbw443",
+"recAjV5VXAOcTa8A4",
+"rechPf39x3uiVIDuK",
+"rec7JeXxNPgrBvY23"
+],
+"start": "2026-10-03",
+"end": "2026-10-31",
+"dates": [
+"2026-10-03",
+"2026-10-10",
+"2026-10-17",
+"2026-10-24",
+"2026-10-31"
+],
+"time": "7:30pm–8:30pm",
+"img": "img/attZHqbp4Iki3Lt4w.webp"
+},
+{
+"title": "Haunted Dungeons and Dragons",
+"venue": "",
+"address": "d20 Tavern, 112 West Oak St.",
+"cost": "Ticketed",
+"tags": [
+"allmonth"
+],
+"desc": "Calling all brave adventurers! Embark on an exciting and terrifying journey into the world of Dungeons and Dragons, where you'll encounter zombies, ghosts, and demons. Join our ongoing Adventurers Collective every Saturday for a drop in style campaign. The world continues to evolve with every session while players play as often as they like. Every session is hosted by a d20 Tavern House Dungeon Master. We provide everything you need to play. Whether you're a seasoned adventurer or a curious newcomer, there's a seat for you at our table!",
+"link": "https://d20-tavern.square.site/event-registration",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recyWkHyteBlrBArE",
+"verified": true,
+"db": true,
+"id": "db-recyWkHyteBlrBArE",
+"rids": [
+"recyWkHyteBlrBArE",
+"recwvK98j8T5OlDGc",
+"recVAnjcsO6SeBBMQ",
+"reci8g5OtHYi8zC0r"
+],
+"start": "2026-10-03",
+"end": "2026-10-24",
+"dates": [
+"2026-10-03",
+"2026-10-10",
+"2026-10-17",
+"2026-10-24"
+],
+"time": "1pm",
+"img": "img/atty9CfuOV2WEAJP2.webp"
+},
+{
+"title": "Intro to Pottery: Clay Mugs",
+"venue": "",
+"address": "Wildflower Art Studio: 715 North Locust, Denton, Texas 76201",
+"cost": "Ticketed",
+"tags": [
+"art",
+"food"
+],
+"desc": "Date: September 26, 2026\n\nTime: 3:00-5:00pm\n\nThis introductory-level workshop is a fun way to explore the relaxing art of Clay Pottery. This 2 hour workshop covers basic slab-building clay techniques.\n\nEach student will create and glaze a handmade clay mug (food-safe).\n\nGlazed Pottery will be available for pickup after being fired in the kiln (within 2-3 weeks). Shipping option available ($18).\n\nAll supplies included. Workshop includes snacks + coffee.\n\nTake-Home Supply Kit ($55) includes: air-dry clay, reusable clay mat + pottery tools to continue creating at home. Includes supplies for 3-4 additional clay projects (not food-safe).\n\nWildflower Art Studio: 715 North Locust, Denton, Texas 76201",
+"link": "https://www.wildflowerartstudio.net/workshops/claymugs-workshop-sept26",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recoo5PzwkEj5bX9N",
+"verified": true,
+"db": true,
+"id": "db-recoo5PzwkEj5bX9N",
+"start": "2026-10-03",
+"time": "2:30am–4:30am",
+"img": "img/attTp9VsnXbLI6VnS.webp"
+},
+{
+"title": "Intro to Pottery: Clay Mugs",
+"venue": "",
+"address": "Wildflower Art Studio: 715 North Locust, Denton, Texas 76201",
+"cost": "Ticketed",
+"tags": [
+"art",
+"food"
+],
+"desc": "Date: September 26, 2026\n\nTime: 3:00-5:00pm\n\nThis introductory-level workshop is a fun way to explore the relaxing art of Clay Pottery. This 2 hour workshop covers basic slab-building clay techniques.\n\nEach student will create and glaze a handmade clay mug (food-safe).\n\nGlazed Pottery will be available for pickup after being fired in the kiln (within 2-3 weeks). Shipping option available ($18).\n\nAll supplies included. Workshop includes snacks + coffee.\n\nTake-Home Supply Kit ($55) includes: air-dry clay, reusable clay mat + pottery tools to continue creating at home. Includes supplies for 3-4 additional clay projects (not food-safe).\n\nWildflower Art Studio: 715 North Locust, Denton, Texas 76201",
+"link": "https://www.wildflowerartstudio.net/workshops/claymugs-workshop-sept26",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recTJlU0cO0IBfqp1",
+"verified": true,
+"db": true,
+"id": "db-recTJlU0cO0IBfqp1",
+"start": "2026-10-03",
+"time": "2:30pm–4:30pm",
+"img": "img/att9aAKgy8X6QPSBl.webp"
+},
+{
+"title": "Intro to Pottery: Witch Hat",
+"venue": "",
+"address": "715 North Locust Street Denton, Texas 76201",
+"cost": "Ticketed",
+"tags": [
+"art"
+],
+"desc": "This introductory-level workshop is a fun way to explore the relaxing art of Clay Pottery. This 2 hour workshop covers basic hand-building clay techniques.\n\nEach student will create and glaze a clay witch hat.\n\nGlazed Pottery will be available for pickup after being fired in the kiln (within 2-3 weeks). Shipping option available ($18).\n\nAll supplies included. Workshop includes snacks + coffee.",
+"link": "https://www.wildflowerartstudio.net/workshops/clay-workshop-witchhat",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rec00cagXSbesLSDc",
+"verified": true,
+"db": true,
+"id": "db-rec00cagXSbesLSDc",
+"start": "2026-10-03",
+"time": "6pm–8pm",
+"img": "img/attEN2KcQR9eDIrpn.webp"
+},
+{
+"title": "Intro to Pottery: Witch Hat",
+"venue": "",
+"address": "715 North Locust Street Denton, Texas 76201",
+"cost": "Ticketed",
+"tags": [
+"art"
+],
+"desc": "This introductory-level workshop is a fun way to explore the relaxing art of Clay Pottery. This 2 hour workshop covers basic hand-building clay techniques.\n\nEach student will create and glaze a clay witch hat.\n\nGlazed Pottery will be available for pickup after being fired in the kiln (within 2-3 weeks). Shipping option available ($18).\n\nAll supplies included. Workshop includes snacks + coffee.",
+"link": "https://www.wildflowerartstudio.net/workshops/clay-workshop-witchhat",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recQYdSSReHeOtmYC",
+"verified": true,
+"db": true,
+"id": "db-recQYdSSReHeOtmYC",
+"start": "2026-10-03",
+"time": "6pm–8pm",
+"img": "img/attkZOaeKwwdlmfJ4.webp"
+},
+{
+"title": "Karaoke Night",
+"venue": "",
+"address": "122 E McKinney St, Denton, Tx 76201",
+"cost": "No ticket needed",
+"tags": [
+"21plus",
+"free"
+],
+"desc": "Sing your heart out with the lovely and maybe in costume? Belt out your favorite songs, or sing a duet with your besties. Let’s get musical up in here!\nThis is a 21+",
+"link": "https://www.facebook.com/events/1110089128633359",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recMxIfbfkXC3uT6H",
+"verified": true,
+"db": true,
+"id": "db-recMxIfbfkXC3uT6H",
+"start": "2026-10-03",
+"time": "8pm–1am",
+"img": "img/attkb0lMkKH5qpFaN.webp"
+},
+{
+"title": "Movie Tavern Horror Throwback!",
+"venue": "",
+"address": "916 W. University Dr, Denton Tx, 76201",
+"cost": "Ticketed",
+"tags": [],
+"desc": "Join us to see Tim Burton’s Corpse Bride on the night of the 3rd and 4th at 10:45pm!",
+"link": "https://www.marcustheatres.com/theatre-locations/denton-cinema",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rec07i3ToXenElJAf",
+"verified": true,
+"db": true,
+"id": "db-rec07i3ToXenElJAf",
+"start": "2026-10-03",
+"time": "10:45pm",
+"img": "img/attBLnsLCH5G3M5QO.webp"
+},
+{
+"title": "Recycled Books Presents - Local Horror Author Chelsea Conradt",
+"venue": "",
+"address": "200 N Locust Street, Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"show",
+"free"
+],
+"desc": "Come on out to Recycled books to meet local author of some of our favorite horror thrillers, Chelsea Conradt! Chelsea will be selling and signing books inside of Recycled Books and Records on the downtown Denton square.\n\nChelsea Conradt is the USA Today bestselling author of The Farmhouse and The Secret Attic. She writes twisty speculative thrillers and psychological horror. Her books are packed with both murder and kindness because we can be more than one thing. \n\nWhen not writing stories that make you question what’s real, she is likely watching a baking show or a true-crime documentary. She is nothing if not on brand. Chelsea lives in Texas with her husband, son, and two big dogs.",
+"link": null,
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recAN7jgiILVbK2hG",
+"verified": true,
+"db": true,
+"id": "db-recAN7jgiILVbK2hG",
+"start": "2026-10-03",
+"time": "4pm–8pm",
+"img": "img/att0SVLCkHysMPN1T.webp"
+},
+{
+"title": "Shiloh Community Garden Pumpkin Patch Festival",
+"venue": "",
+"address": "1650 Nottingham Dr., Denton, Texas   76209",
+"cost": "No ticket needed",
+"tags": [
+"family",
+"festival",
+"free"
+],
+"desc": "Shiloh Community Garden is hosting a vibrant and family-friendly Pumpkin Patch Festival at Shiloh Field Community Garden to celebrate the fall season and bring the community together. This event will feature hayrides, pumpkins for sale, and guided tours of the garden, offering a fun and educational experience for all ages.",
+"link": "https://www.facebook.com/friendsofshilohgarden",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recXDKMkhMToSt91Z",
+"verified": true,
+"db": true,
+"id": "db-recXDKMkhMToSt91Z",
+"start": "2026-10-03",
+"time": "3pm–7pm",
+"img": "img/att88jN61DaVYcw93.webp"
+},
+{
+"title": "TCAP Sponsors Free Rabies Vaccines For Pets!",
+"venue": "",
+"address": "110 W Hickory St Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"family",
+"free"
+],
+"desc": "Texas Coalition for Animal Protection (TCAP) will be hosting a cat and dog vaccine and wellness pop-up clinic on the Denton Square.\n\nIf you bring your pet dressed up in Halloween costume, their rabies vaccine will be free! \n\nEnjoy our low-cost vaccines and wellness services for pets including vaccines, heartworm testing and prevention, flea and tick prevention, and microchipping services right on the courthouse lawn. TCAP is a nonprofit helping pets and their families in North Texas receive access to preventative care at the lowest prices in DFW. Come out and see us, no appointment needed!",
+"link": "https://texasforthem.org/",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=reca0fMxORCSB0dEm",
+"verified": true,
+"db": true,
+"id": "db-reca0fMxORCSB0dEm",
+"start": "2026-10-03",
+"time": "10am–2pm",
+"img": "img/attHvr14C3EZD4Dhj.webp"
+},
+{
+"title": "Vampire Proof Your Garden with Garlic",
+"venue": "",
+"address": "Emily Fowler Central Library, 502 Oakland Street",
+"cost": "No ticket needed",
+"tags": [
+"free"
+],
+"desc": "Denton County Master Gardeners Missy McCormick and Brigid Corbett will join us to talk about how to grow garlic, the health benefits and its history with the ghouls of Halloween. Ages 18+.\nDue to limited room capacity, this is a ticketed event. Tickets will be given out at service desk 30 minutes before program starts.",
+"link": "https://denton.bibliocommons.com/events/6aa9dd07a433d308573bb3c2",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recpUBdEhTUVUcWTW",
+"verified": true,
+"db": true,
+"id": "db-recpUBdEhTUVUcWTW",
+"start": "2026-10-03",
+"time": "9:30am–10:30am",
+"img": "img/att5XDsCKsOUxkMwL.webp"
+},
+{
+"title": "Video Crypt presents… Scream (1996) on 16mm",
+"venue": "",
+"address": "409 E Sycamore Street, Denton TX 76205",
+"cost": "Ticketed",
+"tags": [],
+"desc": "The Rubber Room at Rubber Gloves Rehearsal Studio is transformed into a 16mm filmhouse all October! Presented by Video Crypt. The first screening is Wes Craven’s Scream on glorious 16mm film. \n\n\nIn the small town of Woodsboro, California, a masked killer known as Ghostface begins murdering high school students, and a group of friends must use their knowledge of horror movies to unmask the killer.\n\ndoors 730 movie 800 18+\n\n$10 at door only\n\nLimited seating",
+"link": "https://rubberglovesdenton.com/events/video-crypt-presents-scream-1996-on-16mm/",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recWRsJvCfF1VWExb",
+"verified": true,
+"db": true,
+"id": "db-recWRsJvCfF1VWExb",
+"start": "2026-10-03",
+"time": "7:30pm–8pm",
+"img": "img/att4Fs6kAfPgPmFLm.webp"
+},
+{
+"title": "Whitchy Midnight Market",
+"venue": "",
+"address": "1807 N Elm St Denton TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"family",
+"market",
+"free"
+],
+"desc": "Come join us on the first weekend of October for a night of magic , potions, sweet treats, and more!! We will have Music , games for the kids and of course vendors that will have all your wants and needs. This is a one day market so bring your broomsticks and bring your besties and let’s let the magic flow.",
+"link": "https://www.facebook.com/share/1APT2xc6A2/?mibextid=wwXIfr",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recIsU9IWiCBVGq5j",
+"verified": true,
+"db": true,
+"id": "db-recIsU9IWiCBVGq5j",
+"start": "2026-10-03",
+"time": "7pm–1am",
+"img": "img/attvo3cM0yVWrE2NH.webp"
+},
+{
+"title": "\"Things Fall Apart\" by Timothy Shane Stevens | Album Release Party",
+"venue": "",
+"address": "Hemlock Fox - 116 N Austin St, Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"21plus",
+"show",
+"free"
+],
+"desc": "Kick-off spooky season with the release of my first album, the Folk Horror EP, \"Things Fall Apart\" at Denton's own witch bar, Hemlock Fox. I'll be playing through the entire album from start to finish with perhaps a few additional tunes. I have CD's for sale and some special Halloween treats.\n\nInspired the words of W.B. Yeats, \"Things Fall Apart\" is a contemplation on the fragility of life. Recorded using nothing more than I could play at once, I sought a raw, authentic sound blending Irish bouzouki, harmonium, and bells. The songs are ancient but the sentiment is eternal- eventually, all things fall apart.\n\nFREE SHOW\n21+ after 9PM",
+"link": "https://www.facebook.com/share/1aw5n57BLt/",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recxruHyQ73SRJYqn",
+"verified": true,
+"db": true,
+"id": "db-recxruHyQ73SRJYqn",
+"start": "2026-10-04",
+"time": "7pm–9pm",
+"img": "img/attPmccreMwhMK9XW.webp"
+},
+{
+"title": "Blood on the Clocktower",
+"venue": "",
+"address": "112 West Oak St.",
+"cost": "No ticket needed",
+"tags": [
+"allmonth",
+"free"
+],
+"desc": "In the quiet village of Ravenswood Bluff, ‌a demon walks amongst you…\n\nDuring a hellish thunderstorm, on the stroke of midnight, there echoes a bone-chilling scream.\n\nA Demon is on the loose, disguised in human form by day. Some have scraps of information. Others have abilities that fight the evil or protect the innocent. But the Demon and its evil minions are spreading lies to confuse and breed suspicion. Will the good townsfolk put the puzzle together in time to save themselves? Or will evil overrun this once peaceful village?\n\nJoin us at d20 Tavern every Wednesday and Sunday night for a bone-chilling social deduction game with a d20 Tavern Storyteller. All experience levels welcome! $5 per person to play.",
+"link": "https://d20tavern.com/events/",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recdbGmWFKj9hJcEO",
+"verified": true,
+"db": true,
+"id": "db-recdbGmWFKj9hJcEO",
+"rids": [
+"recdbGmWFKj9hJcEO",
+"reclzZApY8c86Hgkh",
+"recZrBNkXog7ZNmvI",
+"reczdyR8GcAoTdNfg",
+"rec5qStMzjW4mkP6O",
+"recbdkRDKMZaoapnE"
+],
+"start": "2026-10-04",
+"end": "2026-10-21",
+"dates": [
+"2026-10-04",
+"2026-10-07",
+"2026-10-11",
+"2026-10-14",
+"2026-10-18",
+"2026-10-21"
+],
+"time": "Times vary by date",
+"times": {
+"2026-10-04": "6pm–10pm",
+"2026-10-07": "7pm–10pm",
+"2026-10-11": "6pm–10pm",
+"2026-10-14": "7pm–10pm",
+"2026-10-18": "6pm–10pm",
+"2026-10-21": "7pm–10pm"
+},
+"img": "img/attdHmAvkg9ZZolrb.webp"
+},
+{
+"title": "Intro to Pottery: Clay Pumpkins • October 4 - 3:00-5:00pm",
+"venue": "",
+"address": "Wildflower Art Studio: 715 North Locust Street Denton, Texas 76201",
+"cost": "Ticketed",
+"tags": [
+"art"
+],
+"desc": "This introductory-level workshop is a fun way to explore the relaxing art of Clay Pottery. This 2 hour workshop covers basic hand-building clay techniques.\n\nEach student will create and glaze a small clay pumpkin. \n\nGlazed Pottery will be available for pickup after being fired in the kiln (within 2-3 weeks). Shipping option available ($18).\n\nAll supplies included. Workshop includes snacks + coffee.",
+"link": "https://www.wildflowerartstudio.net/workshops/clay-workshop-pumpkin-oct4",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rec1JAepxuK6L4qFq",
+"verified": true,
+"db": true,
+"id": "db-rec1JAepxuK6L4qFq",
+"start": "2026-10-04",
+"time": "3pm–6pm",
+"img": "img/attpj5dDnYG2oPCQX.webp"
+},
+{
+"title": "Movie and Craft: Beeltejuice and Sandworm Succulent",
+"venue": "",
+"address": "Yellow Dog, 219 E. Hickory St., Denton, TX 76201",
+"cost": "Ticketed",
+"tags": [
+"art"
+],
+"desc": "Join us at Yellow Dog for a delightfully strange afternoon of Beetlejuice + crafting!\nWe’ll be watching Beetlejuice while making your very own Sandworm Succulent — a weird, wonderful little creation inspired by one of the most iconic creatures from the movie.\nNo art skills required — just come hang out, make something wonderfully weird, and enjoy the movie with us.\nStrange and unusual encouraged.\nCost: $10\nIncludes: Movie + craft supplies\nCraft: Sandworm Succulent\nMovie: Beetlejuice",
+"link": "https://www.facebook.com/events/1714666589603885/?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22left_rail%22%2C%22surface%22%3A%22bookmark%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22create_dialog%22%7D]%2C%22ref_notif_type%22%3Anull%7D&onload_action=open_invite_flow&show_created_event_toast=true",
+"tickets": "https://bramblitt.com/collections/yellow-dog-events/products/beetlejuice",
+"source": "https://era19963.softr.app/event-submissions-details?recordId=reck3Z74eHJ9wRR69",
+"verified": true,
+"db": true,
+"id": "db-reck3Z74eHJ9wRR69",
+"start": "2026-10-04",
+"time": "3:30pm–5:30pm",
+"img": "img/att6sIad0EvbTT7cX.webp"
+},
+{
+"title": "Print Your Own Halloween T-shirt",
+"venue": "",
+"address": "728 North Elm Street Denton, Texas, 76201 United States",
+"cost": "Ticketed",
+"tags": [
+"art"
+],
+"desc": "Bring your own t-shirt! We provide fabric dyes and Halloween-themed block prints!\n\nJoin our 'Print Your Own Halloween T-shirt' workshop and design a custom Halloween-themed shirt using our Halloween themed block prints.\n\nPerfect for all skill levels, this hands-on workshop is a fun way to create something unique for the season.\n\nStudents should bring their own t-shirt, we provide all other materials!",
+"link": "https://www.dentonmakercenter.com/",
+"tickets": "https://book.squareup.com/classes/yif87quj7ohnb6/location/LTFRMZ4V35WM6/classDetails/clssch_up169o3evvtky5?dateStart=1791144000",
+"source": "https://era19963.softr.app/event-submissions-details?recordId=reczZ1V9UpBoBkKBv",
+"verified": true,
+"db": true,
+"id": "db-reczZ1V9UpBoBkKBv",
+"start": "2026-10-04",
+"time": "3pm–4pm",
+"img": "img/attxhNT7sSbbmWUR0.webp"
+},
+{
+"title": "Recycled Books Presents - Libba Bray in Conversation with Kayla Olson",
+"venue": "",
+"address": "201 South Locust, Denton, TX 76201",
+"cost": "Ticketed",
+"tags": [],
+"desc": "Mark your calendars for Sunday, October 4th and join Recycled Books in welcoming bestselling author Libba Bray to celebrate her latest YA novel, Radio Free Texas! Join us for a conversation between Libba and local author Kayla Olson as they talk about their newest novel, writing, and their shared identity as Dentonites! Afterwards, there will be a book signing.\n\nRSVP now to secure a copy of Radio Free Texas to be picked up on the day of the event— two days before it hits bookstore shelves nationwide!\n\nThe event will be taking place in Modern Hall inside of FUMC Denton, attendees will be able to enter through the E. Sycamore St. entrance across from True Leaf directly into the venue space, and free parking will be available in the lot on E. Sycamore St as well.\n\nEach ticket guarantees:\nA copy of Radio Free Texas\nA seat at the event\nAddition to our email list for updates and information leading up to the event",
+"link": "https://www.eventbrite.com/e/recycled-books-presents-libba-bray-in-conversation-with-kayla-olson-tickets-2000331238582?aff=oddtdtcreator",
+"tickets": "https://www.eventbrite.com/e/recycled-books-presents-libba-bray-in-conversation-with-kayla-olson-tickets-2000331238582?aff=oddtdtcreator",
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rec9oHEW7KEAV9DAf",
+"verified": true,
+"db": true,
+"id": "db-rec9oHEW7KEAV9DAf",
+"start": "2026-10-04",
+"time": "5pm–9pm",
+"img": "img/att7eLNsHDQdOeK0j.webp"
+},
+{
+"title": "Scarlett Deering and Leoncarlo Canals present: Spooky String Brunch and Mariachi Quetzal",
+"venue": "",
+"address": "301 E. Oak St. Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"food",
+"show",
+"free"
+],
+"desc": "Leoncarlo Canales and Scarlett Deering bring a Halloween version of their String Brunch to the big top. An Alternative string quartet experience with a halloween twist. Performing a spooky selection and halloween hits. \nFollowed by the traditional stylings of the fantastic Mariachi Quetzal\nperformances starts at 2pm in the big top.",
+"link": "www.dentondayofthedeadfestival.com",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rec9jn4gw0c4GfbBh",
+"verified": true,
+"db": true,
+"id": "db-rec9jn4gw0c4GfbBh",
+"start": "2026-10-04",
+"time": "2pm–6pm",
+"img": "img/attIuoMqyBOuSvjBo.webp"
+},
+{
+"title": "The Denton Tarantinos",
+"venue": "",
+"address": "301 E. Oak St. Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"food",
+"free"
+],
+"desc": "The Denton Tarantinos: premier surf rockists, dub mongering reverb batmen, nostalgia trigger-masters of the classic hook. Denton Tarantinos will perform right after the Spooky String Brunch concludes",
+"link": "https://dentondayofthedeadfestival.com",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recwUrm3MarMA79bb",
+"verified": true,
+"db": true,
+"id": "db-recwUrm3MarMA79bb",
+"start": "2026-10-04",
+"time": "4pm–6pm",
+"img": "img/attQ3FxQAefofSktk.webp"
+},
+{
+"title": "The Tarot Table: An Introduction to Tarot, Symbolism, and Intuition",
+"venue": "",
+"address": "Harvest House, 331 E Hickory St, Denton TX",
+"cost": "Ticketed",
+"tags": [
+"art",
+"music"
+],
+"desc": "This workshop, hosted by Soul Hive Co and The Mothership, is designed for both beginners and established tarot practitioners. We will explore topics of symbolism, how to strengthen your intuition, and how to start or enrich your tarot practice. The perspective of these readings is reflective, rather than fortune-telling. This event is offered on a contribute-what-you-can basis, donations are accepted, but no one will be turned away for lack of funds.",
+"link": "https://www.eventbrite.com/e/the-tarot-table-tickets-2002303020234?aff=oddtdtcreator",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recuTz5GgD9obqFZb",
+"verified": true,
+"db": true,
+"id": "db-recuTz5GgD9obqFZb",
+"start": "2026-10-04",
+"time": "4pm–6pm",
+"img": "img/attvf2GcSIP5dGfUy.webp"
+},
+{
+"title": "Welcome to Halloween, Come Meet Some Witches",
+"venue": "",
+"address": "1111 Cordell Street, Denon TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"food",
+"market",
+"free"
+],
+"desc": "The Denton Unitarian Universalist Fellowship has been home to a practicing group of Witches and Pagans for over 26 years (CUUPS). Our October 4th, Sunday Service will be Halloween-themed with a Witch Bazaar to follow. Come see the magic Denton possesses! There will be tarot readings, music, rune casting, food,, pumpkins and other curiosities.",
+"link": "https://www.facebook.com/share/p/1Ko5XxXjWh/  ",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recfRhCbsJC2VIVwK",
+"verified": true,
+"db": true,
+"id": "db-recfRhCbsJC2VIVwK",
+"start": "2026-10-04",
+"time": "10am–1pm",
+"img": "img/attioHaAdcORkKltu.webp"
+},
+{
+"title": "Halloween Anime Rave",
+"venue": "",
+"address": "1807 N Elm St. Denton, TX",
+"cost": "No ticket needed",
+"tags": [
+"21plus",
+"art",
+"food",
+"market",
+"free"
+],
+"desc": "Hey friends, are you ready for Halloween?? I know I am!! I hope you'll join me for my Halloween Anime Rave. 😈\n\nWe'll be throwin down indoors at Bad Habits on Tuesday, October 6th from 7pm-12am. 21+. $10 entry. \nThere will be:\n👻 An artist alley with artist vendors selling original artwork (NO AI) as paintings, prints, keychains, clothing, jewelry, etc. \n👻 A stamp rally will give you the opportunity to win a Halloween themed goodie bag as a thanks for shopping with our vendors. \n👻 Stick around for the cosplay contest for a chance to win a mystery prize! \n👻We'll also have a free kandi/exchange table where you can grab free trinkets and leave some of your own for others to collect!! Small items like jewelry, crystals, figures, stickers, etc. are perfect examples. You don't have to bring an item to get an item, have at it. \n👻 Full bar with NA drinks available on-site and food nearby. \n\nMark your calendars and let's have some fun, drinks, shop, and dance/flow! 👻✨️\n\nI am now accepting applications for artist vendors. Please message me if interested! \n\nFlyer made by @alexjeanmakesart . Art sourced from the Tokyo Ghoul anime.\nEvent coordinated by @angelic_vortex",
+"link": "https://www.instagram.com/p/DckIn7PR86G/?stkn=MW5pczFrcXdnODgydA==",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rec3N4ulcBwTJSwNh",
+"verified": true,
+"db": true,
+"id": "db-rec3N4ulcBwTJSwNh",
+"start": "2026-10-06",
+"time": "7pm–midnight",
+"img": "img/att5ibBwkznoqUlgg.webp"
+},
+{
+"title": "Halloween Theme Movie Nights",
+"venue": "",
+"address": "308 E. Oak St., Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"21plus",
+"allmonth",
+"food",
+"free"
+],
+"desc": "Enjoy some Halloween theme movie nights every Tuesday for the month of October. Grab some beverages from the bar and some food from Feta's Greek food truck and enjoy a movie out in our beer garden.",
+"link": "instagram.com/oakstreetdrafthouse",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recGhfXwkH9khjTGi",
+"verified": true,
+"db": true,
+"id": "db-recGhfXwkH9khjTGi",
+"rids": [
+"recGhfXwkH9khjTGi",
+"rech09AxMgYZ4bcCA",
+"recQp8MVoHylVzV4V",
+"recsL9LX8PV6QNATj"
+],
+"start": "2026-10-06",
+"end": "2026-10-27",
+"dates": [
+"2026-10-06",
+"2026-10-13",
+"2026-10-20",
+"2026-10-27"
+],
+"time": "9pm–11pm",
+"img": "img/attG1P2A5j4OQJD8H.webp"
+},
+{
+"title": "Plant Bingo at the Haunted Drafthouse",
+"venue": "",
+"address": "308 E. Oak St., Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"free"
+],
+"desc": "Come have a fun night playing bingo at the Haunted Oak Street Drafthouse. Winners will get to take home a plant.",
+"link": "instagram.com/oakstreetdrafthouse",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recdvihKo0OzGpaTs",
+"verified": true,
+"db": true,
+"id": "db-recdvihKo0OzGpaTs",
+"start": "2026-10-06",
+"time": "7pm–9pm",
+"img": "img/atthxeHYJOXTkT2RE.webp"
+},
+{
+"title": "Spooky Trivia with Becca Burns",
+"venue": "",
+"address": "122 McKinney St, Denton, Tx 76201",
+"cost": "No ticket needed",
+"tags": [
+"21plus",
+"show",
+"free"
+],
+"desc": "Do you KNOW horror? Test your knowledge with your friends, and you may just win!\n$50 gift certificate 1st place\n$25 gift certificate 2nd place\nThis event is 21+",
+"link": "https://www.facebook.com/events/1684190453265527",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recGig9C4JN4bgiJH",
+"verified": true,
+"db": true,
+"id": "db-recGig9C4JN4bgiJH",
+"start": "2026-10-06",
+"time": "7pm–10pm",
+"img": "img/attM6XurAenFha8nk.webp"
+},
+{
+"title": "Thrift & Treat",
+"venue": "",
+"address": "1131 E. McKinney St. Denton, Texas 76209",
+"cost": "No ticket needed",
+"tags": [
+"allmonth",
+"free"
+],
+"desc": "Thrift & Treat every Tuesday in October at Thrift for Good® Denton! 🎃🛍️\n\nShop our weekly Shift to Thrift Tuesday for 15% off the entire store, plus enjoy Halloween fun throughout the shop, including a photo station, temporary tattoos, Thrift & Treat candy stations, and special pop-ups all month.\n\nWe’re also an official Denton Halloween Skelly Hunt stop! 💀 Find our Skelly to unlock an EXTRA 20% off your entire purchase, including sale items!\n\nCome in costume, snap a photo, grab a treat, and hunt for some scary-good secondhand finds. 👻♻️\n\nEvery Tuesday in October\nThrift for Good® Denton",
+"link": "https://www.facebook.com/share/1BzaBMpxcK/",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rec31JyoaHhx74VZq",
+"verified": true,
+"db": true,
+"id": "db-rec31JyoaHhx74VZq",
+"rids": [
+"rec31JyoaHhx74VZq",
+"recTFbi3LtbQerzdE",
+"reclsaXgVOUJqGeX5",
+"rec1hvdgz0o68oTQH"
+],
+"start": "2026-10-06",
+"end": "2026-10-27",
+"dates": [
+"2026-10-06",
+"2026-10-13",
+"2026-10-20",
+"2026-10-27"
+],
+"time": "11am–8pm",
+"img": "img/atttY5sBQNSiZjlOM.webp"
+},
+{
+"title": "4 Movie Tavern Retro Scary Mystery Movies!",
+"venue": "",
+"address": "916 W. University Dr, Denton Tx, 76201",
+"cost": "Ticketed",
+"tags": [
+"allmonth"
+],
+"desc": "Come check out our Retro Mystery Horror series every Wednesday at 7:30pm the month of October for the 31 Days of Halloween! Mystery snacks available!",
+"link": "https://www.marcustheatres.com/theatre-locations/denton-cinema",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rectVhz9YyrJGutCl",
+"verified": true,
+"db": true,
+"id": "db-rectVhz9YyrJGutCl",
+"rids": [
+"rectVhz9YyrJGutCl",
+"recsv7UmgRExqMW3J",
+"rec1wul8gFJCZFhqF",
+"receJus0C5oRB3KJt"
+],
+"start": "2026-10-07",
+"end": "2026-10-28",
+"dates": [
+"2026-10-07",
+"2026-10-14",
+"2026-10-21",
+"2026-10-28"
+],
+"time": "7:30pm",
+"img": "img/attjY0xR478hv6yuJ.webp"
+},
+{
+"title": "Braindead Trivia Night 1 Family Friendly",
+"venue": "",
+"address": "301 E. Oak St. 76201",
+"cost": "No ticket needed",
+"tags": [
+"family",
+"music",
+"show",
+"free"
+],
+"desc": "Join us October 7 for the first of our Braindead Halloween Trivia events! Featuring emcee Scott Porter, live music by Paul Slavens, and visuals from @denton_film .\n\nThis family-friendly version is free and open to the public.\n\nSupported in part by the @cityofdenton and @dentonhalloween .\n\nDoors at 6 PM, triva starts at 7 PM.",
+"link": "https://dentondayofthedeadfestival.com",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recRMioZO40eM6JqW",
+"verified": true,
+"db": true,
+"id": "db-recRMioZO40eM6JqW",
+"start": "2026-10-07",
+"time": "6pm–10pm",
+"img": "img/attvVyTVj7wtJpW8X.webp"
+},
+{
+"title": "Foam Horns by Alex Heder",
+"venue": "",
+"address": "Denton Maker Center, 728 North Elm Street Denton, Texas, 76201 United States",
+"cost": "Ticketed",
+"tags": [
+"art"
+],
+"desc": "Learn how to create light weight horns using the wonderfully versatile craft material EVA foam. Explore different sculpting and painting techniques to take your horns to the next level. Perfect for your Halloween or cosplay needs. Patterns and materials will be provided, simply come as you are and enjoy some spooky crafty fun.",
+"link": "https://dentonmakercenter.com",
+"tickets": "https://book.squareup.com/classes/yif87quj7ohnb6/location/LTFRMZ4V35WM6/classDetails/clssch_8mrpqs7e5t0o90?dateStart=1791410400",
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recI6HUr6SwKoBJnr",
+"verified": true,
+"db": true,
+"id": "db-recI6HUr6SwKoBJnr",
+"start": "2026-10-07",
+"time": "5pm–8pm",
+"img": "img/attqpD1LIMe8Ee90W.webp"
+},
+{
+"title": "Halloween Bingo!",
+"venue": "",
+"address": "125 E Oak St. Denton, TX",
+"cost": "No ticket needed",
+"tags": [
+"21plus",
+"family",
+"free"
+],
+"desc": "Bingo on the patio of Miss Angeline's, with plenty of fun, prizes from local businesses and great drinks! All ages welcome, 21+ after 9pm",
+"link": "@missangelinesdenton on Instagram",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=reciiFZSpw3dmxsbu",
+"verified": true,
+"db": true,
+"id": "db-reciiFZSpw3dmxsbu",
+"start": "2026-10-07",
+"time": "7pm",
+"img": "img/attamtInuhErNlRlf.webp"
+},
+{
+"title": "Hocus Pocus Movie Night",
+"venue": "",
+"address": "117 E Oak St",
+"cost": "No ticket needed",
+"tags": [
+"family",
+"food",
+"free"
+],
+"desc": "Join us for movie night!\nFree | Family Friendly | on the jumbotron | drink specials | food trucks",
+"link": "https://www.facebook.com/events/1038387595261382/?acontext=%7B\"event_action_history\"%3A[%7B\"extra_data\"%3A\"\"%2C\"mechanism\"%3A\"attachment\"%2C\"surface\"%3A\"newsfeed\"%7D%2C%7B\"extra_data\"%3A\"\"%2C\"mechanism\"%3A\"surface\"%2C\"surface\"%3A\"permalink\"%7D%2C%7B\"extra_data\"%3A\"\"%2C\"mechanism\"%3A\"surface\"%2C\"surface\"%3A\"edit_dialog\"%7D]%2C\"ref_notif_type\"%3Anull%7D",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rec5kSPzRTH3emWuM",
+"verified": true,
+"db": true,
+"id": "db-rec5kSPzRTH3emWuM",
+"start": "2026-10-07",
+"time": "6pm–9pm",
+"img": "img/attwEYBFOGbEJnfNo.webp"
+},
+{
+"title": "Oak Street Drafthouse and Denton Area Run Club Social Run/Walk",
+"venue": "",
+"address": "308 E. Oak St., Denton, TX 76201",
+"cost": "No ticket needed",
+"tags": [
+"21plus",
+"allmonth",
+"free"
+],
+"desc": "Join us every Wendnesday night for our weekly social run/walk and receive a complementary beer for participating. The run on the 28th will be costume oriented and there will be a contest with prizes.",
+"link": "https://www.facebook.com/Oakstdrafthouse",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=reco5vB7tNJX0jjy4",
+"verified": true,
+"db": true,
+"id": "db-reco5vB7tNJX0jjy4",
+"rids": [
+"reco5vB7tNJX0jjy4",
+"reca5FgBf9pEoR0oq",
+"recZmsA3UqlDmhChh",
+"recnG7e9713xRPgV4",
+"reci4y8N7MyoOlO1k"
+],
+"start": "2026-10-07",
+"end": "2026-10-28",
+"dates": [
+"2026-10-07",
+"2026-10-14",
+"2026-10-21",
+"2026-10-28"
+],
+"time": "Times vary by date",
+"times": {
+"2026-10-07": "7pm–8pm",
+"2026-10-14": "7pm–8pm & 7pm–7pm",
+"2026-10-21": "7pm–8pm",
+"2026-10-28": "7pm–8pm"
+},
+"img": "img/attRzcz8f3mKKHYEY.webp"
+},
+{
+"title": "Pumpkin Carving Contest",
+"venue": "",
+"address": "122 E McKinney St, Denton, Tx 76201",
+"cost": "No ticket needed",
+"tags": [
+"21plus",
+"free"
+],
+"desc": "A special Halloween W.I.P. Wednesday\nIt's time to carve pumpkins and win prizes for a good cause, Pridenton!\n$15 to enter (or $10 if you bring your own pumpkin).\nPumpkins are first come first serve and pay at the door.\nTools will be provided. 1st, 2nd and 3rd places for Best Overall will win gift certs and swag from our brewery friends!",
+"link": "https://www.facebook.com/events/1784884499383010",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recVZgZ8mHhvgQaPp",
+"verified": true,
+"db": true,
+"id": "db-recVZgZ8mHhvgQaPp",
+"start": "2026-10-07",
+"time": "7pm–10pm",
+"img": "img/attzRI8exW7KVHrUe.webp"
+},
+{
+"title": "Re-Animator Movie Night",
+"venue": "",
+"address": "117 E Oak St",
+"cost": "No ticket needed",
+"tags": [
+"21plus",
+"food",
+"free"
+],
+"desc": "Join us for movie night!\nFree | 21+ | on the jumbotron | drink specials | food trucks",
+"link": "https://www.facebook.com/events/4053014538330680/?acontext=%7B\"event_action_history\"%3A[%7B\"extra_data\"%3A\"\"%2C\"mechanism\"%3A\"attachment\"%2C\"surface\"%3A\"newsfeed\"%7D%2C%7B\"extra_data\"%3A\"\"%2C\"mechanism\"%3A\"surface\"%2C\"surface\"%3A\"permalink\"%7D%2C%7B\"extra_data\"%3A\"\"%2C\"mechanism\"%3A\"surface\"%2C\"surface\"%3A\"edit_dialog\"%7D]%2C\"ref_notif_type\"%3Anull%7D",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recYUUL5YJEOiISAm",
+"verified": true,
+"db": true,
+"id": "db-recYUUL5YJEOiISAm",
+"start": "2026-10-07",
+"time": "9pm–11pm",
+"img": "img/attczwwainnvfGINp.webp"
 },
 {
 "title": "Blocktober Party & Pumpkin Drop",
@@ -47,7 +3078,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recMAa9VLsH9hidaI",
 "start": "2026-10-08",
-"time": "6pm–8pm"
+"time": "6pm–8pm",
+"img": "img/attTJrKLY8Tw3ornJ.webp"
 },
 {
 "title": "BOIZ Night Slasher Night",
@@ -66,462 +3098,50 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recERSjLSkzSiHs5U",
 "start": "2026-10-08",
-"time": "8pm–midnight"
+"time": "8pm–midnight",
+"img": "img/attTT81uOM81BKooY.webp"
 },
 {
-"title": "Brite Smiles by Heather, Smile if you Dare photo booth",
+"title": "Halloween Trivia Night #1",
 "venue": "",
-"address": "207 W Hickory Denton TX 76201",
+"address": "301 E. Oak Street Denton, TX 76201",
 "cost": "No ticket needed",
 "tags": [
-"allmonth",
 "family",
-"free"
-],
-"desc": "Bring your friends, family, and little ghosts and goblins for a fun Halloween photo opportunity.  Strike a pose, show off your best smile, and don’t forget to share your photo and tag Brite Smiles by Heather for a chance to win a FREE Teeth Whitening",
-"link": "https://facebook.com/events/s/smile-if-you-dare-halloween-ph/1592353088921719/",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recWzINeigVFfyDd9",
-"verified": true,
-"db": true,
-"id": "db-recWzINeigVFfyDd9",
-"start": "2026-10-08",
-"end": "2026-10-30",
-"dates": [
-"2026-10-08",
-"2026-10-09",
-"2026-10-10",
-"2026-10-11",
-"2026-10-12",
-"2026-10-13",
-"2026-10-14",
-"2026-10-15",
-"2026-10-16",
-"2026-10-17",
-"2026-10-18",
-"2026-10-19",
-"2026-10-20",
-"2026-10-21",
-"2026-10-22",
-"2026-10-23",
-"2026-10-24",
-"2026-10-25",
-"2026-10-26",
-"2026-10-27",
-"2026-10-28",
-"2026-10-29",
-"2026-10-30"
-],
-"time": "8am–11:59pm"
-},
-{
-"title": "Gooey's Ectoplasmic Queso",
-"venue": "",
-"address": "108 E Oak Street, Denton TX",
-"cost": "No ticket needed",
-"tags": [
-"allmonth",
-"family",
-"food",
-"free"
-],
-"desc": "Come to Blind Man's Corner on Oak and Austin and try Gooey's Ectoplasmic Queso! Green, gooey, delicious and with the option to add jalapeno slices, every order of Gooey's Ectoplasmic Queso is served with chips, and has the option to be upgraded to a loaded queso bowl or Walking Taco! A ghost never tasted so good!",
-"link": "https://www.instagram.com/blindmanscorner/",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recLFu4SXsJGWU8VR",
-"verified": true,
-"db": true,
-"id": "db-recLFu4SXsJGWU8VR",
-"start": "2026-10-08",
-"end": "2026-10-31",
-"dates": [
-"2026-10-08",
-"2026-10-09",
-"2026-10-10",
-"2026-10-11",
-"2026-10-12",
-"2026-10-13",
-"2026-10-14",
-"2026-10-15",
-"2026-10-16",
-"2026-10-17",
-"2026-10-18",
-"2026-10-19",
-"2026-10-20",
-"2026-10-21",
-"2026-10-22",
-"2026-10-23",
-"2026-10-24",
-"2026-10-25",
-"2026-10-26",
-"2026-10-27",
-"2026-10-28",
-"2026-10-29",
-"2026-10-30",
-"2026-10-31"
-],
-"time": "1pm–2am"
-},
-{
-"title": "Halloween Town Market",
-"venue": "",
-"address": "301 E McKinney St, Denton, TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"allmonth",
-"art",
-"family",
-"festival",
-"free",
-"market",
 "show",
-"tour"
-],
-"desc": "Join us Thursdays through Sundays during the month of October for the Halloween Town Market. Get your shop on and peruse the wares of 25 local creatives. Each night will have a different set of artists, so make sure to visit often! While you are there, visit the other artist-made attractions in Quakertown Park, like the Scary Chairy Orchard, Ghastly Gardens, and Don't Look.\n\nVENDORS NEEDED! Apply via the link below.",
-"link": "https://www.dentonhalloween.com/vendors",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=rec7HI583qh97IRVG",
-"verified": true,
-"db": true,
-"id": "db-rec7HI583qh97IRVG",
-"start": "2026-10-08",
-"end": "2026-10-31",
-"dates": [
-"2026-10-08",
-"2026-10-09",
-"2026-10-10",
-"2026-10-15",
-"2026-10-16",
-"2026-10-17",
-"2026-10-18",
-"2026-10-22",
-"2026-10-23",
-"2026-10-29",
-"2026-10-30",
-"2026-10-31"
-],
-"time": "6pm–10pm"
-},
-{
-"title": "Hannah's Halloween Cocktails Menu",
-"venue": "",
-"address": "111 W Mulberry Street, Denton, Texas 76201",
-"cost": "No ticket needed",
-"tags": [
-"21plus",
-"allmonth",
-"food",
 "free"
 ],
-"desc": "🎃 Raise a Glass to a Spirited October at Hannah’s 🍸✨\n\nOur Halloween Cocktail Menu is back, and so is the unforgettable Carrie — dramatic, delicious, and dressed for her prom queen debut. 🩸\n\nAnd Carrie isn’t arriving on stage alone. Our magical mixologists have conjured up a full menu of other spirits.\nHalloween Cocktail Menu: Available Tuesday–Sunday during regular business hours throughout October.\n\n🌙 Closed Mondays\n\nAlso see Hannah’s Spookeasy Nights: Fridays & Saturdays in October.",
-"link": "https://www.facebook.com/hannahsoffthesquare",
+"desc": "A Family friendly Halloween themed trivia night with topics ranging from History, Movies, Music, etc...",
+"link": "https://dentondayofthedeadfestival.com",
 "tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recJlaGTj50v7VRDz",
+"source": "https://era19963.softr.app/event-submissions-details?recordId=rece1nvdMGMYamOmo",
 "verified": true,
 "db": true,
-"id": "db-recJlaGTj50v7VRDz",
+"id": "db-rece1nvdMGMYamOmo",
 "start": "2026-10-08",
-"end": "2026-10-30",
-"dates": [
-"2026-10-08",
-"2026-10-09",
-"2026-10-10",
-"2026-10-11",
-"2026-10-12",
-"2026-10-13",
-"2026-10-14",
-"2026-10-15",
-"2026-10-16",
-"2026-10-17",
-"2026-10-18",
-"2026-10-19",
-"2026-10-20",
-"2026-10-21",
-"2026-10-22",
-"2026-10-23",
-"2026-10-24",
-"2026-10-25",
-"2026-10-26",
-"2026-10-27",
-"2026-10-28",
-"2026-10-29",
-"2026-10-30"
-],
-"time": "11am–10pm"
-},
-{
-"title": "Lacy's Haunted Cantina",
-"venue": "",
-"address": "100 West Oak Street #160, Denton, TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"21plus",
-"allmonth",
-"food",
-"free"
-],
-"desc": "Join us in our Mexican Oak tequila lounge for a horrifying good time! As our tequila lounge transform into the iconic Lacy's Haunted Cantina, we invite you to take part in it's haunting transformation. We will be showing old black and white horror movies, a terrifyingly elevated cocktail menu and surprisingly spooky bites menu. Don't worry it doesn't bite back, maybe...",
-"link": "mexicanoak.com",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recZ4tsJbdVF3xNaQ",
-"verified": true,
-"db": true,
-"id": "db-recZ4tsJbdVF3xNaQ",
-"start": "2026-10-08",
-"end": "2026-10-31",
-"dates": [
-"2026-10-08",
-"2026-10-09",
-"2026-10-10",
-"2026-10-15",
-"2026-10-17",
-"2026-10-22",
-"2026-10-23",
-"2026-10-24",
-"2026-10-29",
-"2026-10-30",
-"2026-10-31"
-],
-"time": "7pm–11:59pm"
-},
-{
-"title": "Little Lil' D- A Haunted Diorama",
-"venue": "",
-"address": "UNT CoLab 207 North Elm Street, Denton, TX, 76201",
-"cost": "No ticket needed",
-"tags": [
-"allmonth",
-"art",
-"family",
-"free",
-"haunted",
-"inclusive",
-"tour"
-],
-"desc": "Little Lil' D is a massive, hyper-detailed miniature haunted version of Denton's most beloved landmarks reimagined for 2026. Built entirely by locals, this indoor exhibit is free and fun for all ages complete with an interactive scavenger hunt that puts you right in the middle of the magic. Don't forget to sign the tiny town's guest book and vote for your favorite time period at the end of your visit!",
-"link": "https://www.instagram.com/dentondiorama",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recbwil0YyShhI9sa",
-"verified": true,
-"db": true,
-"id": "db-recbwil0YyShhI9sa",
-"start": "2026-10-08",
-"end": "2026-10-31",
-"dates": [
-"2026-10-08",
-"2026-10-09",
-"2026-10-10",
-"2026-10-11",
-"2026-10-12",
-"2026-10-13",
-"2026-10-14",
-"2026-10-15",
-"2026-10-16",
-"2026-10-17",
-"2026-10-18",
-"2026-10-19",
-"2026-10-20",
-"2026-10-21",
-"2026-10-22",
-"2026-10-23",
-"2026-10-24",
-"2026-10-25",
-"2026-10-26",
-"2026-10-27",
-"2026-10-28",
-"2026-10-29",
-"2026-10-30",
-"2026-10-31"
-],
-"time": "midnight–10pm"
-},
-{
-"title": "Looking for Players (LFP) Thursday",
-"venue": "",
-"address": "d20 Tavern, 112 West Oak St.",
-"cost": "Ticketed",
-"tags": [
-"allmonth"
-],
-"desc": "Join us every Thursday for Looking for Players (LFP). A d20 Tavern Game Master will teach a different game every week. We take care of the set up, instructions, and clean up. All October long we will be featuring horror themed board games so be prepared for a scare! Tickets admit one and come with a beer flight.",
-"link": "https://www.instagram.com/d20_tavern/",
-"tickets": "https://d20-tavern.square.site/event-registration",
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recbp6a3TsCWCrFw8",
-"verified": true,
-"db": true,
-"id": "db-recbp6a3TsCWCrFw8",
-"start": "2026-10-08",
-"end": "2026-10-29",
-"dates": [
-"2026-10-08",
-"2026-10-15",
-"2026-10-22",
-"2026-10-29"
-],
-"time": "7pm–10pm"
-},
-{
-"title": "Paint Taper Candles Craft",
-"venue": "",
-"address": "118 E McKinney StDenton, TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"allmonth",
-"art",
-"family",
-"free"
-],
-"desc": "Stop by the shop and paint your own tapered candles any time during the month of October! Choose from a rainbow of beautiful colors and make candles to match your home, your Halloween decor, or simply your own style.\n\nTaper candles are available for purchase starting at $6.50 for a pair of two. Our tapered candles are hand-dipped and made with beeswax, premium waxes, and beautiful dyes.\n\nWe’ll provide the paints and a place to create. While you’re here, enjoy our other free, all-ages activities!\n\nThe Dime Store is an artist owned, artist run local shop in the heart of Denton featuring the work of talented local artists and makers. Stop by, paint some candles, explore the shop, and discover our collection of Halloween goodies and seasonal handmade goods!\n\nStore Hours are Tuesday-Friday 11am-5pm, Saturday 10am-5pm, and Sunday 1-5pm.",
-"link": "https://www.dimehandmade.com/in-person/first-friday-oct-j2t3t",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=reciEUdBieqx0lHyC",
-"verified": true,
-"db": true,
-"id": "db-reciEUdBieqx0lHyC",
-"start": "2026-10-08",
-"end": "2026-10-31",
-"dates": [
-"2026-10-08",
-"2026-10-09",
-"2026-10-10",
-"2026-10-11",
-"2026-10-12",
-"2026-10-13",
-"2026-10-14",
-"2026-10-15",
-"2026-10-16",
-"2026-10-17",
-"2026-10-18",
-"2026-10-19",
-"2026-10-20",
-"2026-10-21",
-"2026-10-22",
-"2026-10-23",
-"2026-10-24",
-"2026-10-25",
-"2026-10-26",
-"2026-10-27",
-"2026-10-28",
-"2026-10-29",
-"2026-10-30",
-"2026-10-31"
-],
-"time": "11am–8pm"
-},
-{
-"title": "Postcards from Halloween Town",
-"venue": "",
-"address": "118 E McKinney Street, Denton, TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"allmonth",
-"art",
-"family",
-"free"
-],
-"desc": "Send a little spooky cheer to someone you love!\n\nStop by The Dime Store anytime during our regular store hours to pick out a special Halloween postcard designed and illustrated by local artists. We’ll have art supplies available so you can color, decorate, and make your postcard your own.\n\nThen, choose your adventure: Keep it as a little Halloween collectible or drop it in our spooky lil’ mailbox and we’ll mail it for you!\n\nThis is a free craft for all ages and abilities, and no registration is required. Just drop in, get creative, and enjoy some seasonal crafting!\n\nStore Hours\nTuesday–Friday: 11am–5pm\nSaturday: 10am–5pm\nSunday: 1–5pm\n\nThe Dime Store is an artist-owned, artist-run handmade shop in the heart of Denton, featuring the work of artists and makers we love. We’ll also have a fun selection of Halloween goodies waiting for you!",
-"link": "https://www.dimehandmade.com/in-person/october-crafting",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recxKK1n5UvcafBG7",
-"verified": true,
-"db": true,
-"id": "db-recxKK1n5UvcafBG7",
-"start": "2026-10-08",
-"end": "2026-10-31",
-"dates": [
-"2026-10-08",
-"2026-10-09",
-"2026-10-10",
-"2026-10-11",
-"2026-10-12",
-"2026-10-13",
-"2026-10-14",
-"2026-10-15",
-"2026-10-16",
-"2026-10-17",
-"2026-10-18",
-"2026-10-19",
-"2026-10-20",
-"2026-10-21",
-"2026-10-22",
-"2026-10-23",
-"2026-10-24",
-"2026-10-25",
-"2026-10-26",
-"2026-10-27",
-"2026-10-28",
-"2026-10-29",
-"2026-10-30",
-"2026-10-31"
-],
-"time": "11am–8pm"
+"time": "6pm",
+"img": "img/atthhu8sU4lIeFSmi.webp"
 },
 {
 "title": "Rocky Horror Picture Show",
 "venue": "",
 "address": "331 E Hickory St Denton, TX 76201",
-"cost": "No ticket needed",
+"cost": "Ticketed",
 "tags": [
 "21plus",
-"free"
+"food",
+"show"
 ],
-"desc": "Get ready to do the Time Warp again!? Lost Bastardos is bringing their cult-favorite, high-energy shadow cast performance of The Rocky Horror Picture Show back to Harvest House in the Home of Happiness - DENTON.\nThis one-of-a-kind experience combines the iconic film with live performance, outrageous audience participation, and all the wild energy that makes Rocky Horror a tradition.\nNo ticket required, admission is FREE [but you DO need your ID]\n21+\nProp packs will be $7 - no outside prop packs/food/drinks~",
-"link": "https://www.facebook.com/share/19hUr9wnW4/",
-"tickets": null,
+"desc": "Get ready to do the Time Warp again!? Lost Bastardos is bringing their cult-favorite, high-energy shadow cast performance of The Rocky Horror Picture Show back to Harvest House in the Home of Happiness - DENTON.\nThis one-of-a-kind experience combines the iconic film with live performance, outrageous audience participation, and all the wild energy that makes Rocky Horror a tradition.\nTickets are available at the door only! (And the best part, they’re only $2)\n21+\nProp packs will be $7 - no outside prop packs/food/drinks",
+"link": "https://www.facebook.com/share/1EaRZkVLig/",
+"tickets": "At the door",
 "source": "https://era19963.softr.app/event-submissions-details?recordId=rec7cXTHDHniOz1m8",
 "verified": true,
 "db": true,
 "id": "db-rec7cXTHDHniOz1m8",
 "start": "2026-10-08",
-"time": "8:30pm–11pm"
-},
-{
-"title": "Spirits of the cantina",
-"venue": "",
-"address": "110 w mulberry st",
-"cost": "No ticket needed",
-"tags": [
-"allmonth",
-"family",
-"food",
-"free"
-],
-"desc": "The Spirits of the Cantina\n\n\nStep away from the crowds and into A Fine Cantina for The Spirits of the Cantina — a month-long celebration of Mexican legends, cocktails, food, and a little Halloween mystery.\n\nDiscover The Spirits Collection, five limited-edition cocktails inspired by Mexican legends and tradition: La Llorona, El Charro Negro, El Nahual, La Pascualita, and Las Ánimas.\n\nCome hungry, too. October brings Barbacoa Tacos and our Pumpkin Spice Tres Leches Cake, alongside our menu of Mexican-inspired tapas.\n\nWhether you’re visiting Denton for Halloween or already call it home, make Wild Cactus part of your October. Settle in, share a few plates, try a Spirit, and experience the cocktails, atmosphere, and warm hospitality of the cantina.\n\nCome hungry. Try a Spirit. Stay awhile.",
-"link": "Wildcactuscantina.com",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recXsQJFrQMqcEtMW",
-"verified": true,
-"db": true,
-"id": "db-recXsQJFrQMqcEtMW",
-"start": "2026-10-08",
-"end": "2026-10-31",
-"dates": [
-"2026-10-08",
-"2026-10-09",
-"2026-10-10",
-"2026-10-11",
-"2026-10-12",
-"2026-10-13",
-"2026-10-14",
-"2026-10-15",
-"2026-10-16",
-"2026-10-17",
-"2026-10-18",
-"2026-10-19",
-"2026-10-20",
-"2026-10-21",
-"2026-10-22",
-"2026-10-23",
-"2026-10-24",
-"2026-10-25",
-"2026-10-26",
-"2026-10-27",
-"2026-10-28",
-"2026-10-29",
-"2026-10-30",
-"2026-10-31"
-],
-"time": "5pm–11:59pm"
+"time": "8:30pm–11pm",
+"img": "img/att3nN4NljqiT9hzo.webp"
 },
 {
 "title": "The Addams Family Musical",
@@ -539,6 +3159,18 @@ window.DHW_DB_EVENTS = [
 "verified": true,
 "db": true,
 "id": "db-recdwCOpD2k0Ovs8r",
+"rids": [
+"recdwCOpD2k0Ovs8r",
+"reckln4gMyIEbGPlM",
+"recXDY8LmZ5dKZU37",
+"recK3Fein7YsGNa7l",
+"recicK5QsKaHls0Xl",
+"rec9X0CtMDX28YSYc",
+"recYJPNsEKkKhc6II",
+"recXfa0KSGnWaizaT",
+"recDCuHyr3o0hMVdK",
+"recTGbBGGegzEq1Ut"
+],
 "start": "2026-10-08",
 "end": "2026-10-18",
 "dates": [
@@ -561,55 +3193,8 @@ window.DHW_DB_EVENTS = [
 "2026-10-16": "7:30pm–10pm",
 "2026-10-17": "2pm–4:30pm & 7:30pm–10pm",
 "2026-10-18": "2pm–4:30pm"
-}
 },
-{
-"title": "The Haunted Rodeo",
-"venue": "",
-"address": "122 n Locust st. Denton, Tx 76201",
-"cost": "No ticket needed",
-"tags": [
-"21plus",
-"allmonth",
-"free",
-"music"
-],
-"desc": "Come to The Haunted Rodeo for delicious and Instagram worth cocktails and bites!  Stay for live music and dance the night away",
-"link": "https://linktr.ee/rubyrodeo.dtx?utm_source=linktree_profile_share&ltsid=088be88d-4f13-4397-aeba-1d5c3756a1e6",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recuJgHPh1QwH84H7",
-"verified": true,
-"db": true,
-"id": "db-recuJgHPh1QwH84H7",
-"start": "2026-10-08",
-"end": "2026-10-31",
-"dates": [
-"2026-10-08",
-"2026-10-09",
-"2026-10-10",
-"2026-10-11",
-"2026-10-12",
-"2026-10-13",
-"2026-10-14",
-"2026-10-15",
-"2026-10-16",
-"2026-10-17",
-"2026-10-18",
-"2026-10-19",
-"2026-10-20",
-"2026-10-21",
-"2026-10-22",
-"2026-10-23",
-"2026-10-24",
-"2026-10-25",
-"2026-10-26",
-"2026-10-27",
-"2026-10-28",
-"2026-10-29",
-"2026-10-30",
-"2026-10-31"
-],
-"time": "4pm–2am"
+"img": "img/attnTeo09GkmZMjnc.webp"
 },
 {
 "title": "Thin Line Night under The Big Top with/ Record Setter/ Orcanaut, Flesh Born, Forbidden1, Flower Bed",
@@ -630,104 +3215,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recV3vuOCU1z5Ps7k",
 "start": "2026-10-08",
-"time": "6pm–10:30pm"
-},
-{
-"title": "Twilight Tunes",
-"venue": "",
-"address": "108 Industrial St, Denton, TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"art",
-"family",
-"festival",
-"music",
-"show",
-"free"
-],
-"desc": "Twilight Tunes is a Free Concert Series in Downtown Denton. Every Thursday in October, enjoy live music from local bands. Bring your chair and a bite to eat and enjoy the sounds of Denton. This fall there will be a Twilight Market with local artists and makers selling their Halloween and Fall themed works!",
-"link": "https://www.downtowndenton.org/twilight-tunes",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=reclagNXchbtsySqP",
-"verified": true,
-"db": true,
-"id": "db-reclagNXchbtsySqP",
-"start": "2026-10-08",
-"time": "6pm–7:30pm"
-},
-{
-"title": "Vampire’s Kiss Cocktail",
-"venue": "",
-"address": "111 Industrial St., Denton, TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"allmonth",
-"food",
-"free"
-],
-"desc": "We have our Hallowine cocktail available all month. It’s a fun mix of tart and sweet, wrapped up in cherry and bubbles. It can also be made as a mocktail.",
-"link": "https://www.steveswinebar.com/",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recvkqfUJbjVSKzm2",
-"verified": true,
-"db": true,
-"id": "db-recvkqfUJbjVSKzm2",
-"start": "2026-10-08",
-"end": "2026-10-31",
-"dates": [
-"2026-10-08",
-"2026-10-09",
-"2026-10-10",
-"2026-10-11",
-"2026-10-12",
-"2026-10-13",
-"2026-10-14",
-"2026-10-15",
-"2026-10-16",
-"2026-10-17",
-"2026-10-18",
-"2026-10-19",
-"2026-10-20",
-"2026-10-21",
-"2026-10-22",
-"2026-10-23",
-"2026-10-24",
-"2026-10-25",
-"2026-10-26",
-"2026-10-27",
-"2026-10-28",
-"2026-10-29",
-"2026-10-30",
-"2026-10-31"
-],
-"time": "2pm–8pm"
-},
-{
-"title": "WinCo Foods Food Drive for Freedom House Food Pantry",
-"venue": "",
-"address": "WinCo Foods, 2645 W University Dr., Denton TX 76209",
-"cost": "No ticket needed",
-"tags": [
-"allmonth",
-"family",
-"free"
-],
-"desc": "WinCo Foods and Freedom Food Pantry are partnering together this month to eliminate the fear of hunger!\nPlease consider donating items to help our neighbors in need!\n\nItems Needed Most:\n-Canned Food\n-Peanut Butter\n-Rice\n-Beans\n-Pasta\n\n*Other non-perishable items accepted as well. No Expired items please. \n\nShop WinCo. Feed a Neighbor.",
-"link": null,
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recyGZ0jVonVrbgMj",
-"verified": true,
-"db": true,
-"id": "db-recyGZ0jVonVrbgMj",
-"start": "2026-10-08",
-"end": "2026-10-29",
-"dates": [
-"2026-10-08",
-"2026-10-15",
-"2026-10-22",
-"2026-10-29"
-],
-"time": "1:30pm–10:30pm"
+"time": "6pm–10:30pm",
+"img": "img/attYLjB45vV1SafMR.webp"
 },
 {
 "title": "Young Frankenstein showing in Tequila Lounge",
@@ -748,117 +3237,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec3VdglDiAlDwten",
 "start": "2026-10-08",
-"time": "8pm–11:30pm"
-},
-{
-"title": "DENTON HAUNTS Ghost Tour",
-"venue": "",
-"address": "John B. Denton's gravesite is 110 West Hickory Street, Denton",
-"cost": "Ticketed",
-"tags": [
-"21plus",
-"allmonth",
-"art",
-"tour"
-],
-"desc": "DENTON HAUNTS Ghost Tour is a 1.5-hour walking tour of the downtown Denton Square which educates & entertains with TRUE local ghost stories! Join us for spooky evening stroll around the Denton County Courthouse-on-the-Square Museum and downtown Denton Square! This in-person meetup at the Grave of Capt. Denton on the downtown Courthouse lawn will take you on a thrilling walkabout tour through the haunted history of Denton's ghostly legends. Be ready to explore eerie tales, ghostly legends, and just maybe experience the paranormal firsthand yourself.\n\nWhether you're a seasoned ghost hunter or just looking for chilling true tales, this rated PG-13 event is perfect for adventurous thrill-seekers. Don't miss out on this unforgettable opportunity to uncover the mysteries lurking in the shadows of Denton TX, but availability is limited!",
-"link": "https://www.facebook.com/DentonHaunts/",
-"tickets": "https://www.eventbrite.com/e/2026-denton-haunts-ghost-walk-tickets-1994097729990",
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recewe3uOweMFMZcR",
-"verified": true,
-"db": true,
-"id": "db-recewe3uOweMFMZcR",
-"start": "2026-10-09",
-"end": "2026-11-07",
-"dates": [
-"2026-10-09",
-"2026-10-16",
-"2026-10-23",
-"2026-10-30",
-"2026-11-07"
-],
-"time": "5:30pm–8pm"
-},
-{
-"title": "DENTON HAUNTS Ghost Tours",
-"venue": "",
-"address": "Tour meetups are at the Gravesite of Capt. John B. Denton on the downtown Denton Courthouse Square museum.",
-"cost": "Ticketed",
-"tags": [
-"allmonth",
-"art",
-"tour"
-],
-"desc": "Equal parts history and mystery, the DENTON HAUNTS Ghost Tour shares wild true tales in a 1.5-hour walking tour of the historic Denton Courthouse Square on Friday and Saturday evenings during October. This Haunted History comes from archival research, oral history nterviews, and local folklore about ghostly legends. Founded by “Doc” in the fall of 2011, our mission is to both educate and entertain with TRUE ghost stories, hidden history, and undertold secrets from Denton’s past AND present. \nPrivate group tours are also offered, send inquiries to DentonHaunts@gmail.com to check availability and follow us on Facebook for more events.",
-"link": "https://www.facebook.com/DentonHaunts",
-"tickets": "https://www.eventbrite.com/e/2026-denton-haunts-ghost-walk-tickets-1994097729990",
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recjIGVKDz40OuPKn",
-"verified": true,
-"db": true,
-"id": "db-recjIGVKDz40OuPKn",
-"start": "2026-10-09",
-"end": "2026-11-07",
-"dates": [
-"2026-10-09",
-"2026-10-10",
-"2026-10-16",
-"2026-10-17",
-"2026-10-23",
-"2026-10-24",
-"2026-11-06",
-"2026-11-07"
-],
-"time": "6:30pm–9:30pm"
-},
-{
-"title": "Denton Historic Tours presents, \"Spooks, Spirits, and Shadows Walking Tour\"",
-"venue": "",
-"address": "Meet at the tomb of John Denton located near the courthouse on the square in Denton, Texas.",
-"cost": "Ticketed",
-"tags": [
-"tour"
-],
-"desc": "Step into the haunted heart of Denton this Halloween season for the Spooks, Spirits, and Shadows Walking Tour. Stroll the historic Denton Square as chilling tales of restless spirits, local legends, and mysterious happenings come to life. Not all spirits will be spectral, some may be hard. Whether you're a skeptic, a believer, or just looking for a unique Halloween experience, this 1.5 hour walking tour blends history, haunting stories, and fun into one delightfully eerie adventure.",
-"link": "https://www.dentoncountyevents.com/business-two",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=rec7YBzaHinjqffNH",
-"verified": true,
-"db": true,
-"id": "db-rec7YBzaHinjqffNH",
-"start": "2026-10-09",
-"time": "6pm"
-},
-{
-"title": "Hannah's Spookeasy",
-"venue": "",
-"address": "111 W Mulberry Street, Denton, TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"21plus",
-"allmonth",
-"food",
-"free",
-"music"
-],
-"desc": "As dusk falls, Friday & Saturday nights at Hannah’s, the bar transforms into a Spookeasy—set on the grounds of a turn-of-the-century blacksmith shop and inspired by Denton’s storied haunted history.\n\n🎶 Live music | 8–10 PM\n🍸 Spooky cocktails & zero-proof mocktails\n🍽️ Late-night light bites & frights menu\n☕ Coffee drinks & desserts\n🥃 Last call | 10:30 PM\n\nEvery Friday & Saturday in October",
-"link": "https://www.facebook.com/events/1385280706261384?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22your_upcoming_events_unit%22%2C%22surface%22%3A%22bookmark%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22your_upcoming_events_unit%22%2C%22surface%22%3A%22bookmark%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22your_upcoming_events_unit%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=rectxowM9faydiXfu",
-"verified": true,
-"db": true,
-"id": "db-rectxowM9faydiXfu",
-"start": "2026-10-09",
-"end": "2026-10-30",
-"dates": [
-"2026-10-09",
-"2026-10-10",
-"2026-10-16",
-"2026-10-17",
-"2026-10-23",
-"2026-10-24",
-"2026-10-30"
-],
-"time": "8pm–10:30pm"
+"time": "8pm–11:30pm",
+"img": "img/att0SE6NM6jJNWSqL.webp"
 },
 {
 "title": "Movie in the Park: Goosebumps Part One & Two",
@@ -877,81 +3257,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recp3DBrjLYueVtdI",
 "start": "2026-10-09",
-"time": "6pm–11pm"
-},
-{
-"title": "Movie Tavern Denton - Horror Throwbacks!",
-"venue": "",
-"address": "916 W. University, Denton Tx, 76201",
-"cost": "Ticketed",
-"tags": [
-"allmonth",
-"food"
-],
-"desc": "Join us for this awesome throwback, The Shining on 10-9-26 at 10:45pm! Come hungry and leave scared!",
-"link": "https://www.marcustheatres.com/theatre-locations/denton-cinema",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recjVvAtXu9UBUIcQ",
-"verified": true,
-"db": true,
-"id": "db-recjVvAtXu9UBUIcQ",
-"start": "2026-10-09",
-"end": "2026-10-31",
-"dates": [
-"2026-10-09",
-"2026-10-10",
-"2026-10-16",
-"2026-10-17",
-"2026-10-23",
-"2026-10-24",
-"2026-10-29",
-"2026-10-30",
-"2026-10-31"
-],
-"time": "Times vary by date",
-"times": {
-"2026-10-09": "10:45pm",
-"2026-10-10": "10:45pm–12:30am",
-"2026-10-16": "10:45pm–midnight",
-"2026-10-17": "10:45pm–1am",
-"2026-10-23": "10:45pm–1am",
-"2026-10-24": "10:45pm–1am",
-"2026-10-29": "8pm–10:45pm",
-"2026-10-30": "8pm–10:45pm",
-"2026-10-31": "8pm–10:45pm"
-}
-},
-{
-"title": "Nightmare on Elm St., House of Doom ; Haunted House",
-"venue": "",
-"address": "1807 n elm st Denton tx 76201",
-"cost": "Ticketed",
-"tags": [
-"allmonth",
-"family",
-"haunted",
-"show"
-],
-"desc": "Join us for a Haunted House experience unlike anything you ever seen. \nFull contact Haunted House, hear the screams, shrieks and excitement at Bad Habits Music and Events / Drippy Eyes INk . We are shutting down half of our building and converting it into an indoor and outdoor Haunted House experience.\nHaunted House should last about 15 to 25 minutes of pure horror . See if you can find the bonus room after you’ve escaped the house of doom  ..\n\nEnjoy the after life with drinks and good vibes at Bad Habits, music and events !! \n\nAll ages welcome in the Haunted House!\nParent advisory suggested!! Tickets on sale now! Check out our eventbright link to purchase tickets",
-"link": "https://www.eventbrite.com/e/1998644384155?aff=oddtdtcreator",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recIHbHa6ZYphcbw0",
-"verified": true,
-"db": true,
-"id": "db-recIHbHa6ZYphcbw0",
-"start": "2026-10-09",
-"end": "2026-10-31",
-"dates": [
-"2026-10-09",
-"2026-10-10",
-"2026-10-16",
-"2026-10-17",
-"2026-10-23",
-"2026-10-24",
-"2026-10-30",
-"2026-10-31"
-],
-"time": "9pm–11:59pm"
+"time": "6pm–11pm",
+"img": "img/att2j7ouErlnMgXU0.webp"
 },
 {
 "title": "Old Hollywood Murder Mystery Dinner",
@@ -969,7 +3276,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recrJnWYwgJY5wA06",
 "start": "2026-10-09",
-"time": "7pm–10pm"
+"time": "7pm–10pm",
+"img": "img/attkBEgwiMYz2S1oo.webp"
 },
 {
 "title": "Paint + Wine: Spooky Canvas Painting",
@@ -988,7 +3296,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recdHiwhqrU8hB4ow",
 "start": "2026-10-09",
-"time": "6pm–8pm"
+"time": "6pm–8pm",
+"img": "img/atthTR02Wbsk5xdQ8.webp"
 },
 {
 "title": "Paint + Wine: Spooky Canvas Painting",
@@ -1007,54 +3316,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-reckM8C8dot24qM94",
 "start": "2026-10-09",
-"time": "6pm–8pm"
-},
-{
-"title": "Pumpkin Patch at Trinity",
-"venue": "",
-"address": "Trinity United Methodist Church, 633 Hobson Lane, Denton, TX 76205",
-"cost": "No ticket needed",
-"tags": [
-"allmonth",
-"family",
-"free",
-"market"
-],
-"desc": "Celebrate fall with us at the Trinity United Methodist Church Pumpkin Patch in Denton!\n\nOur Pumpkin Patch is a fun, family-friendly fall tradition filled with pumpkins of all shapes and sizes, festive photo opportunities, and plenty of space to enjoy the season with family and friends. Whether you’re searching for the perfect carving pumpkin, decorating your front porch, snapping fall photos, or simply looking for a festive place to spend an afternoon, we would love to welcome you to the patch.\n\nThe Pumpkin Patch opens Sunday, September 20 and continues through October 31.\n\nHours:\nMonday–Saturday: 10:00 AM–7:00 PM\nSunday: 12:00 PM–7:00 PM\n\nThroughout the season, Trinity will also host special activities and opportunities for our community to gather, including our Trunk or Treat celebration on Saturday, October 24 from 5:00–7:00 PM.\n\nAdmission to the Pumpkin Patch is free, and visitors are welcome to come take pictures and enjoy the patch even if they are not purchasing a pumpkin. Pumpkins are available for purchase in a variety of sizes and styles.\n\nProceeds from the Pumpkin Patch help support the Youth, Children's and Music ministries of Trinity United Methodist Church.\n\nBring your family, invite your friends, take some fall pictures, pick out a pumpkin, and enjoy a little bit of autumn right here in Denton. We can’t wait to welcome you to the Trinity Pumpkin Patch!",
-"link": "https://trinitydenton.org/",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recWd557JvUbxBS3c",
-"verified": true,
-"db": true,
-"id": "db-recWd557JvUbxBS3c",
-"start": "2026-10-09",
-"end": "2026-10-31",
-"dates": [
-"2026-10-09",
-"2026-10-10",
-"2026-10-11",
-"2026-10-12",
-"2026-10-13",
-"2026-10-14",
-"2026-10-15",
-"2026-10-16",
-"2026-10-17",
-"2026-10-18",
-"2026-10-19",
-"2026-10-20",
-"2026-10-21",
-"2026-10-22",
-"2026-10-23",
-"2026-10-24",
-"2026-10-25",
-"2026-10-26",
-"2026-10-27",
-"2026-10-28",
-"2026-10-29",
-"2026-10-30",
-"2026-10-31"
-],
-"time": "noon–6pm"
+"time": "6pm–8pm",
+"img": "img/attQNK8ZDopVQmeEF.webp"
 },
 {
 "title": "Serve Denton's 2nd Annual Atomic Bingo Bash!",
@@ -1074,7 +3337,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recqlpPQqwe7ZiwJG",
 "start": "2026-10-09",
-"time": "6pm–9pm"
+"time": "6pm–9pm",
+"img": "img/attfb9mS04RMq5vkE.webp"
 },
 {
 "title": "Stoke Trunk or Treat",
@@ -1094,60 +3358,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec2EqCcmrnYbw6dI",
 "start": "2026-10-09",
-"time": "5pm–7pm"
-},
-{
-"title": "The Velvet NV Night Market",
-"venue": "",
-"address": "311 S Locust St Denton TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"art",
-"festival",
-"food",
-"inclusive",
-"market",
-"music",
-"free"
-],
-"desc": "Salon NV and The Velvet Echo have partnered to bring you The Velvet NV Night Market. Every Friday we will have an incredible Artisan Market full of Vendors and local talent with amazing one of a kind goods. Food, baked goods, music, vintage, beauty, permanent jewelry, Art, tattoo artist, and so much more!! We curated and hand selected folks/businesses who put so much love into what they create…Come experience this community magic!\nEvery Friday in October 5p-9p\n311 S Locust St. Denton TX",
-"link": null,
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recS8Xo8DvE33tRD3",
-"verified": true,
-"db": true,
-"id": "db-recS8Xo8DvE33tRD3",
-"start": "2026-10-09",
-"time": "5pm–9pm"
-},
-{
-"title": "Denton Haunts Ghost Walk",
-"venue": "",
-"address": "John B. Denton's gravesite is 110 West Hickory Street, Denton",
-"cost": "Ticketed",
-"tags": [
-"21plus",
-"allmonth",
-"art",
-"tour"
-],
-"desc": "DENTON HAUNTS Ghost Tour is a 1.5-hour walking tour of the downtown Denton Square which educates & entertains with TRUE local ghost stories! Join us for spooky evening stroll around the Denton County Courthouse-on-the-Square Museum and downtown Denton Square! This in-person meetup at the Grave of Capt. Denton on the downtown Courthouse lawn will take you on a thrilling walkabout tour through the haunted history of Denton's ghostly legends. Be ready to explore eerie tales, ghostly legends, and just maybe experience the paranormal firsthand yourself.\n\nWhether you're a seasoned ghost hunter or just looking for chilling true tales, this rated PG-13 event is perfect for adventurous thrill-seekers. Don't miss out on this unforgettable opportunity to uncover the mysteries lurking in the shadows of Denton TX, but availability is limited!",
-"link": "https://www.facebook.com/DentonHaunts/",
-"tickets": "https://www.eventbrite.com/e/2026-denton-haunts-ghost-walk-tickets-1994097729990",
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recmKnFWmbeXEnDZV",
-"verified": true,
-"db": true,
-"id": "db-recmKnFWmbeXEnDZV",
-"start": "2026-10-10",
-"end": "2026-11-06",
-"dates": [
-"2026-10-10",
-"2026-10-17",
-"2026-10-24",
-"2026-10-31",
-"2026-11-06"
-],
-"time": "8:30pm–10pm"
+"time": "5pm–7pm",
+"img": "img/attSuUdhFeBr5wpnP.webp"
 },
 {
 "title": "DIY Halloween Special Effects",
@@ -1165,7 +3377,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec3efLGzsQvZpcjc",
 "start": "2026-10-10",
-"time": "3pm–4:30pm"
+"time": "3pm–4:30pm",
+"img": "img/attXDuLARyNG2NpMf.webp"
 },
 {
 "title": "Double feature in the tequila lounge",
@@ -1186,7 +3399,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recgO3a09FjpXZSQp",
 "start": "2026-10-10",
-"time": "8pm–11:30pm"
+"time": "8pm–11:30pm",
+"img": "img/attSmQVmYyaXRNvtG.webp"
 },
 {
 "title": "Enameled Ghosts and Spooky Cats by Sarah Loch-Test",
@@ -1204,34 +3418,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recutLbvZNwGlg9et",
 "start": "2026-10-10",
-"time": "2pm–5pm"
-},
-{
-"title": "Graveyard Tales",
-"venue": "",
-"address": "215 E. Mckinney St. Denton, TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"allmonth",
-"family",
-"free"
-],
-"desc": "Join us every Saturday night in October for Graveyard Tales offered by the Lil D Storytelling Guild! From 7:00pm - 8:30pm, our storytellers will be narrating spine-tingling tales at the City Hall Cemetery located at 521 E. Mckinney St. Some seating will be available on-site, but feel free to bring your own chairs and blankets. Family friendly and available to all ages! We hope to see you there!",
-"link": null,
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recXfIxE4wVtbw443",
-"verified": true,
-"db": true,
-"id": "db-recXfIxE4wVtbw443",
-"start": "2026-10-10",
-"end": "2026-10-31",
-"dates": [
-"2026-10-10",
-"2026-10-17",
-"2026-10-24",
-"2026-10-31"
-],
-"time": "7:30pm–8:30pm"
+"time": "2pm–5pm",
+"img": "img/attiFFYOkcYa5yJvH.webp"
 },
 {
 "title": "Halloween Chalk Art Competition",
@@ -1251,25 +3439,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recigUtDZLcRZ0QFD",
 "start": "2026-10-10",
-"time": "8am–5pm"
-},
-{
-"title": "Haunted Dungeons and Dragons",
-"venue": "",
-"address": "d20 Tavern, 112 West Oak St.",
-"cost": "Ticketed",
-"tags": [
-"art"
-],
-"desc": "Calling all brave adventurers! Embark on an exciting and terrifying journey into the world of Dungeons and Dragons, where you'll encounter zombies, ghosts, and demons. Join our ongoing Adventurers Collective every Saturday for a drop in style campaign. The world continues to evolve with every session while players play as often as they like. Every session is hosted by a d20 Tavern House Dungeon Master. We provide everything you need to play. Whether you're a seasoned adventurer or a curious newcomer, there's a seat for you at our table!",
-"link": "https://d20-tavern.square.site/event-registration",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recwvK98j8T5OlDGc",
-"verified": true,
-"db": true,
-"id": "db-recwvK98j8T5OlDGc",
-"start": "2026-10-10",
-"time": "1pm"
+"time": "8am–5pm",
+"img": "img/attvQDTiWjCX5gKF1.webp"
 },
 {
 "title": "Intro to Stained Glass",
@@ -1289,6 +3460,16 @@ window.DHW_DB_EVENTS = [
 "verified": true,
 "db": true,
 "id": "db-recGf7kSSN6YvSRMc",
+"rids": [
+"recGf7kSSN6YvSRMc",
+"recko8juhZmJ5zxys",
+"recG8mk9YFazf4oZK",
+"recmbGb8aWXLC9KMI",
+"rec9aFlDvIcO7kO6G",
+"recg9dQWVyPq8WjZj",
+"rec99HdtIjRI7rKpc",
+"recM3Vmn1iUa2WU7G"
+],
 "start": "2026-10-10",
 "end": "2026-10-31",
 "dates": [
@@ -1303,7 +3484,8 @@ window.DHW_DB_EVENTS = [
 "2026-10-11": "noon–2pm & 3pm–5pm",
 "2026-10-25": "3pm–5pm",
 "2026-10-31": "2:30pm–4:30pm"
-}
+},
+"img": "img/att5VlipGoDsIZCQi.webp"
 },
 {
 "title": "Karaoke and Costumes under the Big Top",
@@ -1323,7 +3505,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recmPF6T4LmgVdMst",
 "start": "2026-10-10",
-"time": "6pm–9pm"
+"time": "6pm–9pm",
+"img": "img/attQovgmXd1jBOZyD.webp"
 },
 {
 "title": "Mannequin Night",
@@ -1343,7 +3526,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec4GsVocwNHwh4o5",
 "start": "2026-10-10",
-"time": "5pm–7pm"
+"time": "5pm–7pm",
+"img": "img/att7hxdm9XvKb72nX.webp"
 },
 {
 "title": "Monster Maker: Action Figure Workshop",
@@ -1362,7 +3546,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recq5ugn9ZSTDGvAE",
 "start": "2026-10-10",
-"time": "4pm–7pm"
+"time": "4pm–7pm",
+"img": "img/attcLIddQX7oFkIoU.webp"
 },
 {
 "title": "Papa's Night Out : a ghost-themed karaoke & costume contest",
@@ -1382,7 +3567,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recrnEliYKNYl6uqN",
 "start": "2026-10-10",
-"time": "7:30pm–9pm"
+"time": "7:30pm–9pm",
+"img": "img/attYkMH3VP6vIFR7e.webp"
 },
 {
 "title": "Park After Dark",
@@ -1401,7 +3587,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recW5v1uYEOhCwmyc",
 "start": "2026-10-10",
-"time": "6pm–8pm"
+"time": "6pm–8pm",
+"img": "img/att2TKV9xAgsYZObH.webp"
 },
 {
 "title": "Pottery Date Night (Clay Pumpkins)",
@@ -1421,7 +3608,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec2B97fTgUPjgkKt",
 "start": "2026-10-10",
-"time": "6pm–8pm"
+"time": "6pm–8pm",
+"img": "img/attyz9toOKXI87uVs.webp"
 },
 {
 "title": "Pottery Date Night (Clay Pumpkins)",
@@ -1441,7 +3629,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recwlA1LwMmJSAjaT",
 "start": "2026-10-10",
-"time": "6pm–8pm"
+"time": "6pm–8pm",
+"img": "img/att2n2PbU4qxxV8lX.webp"
 },
 {
 "title": "Roller Derby Halloween Mashup",
@@ -1459,25 +3648,25 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recS8PSydJh7IdzRW",
 "start": "2026-10-10",
-"time": "7pm–9pm"
+"time": "7pm–9pm",
+"img": "img/attNsEsIQmHfZOOFd.webp"
 },
 {
 "title": "Seminar on the History of the Vampire in Folklore, Literature, and Film",
 "venue": "",
 "address": "Denton Maker Center, 728 North Elm StreetDenton, Texas, 76201",
 "cost": "Ticketed",
-"tags": [
-"art"
-],
+"tags": [],
 "desc": "Join Dr. Megan Bryan, who wrote her PhD thesis on 19th century vampire literature, to learn all about the long history of the vampire, from its roots in 18th century Eastern European folklore through the literary traditions of the 19th century, and into the visual arts of the 20th and 21st centuries. From “Dracula” to “Twilight” and beyond, this seminar will explore the myth and metaphor of the vampire.",
-"link": "https://www.dentonmakercenter.com/upcoming-workshops-seminars/1010-seminar-the-history-of-the-vampire-by-drmegan-bryan",
-"tickets": "https://book.squareup.com/classes/yif87quj7ohnb6/location/LTFRMZ4V35WM6/classDetails/clssch_sk4cie7x0fjb85?dateStart=1791648000",
+"link": "https://www.dentonmakercenter.com/upcoming-workshops-seminars/926-seminar-the-history-of-the-vampire-by-drmegan-bryan",
+"tickets": "https://book.squareup.com/classes/yif87quj7ohnb6/location/LTFRMZ4V35WM6/classDetails/clssch_ao4tactib8b0xj?dateStart=1790438400",
 "source": "https://era19963.softr.app/event-submissions-details?recordId=recEUUEoYy5v3ou0s",
 "verified": true,
 "db": true,
 "id": "db-recEUUEoYy5v3ou0s",
 "start": "2026-10-10",
-"time": "11am–noon"
+"time": "11am–noon",
+"img": "img/att70VdSdnFm5h8tF.webp"
 },
 {
 "title": "Spooky Spirits Stroll",
@@ -1496,7 +3685,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec9RPP8p4UrI7SfA",
 "start": "2026-10-10",
-"time": "4pm–7pm"
+"time": "4pm–7pm",
+"img": "img/att1bpYd7PZFP7sCs.webp"
 },
 {
 "title": "Spooky Watercolor + Ink",
@@ -1515,7 +3705,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec6DwsQmbcTueInW",
 "start": "2026-10-10",
-"time": "noon"
+"time": "noon",
+"img": "img/attASveV89n2e8GUv.webp"
 },
 {
 "title": "Spooky Watercolor + Ink",
@@ -1534,7 +3725,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recjZZ4OCWeGLBOIq",
 "start": "2026-10-10",
-"time": "noon"
+"time": "noon",
+"img": "img/attHwVPlIQM4WDAI9.webp"
 },
 {
 "title": "Tarot & Tattoos",
@@ -1554,7 +3746,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec54iR22Sg2Tgfwq",
 "start": "2026-10-10",
-"time": "11am–7pm"
+"time": "11am–7pm",
+"img": "img/attdjF4kIirdekxRg.webp"
 },
 {
 "title": "The Boutique Social",
@@ -1577,26 +3770,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recSCvlWmtzDyThlM",
 "start": "2026-10-10",
-"time": "5pm–9pm"
-},
-{
-"title": "Video Crypt",
-"venue": "",
-"address": "411 E Sycamore St, Denton, TX 76205 (Rubber Gun Gallery)",
-"cost": "No ticket needed",
-"tags": [
-"family",
-"free"
-],
-"desc": "The Video Crypt is a nostalgic video store pop-up give fans of film a chance to relive or experience what passing through the aisles of a video store was like back in the day. You will be able to enjoy seeing original video box covers on display along with video store posters and other memorabilia that takes you back to a time before streaming, when you ventured to your favorite video store and planned your weekend around pizza and movies. The Video Crypt is a great opportunity for fun photography and talk movies with clerks on staff during your visit. While VHS tapes will not be for sale, this art installation will have t-shirts, stickers, zines, and other collectables to mark your video store experience all October at The Video Crypt.",
-"link": "https://www.instagram.com/videocrypttx/",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recYIWapzJxd8JD2X",
-"verified": true,
-"db": true,
-"id": "db-recYIWapzJxd8JD2X",
-"start": "2026-10-10",
-"time": "7pm–1am"
+"time": "5pm–9pm",
+"img": "img/att9QN6xEyRSvfT8O.webp"
 },
 {
 "title": "White Lie Black Light Dance Party",
@@ -1615,7 +3790,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recjdsJVFquc9xHNu",
 "start": "2026-10-10",
-"time": "8pm–1am"
+"time": "8pm–1am",
+"img": "img/attN8ExLlUGk0KBAD.webp"
 },
 {
 "title": "7 Year Anniversary!",
@@ -1636,7 +3812,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recEtcdJvNyjcQ3Qw",
 "start": "2026-10-11",
-"time": "11am–midnight"
+"time": "11am–midnight",
+"img": "img/attTNQvSDz9jYUZ2w.webp"
 },
 {
 "title": "Bell-O-Ween Mini Market",
@@ -1658,39 +3835,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recFZvdO4Qwd3us6h",
 "start": "2026-10-11",
-"time": "5pm–8pm"
-},
-{
-"title": "Blood on the Clocktower",
-"venue": "",
-"address": "112 West Oak St.",
-"cost": "No ticket needed",
-"tags": [
-"allmonth",
-"free"
-],
-"desc": "In the quiet village of Ravenswood Bluff, ‌a demon walks amongst you…\n\nDuring a hellish thunderstorm, on the stroke of midnight, there echoes a bone-chilling scream.\n\nA Demon is on the loose, disguised in human form by day. Some have scraps of information. Others have abilities that fight the evil or protect the innocent. But the Demon and its evil minions are spreading lies to confuse and breed suspicion. Will the good townsfolk put the puzzle together in time to save themselves? Or will evil overrun this once peaceful village?\n\nJoin us at d20 Tavern every Wednesday and Sunday night for a bone-chilling social deduction game with a d20 Tavern Storyteller. All experience levels welcome! $5 per person to play.",
-"link": "https://d20tavern.com/events/",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recZrBNkXog7ZNmvI",
-"verified": true,
-"db": true,
-"id": "db-recZrBNkXog7ZNmvI",
-"start": "2026-10-11",
-"end": "2026-10-21",
-"dates": [
-"2026-10-11",
-"2026-10-14",
-"2026-10-18",
-"2026-10-21"
-],
-"time": "Times vary by date",
-"times": {
-"2026-10-11": "6pm–10pm",
-"2026-10-14": "7pm–10pm",
-"2026-10-18": "6pm–10pm",
-"2026-10-21": "7pm–10pm"
-}
+"time": "5pm–8pm",
+"img": "img/att9oRArm68yu5KhU.webp"
 },
 {
 "title": "Hallow-Weenie Fest",
@@ -1710,7 +3856,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recNkEikmHemkZFzE",
 "start": "2026-10-11",
-"time": "2pm–7pm"
+"time": "2pm–7pm",
+"img": "img/attclb4swT0FDpmF5.webp"
 },
 {
 "title": "Halloween Makers Market",
@@ -1731,7 +3878,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rect9MCZUtrcivC70",
 "start": "2026-10-11",
-"time": "6pm–9pm"
+"time": "6pm–9pm",
+"img": "img/attcOQn8lceeJAdUR.webp"
 },
 {
 "title": "Harvest House Fall Festival",
@@ -1752,26 +3900,28 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recAOToIzHmdV39db",
 "start": "2026-10-11",
-"time": "4pm"
+"time": "4pm",
+"img": "img/attR0dzSKVDUmoCHU.webp"
 },
 {
 "title": "LSA Pumpkin Carving Contest",
 "venue": "",
-"address": "113 W Hickory Street Denton Texas",
+"address": "113 W Hickory St. Denton,TX",
 "cost": "No ticket needed",
 "tags": [
-"family",
+"food",
 "free"
 ],
-"desc": "LAS Burger co. At 113 W Hickory street in downtown Denton is hosting a pumpkin carving contest. It will be $25 per pumpkin (LSA will provide pumpkins) it will be Sunday the 11th from 11am-1pm. \nAll proceeds raised will go to Denton’s Freedom House Food Pantry. To sign up please call 940-383-1022 or email abrown@lsaburger.com",
-"link": null,
+"desc": "LSA Burger is hosting a pumpkin Carving contest on October 11th from 11am-1pm. Tools will be provided for all Participants. The Buy in is $25. All funds raised will go to freedom house food pantry. Winners will get an awesome trophy and bragging rights. Pay attention to our socials for sneak peaks at the trophy. \nEmail rfetzer@lsaburger.com to secure your spot!",
+"link": "https://www.facebook.com/share/p/1GngbnwYAq/?mibextid=wwXIfr",
 "tickets": null,
 "source": "https://era19963.softr.app/event-submissions-details?recordId=rec5gAp27Ex2lohBl",
 "verified": true,
 "db": true,
 "id": "db-rec5gAp27Ex2lohBl",
 "start": "2026-10-11",
-"time": "11am–1pm"
+"time": "11am–1pm",
+"img": "img/attbSO0jjxmqQlnfS.webp"
 },
 {
 "title": "Movie and Craft: Matilda and Clay Witches Hat",
@@ -1789,7 +3939,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recz0CNaHldS4FIEX",
 "start": "2026-10-11",
-"time": "3:30pm–5:30pm"
+"time": "3:30pm–5:30pm",
+"img": "img/attPY8U4uiUShQBgi.webp"
 },
 {
 "title": "Personal Shrines Inspired by Dia de los Muertos Ofrendas by Crystal Nelson",
@@ -1807,16 +3958,15 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recoIKTZwhySe9Q8o",
 "start": "2026-10-11",
-"time": "noon–3pm"
+"time": "noon–3pm",
+"img": "img/attpM03m4QXD3pEpb.webp"
 },
 {
 "title": "Spooky Charms by James Thurman",
 "venue": "",
 "address": "Denton Maker Center, 728 North Elm Street Denton, Texas",
 "cost": "Ticketed",
-"tags": [
-"art"
-],
+"tags": [],
 "desc": "Get into the spirit of Halloween by making your own Spooky Charms! Metal stamping is a quick and lasting way to design and create your own small metal works. A variety of spooky (and other) metal stamps will be available to use. Time permitting, students will be able to finish up to ten charms!",
 "link": "www.dentonmakercenter.com",
 "tickets": "https://book.squareup.com/classes/yif87quj7ohnb6/location/LTFRMZ4V35WM6/classDetails/clssch_ot0rxos4wg1gxx?dateStart=1790445600",
@@ -1825,7 +3975,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recjaHxFoxmgdnsew",
 "start": "2026-10-11",
-"time": "1pm–2pm"
+"time": "1pm–2pm",
+"img": "img/atta7sfNV6Am1AdYD.webp"
 },
 {
 "title": "The Go-Go Rillas/ Daughters of Evil",
@@ -1846,7 +3997,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recO06Lu0RRbyrxne",
 "start": "2026-10-11",
-"time": "4pm–8pm"
+"time": "4pm–8pm",
+"img": "img/attrwojkMfisoszGo.webp"
 },
 {
 "title": "Denton Public Library Halloween 2026 Card",
@@ -1865,6 +4017,28 @@ window.DHW_DB_EVENTS = [
 "verified": true,
 "db": true,
 "id": "db-recbH2pKEpPXtAax5",
+"rids": [
+"recbH2pKEpPXtAax5",
+"recpdNdu7AeAhegKq",
+"rec5tNVWt07gvBHFk",
+"rec6HTRSomHQdRDFM",
+"recbNAe7kQtyKrTyB",
+"recoJ95Qd0nLwJVN3",
+"recwza8OXQGFQwJ9l",
+"rec3zHLfwRkDMiJxw",
+"recpZDsUWZL5d04Gq",
+"rec3ZgV3H5IVR647Y",
+"recDYLagnCW8E1hbI",
+"recBUfyy8T103IeOq",
+"recS5nTYYQAhJOD4s",
+"recf68jIMXr88zBqo",
+"recCOe3FcCCLXEyw0",
+"recmKsdACQg3MRzxz",
+"recx2yVy2mfLeC0Ka",
+"recDXt3FdPxKZELsW",
+"reckAUmB7u0n5LzkP",
+"recbcjb64bwTLMu6T"
+],
 "start": "2026-10-12",
 "end": "2026-10-31",
 "dates": [
@@ -1889,7 +4063,8 @@ window.DHW_DB_EVENTS = [
 "2026-10-30",
 "2026-10-31"
 ],
-"time": "9am–6pm"
+"time": "9am–6pm",
+"img": "img/attjIFQtAIkmJBjFl.webp"
 },
 {
 "title": "Learn to Sew a Pumpkin Pin Cushion",
@@ -1907,7 +4082,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recSJt4HdV3sE4wCe",
 "start": "2026-10-12",
-"time": "2pm–4pm"
+"time": "2pm–4pm",
+"img": "img/attle7WT8rZIQnCl3.webp"
 },
 {
 "title": "Booo'sy Painting Experience at Steve's Wine Bar",
@@ -1926,7 +4102,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recw6D6nrIy70goID",
 "start": "2026-10-13",
-"time": "6pm–8pm"
+"time": "6pm–8pm",
+"img": "img/atteUf3JrdliD5HhD.webp"
 },
 {
 "title": "Day of the dead Paint and Spirit Night",
@@ -1946,7 +4123,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recT65UV0OR9PytRY",
 "start": "2026-10-13",
-"time": "7pm–9pm"
+"time": "7pm–9pm",
+"img": "img/attSxvMTUNRYBYDzf.webp"
 },
 {
 "title": "Drink and Draw Sheet Ghosts",
@@ -1966,26 +4144,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recDSL5uQ4nMR0uka",
 "start": "2026-10-13",
-"time": "6pm–9pm"
-},
-{
-"title": "Halloween Theme Movie Nights",
-"venue": "",
-"address": "308 E. Oak St., Denton, TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"21plus",
-"free"
-],
-"desc": "Enjoy some Halloween theme movie nights every Tuesday for the month of October. Grab some beverages from the bar and some food from Feta's Greek food truck and enjoy a movie out in our beer garden.",
-"link": "instagram.com/oakstreetdrafthouse",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=rech09AxMgYZ4bcCA",
-"verified": true,
-"db": true,
-"id": "db-rech09AxMgYZ4bcCA",
-"start": "2026-10-13",
-"time": "9pm–11pm"
+"time": "6pm–9pm",
+"img": "img/att3tD4eByVhWKMKM.webp"
 },
 {
 "title": "Halloween Trivia",
@@ -2004,7 +4164,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recHdmM1BZuIbZALE",
 "start": "2026-10-13",
-"time": "7pm–9pm"
+"time": "7pm–9pm",
+"img": "img/attjtHVeYHFic9Xp8.webp"
 },
 {
 "title": "Sheet Ghost Life Drawin",
@@ -2024,44 +4185,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recHBI2fAggRx6JT5",
 "start": "2026-10-13",
-"time": "6pm–9pm"
-},
-{
-"title": "Thrift & Treat",
-"venue": "",
-"address": "1131 E. McKinney St. Denton, Texas 76209",
-"cost": "No ticket needed",
-"tags": [
-"family",
-"free"
-],
-"desc": "Thrift & Treat every Tuesday in October at Thrift for Good® Denton! 🎃🛍️\n\nShop our weekly Shift to Thrift Tuesday for 15% off the entire store, plus enjoy Halloween fun throughout the shop, including a photo station, temporary tattoos, Thrift & Treat candy stations, and special pop-ups all month.\n\nWe’re also an official Denton Halloween Skelly Hunt stop! 💀 Find our Skelly to unlock an EXTRA 20% off your entire purchase, including sale items!\n\nCome in costume, snap a photo, grab a treat, and hunt for some scary-good secondhand finds. 👻♻️\n\nEvery Tuesday in October\nThrift for Good® Denton",
-"link": "https://www.facebook.com/share/1BzaBMpxcK/",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recTFbi3LtbQerzdE",
-"verified": true,
-"db": true,
-"id": "db-recTFbi3LtbQerzdE",
-"start": "2026-10-13",
-"time": "11am–8pm"
-},
-{
-"title": "4 Movie Tavern Retro Scary Mystery Movies!",
-"venue": "",
-"address": "916 W. University Dr, Denton Tx, 76201",
-"cost": "Ticketed",
-"tags": [
-"family"
-],
-"desc": "Come check out our Retro Mystery Horror series every Wednesday at 7:30pm the month of October for the 31 Days of Halloween! Mystery snacks available!",
-"link": "https://www.marcustheatres.com/theatre-locations/denton-cinema",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recsv7UmgRExqMW3J",
-"verified": true,
-"db": true,
-"id": "db-recsv7UmgRExqMW3J",
-"start": "2026-10-14",
-"time": "7:30pm"
+"time": "6pm–9pm",
+"img": "img/attOVxAlCliACizMe.webp"
 },
 {
 "title": "GAStly Oil Change Day",
@@ -2080,7 +4205,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recRDzom6o1MGRYdm",
 "start": "2026-10-14",
-"time": "8am–5:30pm"
+"time": "8am–5:30pm",
+"img": "img/attL3LhZ5JUaz4Ii8.webp"
 },
 {
 "title": "Halloween Triva Night #2 NSFW",
@@ -2100,7 +4226,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recve47OS8O0DTzfY",
 "start": "2026-10-14",
-"time": "6pm–10pm"
+"time": "6pm–10pm",
+"img": "img/attkrKzCYfI4Zqkza.webp"
 },
 {
 "title": "Inky Monsters: fun with watercolor and ink by Crystal Nelson",
@@ -2118,7 +4245,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recU8uH6z9Jc3ImXo",
 "start": "2026-10-14",
-"time": "6pm–8:30pm"
+"time": "6pm–8:30pm",
+"img": "img/att2as57KkUc96Tj0.webp"
 },
 {
 "title": "Nightmare Before Christmas Movie Night",
@@ -2138,46 +4266,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recKkqQlBE1p8puaJ",
 "start": "2026-10-14",
-"time": "6pm–9pm"
-},
-{
-"title": "Oak Street Drafthouse and Denton Area Run Club Social Run/Walk",
-"venue": "",
-"address": "308 E. Oak St., Denton, TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"family",
-"free"
-],
-"desc": "Join us every Wendnesday night for our weekly social run/walk and receive a complementary beer for participating. The run on the 28th will be costume oriented and there will be a contest with prizes.",
-"link": "https://www.facebook.com/Oakstdrafthouse",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=reca5FgBf9pEoR0oq",
-"verified": true,
-"db": true,
-"id": "db-reca5FgBf9pEoR0oq",
-"start": "2026-10-14",
-"time": "7pm–8pm"
-},
-{
-"title": "Oak Street Drafthouse and Denton Area Run Club Social Run/Walk",
-"venue": "",
-"address": "308 E. Oak St., Denton, TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"family",
-"free"
-],
-"desc": "Join us every Wendnesday night for our weekly social run/walk and receive a complementary beer for participating. The run on the 28th will be costume oriented and there will be a contest with prizes.",
-"link": "https://www.facebook.com/Oakstdrafthouse",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recZmsA3UqlDmhChh",
-"verified": true,
-"db": true,
-"id": "db-recZmsA3UqlDmhChh",
-"start": "2026-10-14",
-"time": "7pm–7pm",
-"end": "2026-11-04"
+"time": "6pm–9pm",
+"img": "img/att2UoEmlISUBv1nN.webp"
 },
 {
 "title": "Scream Movie Night",
@@ -2197,7 +4287,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recMHFVnKIQbbOYWs",
 "start": "2026-10-14",
-"time": "9pm–11pm"
+"time": "9pm–11pm",
+"img": "img/attzR56MKxysqY1RA.webp"
 },
 {
 "title": "Thrift Store Spooky Painting",
@@ -2213,7 +4304,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recDCgHpBWmrXpZaP",
 "start": "2026-10-14",
-"time": "6pm–9pm"
+"time": "6pm–9pm",
+"img": "img/attgCP2Q4UPvl1bpJ.webp"
 },
 {
 "title": "A Photographic Journey through North Texas Cemeteries",
@@ -2232,7 +4324,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recBXDCZu4WESQEby",
 "start": "2026-10-15",
-"time": "6:30pm–7:30pm"
+"time": "6:30pm–7:30pm",
+"img": "img/attwPQ3XVOgTxuqOa.webp"
 },
 {
 "title": "Halloween Trivia Night in the Tequila Lounge",
@@ -2253,23 +4346,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recPxMLlocvG3THAY",
 "start": "2026-10-15",
-"time": "8pm–10pm"
-},
-{
-"title": "Haunted Dungeons & Dragons",
-"venue": "",
-"address": "d20 Tavern, 112 West Oak St.",
-"cost": "Ticketed",
-"tags": [],
-"desc": "Calling all brave adventurers! Embark on an exciting and terrifying journey into the world of Dungeons and Dragons, where you'll encounter zombies, ghosts, and demons. Join our ongoing Adventurers Collective every Thursday for a drop in style campaign. The world continues to evolve with every session while players play as often as they like. Every session is hosted by a d20 Tavern House Dungeon Master. We provide everything you need to play. Whether you're a seasoned adventurer or a curious newcomer, there's a seat for you at our table!",
-"link": "https://d20-tavern.square.site/event-registration",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=rec7PoTuWqmxZoSgH",
-"verified": true,
-"db": true,
-"id": "db-rec7PoTuWqmxZoSgH",
-"start": "2026-10-15",
-"time": "7pm"
+"time": "8pm–10pm",
+"img": "img/attcbNtaNMqVumUUg.webp"
 },
 {
 "title": "Helium Queens",
@@ -2291,30 +4369,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec5wB46Ue2i4VDjI",
 "start": "2026-10-15",
-"time": "6pm–10pm"
-},
-{
-"title": "Twilight Tunes",
-"venue": "",
-"address": "108 Industrial St, Denton, TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"art",
-"family",
-"festival",
-"music",
-"show",
-"free"
-],
-"desc": "Twilight Tunes is a Free Concert Series in Downtown Denton. Every Thursday in October, enjoy live music from local bands. Bring your chair and a bite to eat and enjoy the sounds of Denton. This fall there will be a Twilight Market with local artists and makers selling their Halloween and Fall themed works!",
-"link": "https://www.downtowndenton.org/twilight-tunes",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recQirWjDF58tnIAA",
-"verified": true,
-"db": true,
-"id": "db-recQirWjDF58tnIAA",
-"start": "2026-10-15",
-"time": "6pm–7:30pm"
+"time": "6pm–10pm",
+"img": "img/attpbNotxEoPjY8wg.webp"
 },
 {
 "title": "TWU's Boo at the U",
@@ -2334,7 +4390,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recnZ5ZS15yiZnP2Z",
 "start": "2026-10-15",
-"time": "6pm–8pm"
+"time": "6pm–8pm",
+"img": "img/att79xdkYgng6PZak.webp"
 },
 {
 "title": "28 BEERS LATER: Denton Zombie Bar Crawl",
@@ -2354,7 +4411,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recgu9I5aBTMuA3Sx",
 "start": "2026-10-16",
-"time": "8pm–2am"
+"time": "8pm–2am",
+"img": "img/attAeuCiLaoLy1QHk.webp"
 },
 {
 "title": "9th Annual Peterbilt Pride & Class Parade",
@@ -2373,25 +4431,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recJ8d823i3KBLqkX",
 "start": "2026-10-16",
-"time": "7pm–8pm"
-},
-{
-"title": "Denton Historic Tours presents, \"Spooks, Spirits, and Shadows Walking Tour\"",
-"venue": "",
-"address": "Meet at the tomb of John Denton located near the courthouse on the square in Denton, Texas.",
-"cost": "Ticketed",
-"tags": [
-"tour"
-],
-"desc": "Step into the haunted heart of Denton this Halloween season for the Spooks, Spirits, and Shadows Walking Tour. Stroll the historic Denton Square as chilling tales of restless spirits, local legends, and mysterious happenings come to life. Not all spirits will be spectral, some may be hard. Whether you're a skeptic, a believer, or just looking for a unique Halloween experience, this 1.5 hour walking tour blends history, haunting stories, and fun into one delightfully eerie adventure.",
-"link": "https://www.dentoncountyevents.com/business-two",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recTF6uTeyhgE5UyN",
-"verified": true,
-"db": true,
-"id": "db-recTF6uTeyhgE5UyN",
-"start": "2026-10-16",
-"time": "6pm"
+"time": "7pm–8pm",
+"img": "img/attUR9RF2bVHJtk5H.webp"
 },
 {
 "title": "Goblins & Glow Golf",
@@ -2410,7 +4451,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recgx7I9SDJIV4C3T",
 "start": "2026-10-16",
-"time": "7pm–10pm"
+"time": "7pm–10pm",
+"img": "img/atteVvoA5e7rp8JU8.webp"
 },
 {
 "title": "Halloween Hoottenanny with Matt \"The Cat\" Hillyer and special guest Penny and The Flamethrowers",
@@ -2432,7 +4474,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recqPtHASNq3z6g0H",
 "start": "2026-10-16",
-"time": "6pm–10pm"
+"time": "6pm–10pm",
+"img": "img/attDp6l580B5XOJYh.webp"
 },
 {
 "title": "Hissy Kits Purr-Anormal Activity Show",
@@ -2452,7 +4495,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recTbge2JEUc8HBEs",
 "start": "2026-10-16",
-"time": "8pm–1am"
+"time": "8pm–1am",
+"img": "img/attrE3L6TtxCkQLLh.webp"
 },
 {
 "title": "Lost in Hollywood: First Fright at Harvest House",
@@ -2470,7 +4514,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recWQIvPO2F5ckMit",
 "start": "2026-10-16",
-"time": "9pm–11:30pm"
+"time": "9pm–11:30pm",
+"img": "img/attDdPMAKwdpweIzy.webp"
 },
 {
 "title": "Monster Mashup",
@@ -2490,7 +4535,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recHP6jlmheeliool",
 "start": "2026-10-16",
-"time": "6pm–9pm"
+"time": "6pm–9pm",
+"img": "img/attQEpJW1r8ANKUDe.webp"
 },
 {
 "title": "Movie Tavern Denton Thrillers!",
@@ -2508,6 +4554,24 @@ window.DHW_DB_EVENTS = [
 "verified": true,
 "db": true,
 "id": "db-recEfJ4Uy6edcjWOO",
+"rids": [
+"recEfJ4Uy6edcjWOO",
+"recdbWLCaZELl9oW6",
+"recL4cJalr9o3i4U9",
+"rec2Y6ka3SMF8WpNe",
+"rec1wRVwugPxe0u6N",
+"recAkoR8k4F504E4t",
+"recxy0Yn8FlMVfQS1",
+"recrihOZ5rwn7MgCC",
+"rec9eg7N7HhtCQXk7",
+"recQ4cRCbUgnkuI7f",
+"rectHApPNzrEKKukY",
+"reci5VleEqCv1Zemp",
+"recSbA3inb4OsZary",
+"recJSpjozLWsqhBYf",
+"recz8gF3hrKopdu8v",
+"recuJ4yFcmIKM0Q9o"
+],
 "start": "2026-10-16",
 "end": "2026-10-31",
 "dates": [
@@ -2528,7 +4592,8 @@ window.DHW_DB_EVENTS = [
 "2026-10-30",
 "2026-10-31"
 ],
-"time": "1:30pm"
+"time": "1:30pm",
+"img": "img/atteSsPPnQQw8PdwJ.webp"
 },
 {
 "title": "Pottery + Wine: Clay Mugs",
@@ -2546,7 +4611,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec1JPCKXBEkwZrQz",
 "start": "2026-10-16",
-"time": "6pm–8pm"
+"time": "6pm–8pm",
+"img": "img/attFX7mnQsSjldowh.webp"
 },
 {
 "title": "Teasley Commons 7th Annual Trunk Or Treat",
@@ -2568,7 +4634,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recwISuEegtg68KA8",
 "start": "2026-10-16",
-"time": "4:30pm–7:30pm"
+"time": "4:30pm–7:30pm",
+"img": "img/atteo7E4Twf579TF8.webp"
 },
 {
 "title": "The Sorcerer's Scone: After Dark",
@@ -2587,31 +4654,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recAKhPNG3mBv5x3n",
 "start": "2026-10-16",
-"time": "7pm"
-},
-{
-"title": "The Velvet NV Night Market",
-"venue": "",
-"address": "311 S Locust St Denton TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"art",
-"festival",
-"food",
-"inclusive",
-"market",
-"music",
-"free"
-],
-"desc": "Salon NV and The Velvet Echo have partnered to bring you The Velvet NV Night Market. Every Friday we will have an incredible Artisan Market full of Vendors and local talent with amazing one of a kind goods. Food, baked goods, music, vintage, beauty, permanent jewelry, Art, tattoo artist, and so much more!! We curated and hand selected folks/businesses who put so much love into what they create…Come experience this community magic!\nEvery Friday in October 5p-9p\n311 S Locust St. Denton TX",
-"link": null,
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recSMQEeXLqHlxIpZ",
-"verified": true,
-"db": true,
-"id": "db-recSMQEeXLqHlxIpZ",
-"start": "2026-10-16",
-"time": "5pm–9pm"
+"time": "7pm",
+"img": "img/attIBJVUUeUTkDZf7.webp"
 },
 {
 "title": "14th Annual St. Barnabas Fall Bazaar",
@@ -2631,7 +4675,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recoI6kWP6RHgpqEG",
 "start": "2026-10-17",
-"time": "9am–4pm"
+"time": "9am–4pm",
+"img": "img/attmImm0NAwPzoS96.webp"
 },
 {
 "title": "Art Sale",
@@ -2650,7 +4695,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recKf7YmPATrzeMFi",
 "start": "2026-10-17",
-"time": "9am–3pm"
+"time": "9am–3pm",
+"img": "img/attp7ydj9DGQC54I9.webp"
 },
 {
 "title": "Denton Dig It! Archeology Fair",
@@ -2670,7 +4716,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rectpJqF4gwVeIxEn",
 "start": "2026-10-17",
-"time": "9am–1pm"
+"time": "9am–1pm",
+"img": "img/atteDx0LuJf8ZrNHs.webp"
 },
 {
 "title": "Electric! Light Art Exhibition",
@@ -2691,7 +4738,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec9MzR5AAOlMXUIe",
 "start": "2026-10-17",
-"time": "7pm–10pm"
+"time": "7pm–10pm",
+"img": "img/attbpSwF8GnFXtipS.webp"
 },
 {
 "title": "Ghostly Transfers by Linda Hilterbrandt",
@@ -2709,7 +4757,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recTeLuMMO4qGpDDj",
 "start": "2026-10-17",
-"time": "10am–11:30am"
+"time": "10am–11:30am",
+"img": "img/attRh7Ttrqh63ICDT.webp"
 },
 {
 "title": "HALLO-WING",
@@ -2728,25 +4777,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recaivtv7R0qGUns6",
 "start": "2026-10-17",
-"time": "5:30pm–9:30pm"
-},
-{
-"title": "Haunted Dungeons and Dragons",
-"venue": "",
-"address": "d20 Tavern, 112 West Oak St.",
-"cost": "Ticketed",
-"tags": [
-"art"
-],
-"desc": "Calling all brave adventurers! Embark on an exciting and terrifying journey into the world of Dungeons and Dragons, where you'll encounter zombies, ghosts, and demons. Join our ongoing Adventurers Collective every Saturday for a drop in style campaign. The world continues to evolve with every session while players play as often as they like. Every session is hosted by a d20 Tavern House Dungeon Master. We provide everything you need to play. Whether you're a seasoned adventurer or a curious newcomer, there's a seat for you at our table!",
-"link": "https://d20-tavern.square.site/event-registration",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recVAnjcsO6SeBBMQ",
-"verified": true,
-"db": true,
-"id": "db-recVAnjcsO6SeBBMQ",
-"start": "2026-10-17",
-"time": "1pm"
+"time": "5:30pm–9:30pm",
+"img": "img/attr8d5UEuAvWM0Of.webp"
 },
 {
 "title": "Intro to Pottery: Ceramic Bowls",
@@ -2764,26 +4796,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec1DOX15QP9RiORv",
 "start": "2026-10-17",
-"time": "11am–1pm"
-},
-{
-"title": "Intro to Pottery: Clay Pumpkins",
-"venue": "",
-"address": "Wildflower Art Studio: 715 North Locust Street Denton, Texas 76201",
-"cost": "Ticketed",
-"tags": [
-"art",
-"family"
-],
-"desc": "This introductory-level workshop is a fun way to explore the relaxing art of Clay Pottery. This 2 hour workshop covers basic hand-building clay techniques.\n\nEach student will create and glaze a small clay pumpkin. \n\nGlazed Pottery will be available for pickup after being fired in the kiln (within 2-3 weeks). Shipping option available ($18).\n\nAll supplies included. Workshop includes snacks + coffee.",
-"link": "https://www.wildflowerartstudio.net/workshops/clay-workshop-pumpkin-oct17",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recnKxADqRz1N6AaV",
-"verified": true,
-"db": true,
-"id": "db-recnKxADqRz1N6AaV",
-"start": "2026-10-17",
-"time": "2:30pm"
+"time": "11am–1pm",
+"img": "img/att9dSIskkrOz3w6F.webp"
 },
 {
 "title": "Intro to Watercolor: Pumpkins",
@@ -2802,7 +4816,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recguQ9LGKsOCAxkZ",
 "start": "2026-10-17",
-"time": "6pm–8pm"
+"time": "6pm–8pm",
+"img": "img/attlxRhTowY2u58t9.webp"
 },
 {
 "title": "Karaoke with Jupiter",
@@ -2822,7 +4837,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec6CpN5C5IhMTkr5",
 "start": "2026-10-17",
-"time": "8pm–1am"
+"time": "8pm–1am",
+"img": "img/attngDNgDYouxTXRp.webp"
 },
 {
 "title": "Movie Tavern Denton - Throwbacks!",
@@ -2840,6 +4856,13 @@ window.DHW_DB_EVENTS = [
 "verified": true,
 "db": true,
 "id": "db-recQk4T5ZYIUzEJOj",
+"rids": [
+"recQk4T5ZYIUzEJOj",
+"recFX5jJ50wn2jpsn",
+"recczjuiL0VbZr51y",
+"reckd8nb35NOMUmi3",
+"recd68hwhbxnApUvh"
+],
 "start": "2026-10-17",
 "end": "2026-10-21",
 "dates": [
@@ -2849,7 +4872,8 @@ window.DHW_DB_EVENTS = [
 "2026-10-20",
 "2026-10-21"
 ],
-"time": "3:30pm–6:30pm"
+"time": "3:30pm–6:30pm",
+"img": "img/attSC90glp0L7euL7.webp"
 },
 {
 "title": "Once Upon A Boo! A Not-So-Spooky Fall Carnival",
@@ -2872,7 +4896,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recQ2z6v1wnSAghKk",
 "start": "2026-10-17",
-"time": "2pm–5pm"
+"time": "2pm–5pm",
+"img": "img/att1ZjDHY8OL86RdM.webp"
 },
 {
 "title": "Recycled Books Presents - Local Thriller Author Brittney Kristina",
@@ -2892,7 +4917,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec3KBOyRXau3bxmZ",
 "start": "2026-10-17",
-"time": "2pm–5pm"
+"time": "2pm–5pm",
+"img": "img/attFWMVmYM252WWgt.webp"
 },
 {
 "title": "Riot Girl Fest",
@@ -2915,26 +4941,29 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec2DfTrqfRiDDQiW",
 "start": "2026-10-17",
-"time": "1pm–10:30pm"
+"time": "1pm–10:30pm",
+"img": "img/attszAqHdGyHQHvVz.webp"
 },
 {
 "title": "Rocky Horror Picture Show",
 "venue": "",
 "address": "331 E Hickory St Denton, TX 76201",
-"cost": "No ticket needed",
+"cost": "Ticketed",
 "tags": [
 "21plus",
-"free"
+"food",
+"show"
 ],
-"desc": "Get ready to do the Time Warp again!? Lost Bastardos is bringing their cult-favorite, high-energy shadow cast performance of The Rocky Horror Picture Show back to Harvest House in the Home of Happiness - DENTON.\nThis one-of-a-kind experience combines the iconic film with live performance, outrageous audience participation, and all the wild energy that makes Rocky Horror a tradition.\nNo ticket required, admission is FREE [but you DO need your ID]\n21+\nProp packs will be $7 - no outside prop packs/food/drinks~",
-"link": "https://www.facebook.com/share/19hUr9wnW4/",
-"tickets": null,
+"desc": "Get ready to do the Time Warp again!? Lost Bastardos is bringing their cult-favorite, high-energy shadow cast performance of The Rocky Horror Picture Show back to Harvest House in the Home of Happiness - DENTON.\nThis one-of-a-kind experience combines the iconic film with live performance, outrageous audience participation, and all the wild energy that makes Rocky Horror a tradition.\nTickets are available at the door only! (And the best part, they’re only $2)\n21+\nProp packs will be $7 - no outside prop packs/food/drinks",
+"link": "https://www.facebook.com/share/1EaRZkVLig/",
+"tickets": "At the door",
 "source": "https://era19963.softr.app/event-submissions-details?recordId=recZkDYxEjmrEYE0H",
 "verified": true,
 "db": true,
 "id": "db-recZkDYxEjmrEYE0H",
 "start": "2026-10-17",
-"time": "7:30pm–11:30pm"
+"time": "7:30pm–11:30pm",
+"img": "img/attUXk4d04xm7fmKx.webp"
 },
 {
 "title": "Smilin Ricks Halloween Tattoo Event",
@@ -2953,7 +4982,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recDw9KZ326gbFqIc",
 "start": "2026-10-17",
-"time": "noon–9pm"
+"time": "noon–9pm",
+"img": "img/attvp3cHbwpaVmd5K.webp"
 },
 {
 "title": "Tarot Reading in the Tequila Lounge",
@@ -2974,26 +5004,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recOfFZmlWiDlA1IE",
 "start": "2026-10-17",
-"time": "8pm–11pm"
-},
-{
-"title": "Video Crypt",
-"venue": "",
-"address": "411 E Sycamore St, Denton, TX 76205 (Rubber Gun Gallery)",
-"cost": "No ticket needed",
-"tags": [
-"family",
-"free"
-],
-"desc": "The Video Crypt is a nostalgic video store pop-up give fans of film a chance to relive or experience what passing through the aisles of a video store was like back in the day. You will be able to enjoy seeing original video box covers on display along with video store posters and other memorabilia that takes you back to a time before streaming, when you ventured to your favorite video store and planned your weekend around pizza and movies. The Video Crypt is a great opportunity for fun photography and talk movies with clerks on staff during your visit. While VHS tapes will not be for sale, this art installation will have t-shirts, stickers, zines, and other collectables to mark your video store experience all October at The Video Crypt.",
-"link": "https://www.instagram.com/videocrypttx/",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recKk9LOwwwT6oZ1m",
-"verified": true,
-"db": true,
-"id": "db-recKk9LOwwwT6oZ1m",
-"start": "2026-10-17",
-"time": "7pm–1am"
+"time": "8pm–11pm",
+"img": "img/attPryZF7jBs5R67H.webp"
 },
 {
 "title": "d20 Tavern Halloween RPG Market",
@@ -3013,7 +5025,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec6FEcRbLBPo84Sv",
 "start": "2026-10-18",
-"time": "noon–6pm"
+"time": "noon–6pm",
+"img": "img/attmQHLUIBAgQ3k1U.webp"
 },
 {
 "title": "Ghost  Hunt with Teal Gray",
@@ -3033,7 +5046,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recEc0DqovVimjmnF",
 "start": "2026-10-18",
-"time": "6pm–9pm"
+"time": "6pm–9pm",
+"img": "img/attr3Cw7K4IgHf7rz.webp"
 },
 {
 "title": "Intro to Pottery: Clay Pumpkins • October 18 - 3:00-5:00pm",
@@ -3052,7 +5066,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recHC5bXStFjaenNL",
 "start": "2026-10-18",
-"time": "3pm–5pm"
+"time": "3pm–5pm",
+"img": "img/attsWroV9Ys3Y8qM9.webp"
 },
 {
 "title": "Needle Felted Halloween Monsters by UJ Design Studios",
@@ -3070,7 +5085,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recghqpS8UazDebFu",
 "start": "2026-10-18",
-"time": "3pm–4:30pm"
+"time": "3pm–4:30pm",
+"img": "img/att6PrGBmZoUrMsFc.webp"
 },
 {
 "title": "Oak Street Drafthouse Food Truck Event",
@@ -3090,7 +5106,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec7XZvt9B28O2QZS",
 "start": "2026-10-18",
-"time": "noon–7pm"
+"time": "noon–7pm",
+"img": "img/attniQ7CE506zIO9z.webp"
 },
 {
 "title": "Teal Gray  &  North Texas Ghostbusters Ghost Hunt at Emily Fowler Library",
@@ -3110,7 +5127,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recSK82QXGvBdewk9",
 "start": "2026-10-18",
-"time": "6pm–9pm"
+"time": "6pm–9pm",
+"img": "img/attC9N0tFF4Zkp6I1.webp"
 },
 {
 "title": "How The Grinch Stole Christmas Movie Night And Meet & Greet",
@@ -3130,7 +5148,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recbuMDy1YqNOyUAh",
 "start": "2026-10-19",
-"time": "6pm–9pm"
+"time": "6pm–9pm",
+"img": "img/attx0XqbuOwIgcn0Z.webp"
 },
 {
 "title": "Denton Senior Center Mocktail Mixology",
@@ -3149,26 +5168,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recy8HonNXegwu7F1",
 "start": "2026-10-20",
-"time": "1pm–3pm"
-},
-{
-"title": "Halloween Theme Movie Nights",
-"venue": "",
-"address": "308 E. Oak St., Denton, TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"21plus",
-"free"
-],
-"desc": "Enjoy some Halloween theme movie nights every Tuesday for the month of October. Grab some beverages from the bar and some food from Feta's Greek food truck and enjoy a movie out in our beer garden.",
-"link": "instagram.com/oakstreetdrafthouse",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recQp8MVoHylVzV4V",
-"verified": true,
-"db": true,
-"id": "db-recQp8MVoHylVzV4V",
-"start": "2026-10-20",
-"time": "9pm–11pm"
+"time": "1pm–3pm",
+"img": "img/attaSxvHjn77ZMulb.webp"
 },
 {
 "title": "Medieval Ghost Stories at Harvest House",
@@ -3186,7 +5187,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec8JPbYrFpc5rJyG",
 "start": "2026-10-20",
-"time": "7pm–10pm"
+"time": "7pm–10pm",
+"img": "img/attQQXoehHGRowNWe.webp"
 },
 {
 "title": "Medieval Ghost Stories at Harvest House",
@@ -3204,7 +5206,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recxZWYTWXysom8o0",
 "start": "2026-10-20",
-"time": "7pm–9pm"
+"time": "7pm–9pm",
+"img": "img/attobQVSGsazvHrwe.webp"
 },
 {
 "title": "Oak Street Drafthouse Tiny Haunted House Concert",
@@ -3225,7 +5228,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recKzw9ySlJgcz9t3",
 "start": "2026-10-20",
-"time": "7:30pm–9:30pm"
+"time": "7:30pm–9:30pm",
+"img": "img/attTnL2I9SUTICNCV.webp"
 },
 {
 "title": "The Spoopy Show; an art exhibit from the CVAD Collection",
@@ -3243,6 +5247,19 @@ window.DHW_DB_EVENTS = [
 "verified": true,
 "db": true,
 "id": "db-rec40D1SQV1NazYoj",
+"rids": [
+"rec40D1SQV1NazYoj",
+"recuj9R5Be4nGjDg2",
+"recDi7ttopyZdvmdu",
+"recEZPbxHfen04uRR",
+"recb4LUad77YS7VQ8",
+"recE9HqraN8Zm3N2v",
+"reclzmIHI2pFw95AB",
+"recGCSmAjclEe8pGZ",
+"recxNWZGOAY6ALNRI",
+"recHI08kkAGaJgDcn",
+"rect7LF8Q651KllNl"
+],
 "start": "2026-10-20",
 "end": "2026-10-30",
 "dates": [
@@ -3271,44 +5288,8 @@ window.DHW_DB_EVENTS = [
 "2026-10-28": "noon–9pm",
 "2026-10-29": "noon–9pm",
 "2026-10-30": "noon–9pm"
-}
 },
-{
-"title": "Thrift & Treat",
-"venue": "",
-"address": "1131 E. McKinney St. Denton, Texas 76209",
-"cost": "No ticket needed",
-"tags": [
-"family",
-"free"
-],
-"desc": "Thrift & Treat every Tuesday in October at Thrift for Good® Denton! 🎃🛍️\n\nShop our weekly Shift to Thrift Tuesday for 15% off the entire store, plus enjoy Halloween fun throughout the shop, including a photo station, temporary tattoos, Thrift & Treat candy stations, and special pop-ups all month.\n\nWe’re also an official Denton Halloween Skelly Hunt stop! 💀 Find our Skelly to unlock an EXTRA 20% off your entire purchase, including sale items!\n\nCome in costume, snap a photo, grab a treat, and hunt for some scary-good secondhand finds. 👻♻️\n\nEvery Tuesday in October\nThrift for Good® Denton",
-"link": "https://www.facebook.com/share/1BzaBMpxcK/",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=reclsaXgVOUJqGeX5",
-"verified": true,
-"db": true,
-"id": "db-reclsaXgVOUJqGeX5",
-"start": "2026-10-20",
-"time": "11am–8pm"
-},
-{
-"title": "4 Movie Tavern Retro Scary Mystery Movies!",
-"venue": "",
-"address": "916 W. University Dr, Denton Tx, 76201",
-"cost": "Ticketed",
-"tags": [
-"family"
-],
-"desc": "Come check out our Retro Mystery Horror series every Wednesday at 7:30pm the month of October for the 31 Days of Halloween! Mystery snacks available!",
-"link": "https://www.marcustheatres.com/theatre-locations/denton-cinema",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=rec1wul8gFJCZFhqF",
-"verified": true,
-"db": true,
-"id": "db-rec1wul8gFJCZFhqF",
-"start": "2026-10-21",
-"time": "7:30pm"
+"img": "img/att54dtOiMdXE8jET.webp"
 },
 {
 "title": "Beetlejuice Movie Night",
@@ -3328,7 +5309,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recnBJCNDdjSbjV4j",
 "start": "2026-10-21",
-"time": "6pm–9pm"
+"time": "6pm–9pm",
+"img": "img/attml9MIEkVRFNueH.webp"
 },
 {
 "title": "Halloween Cookie Decorating!",
@@ -3349,7 +5331,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recCsM6STB5NQHrAb",
 "start": "2026-10-21",
-"time": "4pm–7pm"
+"time": "4pm–7pm",
+"img": "img/attQ8EUlIk3qV2P99.webp"
 },
 {
 "title": "Halloween Movie Night",
@@ -3369,7 +5352,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec4NaVkTjb4Qw4sy",
 "start": "2026-10-21",
-"time": "9pm–11pm"
+"time": "9pm–11pm",
+"img": "img/attdVTC3Ho1FErlZt.webp"
 },
 {
 "title": "Haunted Brushstrokes by Linda Hilterbrandt",
@@ -3381,13 +5365,14 @@ window.DHW_DB_EVENTS = [
 ],
 "desc": "In this workshop participants will explore a variety of watercolor techniques while creating spooky landscapes that will serve as the background for a haunted setting of your choice. No experience necessary. All materials provided. Participants will have the opportunity to complete 2-3 paintings.",
 "link": "https://www.dentonmakercenter.com",
-"tickets": "https://book.squareup.com/classes/yif87quj7ohnb6/location/LTFRMZ4V35WM6/classDetails/clssch_qb8saw8fzttqel?dateStart=1792627200",
+"tickets": "https://book.squareup.com/classes/yif87quj7ohnb6/location/LTFRMZ4V35WM6/classDetails/clssch_9eqee141yzj7fi?dateStart=1790726400",
 "source": "https://era19963.softr.app/event-submissions-details?recordId=rec7wE98vJ9yhEYFa",
 "verified": true,
 "db": true,
 "id": "db-rec7wE98vJ9yhEYFa",
 "start": "2026-10-21",
-"time": "7pm–8:30pm"
+"time": "7pm–8:30pm",
+"img": "img/atthjC6MxGKmsvCkN.webp"
 },
 {
 "title": "Nightmare on Elm Street Basketball Tip-Off",
@@ -3407,26 +5392,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recf9Ud2LY0f5W2Ss",
 "start": "2026-10-21",
-"time": "6pm–9pm"
-},
-{
-"title": "Oak Street Drafthouse and Denton Area Run Club Social Run/Walk",
-"venue": "",
-"address": "308 E. Oak St., Denton, TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"family",
-"free"
-],
-"desc": "Join us every Wendnesday night for our weekly social run/walk and receive a complementary beer for participating. The run on the 28th will be costume oriented and there will be a contest with prizes.",
-"link": "https://www.facebook.com/Oakstdrafthouse",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recnG7e9713xRPgV4",
-"verified": true,
-"db": true,
-"id": "db-recnG7e9713xRPgV4",
-"start": "2026-10-21",
-"time": "7pm–8pm"
+"time": "6pm–9pm",
+"img": "img/attd52mRNacHY2T4X.webp"
 },
 {
 "title": "W.I.P. (Work in Progress) Wednesday Masquerade Masks",
@@ -3445,7 +5412,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recP8b2AnrRLMiEjy",
 "start": "2026-10-21",
-"time": "6pm–9pm"
+"time": "6pm–9pm",
+"img": "img/attDqgiImB8LJKo9f.webp"
 },
 {
 "title": "BOIZ Twilight Night",
@@ -3465,7 +5433,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec5XUvL0ScmjTCnC",
 "start": "2026-10-22",
-"time": "8pm"
+"time": "8pm",
+"img": "img/attprcmq1xJuuHxKa.webp"
 },
 {
 "title": "Haunted A-train",
@@ -3483,23 +5452,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec0Sx6KXA8gr2S2v",
 "start": "2026-10-22",
-"time": "7:30pm–10pm"
-},
-{
-"title": "Haunted Dungeons & Dragons",
-"venue": "",
-"address": "d20 Tavern, 112 West Oak St.",
-"cost": "Ticketed",
-"tags": [],
-"desc": "Calling all brave adventurers! Embark on an exciting and terrifying journey into the world of Dungeons and Dragons, where you'll encounter zombies, ghosts, and demons. Join our ongoing Adventurers Collective every Thursday for a drop in style campaign. The world continues to evolve with every session while players play as often as they like. Every session is hosted by a d20 Tavern House Dungeon Master. We provide everything you need to play. Whether you're a seasoned adventurer or a curious newcomer, there's a seat for you at our table!",
-"link": "https://d20-tavern.square.site/event-registration",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recQRPUfBzDj7PVud",
-"verified": true,
-"db": true,
-"id": "db-recQRPUfBzDj7PVud",
-"start": "2026-10-22",
-"time": "7pm"
+"time": "7:30pm–10pm",
+"img": "img/attvCZVcY8nNPwLo5.webp"
 },
 {
 "title": "Rocky Horror Picture Show in Tequila Lounge",
@@ -3519,30 +5473,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec5KssmBRZpFNiiV",
 "start": "2026-10-22",
-"time": "8pm–midnight"
-},
-{
-"title": "Twilight Tunes",
-"venue": "",
-"address": "108 Industrial St, Denton, TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"art",
-"family",
-"festival",
-"music",
-"show",
-"free"
-],
-"desc": "Twilight Tunes is a Free Concert Series in Downtown Denton. Every Thursday in October, enjoy live music from local bands. Bring your chair and a bite to eat and enjoy the sounds of Denton. This fall there will be a Twilight Market with local artists and makers selling their Halloween and Fall themed works!",
-"link": "https://www.downtowndenton.org/twilight-tunes",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=rechj7ZUASIX95OET",
-"verified": true,
-"db": true,
-"id": "db-rechj7ZUASIX95OET",
-"start": "2026-10-22",
-"time": "6pm–7:30pm"
+"time": "8pm–midnight",
+"img": "img/attQxBGN66mQRmvnl.webp"
 },
 {
 "title": "Whispering Woods & Wicked Wonders - A Spirited Forest Bathing Event",
@@ -3560,7 +5492,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recAnAe8DFTM9PLiZ",
 "start": "2026-10-22",
-"time": "6:30pm–8:30pm"
+"time": "6:30pm–8:30pm",
+"img": "img/att4nIFR9h0Lso19D.webp"
 },
 {
 "title": "Cirque du Horror : Opening Night!",
@@ -3579,7 +5512,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recEhTgZdKioVvFgS",
 "start": "2026-10-23",
-"time": "7pm–9:30pm"
+"time": "7pm–9:30pm",
+"img": "img/att6fULUvB4hPWNit.webp"
 },
 {
 "title": "DAPC's Nightmare on Brew Street",
@@ -3601,25 +5535,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recnZz87ZvIt2Mxz2",
 "start": "2026-10-23",
-"time": "7pm–11pm"
-},
-{
-"title": "Denton Historic Tours presents, \"Spooks, Spirits, and Shadows Walking Tour\"",
-"venue": "",
-"address": "Meet at the tomb of John Denton located near the courthouse on the square in Denton, Texas.",
-"cost": "Ticketed",
-"tags": [
-"tour"
-],
-"desc": "Step into the haunted heart of Denton this Halloween season for the Spooks, Spirits, and Shadows Walking Tour. Stroll the historic Denton Square as chilling tales of restless spirits, local legends, and mysterious happenings come to life. Not all spirits will be spectral, some may be hard. Whether you're a skeptic, a believer, or just looking for a unique Halloween experience, this 1.5 hour walking tour blends history, haunting stories, and fun into one delightfully eerie adventure.",
-"link": "https://www.dentoncountyevents.com/business-two",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recMj5JHMDX8lqOOI",
-"verified": true,
-"db": true,
-"id": "db-recMj5JHMDX8lqOOI",
-"start": "2026-10-23",
-"time": "6pm"
+"time": "7pm–11pm",
+"img": "img/attMjVLQ0Q01bHWiW.webp"
 },
 {
 "title": "Double Feature Rocky Horror Picture Show in the Tequila Lounge",
@@ -3639,7 +5556,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recydZwNylZOscI5L",
 "start": "2026-10-23",
-"time": "7:30pm–midnight"
+"time": "7:30pm–midnight",
+"img": "img/attbdA2z5B19YAnwW.webp"
 },
 {
 "title": "Halloween Puppet Show Double Feature: The Rocky Horror Puppet Show and The Unsolved Mystery of Ms Patsy Climb",
@@ -3657,7 +5575,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec1T78B7G76e1FXp",
 "start": "2026-10-23",
-"time": "7pm–11:30pm"
+"time": "7pm–11:30pm",
+"img": "img/attvONerOK8GYpdUs.webp"
 },
 {
 "title": "Haunted Car Wash & Tunnel of Terror VIII: Icons of Horror",
@@ -3676,6 +5595,14 @@ window.DHW_DB_EVENTS = [
 "verified": true,
 "db": true,
 "id": "db-recDNrv3RD3py75Pq",
+"rids": [
+"recDNrv3RD3py75Pq",
+"rechvjZThGNGnKUet",
+"recDgtE2SzBHqBjXY",
+"recpysebP6WqE0dyX",
+"recigxMmiNIP0RLbK",
+"recODREeTfP2WV9DU"
+],
 "start": "2026-10-23",
 "end": "2026-10-31",
 "dates": [
@@ -3685,7 +5612,8 @@ window.DHW_DB_EVENTS = [
 "2026-10-30",
 "2026-10-31"
 ],
-"time": "7pm–10pm"
+"time": "7pm–10pm",
+"img": "img/attTmkmHMCt9xkfD7.webp"
 },
 {
 "title": "hyperpop hell halloween party",
@@ -3705,26 +5633,27 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec8jhIG9RNle6MLU",
 "start": "2026-10-23",
-"time": "7pm–11:59pm"
+"time": "7pm–11:59pm",
+"img": "img/attLVEeSD0HS0VY6y.webp"
 },
 {
 "title": "Intro to Watercolor: Autumn Landscape",
 "venue": "",
-"address": "Wildflower Art Studio: 715 North Locust Street Denton, Texas 76201",
+"address": "Wildflower Art Studio: 715 North Locust, Denton, Texas 76201",
 "cost": "Ticketed",
 "tags": [
-"art",
-"family"
+"art"
 ],
-"desc": "This introductory-level workshop is an inspiring way to explore the relaxing art of Watercolor. This 1.5 hour workshop covers basic techniques including:\n\nWatercolor Landscape Design\n\nColor-Mixing & Design\n\nIntroductory Landscape Brush Strokes & Techniques\n\nAll supplies included. Workshop includes snacks + coffee.\n\nTake-Home Supply Kit ($65) includes: watercolor paint set, 2 watercolor paintbrushes + Strathmore watercolor paper pad.",
-"link": "https://www.wildflowerartstudio.net/workshops/autumn-oct23",
+"desc": "Date: September 26, 2026\n\nTime: 12:00-1:30pm\n\nThis introductory-level workshop is an inspiring way to explore the relaxing art of Watercolor. This 1.5 hour workshop covers basic techniques including:\n\nWatercolor Landscape Design\n\nColor-Mixing & Design\n\nIntroductory Landscape Brush Strokes & Techniques\n\nAll supplies included. Workshop includes snacks + coffee.\n\nTake-Home Supply Kit ($65) includes: watercolor paint set, 2 watercolor paintbrushes + Strathmore watercolor paper pad.",
+"link": "https://www.wildflowerartstudio.net/workshops/autumn-landscapes-sept-2026",
 "tickets": null,
 "source": "https://era19963.softr.app/event-submissions-details?recordId=rec1wk92pQ71eY6M0",
 "verified": true,
 "db": true,
 "id": "db-rec1wk92pQ71eY6M0",
 "start": "2026-10-23",
-"time": "6pm–7:30pm"
+"time": "6pm–7:30pm",
+"img": "img/attbpcdcB2BUP4Zo3.webp"
 },
 {
 "title": "Kids Markets at Haunted House + Monster Mash Market",
@@ -3744,7 +5673,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recI2IdpZTriELWQ8",
 "start": "2026-10-23",
-"time": "6pm–10pm"
+"time": "6pm–10pm",
+"img": "img/attzgVuzzSA9zJ0Ye.webp"
 },
 {
 "title": "Movement Monster Bash",
@@ -3762,7 +5692,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recp5MWi1gn1TTM6t",
 "start": "2026-10-23",
-"time": "7pm–10pm"
+"time": "7pm–10pm",
+"img": "img/att3PIpkBiTABT4wf.webp"
 },
 {
 "title": "Movie in the Park: The Haunted Mansion",
@@ -3781,7 +5712,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recpxoC7OMJ8VeIGn",
 "start": "2026-10-23",
-"time": "6pm–9pm"
+"time": "6pm–9pm",
+"img": "img/attbxzVycr7nSYeA1.webp"
 },
 {
 "title": "Spooky Glow Pickleball",
@@ -3799,7 +5731,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recg5jiRFMQSwVEYJ",
 "start": "2026-10-23",
-"time": "7pm–10pm"
+"time": "7pm–10pm",
+"img": "img/attjvpMeLiceuY5jq.webp"
 },
 {
 "title": "Spooky Paint Night",
@@ -3818,7 +5751,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec39gHJojQ96MQud",
 "start": "2026-10-23",
-"time": "6pm–8pm"
+"time": "6pm–8pm",
+"img": "img/attewsBc42P7UmNhD.webp"
 },
 {
 "title": "The Sorcerer's Scone: After Dark",
@@ -3837,31 +5771,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recAEKXy5fCJgxmYA",
 "start": "2026-10-23",
-"time": "7pm"
-},
-{
-"title": "The Velvet NV Night Market",
-"venue": "",
-"address": "311 S Locust St Denton TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"art",
-"festival",
-"food",
-"inclusive",
-"market",
-"music",
-"free"
-],
-"desc": "Salon NV and The Velvet Echo have partnered to bring you The Velvet NV Night Market. Every Friday we will have an incredible Artisan Market full of Vendors and local talent with amazing one of a kind goods. Food, baked goods, music, vintage, beauty, permanent jewelry, Art, tattoo artist, and so much more!! We curated and hand selected folks/businesses who put so much love into what they create…Come experience this community magic!\nEvery Friday in October 5p-9p\n311 S Locust St. Denton TX",
-"link": null,
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recSob3dFwuWPtciX",
-"verified": true,
-"db": true,
-"id": "db-recSob3dFwuWPtciX",
-"start": "2026-10-23",
-"time": "5pm–8:30pm"
+"time": "7pm",
+"img": "img/attIBJVUUeUTkDZf7.webp"
 },
 {
 "title": "WITCHES (a devised piece)",
@@ -3879,6 +5790,14 @@ window.DHW_DB_EVENTS = [
 "verified": true,
 "db": true,
 "id": "db-recNKIMPX7KaWRlYU",
+"rids": [
+"recNKIMPX7KaWRlYU",
+"recs9zC8IZhK6vZpZ",
+"recLlG9Nf0cmJsLK8",
+"recrdBF25UB0ItxAm",
+"recryrt4BKSpKlhVg",
+"recAI6PMxn522m37D"
+],
 "start": "2026-10-23",
 "end": "2026-11-01",
 "dates": [
@@ -3897,7 +5816,8 @@ window.DHW_DB_EVENTS = [
 "2026-10-30": "7:30pm–10pm",
 "2026-10-31": "7:30pm–10pm",
 "2026-11-01": "2:30pm–5pm"
-}
+},
+"img": "img/attXQy5cF4VSlH5xb.webp"
 },
 {
 "title": "Cirque du Horror : Day of the Dead Matinee",
@@ -3916,7 +5836,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recM8RSogD5YkMzYg",
 "start": "2026-10-24",
-"time": "4pm–6pm"
+"time": "4pm–6pm",
+"img": "img/att6fULUvB4hPWNit.webp"
 },
 {
 "title": "Cirque du Horror : Denton's Day of the Dead Evening Show",
@@ -3935,7 +5856,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recHM9rhg6cRJ1ZRY",
 "start": "2026-10-24",
-"time": "9pm–11pm"
+"time": "9pm–11pm",
+"img": "img/att6fULUvB4hPWNit.webp"
 },
 {
 "title": "Clay Zombie Heads by Ariel Bowman",
@@ -3953,7 +5875,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec2D4EXd9msWInRb",
 "start": "2026-10-24",
-"time": "2pm–4pm"
+"time": "2pm–4pm",
+"img": "img/att7tyzyLRf7UuSYL.webp"
 },
 {
 "title": "Denton's Day of the Dead Festival",
@@ -3977,7 +5900,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recTXClMZ2XDkc8Jd",
 "start": "2026-10-24",
-"time": "11am–9:30pm"
+"time": "11am–9:30pm",
+"img": "img/attcbpofDLgmBXyqC.webp"
 },
 {
 "title": "Floral Fantasy: A Flower Arrangement Workshop",
@@ -3996,7 +5920,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec3ES7tyWWj9Eiib",
 "start": "2026-10-24",
-"time": "2pm–5pm"
+"time": "2pm–5pm",
+"img": "img/attNTZD8yBK4a0qGH.webp"
 },
 {
 "title": "Halloween Mahjong at The Smoking Dragon",
@@ -4012,25 +5937,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recl34tcH9hnQBpBu",
 "start": "2026-10-24",
-"time": "1pm–4pm"
-},
-{
-"title": "Haunted Dungeons and Dragons",
-"venue": "",
-"address": "d20 Tavern, 112 West Oak St.",
-"cost": "Ticketed",
-"tags": [
-"art"
-],
-"desc": "Calling all brave adventurers! Embark on an exciting and terrifying journey into the world of Dungeons and Dragons, where you'll encounter zombies, ghosts, and demons. Join our ongoing Adventurers Collective every Saturday for a drop in style campaign. The world continues to evolve with every session while players play as often as they like. Every session is hosted by a d20 Tavern House Dungeon Master. We provide everything you need to play. Whether you're a seasoned adventurer or a curious newcomer, there's a seat for you at our table!",
-"link": "https://d20-tavern.square.site/event-registration",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=reci8g5OtHYi8zC0r",
-"verified": true,
-"db": true,
-"id": "db-reci8g5OtHYi8zC0r",
-"start": "2026-10-24",
-"time": "1pm"
+"time": "1pm–4pm",
+"img": "img/att15gdPld6DMwFoK.webp"
 },
 {
 "title": "Helium Queens Lunar Show",
@@ -4052,45 +5960,27 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recW6S51F15tPENUh",
 "start": "2026-10-24",
-"time": "8pm–10pm"
-},
-{
-"title": "Intro to Pottery: Clay Pumpkins",
-"venue": "",
-"address": "Wildflower Art Studio: 715 North Locust Street Denton, Texas 76201",
-"cost": "Ticketed",
-"tags": [
-"art",
-"family"
-],
-"desc": "This introductory-level workshop is a fun way to explore the relaxing art of Clay Pottery. This 2 hour workshop covers basic hand-building clay techniques.\n\nEach student will create and glaze a small clay pumpkin. \n\nGlazed Pottery will be available for pickup after being fired in the kiln (within 2-3 weeks). Shipping option available ($18).\n\nAll supplies included. Workshop includes snacks + coffee.",
-"link": "https://www.wildflowerartstudio.net/workshops/clay-workshop-pumpkin-oct17",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=receyTlOyeIByubUz",
-"verified": true,
-"db": true,
-"id": "db-receyTlOyeIByubUz",
-"start": "2026-10-24",
-"time": "2:30pm–4:30pm"
+"time": "8pm–10pm",
+"img": "img/attTad5rqDtwzAUiv.webp"
 },
 {
 "title": "Intro to Pottery: Witch Hat",
 "venue": "",
-"address": "Wildflower Art Studio: 715 North Locust Street Denton, Texas 76201",
+"address": "715 North Locust Street Denton, Texas 76201",
 "cost": "Ticketed",
 "tags": [
-"art",
-"family"
+"art"
 ],
 "desc": "This introductory-level workshop is a fun way to explore the relaxing art of Clay Pottery. This 2 hour workshop covers basic hand-building clay techniques.\n\nEach student will create and glaze a clay witch hat.\n\nGlazed Pottery will be available for pickup after being fired in the kiln (within 2-3 weeks). Shipping option available ($18).\n\nAll supplies included. Workshop includes snacks + coffee.",
-"link": "https://www.wildflowerartstudio.net/workshops/clay-workshop-witchhat-oct24",
+"link": "https://www.wildflowerartstudio.net/workshops/clay-workshop-witchhat",
 "tickets": null,
 "source": "https://era19963.softr.app/event-submissions-details?recordId=recXWL99ZAigrH512",
 "verified": true,
 "db": true,
 "id": "db-recXWL99ZAigrH512",
 "start": "2026-10-24",
-"time": "6pm–8pm"
+"time": "6pm–8pm",
+"img": "img/attTfF70LBzveE98j.webp"
 },
 {
 "title": "Intro to Watercolor: Fall Botanicals • October 24 - 12:00-1:30pm",
@@ -4109,7 +5999,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec2xWCmPkfpPToSZ",
 "start": "2026-10-24",
-"time": "noon–1:30pm"
+"time": "noon–1:30pm",
+"img": "img/att4BdIAbp9aWphgh.webp"
 },
 {
 "title": "Nightmare on Oak Street: Old Man Evers' Haunted Garden Walk",
@@ -4130,7 +6021,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec3dLOdFPDL4ldGz",
 "start": "2026-10-24",
-"time": "5pm–7pm"
+"time": "5pm–7pm",
+"img": "img/attlU6NjMrzzXVqnn.webp"
 },
 {
 "title": "Queenie’s Day of the Dead Festival presented by Weber Ranch",
@@ -4173,7 +6065,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recyF8tCx2uzOfyTG",
 "start": "2026-10-24",
-"time": "noon–3pm"
+"time": "noon–3pm",
+"img": "img/attqvkU5xTC3YmYoJ.webp"
 },
 {
 "title": "Surepoints Pumpkins & Paramedics: A Halloween ER Experience 🚑",
@@ -4193,7 +6086,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec32KgieFvurOqah",
 "start": "2026-10-24",
-"time": "noon–3pm"
+"time": "noon–3pm",
+"img": "img/attWAaExx2Y9eh8uR.webp"
 },
 {
 "title": "The Dapper Devil Drive-In",
@@ -4211,7 +6105,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recMDYM7QVzC5u0XA",
 "start": "2026-10-24",
-"time": "5pm–8:30pm"
+"time": "5pm–8:30pm",
+"img": "img/attjPO5T4h1ZdkHec.webp"
 },
 {
 "title": "Trunk or Treat at Trinity's Pumpkin Patch",
@@ -4231,26 +6126,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recUuJgqc7kPpll98",
 "start": "2026-10-24",
-"time": "5pm–7pm"
-},
-{
-"title": "Video Crypt",
-"venue": "",
-"address": "411 E Sycamore St, Denton, TX 76205 (Rubber Gun Gallery)",
-"cost": "No ticket needed",
-"tags": [
-"family",
-"free"
-],
-"desc": "The Video Crypt is a nostalgic video store pop-up give fans of film a chance to relive or experience what passing through the aisles of a video store was like back in the day. You will be able to enjoy seeing original video box covers on display along with video store posters and other memorabilia that takes you back to a time before streaming, when you ventured to your favorite video store and planned your weekend around pizza and movies. The Video Crypt is a great opportunity for fun photography and talk movies with clerks on staff during your visit. While VHS tapes will not be for sale, this art installation will have t-shirts, stickers, zines, and other collectables to mark your video store experience all October at The Video Crypt.",
-"link": "https://www.instagram.com/videocrypttx/",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recFNlvLpbybE2U1M",
-"verified": true,
-"db": true,
-"id": "db-recFNlvLpbybE2U1M",
-"start": "2026-10-24",
-"time": "7pm–1am"
+"time": "5pm–7pm",
+"img": "img/attdSTIXDqTmCa5Be.webp"
 },
 {
 "title": "Cirque du Horror : Sunday Matinee",
@@ -4269,7 +6146,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recBqsWWJOotFv2za",
 "start": "2026-10-25",
-"time": "5pm–7pm"
+"time": "5pm–7pm",
+"img": "img/att6fULUvB4hPWNit.webp"
 },
 {
 "title": "Denton's Day of the Dead Festival : \"Pine Box\" Derby",
@@ -4290,7 +6168,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recbZYrCXS6xKGGAz",
 "start": "2026-10-25",
-"time": "noon–4pm"
+"time": "noon–4pm",
+"img": "img/att3EtKJdgUZzfVj1.webp"
 },
 {
 "title": "Heavy Haunts Sumo Spectacular",
@@ -4310,7 +6189,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recQzrF57xCmXOxgw",
 "start": "2026-10-25",
-"time": "5pm–9pm"
+"time": "5pm–9pm",
+"img": "img/attEDtqo5NI6zaPnz.webp"
 },
 {
 "title": "Intro to Stained Glass • October 25 - Noon-2:00pm",
@@ -4328,7 +6208,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recCp8rzv4IlKiosl",
 "start": "2026-10-25",
-"time": "noon–2pm"
+"time": "noon–2pm",
+"img": "img/attUDu8oQ7xsTmZAL.webp"
 },
 {
 "title": "Meet The Boogie Man",
@@ -4347,7 +6228,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recWuttdd1c98mee5",
 "start": "2026-10-25",
-"time": "12:03pm–1pm"
+"time": "12:03pm–1pm",
+"img": "img/attGLwL0xBUMfO0HG.webp"
 },
 {
 "title": "Oak Street Drafthouse Halloween Painting with Kendall Myers",
@@ -4366,7 +6248,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recUDHPvuJt35jiih",
 "start": "2026-10-25",
-"time": "4pm–6pm"
+"time": "4pm–6pm",
+"img": "img/attWcLGHYxxkd5aLO.webp"
 },
 {
 "title": "Spooktacular",
@@ -4384,7 +6267,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recyIiuiJ56ZiBzwB",
 "start": "2026-10-25",
-"time": "noon–4pm"
+"time": "noon–4pm",
+"img": "img/atteJV0YG2DN3W8Mt.webp"
 },
 {
 "title": "Spooky Sunday",
@@ -4404,7 +6288,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recFJBYxovrPTaXF0",
 "start": "2026-10-25",
-"time": "11am–1pm"
+"time": "11am–1pm",
+"img": "img/attnO3DJaO1LbejFR.webp"
 },
 {
 "title": "Sunday Halloween Market",
@@ -4424,7 +6309,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recKpcz7O8eFs0laz",
 "start": "2026-10-25",
-"time": "1pm–6pm"
+"time": "1pm–6pm",
+"img": "img/attadCUUXqnabUY1p.webp"
 },
 {
 "title": "Tattoos & Tarot",
@@ -4443,7 +6329,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recMGwPfSv4Prfsae",
 "start": "2026-10-25",
-"time": "1pm–8pm"
+"time": "1pm–8pm",
+"img": "img/attLfU7ET0v3V7OAN.webp"
 },
 {
 "title": "Trunk or Treat: Share the Harvest",
@@ -4462,7 +6349,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recBiP5cnJRe9ggeP",
 "start": "2026-10-25",
-"time": "5pm–7pm"
+"time": "5pm–7pm",
+"img": "img/attENpAXyFlWASnlo.webp"
 },
 {
 "title": "Witchy Ouija Board Miniature Scene",
@@ -4480,7 +6368,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recn2zaZcZMbvW81b",
 "start": "2026-10-25",
-"time": "2pm–4pm"
+"time": "2pm–4pm",
+"img": "img/attNoHnuiHBEB2hL4.webp"
 },
 {
 "title": "Witchy Ouija Board Workshop",
@@ -4498,7 +6387,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec8LwOnbtCsOKiHB",
 "start": "2026-10-25",
-"time": "2pm–4pm"
+"time": "2pm–4pm",
+"img": "img/att5Nx2X30BscE7L2.webp"
 },
 {
 "title": "Boo Bash",
@@ -4517,7 +6407,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-reckvoQLPfiD927bD",
 "start": "2026-10-26",
-"time": "6pm–8pm"
+"time": "6pm–8pm",
+"img": "img/attIrPDulZs8nQrc4.webp"
 },
 {
 "title": "Free, All-Ages Magic Show!!!",
@@ -4539,7 +6430,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recDljt0dXYU75Wmz",
 "start": "2026-10-26",
-"time": "7pm–9pm"
+"time": "7pm–9pm",
+"img": "img/attT9VEzyvOJbQz4f.webp"
 },
 {
 "title": "Watercolor Workshop: Haunted Courthouse with Orion Fern",
@@ -4557,7 +6449,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recILPazZPptsEywN",
 "start": "2026-10-26",
-"time": "6pm–9pm"
+"time": "6pm–9pm",
+"img": "img/attLssPM3oq5ztbwc.webp"
 },
 {
 "title": "Denton Ghosts of the Sam Bass War show",
@@ -4578,7 +6471,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recvBGkDkCijzxSpl",
 "start": "2026-10-27",
-"time": "6:30pm–9pm"
+"time": "6:30pm–9pm",
+"img": "img/attSyWFDagkX4WqPR.webp"
 },
 {
 "title": "Halloween Bottle Paint and Spirits Night",
@@ -4597,26 +6491,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recrnQQFWPMZVENZa",
 "start": "2026-10-27",
-"time": "7pm–9pm"
-},
-{
-"title": "Halloween Theme Movie Nights",
-"venue": "",
-"address": "308 E. Oak St., Denton, TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"21plus",
-"free"
-],
-"desc": "Enjoy some Halloween theme movie nights every Tuesday for the month of October. Grab some beverages from the bar and some food from Feta's Greek food truck and enjoy a movie out in our beer garden.",
-"link": "instagram.com/oakstreetdrafthouse",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recsL9LX8PV6QNATj",
-"verified": true,
-"db": true,
-"id": "db-recsL9LX8PV6QNATj",
-"start": "2026-10-27",
-"time": "9pm–11pm"
+"time": "7pm–9pm",
+"img": "img/attRUlssXlV4EoB5T.webp"
 },
 {
 "title": "Oak Street Drafthouse 15Annual Pumpkin Carving Contest",
@@ -4635,7 +6511,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recCJFZ1QIbIFAT9S",
 "start": "2026-10-27",
-"time": "6pm–9pm"
+"time": "6pm–9pm",
+"img": "img/attcDGNLQ1sMHxbZF.webp"
 },
 {
 "title": "Silent Horror Movie with Improvised Organ—\"The Cabinet of Dr. Caligari\"",
@@ -4655,44 +6532,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recR0lBL4eQWes7yv",
 "start": "2026-10-27",
-"time": "7pm–10:30pm"
-},
-{
-"title": "Thrift & Treat",
-"venue": "",
-"address": "1131 E. McKinney St. Denton, Texas 76209",
-"cost": "No ticket needed",
-"tags": [
-"family",
-"free"
-],
-"desc": "Thrift & Treat every Tuesday in October at Thrift for Good® Denton! 🎃🛍️\n\nShop our weekly Shift to Thrift Tuesday for 15% off the entire store, plus enjoy Halloween fun throughout the shop, including a photo station, temporary tattoos, Thrift & Treat candy stations, and special pop-ups all month.\n\nWe’re also an official Denton Halloween Skelly Hunt stop! 💀 Find our Skelly to unlock an EXTRA 20% off your entire purchase, including sale items!\n\nCome in costume, snap a photo, grab a treat, and hunt for some scary-good secondhand finds. 👻♻️\n\nEvery Tuesday in October\nThrift for Good® Denton",
-"link": "https://www.facebook.com/share/1BzaBMpxcK/",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=rec1hvdgz0o68oTQH",
-"verified": true,
-"db": true,
-"id": "db-rec1hvdgz0o68oTQH",
-"start": "2026-10-27",
-"time": "11am–8pm"
-},
-{
-"title": "4 Movie Tavern Retro Scary Mystery Movies!",
-"venue": "",
-"address": "916 W. University Dr, Denton Tx, 76201",
-"cost": "Ticketed",
-"tags": [
-"family"
-],
-"desc": "Come check out our Retro Mystery Horror series every Wednesday at 7:30pm the month of October for the 31 Days of Halloween! Mystery snacks available!",
-"link": "https://www.marcustheatres.com/theatre-locations/denton-cinema",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=receJus0C5oRB3KJt",
-"verified": true,
-"db": true,
-"id": "db-receJus0C5oRB3KJt",
-"start": "2026-10-28",
-"time": "7:30pm"
+"time": "7pm–10:30pm",
+"img": "img/attoc82hsHatFsOWI.webp"
 },
 {
 "title": "Coco Movie Night",
@@ -4712,26 +6553,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recRyyL1ZYbmxZTiY",
 "start": "2026-10-28",
-"time": "6pm–9pm"
-},
-{
-"title": "Oak Street Drafthouse and Denton Area Run Club Social Run/Walk",
-"venue": "",
-"address": "308 E. Oak St., Denton, TX 76201",
-"cost": "No ticket needed",
-"tags": [
-"family",
-"free"
-],
-"desc": "Join us every Wendnesday night for our weekly social run/walk and receive a complementary beer for participating. The run on the 28th will be costume oriented and there will be a contest with prizes.",
-"link": "https://www.facebook.com/Oakstdrafthouse",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=reci4y8N7MyoOlO1k",
-"verified": true,
-"db": true,
-"id": "db-reci4y8N7MyoOlO1k",
-"start": "2026-10-28",
-"time": "7pm–8pm"
+"time": "6pm–9pm",
+"img": "img/attOcSU41mQVkng8H.webp"
 },
 {
 "title": "Plum Boys/ Frankie J Reinke's Grown Adult Men",
@@ -4752,7 +6575,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recyocUh4UgD9V1M1",
 "start": "2026-10-28",
-"time": "6pm–10pm"
+"time": "6pm–10pm",
+"img": "img/att0P2q75iYamso2n.webp"
 },
 {
 "title": "Shroom-ie Mixed Media Sugar Skull Painting by Crystal Nelson",
@@ -4770,7 +6594,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec0pnG6gGZZINbzd",
 "start": "2026-10-28",
-"time": "6pm–8:30pm"
+"time": "6pm–8:30pm",
+"img": "img/attHTv2H1CFc3MiOr.webp"
 },
 {
 "title": "Trick R Treat Movie Night",
@@ -4790,7 +6615,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recXA351z8z0VnNIR",
 "start": "2026-10-28",
-"time": "9pm–11pm"
+"time": "9pm–11pm",
+"img": "img/attXW0yVKl2a16d6d.webp"
 },
 {
 "title": "WIP Wednesday Hex Gloves",
@@ -4809,7 +6635,27 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-reckmR17wnPQ81wVd",
 "start": "2026-10-28",
-"time": "6pm–9pm"
+"time": "6pm–9pm",
+"img": "img/attiV0hhoivs4vn3n.webp"
+},
+{
+"title": "Costume Party Halloween Show",
+"venue": "",
+"address": "411 E Sycamore St, Denton, TX  76205, United States",
+"cost": "Ticketed",
+"tags": [
+"show"
+],
+"desc": "🔮Join us for a COSTUME PARTY HALLOWEEN SHOW on Oct. 29🔮\n\nFeaturing local Alternative Rock/Shoegaze acts: \nDESTROYSION\nMINNOW\nCYCLE \nGLOSS\n\nPlease note that this show is 18+\n$10 cover",
+"link": "https://rubberglovesdenton.com/events/gloss-minnow-destroysion-5ppeht/",
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recy4k75kXgCly3in",
+"verified": true,
+"db": true,
+"id": "db-recy4k75kXgCly3in",
+"start": "2026-10-29",
+"time": "7pm",
+"img": "img/attdM84NCh21l15Qg.webp"
 },
 {
 "title": "Dracula",
@@ -4828,6 +6674,12 @@ window.DHW_DB_EVENTS = [
 "verified": true,
 "db": true,
 "id": "db-reckFjhWJy7crOGwf",
+"rids": [
+"reckFjhWJy7crOGwf",
+"recUlMcWR7ugszzv4",
+"recS7XalMhHfvJpok",
+"recb1RMzT1Z38BSFO"
+],
 "start": "2026-10-29",
 "end": "2026-11-01",
 "dates": [
@@ -4836,7 +6688,8 @@ window.DHW_DB_EVENTS = [
 "2026-10-31",
 "2026-11-01"
 ],
-"time": "7:30pm–10pm"
+"time": "7:30pm–10pm",
+"img": "img/attltQ9yPsWS5Zmq2.webp"
 },
 {
 "title": "Mexican Oak Tequila Lounge Tasting",
@@ -4856,7 +6709,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recg1DDfjdY4XTE5I",
 "start": "2026-10-29",
-"time": "8pm–10pm"
+"time": "8pm–10pm",
+"img": "img/att6hFFo7TYzOEiLV.webp"
 },
 {
 "title": "Oak Street Drafthouse X FlowerGarden Potions & Petals",
@@ -4874,7 +6728,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recyqXbXOlMITGfWq",
 "start": "2026-10-29",
-"time": "6:30pm–8pm"
+"time": "6:30pm–8pm",
+"img": "img/attGGRKIjLhjm6LzK.webp"
 },
 {
 "title": "UNT Football vs. FAU - Blackout Halloween Game",
@@ -4892,7 +6747,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recEJAVqAwtPr48jC",
 "start": "2026-10-29",
-"time": "6:30pm"
+"time": "6:30pm",
+"img": "img/attpoJ7320N5maFw9.webp"
 },
 {
 "title": "Werewolf Mystery Game Night - For Ages 11-17",
@@ -4911,7 +6767,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec53xzwY83Ye48Qe",
 "start": "2026-10-29",
-"time": "6pm–7:30pm"
+"time": "6pm–7:30pm",
+"img": "img/attN2NLLtKR556PPL.webp"
 },
 {
 "title": "West Oak Coffee Bar Pumpkin Carving Contest",
@@ -4930,7 +6787,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recS5Zd42BwxLlYnh",
 "start": "2026-10-29",
-"time": "6pm–8pm"
+"time": "6pm–8pm",
+"img": "img/attyfyHqYK6ZdLdrK.webp"
 },
 {
 "title": "Adapted Touch-a-Truck",
@@ -4949,7 +6807,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recW24YWzBdxfERwG",
 "start": "2026-10-30",
-"time": "1pm–3pm"
+"time": "1pm–3pm",
+"img": "img/attvtRbnpkyLmIhSh.webp"
 },
 {
 "title": "Denton Senior Center Spooky Halloween Bingo",
@@ -4965,7 +6824,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recqEVnrQons1IYVm",
 "start": "2026-10-30",
-"time": "3pm–5pm"
+"time": "3pm–5pm",
+"img": "img/attPFCItCcDnJlAf0.webp"
 },
 {
 "title": "Graveyard Shift presents Devil’s Night at Harvest House",
@@ -4985,7 +6845,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recSsZbnVlvLfKzdV",
 "start": "2026-10-30",
-"time": "8pm–11:30pm"
+"time": "8pm–11:30pm",
+"img": "img/attyGFyzgfBt2kYvW.webp"
 },
 {
 "title": "Halloween Costume Bike Ride - Denton Critical Mass",
@@ -5006,7 +6867,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec0xFnfjRYe7JuVy",
 "start": "2026-10-30",
-"time": "7:30pm–10pm"
+"time": "7:30pm–10pm",
+"img": "img/attaTxtmyT11wyekP.webp"
 },
 {
 "title": "Mall Rats Are Coming",
@@ -5025,7 +6887,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recnGfVEBaQ2JDYCz",
 "start": "2026-10-30",
-"time": "5pm–7pm"
+"time": "5pm–7pm",
+"img": "img/attDPXumdo06w0RGV.webp"
 },
 {
 "title": "Monster Glow and Flow Party",
@@ -5043,7 +6906,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec3NGaUlX1HqwQtw",
 "start": "2026-10-30",
-"time": "9:30pm–1:30am"
+"time": "9:30pm–1:30am",
+"img": "img/att2qfVY3rovmPmSZ.webp"
 },
 {
 "title": "Movie in the Park: Monster House & Poltergeist (1982)",
@@ -5062,7 +6926,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recMdOOYPFhkoC661",
 "start": "2026-10-30",
-"time": "6pm–11pm"
+"time": "6pm–11pm",
+"img": "img/attOVcNZFgf1wHP6c.webp"
 },
 {
 "title": "Paul Slavens presents: Lon Chaney's The Unknown",
@@ -5084,7 +6949,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recZbBu7KsQe6UZFu",
 "start": "2026-10-30",
-"time": "6pm–10pm"
+"time": "6pm–10pm",
+"img": "img/att3G1jVrXoXSbuet.webp"
 },
 {
 "title": "Pottery Date Night (Clay Pumpkins) • October 30 - 6:00-8:00pm",
@@ -5103,7 +6969,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recUX5NgrzfQRh29M",
 "start": "2026-10-30",
-"time": "6pm–8pm"
+"time": "6pm–8pm",
+"img": "img/attPm7R3I8vtg6mlN.webp"
 },
 {
 "title": "ScaryOke",
@@ -5121,7 +6988,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recN7dtgS6dHFw8tb",
 "start": "2026-10-30",
-"time": "7pm–10pm"
+"time": "7pm–10pm",
+"img": "img/attVdytUnAPJ2m6p9.webp"
 },
 {
 "title": "ScaryOke Dance Party and Karaoke",
@@ -5139,7 +7007,27 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recey7eulQEWNl25z",
 "start": "2026-10-30",
-"time": "7pm–10pm"
+"time": "7pm–10pm",
+"img": "img/attTVECuhAGpj3Fzx.webp"
+},
+{
+"title": "Trunk or Treat",
+"venue": "",
+"address": "2244 Brinker, Denton TX, Robinson Oak Wellness Center previously known as University Rehab",
+"cost": "No ticket needed",
+"tags": [
+"free"
+],
+"desc": "Come join us by either handing out candy or bringing the little to go trunk or treat. Inside the faculty will be residents handing out candy and few activities to enjoy.",
+"link": null,
+"tickets": null,
+"source": "https://era19963.softr.app/event-submissions-details?recordId=recUbcJc1tZRh6sBH",
+"verified": true,
+"db": true,
+"id": "db-recUbcJc1tZRh6sBH",
+"start": "2026-10-30",
+"time": "5:07pm",
+"img": "img/attys2lyYnbonTyTh.webp"
 },
 {
 "title": "Booz and Blowouts",
@@ -5159,7 +7047,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rectSbE4NKE2yxQpG",
 "start": "2026-10-31",
-"time": "10am"
+"time": "10am",
+"img": "img/attoNGvvuomFPHKMl.webp"
 },
 {
 "title": "Costume Party in the Tequila Lounge",
@@ -5179,7 +7068,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-receNfS3XKXkIycxd",
 "start": "2026-10-31",
-"time": "7pm–midnight"
+"time": "7pm–midnight",
+"img": "img/attkcjvH01j4TCEQA.webp"
 },
 {
 "title": "Family Friendly Trunk or Treat at First Presbyterian Church",
@@ -5198,7 +7088,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recU7rHq6Zs41dS5v",
 "start": "2026-10-31",
-"time": "3:30pm–7pm"
+"time": "3:30pm–7pm",
+"img": "img/attO5XerdG09E3wrK.webp"
 },
 {
 "title": "Halloween Night Party with Surprise Headliner and Buffalo Rukus",
@@ -5219,7 +7110,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recyd459TeSvbTX4P",
 "start": "2026-10-31",
-"time": "6pm–10pm"
+"time": "6pm–10pm",
+"img": "img/attWzBsy9clxSBwxK.webp"
 },
 {
 "title": "Halloween Party at Steve's!",
@@ -5239,7 +7131,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recbFSOmJ9O4Mg4GS",
 "start": "2026-10-31",
-"time": "7pm–10pm"
+"time": "7pm–10pm",
+"img": "img/attUb2p97AMC3flty.webp"
 },
 {
 "title": "Halloween Watercolor + Mimosas",
@@ -5258,26 +7151,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recXLYrV16MaMOF3b",
 "start": "2026-10-31",
-"time": "noon–1:30pm"
-},
-{
-"title": "Intro to Pottery: Clay Pumpkins",
-"venue": "",
-"address": "Wildflower Art Studio: 715 North Locust Street Denton, Texas 76201",
-"cost": "Ticketed",
-"tags": [
-"art",
-"family"
-],
-"desc": "This introductory-level workshop is a fun way to explore the relaxing art of Clay Pottery. This 2 hour workshop covers basic hand-building clay techniques.\n\nEach student will create and glaze a small clay pumpkin. \n\nGlazed Pottery will be available for pickup after being fired in the kiln (within 2-3 weeks). Shipping option available ($18).\n\nAll supplies included. Workshop includes snacks + coffee.",
-"link": "https://www.wildflowerartstudio.net/workshops/clay-workshop-pumpkin-oct17",
-"tickets": null,
-"source": "https://era19963.softr.app/event-submissions-details?recordId=recK1sjBWVbxNE71G",
-"verified": true,
-"db": true,
-"id": "db-recK1sjBWVbxNE71G",
-"start": "2026-10-31",
-"time": "6pm–8pm"
+"time": "noon–1:30pm",
+"img": "img/att0fvZslMRE7HlNY.webp"
 },
 {
 "title": "Kids Face Painting at Mexican Oak",
@@ -5297,7 +7172,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recyCmtNbiTOjRELy",
 "start": "2026-10-31",
-"time": "2pm–5pm"
+"time": "2pm–5pm",
+"img": "img/attpoTFpuoy1uWoWw.webp"
 },
 {
 "title": "Recycled Books Presents - Local Fantasy Author B the Author",
@@ -5316,7 +7192,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec2QFK5GbM5SRxqJ",
 "start": "2026-10-31",
-"time": "1pm–8pm"
+"time": "1pm–8pm",
+"img": "img/attXIkQr7qRS3RmiX.webp"
 },
 {
 "title": "Sunago Bell Halloween Party: As Above So Bell-ow",
@@ -5334,7 +7211,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recfYQrTTynfqyKyP",
 "start": "2026-10-31",
-"time": "7pm–11pm"
+"time": "7pm–11pm",
+"img": "img/attWUweZMdM59ih5w.webp"
 },
 {
 "title": "The Time Capsule - Denton Square Halloween Party",
@@ -5352,7 +7230,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recb9nztKqtY3FqjN",
 "start": "2026-10-31",
-"time": "9pm–2am"
+"time": "9pm–2am",
+"img": "img/attcCCwLDT70T4cAV.webp"
 },
 {
 "title": "Oh Brother Where Art Thou live performance",
@@ -5374,7 +7253,8 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-recPWidC1a1cmveWU",
 "start": "2026-11-01",
-"time": "4pm–6pm"
+"time": "4pm–6pm",
+"img": "img/attWAtioPKvU65zKY.webp"
 },
 {
 "title": "2026 Fall Creative Retreat",
@@ -5394,6 +7274,7 @@ window.DHW_DB_EVENTS = [
 "db": true,
 "id": "db-rec8GGNg8stIrfvFH",
 "start": "2026-11-07",
-"time": "10am"
+"time": "10am",
+"img": "img/attCUWvz6ZclDSttF.webp"
 }
 ];

@@ -1,0 +1,623 @@
+{
+"00 W Oak St": null,
+"100 W Oak St": [
+33.2157559,
+-97.1326492,
+"osm",
+"checked"
+],
+"100 W Pecan St": [
+33.216154,
+-97.132566,
+"osm",
+"checked"
+],
+"101 N Elm St": [
+33.214703,
+-97.133746,
+"osm",
+"checked"
+],
+"101 S Locust St": [
+33.214396,
+-97.132353,
+"osm",
+"checked"
+],
+"101 W Hickory St": [
+33.2143651,
+-97.1326398,
+"osm",
+"checked"
+],
+"103 Industrial St": [
+33.2141742,
+-97.1299874,
+"osm",
+"checked"
+],
+"108 Ave A": [
+33.2141357,
+-97.146651,
+"osm",
+"unchecked"
+],
+"108 E Oak St": [
+33.2154781,
+-97.1321392,
+"osm",
+"checked"
+],
+"108 Industrial St": [
+33.2143029,
+-97.130358,
+"osm",
+"checked"
+],
+"110 W Hickory St": [
+33.2150401,
+-97.1330749,
+"osm",
+"checked"
+],
+"110 W Mulberry St": [
+33.2136565,
+-97.1330413,
+"osm",
+"checked"
+],
+"1100 Malone St": [
+33.225097,
+-97.1489443,
+"osm",
+"unchecked"
+],
+"111 Industrial St": [
+33.2139126,
+-97.129987,
+"osm",
+"checked"
+],
+"111 W Hickory St": [
+33.2143636,
+-97.1330506,
+"osm",
+"checked"
+],
+"111 W Mulberry St": [
+33.2133668,
+-97.1331648,
+"osm",
+"checked"
+],
+"1111 Cordell St": [
+33.2262579,
+-97.1442289,
+"osm",
+"unchecked"
+],
+"1114 W University Dr": [
+33.2303556,
+-97.1434294,
+"osm",
+"unchecked"
+],
+"1117 Riney Rd": [
+33.2424689,
+-97.143718,
+"osm",
+"unchecked"
+],
+"112 W Oak St": [
+33.2157397,
+-97.1331082,
+"osm",
+"checked"
+],
+"113 W Hickory St": [
+33.2143693,
+-97.1331199,
+"osm",
+"checked"
+],
+"1131 E Mckinney St": [
+33.216097,
+-97.118299,
+"osm",
+"checked"
+],
+"114 W Oak St": [
+33.2156684,
+-97.1326934,
+"osm",
+"checked"
+],
+"115 E Hickory St": [
+33.2147112,
+-97.1316134,
+"osm",
+"checked"
+],
+"115 W Eagle Dr": [
+33.206442706489,
+-97.132778891174,
+"census",
+"unchecked"
+],
+"1155 Union Cir": [
+33.2098922,
+-97.1514763,
+"osm",
+"unchecked"
+],
+"116 N Austin St": [
+33.2147604,
+-97.1316966,
+"osm",
+"checked"
+],
+"117 E Oak St": [
+33.2157437,
+-97.1315296,
+"osm",
+"checked"
+],
+"1179 Union Circle": [
+33.2121142,
+-97.1457815,
+"osm",
+"unchecked"
+],
+"118 E Mckinney St": [
+33.2164769,
+-97.1316732,
+"osm",
+"checked"
+],
+"1200 N Elm St": [
+33.224632,
+-97.13346,
+"osm",
+"checked"
+],
+"1201 W Mulberry St": [
+33.2131254,
+-97.1456322,
+"osm",
+"checked"
+],
+"121 N Elm St": [
+33.2153489,
+-97.1339454,
+"osm",
+"checked"
+],
+"122 E Mckinney St": [
+33.2163869,
+-97.1315001,
+"osm",
+"checked"
+],
+"122 Mckinney St": [
+33.2163869,
+-97.1315001,
+"osm",
+"unchecked"
+],
+"122 N Locust St": [
+33.2154281,
+-97.1321871,
+"osm",
+"checked"
+],
+"122 W Mulberry St": [
+33.2136627,
+-97.1333032,
+"osm",
+"checked"
+],
+"125 E Oak St": [
+33.2158309,
+-97.1313195,
+"osm",
+"checked"
+],
+"1251 S Bonnie Brae St": [
+33.2039397,
+-97.1594204,
+"osm",
+"unchecked"
+],
+"126 E Oak Across The St": [
+33.215448,
+-97.131618,
+"osm",
+"unchecked"
+],
+"126 E Oak St": [
+33.215448,
+-97.131618,
+"osm",
+"checked"
+],
+"1300 Wilson St": [
+33.207943,
+-97.117086,
+"osm",
+"checked"
+],
+"1650 Nottingham Dr": null,
+"1805 Cornell Ln": [
+33.2304975,
+-97.1481326,
+"osm",
+"unchecked"
+],
+"1807 N Elm St": [
+33.2298094,
+-97.1335742,
+"osm",
+"off-street 86m"
+],
+"200 E Mckinney St": [
+33.2163042,
+-97.1311865,
+"osm",
+"checked"
+],
+"200 N Locust St": [
+33.2158474,
+-97.1321459,
+"osm",
+"checked"
+],
+"2009 W Windsor Dr": [
+33.241372594479,
+-97.145928859604,
+"census",
+"unchecked"
+],
+"201 S Locust St": [
+33.213377,
+-97.132362,
+"osm",
+"checked"
+],
+"207 N Elm St": [
+33.2159715,
+-97.134017,
+"osm",
+"checked"
+],
+"207 W Hickory St": [
+33.2142547,
+-97.1339833,
+"osm",
+"checked"
+],
+"2100 N I-35E": [
+33.2063544,
+-97.1550935,
+"osm",
+"unchecked"
+],
+"2100 N Interstate 35E At North Texas Blvd": [
+33.205153995402,
+-97.152952500145,
+"census",
+"unchecked"
+],
+"214 W Hickory St": [
+33.2146489,
+-97.134572,
+"osm",
+"checked"
+],
+"215 E Mckinney St": [
+33.216606507904,
+-97.130879225528,
+"census",
+"checked"
+],
+"217 E Oak St": [
+33.215612,
+-97.1309047,
+"osm",
+"checked"
+],
+"219 E Hickory St": [
+33.2145674,
+-97.1301031,
+"osm",
+"checked"
+],
+"220 W Oak St": [
+33.2158494,
+-97.1347886,
+"osm",
+"checked"
+],
+"2201 I-35E": [
+33.0784761,
+-97.0246801,
+"osm",
+"unchecked"
+],
+"2201 S I-35E": [
+33.187431185988,
+-97.108343098997,
+"census",
+"unchecked"
+],
+"2201 S Interstate 35": [
+33.187431185988,
+-97.108343098997,
+"census",
+"unchecked"
+],
+"221 N Elm St": [
+33.2163934,
+-97.1340277,
+"osm",
+"checked"
+],
+"221 W Oak St": [
+33.2155098,
+-97.1345035,
+"osm",
+"checked"
+],
+"222 S Mayhill Rd": [
+33.2081884,
+-97.0840256,
+"osm",
+"unchecked"
+],
+"2244 Brinker St": [
+33.185170557007,
+-97.096477003093,
+"census",
+"unchecked"
+],
+"225 W Oak St": [
+33.2155101,
+-97.1345296,
+"osm",
+"checked"
+],
+"2426 Lillian Miller Pkwy": [
+33.1858168,
+-97.1093767,
+"osm",
+"unchecked"
+],
+"2645 W University Dr": [
+33.2274997,
+-97.1668223,
+"osm",
+"unchecked"
+],
+"301 E Mckinney St": [
+33.216597,
+-97.130029,
+"osm",
+"checked"
+],
+"301 E Oak St": [
+33.215612,
+-97.130075,
+"osm",
+"checked"
+],
+"3020 N Locust St": [
+33.2435847,
+-97.1306935,
+"osm",
+"off-street 1433m"
+],
+"304 Administration Dr": [
+33.2272894,
+-97.1243272,
+"osm",
+"unchecked"
+],
+"308 E Oak St": [
+33.2153187,
+-97.1297438,
+"osm",
+"checked"
+],
+"311 S Locust St": [
+33.2120388,
+-97.1323183,
+"osm",
+"checked"
+],
+"3110 Colorado Blvd": [
+33.1821418,
+-97.0988517,
+"osm",
+"unchecked"
+],
+"317 W Mulberry St": [
+33.2133355,
+-97.1365477,
+"osm",
+"checked"
+],
+"321 E Mckinney St": [
+33.216561525129,
+-97.129736558327,
+"census",
+"checked"
+],
+"3220 Teasley Ln": [
+33.1742569,
+-97.113672,
+"osm",
+"unchecked"
+],
+"3228 Teasley Ln": [
+33.173586,
+-97.1135875,
+"osm",
+"unchecked"
+],
+"325 W Mckinney St": [
+33.2169601,
+-97.1355072,
+"osm",
+"checked"
+],
+"331 E Hickory St": [
+33.2146995,
+-97.1287369,
+"osm",
+"checked"
+],
+"332 E Hickory St": [
+33.2139712,
+-97.1286588,
+"osm",
+"checked"
+],
+"400 E Hickory St": [
+33.2142332,
+-97.1276853,
+"osm",
+"checked"
+],
+"409 E Sycamore St": [
+33.2123591,
+-97.127416,
+"osm",
+"checked"
+],
+"410 N Bell Ave": [
+33.2171997,
+-97.1279976,
+"osm",
+"checked"
+],
+"411 E Sycamore St": [
+33.2125889,
+-97.1269823,
+"osm",
+"checked"
+],
+"424 N Elm St": [
+33.2178476,
+-97.1333536,
+"osm",
+"checked"
+],
+"502 Oakland St": [
+33.2184267,
+-97.1299437,
+"osm",
+"checked"
+],
+"5035 Warbird Dr": [
+33.2047556,
+-97.1935391,
+"osm",
+"unchecked"
+],
+"509 N Bell Ave": [
+33.21829085503,
+-97.12743413746,
+"census",
+"checked"
+],
+"516 N Elm St": [
+33.2183516,
+-97.1335352,
+"osm",
+"checked"
+],
+"516 N Locust St": [
+33.2184258,
+-97.1322828,
+"osm",
+"checked"
+],
+"529 Bryan St": [
+33.2190228,
+-97.147669,
+"osm",
+"unchecked"
+],
+"5331 Hartlee Field Rd": [
+33.2642919,
+-97.0648522,
+"osm",
+"unchecked"
+],
+"604 E Hickory St": [
+33.214378506617,
+-97.125607436036,
+"census",
+"checked"
+],
+"608 E Hickory St": [
+33.2142287,
+-97.1251742,
+"osm",
+"checked"
+],
+"610 Oakland St": [
+33.2194668,
+-97.1298392,
+"osm",
+"checked"
+],
+"633 Hobson Ln": [
+33.176539,
+-97.1248877,
+"osm",
+"unchecked"
+],
+"715 N Locust St": [
+33.2203762,
+-97.1324213,
+"osm",
+"checked"
+],
+"728 N Elm St": [
+33.2204762,
+-97.1335127,
+"osm",
+"checked"
+],
+"813 S Locust St": [
+33.206789,
+-97.1321523,
+"osm",
+"checked"
+],
+"909 Sunset St": [
+33.2293681,
+-97.141321,
+"osm",
+"unchecked"
+],
+"916 W University Dr": [
+33.2319578,
+-97.1433519,
+"osm",
+"unchecked"
+],
+"9428 Ed Robson Cir": [
+33.1379977,
+-97.2453816,
+"osm",
+"unchecked"
+],
+"9428 Ed Robson Circle": [
+33.1379977,
+-97.2453816,
+"osm",
+"unchecked"
+],
+"954 County Rd": null
+}

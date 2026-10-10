@@ -12,15 +12,12 @@ The page source is `src/page.html`. After editing it, `events.js` or `events-db.
 ## Refresh the database
 
 ```sh
-mkdir -p raw
-NODE_PATH=$(npm root -g) node tools/fetch_list.js https://era19963.softr.app/ raw/list.json
-NODE_PATH=$(npm root -g) node tools/fetch_details.js raw/list.json raw/details.json
-python3 tools/build_db.py raw/list.json raw/details.json > events-db.js
-node tools/match.js   # curated entries that may duplicate DB records -> add dbIds
-python3 tools/bundle.py
+tools/refresh.sh      # fetch list + all records, photos, build, geocode, bundle
 ```
 
-Needs Playwright + Chromium. `fetch_list.js` exits with an error if it gets fewer records than the database reports. The DB only returns events that haven't ended yet, so every fetch is merged into `data/records.json` (committed): records that aged out are kept, records that vanished before their end date (cancelled/unapproved) are dropped.
+Steps inside: `fetch_list.js` (tags for live events), `fetch_all.js` (every record incl. ended ones), `fetch_photos.py` (480px WebP into img/), `build_db.py` (archive merge into data/records.json, collapse repeats, UTC→Central), `geocode.py` (data/geo.json, each pin checked against its named street in data/streets.json), `bundle.py` (index.html + dist/artifact.html). `raw/match.txt` lists hand-checked entries that may now duplicate DB records — add their ids to `dbIds`.
+
+Needs Playwright + Chromium. Both fetch scripts exit with an error if they get fewer records than the database reports. The DB only returns events that haven't ended yet, so every fetch is merged into `data/records.json` (committed): records that aged out are kept, records that vanished before their end date (cancelled/unapproved) are dropped.
 
 Other sources: cityofdenton.com, Denton Record-Chronicle, dentondayofthedeadfestival.com, Prekindle (Big Top Tent), TWU, Denton Enterprise Airport, dentoncommunityvoice.com.
 
