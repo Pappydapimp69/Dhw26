@@ -236,7 +236,7 @@
   // hand-checked entries borrow the photo of the DB record they replace
   CURATED.forEach(c => { if (!c.img && c.dbIds) { const m = DB.find(e => c.dbIds.includes(e.id.slice(3)) || (e.rids || []).some(r => c.dbIds.includes(r))); if (m && m.img) c.img = m.img; } });
   const EVENTS = CURATED.concat(DB.filter(e => !isHidden(e)));
-  const SPREAD_MAX = 10;
+  const SPREAD_MAX = 18;
   const TZ = "America/Chicago";
   const today = new Intl.DateTimeFormat("en-CA", { timeZone: TZ }).format(new Date());
 
