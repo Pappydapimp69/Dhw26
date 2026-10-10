@@ -58,16 +58,74 @@
   .hero::after { content: ""; position: absolute; inset: 0; z-index: -1;
     background: linear-gradient(100deg, var(--night) 0 30%, color-mix(in srgb, var(--night) 72%, transparent) 55%, color-mix(in srgb, var(--night) 30%, transparent) 100%),
                 linear-gradient(to bottom, transparent 55%, var(--night)); }
-  .hero-in { max-width: 1180px; margin: 0 auto; padding-inline: 16px; padding-block: 72px 56px; display: grid; gap: 16px; }
+  .hero-in { max-width: 1040px; margin: 0 auto; padding-inline: 16px; padding-block: 72px 56px; display: grid; gap: 16px; }
   .hero-in h1 { text-shadow: 0 2px 30px var(--night); }
   .stats .big b { font-size: 3.6rem; color: var(--pumpkin); }
   @media (prefers-reduced-motion: reduce) { .row { animation: none; } }
 
+  /* Sticky day strip */
+  .strip { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: color-mix(in srgb, var(--night) 92%, transparent);
+    backdrop-filter: blur(8px); margin-inline: -16px; padding: 10px 16px 10px; border-bottom: 1px solid var(--line); display: grid; gap: 10px; }
+  .days { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x proximity; padding-bottom: 2px; }
+  .days::-webkit-scrollbar { display: none; }
+  .dpill { flex: none; scroll-snap-align: center; width: 54px; border: 1px solid var(--line); background: var(--card); border-radius: 12px; padding: 6px 0 5px;
+    display: grid; justify-items: center; gap: 1px; cursor: pointer; font-family: var(--f-mono); position: relative; }
+  .dpill .w { font-size: .62rem; letter-spacing: .08em; color: var(--bone-dim); text-transform: uppercase; }
+  .dpill .n { font: 400 1.35rem/1.05 var(--f-display); }
+  .dpill .h { width: 26px; height: 3px; border-radius: 2px; background: var(--pumpkin); opacity: var(--h, 0); }
+  .dpill.past { opacity: .45; }
+  .dpill.today .w { color: var(--pumpkin); }
+  .dpill.h31 { border-style: dashed; border-color: var(--marigold); }
+  .dpill.dotd .n { color: var(--marigold); }
+  .dpill[aria-pressed="true"] { background: var(--bone); border-color: var(--bone); }
+  .dpill[aria-pressed="true"] .w, .dpill[aria-pressed="true"] .n { color: var(--night); }
+  .dpill[aria-pressed="true"] .h { background: var(--night); }
+  .dpill.month { width: auto; padding-inline: 12px; align-content: center; }
+  .dpill.month .n { font: 600 .78rem/1.2 var(--f-mono); letter-spacing: .04em; }
+  .tools { display: flex; justify-content: space-between; gap: 10px; align-items: center; }
+  .tool { border: 1px solid var(--line); background: transparent; border-radius: 999px; padding: 6px 14px; font-size: .88rem; cursor: pointer; }
+  .tool[aria-expanded="true"], .tool.on { background: var(--pumpkin); border-color: var(--pumpkin); color: var(--pumpkin-ink); }
+  .tool span { margin-left: 6px; font-family: var(--f-mono); font-size: .78rem; }
+  .filters { display: grid; gap: 10px; padding-top: 2px; }
+
+  /* Day header */
+  .dayhero { display: grid; gap: 4px; margin: 26px 0 18px; }
+  .dayhero h2 { font: 400 clamp(2.4rem, 7vw, 3.6rem)/.95 var(--f-display); margin: 0; text-wrap: balance; }
+  .dayhero h2 em { font-style: normal; color: var(--pumpkin); }
+  .dayhero .dn { font: .78rem var(--f-mono); color: var(--bone-dim); letter-spacing: .08em; text-transform: uppercase; }
+  .sect { display: flex; align-items: baseline; gap: 12px; margin: 30px 0 10px; }
+  .sect h3 { font: 400 1.6rem/1 var(--f-display); margin: 0; }
+  .sect .dn { font: .72rem var(--f-mono); color: var(--bone-dim); letter-spacing: .08em; text-transform: uppercase; }
+  .picks { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr)); gap: 18px; }
+
+  /* Timeline rows */
+  .rows { display: grid; }
+  .row-ev { display: grid; grid-template-columns: 70px 56px minmax(0, 1fr); gap: 12px; align-items: center; padding: 10px 4px; border: 0;
+    border-bottom: 1px dashed var(--line); background: none; text-align: left; cursor: pointer; width: 100%; color: inherit; border-radius: 6px; }
+  .row-ev:hover { background: var(--night-2); }
+  .row-ev .tm { font: 500 .82rem/1.2 var(--f-mono); color: var(--pumpkin); font-variant-numeric: tabular-nums; }
+  .row-ev .tm.now { color: var(--pumpkin-ink); background: var(--pumpkin); padding: 3px 5px; border-radius: 5px; justify-self: start; font-size: .7rem; }
+  .row-ev .th { width: 56px; height: 56px; border-radius: 8px; overflow: hidden; position: relative; background: var(--night-2); }
+  .row-ev .th img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .row-ev .th .gen { padding: 4px; }
+  .row-ev .th .gen b { font-size: .62rem; -webkit-line-clamp: 3; }
+  .row-ev h4 { margin: 0; font-size: .98rem; line-height: 1.25; font-weight: 650; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .row-ev .vn { font-size: .82rem; color: var(--bone-dim); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .row-ev .fl { font: .66rem var(--f-mono); color: var(--moss); margin-left: 6px; }
+  .row-ev .fl.a { color: var(--pumpkin); }
+  .row-ev.past { opacity: .5; }
+  details.also { margin-top: 26px; border: 1px solid var(--line); border-radius: 14px; padding: 4px 14px; }
+  details.also summary { cursor: pointer; padding: 10px 0; font-weight: 600; list-style: none; display: flex; justify-content: space-between; gap: 10px; }
+  details.also summary::-webkit-details-marker { display: none; }
+  details.also summary span { font: .74rem var(--f-mono); color: var(--bone-dim); }
+  .daynav { display: flex; justify-content: space-between; gap: 12px; margin-top: 34px; }
+  .daynav button { flex: 1; border: 1px solid var(--line); background: var(--card); border-radius: 14px; padding: 14px; cursor: pointer; text-align: left; }
+  .daynav button:last-child { text-align: right; }
+  .daynav small { display: block; font: .7rem var(--f-mono); color: var(--bone-dim); letter-spacing: .08em; text-transform: uppercase; }
+  .daynav b { font: 400 1.4rem var(--f-display); }
+
   /* Up next */
-  .upnext { margin-block: 8px 34px; }
-  .upnext-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 12px; }
-  .upnext-head h2 { font: 400 2.2rem/1 var(--f-display); margin: 0; }
-  .upnext-head .dn, .tile .dn { font: .74rem var(--f-mono); color: var(--bone-dim); letter-spacing: .08em; text-transform: uppercase; }
+  .tile .dn { font: .74rem var(--f-mono); color: var(--bone-dim); letter-spacing: .08em; text-transform: uppercase; }
   .rail { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(210px, 240px); gap: 16px; overflow-x: auto; padding-bottom: 10px;
     scroll-snap-type: x mandatory; scrollbar-width: thin; }
   .rail .tile { scroll-snap-align: start; }
@@ -120,28 +178,10 @@
   .stats span { font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--bone-dim); }
 
   /* Main grid */
-  .main { display: grid; gap: 28px; grid-template-columns: minmax(0, 1fr); }
-  @media (min-width: 900px) { .main { grid-template-columns: 330px minmax(0, 1fr); align-items: start; }
-    .side { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 16px); } }
-  .side { display: grid; gap: 18px; min-width: 0; }
-  .side > * { min-width: 0; }
+  .wrap { max-width: 1040px; }
+
 
   /* Calendar */
-  .cal { background: var(--night-2); border-radius: 16px; padding: 16px; }
-  .cal-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px; }
-  .cal-head h2 { font: 400 1.7rem/1 var(--f-display); margin: 0; }
-  .cal-head small { font: .72rem var(--f-mono); color: var(--bone-dim); letter-spacing: .08em; text-transform: uppercase; }
-  .grid7 { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; }
-  .dow { font: 500 .66rem var(--f-mono); color: var(--bone-dim); text-align: center; padding-bottom: 2px; letter-spacing: .06em; }
-  .day { aspect-ratio: 1; max-width: 100%; border: 0; border-radius: 8px; cursor: pointer; display: grid; place-items: center; position: relative;
-    background: rgb(var(--heat) / var(--h, 0)); font: 500 .9rem var(--f-mono); font-variant-numeric: tabular-nums; transition: transform .12s; }
-  .day:hover { transform: translateY(-1px); }
-  .day.past { opacity: .4; }
-  .day.today { box-shadow: inset 0 0 0 2px var(--bone); }
-  .day.sel { background: var(--pumpkin); color: var(--pumpkin-ink); }
-  .day.h31::after { content: ""; position: absolute; inset: 4px; border-radius: 6px; border: 1.5px dashed var(--marigold); pointer-events: none; }
-  .day .n { position: absolute; bottom: 3px; font-size: .55rem; opacity: .75; }
-  .legend { display: flex; justify-content: space-between; margin-top: 10px; font: .68rem var(--f-mono); color: var(--bone-dim); }
 
   /* Filters */
   .search { width: 100%; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--card); color: var(--bone); font: inherit; }
@@ -150,18 +190,10 @@
   .chip:hover { border-color: var(--bone-dim); }
   .chip[aria-pressed="true"] { background: var(--bone); color: var(--night); border-color: var(--bone); }
   .chip.day-chip[aria-pressed="true"] { background: var(--pumpkin); border-color: var(--pumpkin); color: var(--pumpkin-ink); }
-  .toggle { display: flex; align-items: center; gap: 8px; font-size: .88rem; color: var(--bone-dim); }
   .side-note { font-size: .82rem; color: var(--bone-dim); margin: 0; }
 
   /* List */
   .list { min-width: 0; }
-  .status { font: .78rem var(--f-mono); color: var(--bone-dim); letter-spacing: .06em; text-transform: uppercase; margin: 0 0 6px; }
-  .dayhead { display: flex; align-items: baseline; gap: 12px; margin: 30px 0 10px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
-  .dayhead:first-of-type { margin-top: 6px; }
-  .dayhead h3 { font: 400 1.9rem/1 var(--f-display); margin: 0; }
-  .dayhead .dn { font: .74rem var(--f-mono); color: var(--bone-dim); letter-spacing: .08em; text-transform: uppercase; }
-  .dayhead.is-today h3 { color: var(--pumpkin); }
-  .dayhead.is-dotd h3 { color: var(--marigold); }
 
   .ev { display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 14px; padding: 14px 0; border-bottom: 1px dashed var(--line); }
   .ev.past { opacity: .5; }
@@ -188,11 +220,9 @@
   .ev .t small { display: block; color: var(--bone-dim); font-weight: 400; }
 
   /* View switch */
-  .listhead { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between; margin-bottom: 6px; }
   .views { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; gap: 2px; }
   .views button { border: 0; background: transparent; padding: 6px 14px; border-radius: 999px; font-size: .88rem; cursor: pointer; }
   .views button[aria-pressed="true"] { background: var(--bone); color: var(--night); }
-  .listhead .status { margin: 0; }
 
   /* Map */
   .mapbox { background: var(--night-2); border-radius: 16px; overflow: hidden; position: relative; }
@@ -230,7 +260,14 @@
   @media (max-width: 560px) {
     .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 12px; }
     .gen b { font-size: 1.3rem; }
-    .hero-in { padding-block: 190px 36px; }
+    .hero-in { padding-block: 170px 26px; }
+    .row-ev { grid-template-columns: 58px 48px minmax(0, 1fr); gap: 10px; }
+    .picks { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 12px; }
+    .rail { grid-auto-columns: minmax(150px, 46%); }
+    .hero-in p { display: none; }
+    .stats > div:not(.big) { display: none; }
+    .stats .big { display: flex; align-items: baseline; gap: 10px; }
+    .row-ev .th { width: 48px; height: 48px; }
     .hero::after { background: linear-gradient(to bottom, color-mix(in srgb, var(--night) 25%, transparent) 0, color-mix(in srgb, var(--night) 60%, transparent) 130px, var(--night) 200px); }
     .flyer, .flyer img { width: 110px; }
     .stats .big b { font-size: 2.8rem; }
@@ -259,38 +296,28 @@
 </header>
 
 <div class="wrap">
-  <section class="upnext" aria-label="Up next">
-    <div class="upnext-head"><h2>Up next</h2><span class="dn" id="upnext-sub"></span></div>
-    <div class="rail" id="rail"></div>
-  </section>
-
-  <div class="main">
-    <aside class="side">
-      <section class="cal" aria-label="October calendar">
-        <div class="cal-head"><h2>October</h2><small>tap a day</small></div>
-        <div class="grid7" id="cal"></div>
-        <div class="legend"><span>fewer events</span><span>more events</span></div>
-      </section>
-      <input class="search" id="q" type="search" placeholder="Search events, venues, bands…" aria-label="Search events">
-      <div class="chips scroll" id="when" role="group" aria-label="When"></div>
-      <div class="chips" id="what" role="group" aria-label="Type of event"></div>
-      <label class="toggle"><input type="checkbox" id="showPast"> Show events that already ended</label>
-      <p class="side-note">Dashed purple tags mark details that came from one unofficial source. Check before you go.</p>
-    </aside>
-
-    <main class="list">
-      <div class="listhead">
-        <p class="status" id="status"></p>
-        <div class="views" role="group" aria-label="View">
-          <button data-v="list" aria-pressed="true">List</button>
-          <button data-v="map" aria-pressed="false">Map</button>
-          <button data-v="venues" aria-pressed="false">By venue</button>
-        </div>
+  <nav class="strip" id="strip" aria-label="Pick a day">
+    <div class="days" id="days"></div>
+    <div class="tools">
+      <button class="tool" id="filterBtn" aria-expanded="false">Filter<span id="fcount"></span></button>
+      <div class="views" role="group" aria-label="View">
+        <button data-v="list" aria-pressed="true">List</button>
+        <button data-v="map" aria-pressed="false">Map</button>
+        <button data-v="venues" aria-pressed="false">Venues</button>
       </div>
-      <div id="mapwrap" hidden></div>
-      <div id="list"></div>
-    </main>
-  </div>
+    </div>
+    <div class="filters" id="filters" hidden>
+      <input class="search" id="q" type="search" placeholder="Search events, venues, bands…" aria-label="Search events">
+      <div class="chips" id="what" role="group" aria-label="Type of event"></div>
+    </div>
+  </nav>
+
+  <main class="list">
+    <header class="dayhero" id="dayhero"></header>
+    <div id="mapwrap" hidden></div>
+    <div id="list"></div>
+    <nav class="daynav" id="daynav" aria-label="Previous and next day"></nav>
+  </main>
 
   <footer>
     <div>Compiled from the city's Denton Halloween event database, City of Denton calendar, Denton Record-Chronicle, Day of the Dead Festival, TWU, UNT and venue pages. Not affiliated with the City of Denton. Updated <span id="upd"></span>.</div>
@@ -369,38 +396,39 @@
   document.getElementById("st-today").textContent = EVENTS.filter(e => occursOn(e, today)).length;
   document.getElementById("upd").textContent = d(window.DHW_DB_UPDATED || window.DHW_UPDATED || today).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
 
-  // Calendar
-  const cal = document.getElementById("cal");
+  // Day strip (replaces the calendar sidebar)
+  const SEASON = []; for (let x = "2026-10-01"; x <= "2026-11-01"; x = addDays(x, 1)) SEASON.push(x);
   const counts = {}; let max = 1;
-  for (let i = 1; i <= 31; i++) { const k = "2026-10-" + String(i).padStart(2, "0"); counts[k] = countOn(k); max = Math.max(max, counts[k]); }
-  function drawCal() {
-    let html = "SMTWTFS".split("").map(c => `<div class="dow">${c}</div>`).join("");
-    const lead = d("2026-10-01").getDay();
-    for (let i = 0; i < lead; i++) html += "<div></div>";
-    for (let i = 1; i <= 31; i++) {
-      const k = "2026-10-" + String(i).padStart(2, "0");
-      const cls = ["day", k < today && "past", k === today && "today", state.day === k && "sel", i === 31 && "h31"].filter(Boolean).join(" ");
-      const h = (0.08 + 0.62 * counts[k] / max).toFixed(2);
-      html += `<button class="${cls}" style="--h:${counts[k] ? h : 0}" data-day="${k}" aria-pressed="${state.day === k}" aria-label="October ${i}, ${counts[k]} events">${i}<span class="n">${counts[k] || ""}</span></button>`;
-    }
-    cal.innerHTML = html;
+  SEASON.forEach(k => { counts[k] = countOn(k); max = Math.max(max, counts[k]); });
+  state.day = today < SEASON[0] ? SEASON[0] : today > SEASON[SEASON.length - 1] ? SEASON[SEASON.length - 1] : today;
+  state.when = null;
+  function drawStrip() {
+    const el = document.getElementById("days");
+    el.innerHTML = SEASON.map(k => {
+      const x = d(k), cls = ["dpill", k < today && "past", k === today && "today", k === "2026-10-31" && "h31", k === "2026-10-24" && "dotd"].filter(Boolean).join(" ");
+      return `<button class="${cls}" data-day="${k}" aria-pressed="${state.day === k}" style="--h:${(0.15 + 0.85 * counts[k] / max).toFixed(2)}" aria-label="${x.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" })}, ${counts[k]} events">
+        <span class="w">${k === today ? "Today" : x.toLocaleDateString("en-US", { weekday: "short" })}</span><span class="n">${x.getDate()}</span><span class="h"></span></button>`;
+    }).join("") + `<button class="dpill month" data-day="month" aria-pressed="${state.when === "allmonth"}"><span class="n">All month<br>long</span></button>`;
+    const sel = el.querySelector('[aria-pressed="true"]');
+    if (sel) el.scrollLeft = sel.offsetLeft - el.clientWidth / 2 + sel.clientWidth / 2;
   }
-  cal.addEventListener("click", ev => {
-    const b = ev.target.closest(".day"); if (!b) return;
-    state.day = state.day === b.dataset.day ? null : b.dataset.day;
-    if (state.day) state.when = null; else state.when = "upcoming";
-    render();
-    if (window.innerWidth < 900) document.getElementById("status").scrollIntoView({ behavior: "smooth", block: "start" });
+  document.getElementById("days").addEventListener("click", ev => {
+    const b = ev.target.closest(".dpill"); if (!b) return;
+    if (b.dataset.day === "month") { state.when = "allmonth"; state.day = null; } else { state.day = b.dataset.day; state.when = null; }
+    state.venue = null; render(); toTop();
   });
+  function toTop() { const m = document.querySelector(".list"); const y = m.getBoundingClientRect().top + scrollY - document.getElementById("strip").offsetHeight - 8; if (scrollY > y) scrollTo({ top: y }); }
 
-  // Chips
+  // Filters (behind one button)
   function drawChips() {
-    document.getElementById("when").innerHTML = WHEN.map(c => `<button class="chip day-chip" data-k="${c.k}" aria-pressed="${state.when === c.k}">${c.label}</button>`).join("");
     document.getElementById("what").innerHTML = WHAT.map(c => `<button class="chip" data-k="${c.k}" aria-pressed="${state.what === c.k}">${c.label}</button>`).join("");
+    const n = (state.what ? 1 : 0) + (state.q ? 1 : 0);
+    document.getElementById("fcount").textContent = n ? `· ${state.what ? WHAT.find(w => w.k === state.what).label : "search"}` : "";
+    document.getElementById("filterBtn").classList.toggle("on", !!n);
   }
-  document.getElementById("when").addEventListener("click", ev => {
-    const b = ev.target.closest(".chip"); if (!b) return;
-    state.when = b.dataset.k; state.day = null; render();
+  document.getElementById("filterBtn").addEventListener("click", e => {
+    const f = document.getElementById("filters"); f.hidden = !f.hidden; e.currentTarget.setAttribute("aria-expanded", !f.hidden);
+    if (!f.hidden) document.getElementById("q").focus({ preventScroll: true });
   });
   document.getElementById("what").addEventListener("click", ev => {
     const b = ev.target.closest(".chip"); if (!b) return;
@@ -409,7 +437,6 @@
     render();
   });
   document.getElementById("q").addEventListener("input", e => { state.q = e.target.value.trim().toLowerCase(); render(); });
-  document.getElementById("showPast").addEventListener("change", e => { state.past = e.target.checked; render(); });
 
   // Cards
   const TAGNAME = { family: "kids", free: "no ticket", "21plus": "21+", haunted: "haunted house", tour: "tour", show: "show", music: "live music", food: "food & drink", market: "market", art: "art", movie: "movie", festival: "festival", library: "library", inclusive: "adapted" };
@@ -516,7 +543,56 @@
   function closeSheet() { document.getElementById("sheet").hidden = true; document.body.style.overflow = ""; }
   document.getElementById("sheet").addEventListener("click", ev => { if (ev.target.closest("[data-close]")) closeSheet(); });
   document.addEventListener("keydown", ev => { if (ev.key === "Escape") closeSheet(); });
-  document.addEventListener("click", ev => { const t = ev.target.closest(".tile"); if (t) openSheet(t.dataset.id, t.dataset.day); });
+  document.addEventListener("click", ev => { const t = ev.target.closest(".tile, .row-ev"); if (t) openSheet(t.dataset.id, t.dataset.day); });
+
+  // Signature events get poster treatment; everything else is a timeline row.
+  const PICK = /day of the dead festival|cirque du horror|blocktober|hallo-?wing|boo at the u|parker house|addams family|tripping daisy|caligari|sam bass|pine ?box|coffin race|halloween night party|halloween town market|rocky horror picture show|nightmare on brew street|first fright/i;
+  const isPick = e => PICK.test(e.title);
+  function row(e, day) {
+    const past = endOf(e) < today || (day && day < today);
+    const b = badgeFor(e, day);
+    const t = (day && e.times && e.times[day]) || e.time || "";
+    const tm = b.hot ? `<span class="tm now">${esc(b.txt)}</span>` : `<span class="tm">${esc((t.split(/\s*[–-]\s*/)[0] || "TBA").replace(/^All day$/i, "All day"))}</span>`;
+    const v = (GEO.venues[GEO.byId[e.id]] || {}).name || e.venue || (e.address || "").split(",")[0];
+    const fl = [(e.tags || []).includes("free") && `<span class="fl">free</span>`, (e.tags || []).includes("21plus") && `<span class="fl a">21+</span>`, (e.tags || []).includes("family") && `<span class="fl">kids</span>`].filter(Boolean).join("");
+    return `<button class="row-ev tile-row${past ? " past" : ""}" data-id="${esc(e.id)}" data-day="${day || ""}">${tm}<span class="th">${poster(e)}</span>
+      <span><h4>${esc(e.title)}</h4><span class="vn">${esc(v || "")}${fl}</span></span></button>`;
+  }
+  function dayView(pairs, k) {
+    // organizers sometimes submit the same event twice: keep one per title + start time
+    const seen = new Set(), evs = [];
+    pairs.forEach(([e]) => { const key = e.title.toLowerCase().replace(/[^a-z0-9]/g, "") + "|" + ((e.times && e.times[k]) || e.time || "").split(/[–-]/)[0]; if (!seen.has(key)) { seen.add(key); evs.push(e); } });
+    const timed = evs.filter(e => !longRun(e)), open = evs.filter(longRun);
+    const tk = e => timeKey((e.times && e.times[k]) || e.time);
+    const picks = timed.filter(isPick).sort((a, b) => tk(a) - tk(b)).slice(0, 4);
+    const rest = timed.filter(e => !picks.includes(e)).sort((a, b) => tk(a) - tk(b) || a.title.localeCompare(b.title));
+    const parts = [];
+    if (k === today) {
+      const now = nowMin(), soon = rest.filter(e => { const b = badgeFor(e, k); return b.hot; });
+      if (soon.length) parts.push(`<div class="sect"><h3>Right now</h3><span class="dn">${soon.length} starting soon or underway</span></div><div class="rail">${soon.slice(0, 10).map(e => tile(e, k)).join("")}</div>`);
+    }
+    if (picks.length) parts.push(`<div class="sect"><h3>Don't miss</h3><span class="dn">the big ones</span></div><div class="picks">${picks.map(e => tile(e, k)).join("")}</div>`);
+    const buckets = [["Daytime", e => tk(e) < 17 * 60 || tk(e) === -1], ["Evening", e => tk(e) >= 17 * 60 && tk(e) < 21 * 60], ["Late", e => tk(e) >= 21 * 60 && tk(e) < 9999], ["Time not listed", e => tk(e) === 9999]];
+    for (const [name, f] of buckets) {
+      const g = rest.filter(f); if (!g.length) continue;
+      parts.push(`<div class="sect"><h3>${name}</h3><span class="dn">${g.length}</span></div><div class="rows">${g.map(e => row(e, k)).join("")}</div>`);
+    }
+    if (open.length) parts.push(`<details class="also"><summary>Also open today <span>${open.length} all-month attractions ▾</span></summary><div class="rows">${open.sort((a, b) => a.title.localeCompare(b.title)).map(e => row(e, k)).join("")}</div></details>`);
+    return parts.join("");
+  }
+  function dayHeroHTML(k, n) {
+    if (!k) return `<span class="dn">October 1 – November 1</span><h2>All month <em>long</em></h2><span class="dn">${n} attractions you can visit any day</span>`;
+    const x = d(k);
+    const big = k === today ? `<em>Tonight</em> in Denton` : k === "2026-10-31" ? `<em>Halloween</em> night` : k === "2026-10-24" ? `Day of the <em>Dead</em>` : x.toLocaleDateString("en-US", { weekday: "long" });
+    return `<span class="dn">${x.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" })}</span><h2>${big}</h2><span class="dn">${n} event${n === 1 ? "" : "s"}${state.what ? " · " + WHAT.find(w => w.k === state.what).label : ""}${state.q ? ` · "${esc(state.q)}"` : ""}</span>`;
+  }
+  function dayNavHTML(k) {
+    if (!k) return "";
+    const i = SEASON.indexOf(k), prev = SEASON[i - 1], next = SEASON[i + 1];
+    const btn = (x, lbl) => x ? `<button data-day="${x}"><small>${lbl}</small><b>${d(x).toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" })}</b></button>` : "<span></span>";
+    return btn(prev, "← Previous day") + btn(next, "Next day →");
+  }
+  document.getElementById("daynav").addEventListener("click", ev => { const b = ev.target.closest("button"); if (!b) return; state.day = b.dataset.day; render(); toTop(); });
 
   // ---- flyer wall + up next ----
   (function wall() {
@@ -528,20 +604,7 @@
       document.getElementById(id).innerHTML = html + html;
     });
   })();
-  function drawRail() {
-    const now = nowMin(), out = [];
-    for (let k = today, n = 0; n < 3 && out.length < 12; k = addDays(k, 1), n++) {
-      EVENTS.filter(e => !longRun(e) && occursOn(e, k)).map(e => [e, k]).filter(([e]) => {
-        if (k !== today) return true;
-        const t = timeKey((e.times && e.times[k]) || e.time); return t >= now - 60 && t < 9999;
-      }).sort((p, q) => timeKey((p[0].times && p[0].times[p[1]]) || p[0].time) - timeKey((q[0].times && q[0].times[q[1]]) || q[0].time))
-        .forEach(p => { if (out.length < 12) out.push(p); });
-    }
-    document.getElementById("rail").innerHTML = out.map(([e, k]) => tile(e, k)).join("");
-    const days = [...new Set(out.map(p => p[1]))];
-    document.getElementById("upnext-sub").textContent = days.map(k => k === today ? "tonight" : k === addDays(today, 1) ? "tomorrow" : d(k).toLocaleDateString("en-US", { weekday: "long" })).join(" · ");
-    document.querySelector(".upnext").hidden = !out.length;
-  }
+
 
   const GEO = window.DHW_GEO || { byId: {}, venues: {}, streets: [] };
   state.view = "list"; state.venue = null; state.showFar = false;
@@ -652,24 +715,25 @@
     return { mapEl, sel };
   }
 
-  let railDrawn = false;
   function render() {
-    drawCal(); drawChips();
-    if (!railDrawn) { drawRail(); railDrawn = true; }
-    const { pairs, status } = currentPairs();
+    drawStrip(); drawChips();
+    const { pairs } = currentPairs();
     const list = document.getElementById("list"), mw = document.getElementById("mapwrap");
     document.querySelectorAll(".views button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === state.view));
+    document.getElementById("dayhero").innerHTML = dayHeroHTML(state.day, pairs.length);
+    document.getElementById("daynav").innerHTML = state.view === "list" ? dayNavHTML(state.day) : "";
     mw.hidden = state.view !== "map";
     if (state.view === "map") {
       const m = mapHTML(pairs); mw.innerHTML = m.mapEl; list.innerHTML = m.sel;
     } else if (state.view === "venues") {
       const g = byVenue(pairs);
       list.innerHTML = Object.entries(g).sort((a, b) => b[1].length - a[1].length).map(([k, ps]) => venueBlock(k, ps, 6)).join("");
+    } else if (!state.day) {
+      list.innerHTML = `<div class="tiles">${pairs.map(p => p[0]).sort((a, b) => a.title.localeCompare(b.title)).map(e => tile(e)).join("")}</div>`;
     } else {
-      list.innerHTML = listHTML(pairs);
+      list.innerHTML = dayView(pairs, state.day);
     }
     if (!list.innerHTML) list.innerHTML = `<div class="empty"><b>Nothing here</b>Try another day or clear the filter.</div>`;
-    document.getElementById("status").textContent = status + (state.what ? ` · ${WHAT.find(w => w.k === state.what).label}` : "");
   }
   document.querySelector(".views").addEventListener("click", ev => {
     const b = ev.target.closest("button"); if (!b) return;
