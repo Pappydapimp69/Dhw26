@@ -1,0 +1,122 @@
+[
+ {
+  "name": "Rose Costumes",
+  "kind": "rental",
+  "address": "104 W Oak St, Denton, TX 76201",
+  "hours": "Tue-Sat 11am-6pm; closed Sun-Mon",
+  "note": "Denton's 50-year-old costume house on the Square rents 10,000+ full costumes to the public ($125-$225/week, accessories and cleaning included) and sells a smaller rack; same-day pickup OK.",
+  "link": "https://www.rosecostumes.com/",
+  "source": "https://www.rosecostumes.com/faq",
+  "verified": true
+ },
+ {
+  "name": "Spirit Halloween (Golden Triangle)",
+  "kind": "seasonal store",
+  "address": "2201 S Interstate 35E, Denton, TX 76205",
+  "hours": "Mon-Sat 9am-10pm, Sun 9am-9pm (per store locator)",
+  "note": "2026 seasonal pop-up in the former Macy's at Golden Triangle Mall, with packaged costumes, masks, makeup and decor.",
+  "link": "https://stores.spirithalloween.com/tx/denton/halloween-store-61749.html",
+  "source": "https://stores.spirithalloween.com/tx/denton/halloween-store-61749.html",
+  "verified": true
+ },
+ {
+  "name": "Spirit Halloween (W University Dr)",
+  "kind": "seasonal store",
+  "address": "511 W University Dr, Denton, TX 76201",
+  "hours": "Mon-Sat 9am-10pm, Sun 9am-9pm (per store locator)",
+  "note": "Second 2026 Spirit pop-up in a former AutoZone, close to downtown and TWU.",
+  "link": "https://stores.spirithalloween.com/tx/denton/halloween-store-61090.html",
+  "source": "https://stores.spirithalloween.com/tx/denton/halloween-store-61090.html",
+  "verified": true
+ },
+ {
+  "name": "Goodwill Store & Donation Center (Loop 288)",
+  "kind": "thrift & vintage",
+  "address": "2231 S Loop 288, Denton, TX 76205",
+  "hours": "Mon-Sat 9am-9pm, Sun 10am-7pm",
+  "note": "Denton's big Goodwill, a large thrift floor for cheap DIY costume parts, open until 9pm Monday through Saturday.",
+  "link": "https://www.goodwilldallas.org/locations/denton-store-and-donation-center/",
+  "source": "https://www.goodwilldallas.org/locations/denton-store-and-donation-center/",
+  "verified": true
+ },
+ {
+  "name": "Les Muses Vintage",
+  "kind": "thrift & vintage",
+  "address": "121 N Elm St, Denton, TX 76201",
+  "hours": "Tue-Thu 10am-6pm, Fri-Sat 10am-8pm, Sun noon-5pm; closed Mon",
+  "note": "Square boutique with real 1940s-80s dresses and outfits, good for a pin-up, mod, disco or Old Hollywood costume.",
+  "link": "http://www.lesmusesvintage.com/",
+  "source": "http://www.lesmusesvintage.com/",
+  "verified": true
+ },
+ {
+  "name": "Old Bear Denton (University Dr)",
+  "kind": "thrift & vintage",
+  "address": "618 W University Dr, Denton, TX 76201",
+  "hours": "Mon-Sat 10am-8pm, Sun 10am-6pm",
+  "note": "The cheaper Old Bear location, where everything costs $14.99 or less, which makes it good for building a costume on a budget.",
+  "link": "https://oldbearvintage.com/",
+  "source": "https://oldbearvintage.com/",
+  "verified": true
+ },
+ {
+  "name": "Old Bear on the Square",
+  "kind": "thrift & vintage",
+  "address": "114 N Locust St, Denton, TX 76201",
+  "hours": "Mon-Thu 11am-10pm, Fri-Sat 10am-midnight, Sun 10am-10pm",
+  "note": "Vintage shop on the Square that stays open until midnight on Fridays and Saturdays, good for last-minute retro pieces.",
+  "link": "https://oldbearvintage.com/",
+  "source": "https://oldbearvintage.com/",
+  "verified": true
+ },
+ {
+  "name": "The Velvet Echo",
+  "kind": "thrift & vintage",
+  "address": "311 S Locust St, Denton, TX 76201",
+  "hours": "Wed-Thu noon-8pm, Fri noon-9pm, Sat noon-8pm (check Sun)",
+  "note": "Downtown boutique that opened in March 2026, carrying vintage clothing, furs and jewelry for glam period looks.",
+  "link": "https://thevelvetecho.com/",
+  "source": "https://communityimpact.com/dallas-fort-worth/denton/business/2026/03/27/the-velvet-echo-offers-vintage-clothing-antiques-in-downtown-denton/",
+  "verified": true
+ },
+ {
+  "name": "Denton Thrift",
+  "kind": "thrift & vintage",
+  "address": "708 W University Dr, Denton, TX 76201",
+  "hours": "",
+  "note": "Locally voted Best Thrift Store in Denton, worth a stop for odd costume pieces.",
+  "link": "https://dentonrc.com/bestofdenton/best-of-denton-finding-good-deals-on-shopping-and-eats/article_cb982ec8-e4d3-11ef-8189-bb682ca7ce32.html",
+  "source": "https://www.rosecostumes.com/thrift-vintage-clothing",
+  "verified": false
+ },
+ {
+  "name": "Goodwill (W University Dr)",
+  "kind": "thrift & vintage",
+  "address": "2030 W University Dr, Denton, TX 76201",
+  "hours": "",
+  "note": "Second Goodwill thrift store on the west side; call ahead for hours.",
+  "link": "https://business.denton-chamber.org/list/member/goodwill-north-central-texas-5017502",
+  "source": "https://www.rosecostumes.com/thrift-vintage-clothing",
+  "verified": false
+ },
+ {
+  "name": "Sally Beauty (S Loop 288)",
+  "kind": "makeup & wigs",
+  "address": "1400 S Loop 288 Ste 136, Denton, TX 76205",
+  "hours": "Mon-Sat 9am-8/9pm (to 9pm Wed-Fri), Sun 10am-7pm",
+  "note": "South Denton Sally Beauty with colored hair spray, wigs and makeup, open until 9pm midweek.",
+  "link": "https://stores.sallybeauty.com/tx/denton/beauty-supply-denton-tx-3070.html",
+  "source": "https://stores.sallybeauty.com/tx/denton/beauty-supply-denton-tx-3070.html",
+  "verified": true
+ },
+ {
+  "name": "Sally Beauty (W University Dr)",
+  "kind": "makeup & wigs",
+  "address": "2520 W University Dr Ste 1160, Denton, TX 76201",
+  "hours": "Mon-Sat 10am-8pm, Sun 11am-7pm",
+  "note": "Temporary hair color, wigs and makeup basics for finishing a costume, and Rose Costumes no longer sells wigs or makeup.",
+  "link": "https://stores.sallybeauty.com/tx/denton/beauty-supply-denton-tx-10813.html",
+  "source": "https://stores.sallybeauty.com/tx/denton/beauty-supply-denton-tx-10813.html",
+  "verified": true
+ }
+]
