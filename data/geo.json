@@ -258,6 +258,12 @@
 "osm",
 "checked"
 ],
+"1315 N Bell Ave": [
+33.225681136259,
+-97.127327582357,
+"census",
+"checked"
+],
 "1650 Nottingham Dr": null,
 "1805 Cornell Ln": [
 33.2304975,
@@ -311,6 +317,12 @@
 33.2063544,
 -97.1550935,
 "osm",
+"unchecked"
+],
+"2100 N Interstate 35": [
+33.194686942743,
+-97.168450771773,
+"census",
 "unchecked"
 ],
 "2100 N Interstate 35E At North Texas Blvd": [
@@ -433,6 +445,12 @@
 "osm",
 "unchecked"
 ],
+"307 Administration Dr": [
+33.2279161,
+-97.1289311,
+"osm",
+"unchecked"
+],
 "308 E Oak St": [
 33.2153187,
 -97.1297438,
@@ -516,6 +534,12 @@
 -97.1269823,
 "osm",
 "checked"
+],
+"415 S Ave": [
+33.2109209,
+-97.1301634,
+"osm",
+"unchecked"
 ],
 "424 N Elm St": [
 33.2178476,

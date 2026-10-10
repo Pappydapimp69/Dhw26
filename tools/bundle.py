@@ -14,10 +14,12 @@ sys.path.insert(0, str(root / "tools"))
 from geocode import key_of  # noqa: E402
 
 page = (root / "src" / "page.html").read_text()
-data = "\n".join((root / f).read_text().replace("</script", "<\\/script") for f in ("events.js", "events-db.js"))
+FILES = ("events.js", "events-db.js", "events-feeds.js")
+data = "\n".join((root / f).read_text().replace("</script", "<\\/script") for f in FILES if (root / f).exists())
 
 # venue key + display name per event
-js = "global.window={};require('./events.js');require('./events-db.js');console.log(JSON.stringify([...window.DHW_EVENTS,...window.DHW_DB_EVENTS].map(e=>[e.id,e.venue||'',e.address||''])))"
+js = ("global.window={};require('./events.js');require('./events-db.js');try{require('./events-feeds.js')}catch(e){};"
+      "console.log(JSON.stringify([...window.DHW_EVENTS,...window.DHW_DB_EVENTS,...(window.DHW_FEED_EVENTS||[])].map(e=>[e.id,e.venue||'',e.address||''])))")
 rows = json.loads(subprocess.check_output(["node", "-e", js], cwd=root))
 geo = json.loads((root / "data" / "geo.json").read_text())
 by_id, names = {}, {}
@@ -38,7 +40,9 @@ for k in set(by_id.values()):
     nm = max(names.get(k, {}).items(), key=lambda x: x[1])[0] if names.get(k) else k
     venues[k] = {"name": nm, "addr": k, **({"lat": round(g[0], 5), "lon": round(g[1], 5)} if ok else {})}
 streets = json.loads((root / "data" / "streets.json").read_text())
-geo_js = "window.DHW_GEO = " + json.dumps({"byId": by_id, "venues": venues, "streets": streets}, separators=(",", ":")) + ";"
+shops_p = root / "data" / "shops.json"
+shops_js = "window.DHW_SHOPS = " + (shops_p.read_text() if shops_p.exists() else "[]") + ";\n"
+geo_js = shops_js + "window.DHW_GEO = " + json.dumps({"byId": by_id, "venues": venues, "streets": streets}, separators=(",", ":")) + ";"
 
 body = page.replace("<!--DATA-->", "<script>\n" + data + "\n" + geo_js + "\n</script>")
 (root / "dist").mkdir(exist_ok=True)

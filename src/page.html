@@ -124,6 +124,29 @@
   .daynav small { display: block; font: .7rem var(--f-mono); color: var(--bone-dim); letter-spacing: .08em; text-transform: uppercase; }
   .daynav b { font: 400 1.4rem var(--f-display); }
 
+  /* Costumes */
+  .cos-intro { max-width: 60ch; color: var(--bone-dim); margin: 0 0 6px; }
+  .cos-jump { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 6px; }
+  .cos-jump a { font: 500 .8rem var(--f-mono); letter-spacing: .04em; text-decoration: none; border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; color: var(--bone); }
+  .cos-jump a b { color: var(--pumpkin); margin-left: 4px; }
+  .cos-row { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 12px; padding: 12px 4px; border: 0; border-bottom: 1px dashed var(--line);
+    background: none; width: 100%; text-align: left; cursor: pointer; color: inherit; border-radius: 6px; }
+  .cos-row:hover { background: var(--night-2); }
+  .cos-row .dt { font: 500 .8rem/1.3 var(--f-mono); color: var(--pumpkin); font-variant-numeric: tabular-nums; }
+  .cos-row .dt small { display: block; color: var(--bone-dim); font-weight: 400; }
+  .cos-row h4 { margin: 0; font-size: 1rem; font-weight: 650; line-height: 1.25; }
+  .cos-row .vn { font-size: .82rem; color: var(--bone-dim); }
+  .cos-row q { display: block; margin-top: 5px; font-size: .88rem; quotes: none; border-left: 2px solid var(--marigold); padding-left: 8px; }
+  .cos-row .prize { font: .7rem var(--f-mono); color: var(--marigold); margin-top: 4px; display: block; }
+  .row-ev .fl.c { color: var(--marigold); }
+  .shops { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 14px; }
+  .shop { border: 1px solid var(--line); border-radius: 14px; padding: 14px; display: grid; gap: 4px; align-content: start; background: var(--card); }
+  .shop .k { font: .66rem var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--marigold); }
+  .shop h4 { margin: 0; font: 400 1.35rem/1.1 var(--f-display); }
+  .shop .ad { font-size: .84rem; color: var(--bone-dim); }
+  .shop p { margin: 4px 0 0; font-size: .9rem; }
+  .shop .meta { margin-top: 6px; }
+
   /* Up next */
   .tile .dn { font: .74rem var(--f-mono); color: var(--bone-dim); letter-spacing: .08em; text-transform: uppercase; }
   .rail { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(210px, 240px); gap: 16px; overflow-x: auto; padding-bottom: 10px;
@@ -304,6 +327,7 @@
         <button data-v="list" aria-pressed="true">List</button>
         <button data-v="map" aria-pressed="false">Map</button>
         <button data-v="venues" aria-pressed="false">Venues</button>
+        <button data-v="costumes" aria-pressed="false">Costumes</button>
       </div>
     </div>
     <div class="filters" id="filters" hidden>
@@ -343,7 +367,14 @@
   const isHidden = e => hidden.has(e.id.slice(3)) || (e.rids || []).some(r => hidden.has(r));
   // hand-checked entries borrow the photo of the DB record they replace
   CURATED.forEach(c => { if (!c.img && c.dbIds) { const m = DB.find(e => c.dbIds.includes(e.id.slice(3)) || (e.rids || []).some(r => c.dbIds.includes(r))); if (m && m.img) c.img = m.img; } });
-  const EVENTS = CURATED.concat(DB.filter(e => !isHidden(e)));
+  // Feed events (UNT, TWU, library): the city database wins over a feed; a feed wins over a hand-added entry.
+  const toks = s => new Set(s.toLowerCase().replace(/[^a-z0-9 ]/g, " ").split(/\s+/).filter(w => w.length > 2 && !["the", "and", "denton", "halloween", "with", "for"].includes(w)));
+  const sim = (a, b) => { const A = toks(a), B = toks(b); return [...A].filter(x => B.has(x)).length / Math.max(1, Math.min(A.size, B.size)); };
+  const shareDay = (a, b) => (a.dates || [a.start]).some(x => (b.dates || [b.start]).includes(x) || (x >= b.start && x <= (b.end || b.start) && !b.dates));
+  const same = (a, b) => sim(a.title, b.title) >= 0.6 && shareDay(a, b);
+  const BASE = CURATED.concat(DB.filter(e => !isHidden(e)));
+  const FEED = (window.DHW_FEED_EVENTS || []).filter(f => !BASE.some(e => !e.id.startsWith("mx-") && same(f, e)));
+  const EVENTS = BASE.filter(e => !(e.id.startsWith("mx-") && FEED.some(f => same(f, e)))).concat(FEED);
   const SPREAD_MAX = 18;
   const TZ = "America/Chicago";
   const today = new Intl.DateTimeFormat("en-CA", { timeZone: TZ }).format(new Date());
@@ -545,6 +576,52 @@
   document.addEventListener("keydown", ev => { if (ev.key === "Escape") closeSheet(); });
   document.addEventListener("click", ev => { const t = ev.target.closest(".tile, .row-ev"); if (t) openSheet(t.dataset.id, t.dataset.day); });
 
+  // ---- costumes ----
+  const COS = /costume|best[- ]dressed|dress(ed)? up|come dressed|masquerade|cosplay/i;
+  const COS_KIND = e => {
+    const t = e.title + " " + (e.desc || "");
+    if (/mask[- ]making|special effects|\bsfx\b|costume repair|make (your|a) (mask|costume)|costume.*(workshop|class|craft)|family studio saturday- costumes/i.test(t)) return "make";
+    if (/costume (contest|competition)|best costume|best[- ]dressed|contest/i.test(t) && /costume|dress/i.test(t)) return "contest";
+    if (/masquerade|cosplay|costume party|costume ball|costumes? (are |is )?(encouraged|welcome|required)|come (dressed|in costume)|wear (your|a) costume|in costume|dress up|dressed up/i.test(t)) return "dress";
+    return null;
+  };
+  function cosSnippet(e) {
+    const sents = (e.desc || "").replace(/\s+/g, " ").split(/(?<=[.!?])\s+/);
+    const hit = sents.find(x => /costume|dress|masquerade|cosplay/i.test(x)) || "";
+    return hit.length > 190 ? hit.slice(0, 187).replace(/\s\S*$/, "") + "…" : hit;
+  }
+  function cosPrize(e) {
+    const t = e.desc || "", out = [];
+    const fee = /(\$\d+(?:\.\d\d)?)\s*(?:to enter|entry|entry fee)|entry (?:fee )?(?:is )?(\$\d+)/i.exec(t); if (fee) out.push((fee[1] || fee[2]) + " to enter");
+    const cash = /\$\d[\d,]*(?:\.\d\d)?\s*(?:cash )?(?:prize|grand prize|first prize|to the winner)|(?:prize|win)[^.]{0,30}?(\$\d[\d,]*)/i.exec(t); if (cash) out.push((cash[1] || cash[0]).replace(/\s+/g, " ") + (cash[1] ? " prize" : ""));
+    const cats = /(\d+|four|three|five|six)\s+(?:different\s+)?categories/i.exec(t); if (cats) out.push(cats[0]);
+    if (/prizes?/i.test(t) && !cash) out.push("prizes");
+    return [...new Set(out)].join(" · ");
+  }
+  function costumesHTML() {
+    const q = state.q, groups = { contest: [], dress: [], make: [] };
+    EVENTS.filter(e => (COS.test(e.title + " " + (e.desc || "")) || COS_KIND(e) === "make") && (!state.what || (e.tags || []).includes(state.what)) && (!q || [e.title, e.venue, e.desc].join(" ").toLowerCase().includes(q)))
+      .forEach(e => { const k = COS_KIND(e); if (!k) return; daysOf(e).filter(x => x >= today).slice(0, longRun(e) ? 1 : 99).forEach(x => groups[k].push([e, x])); });
+    const seen = new Set();
+    for (const k in groups) groups[k] = groups[k].filter(([e, x]) => { const key = k + e.title.toLowerCase().replace(/[^a-z0-9]/g, "") + x; if (seen.has(key)) return false; seen.add(key); return true; })
+      .sort((a, b) => a[1].localeCompare(b[1]) || timeKey((a[0].times && a[0].times[a[1]]) || a[0].time) - timeKey((b[0].times && b[0].times[b[1]]) || b[0].time));
+    const rowC = ([e, x]) => {
+      const t = (e.times && e.times[x]) || e.time || "", v = (GEO.venues[GEO.byId[e.id]] || {}).name || e.venue || "";
+      const sn = cosSnippet(e), pz = cosPrize(e);
+      return `<button class="cos-row" data-id="${esc(e.id)}" data-day="${x}"><span class="dt">${d(x).toLocaleDateString("en-US", { month: "short", day: "numeric" })}<small>${esc((t.split(/\s*[–-]\s*/)[0]) || "")}</small></span>
+        <span><h4>${esc(e.title)}</h4><span class="vn">${esc(v)}</span>${sn ? `<q>${esc(sn)}</q>` : ""}${pz ? `<span class="prize">${esc(pz)}</span>` : ""}</span></button>`;
+    };
+    const shops = window.DHW_SHOPS || [];
+    const sec = (id, h, sub, body) => body ? `<div class="sect" id="${id}"><h3>${h}</h3><span class="dn">${sub}</span></div>${body}` : "";
+    return `<p class="cos-intro">Denton dresses up for a month straight. Here's every costume contest with its prizes and entry fees, the nights where costumes are expected, where to make one, and where to buy, rent or thrift one.</p>
+      <div class="cos-jump"><a href="#cos-contest">Contests<b>${groups.contest.length}</b></a><a href="#cos-dress">Dress-up nights<b>${groups.dress.length}</b></a><a href="#cos-make">Make one<b>${groups.make.length}</b></a>${shops.length ? `<a href="#cos-shops">Get one<b>${shops.length}</b></a>` : ""}</div>`
+      + sec("cos-contest", "Costume contests", "win something", groups.contest.map(rowC).join(""))
+      + sec("cos-dress", "Dress-up nights", "costumes expected", groups.dress.map(rowC).join(""))
+      + sec("cos-make", "Make one", "workshops & crafts", groups.make.map(rowC).join(""))
+      + (shops.length ? sec("cos-shops", "Where to get one", "buy · rent · thrift", `<div class="shops">${shops.map(sh => `<div class="shop"><span class="k">${esc(sh.kind)}</span><h4>${esc(sh.name)}</h4><span class="ad">${esc(sh.address)}${sh.hours ? " · " + esc(sh.hours) : ""}</span>${sh.note ? `<p>${esc(sh.note)}</p>` : ""}<div class="meta">${sh.link ? `<a href="${esc(sh.link)}" target="_blank" rel="noopener">Website ↗</a>` : ""}<a href="https://maps.google.com/?q=${encodeURIComponent(sh.name + ", " + sh.address)}" target="_blank" rel="noopener">Map</a>${sh.verified === false ? `<span class="tag unv">unconfirmed</span>` : ""}</div></div>`).join("")}</div>`) : "");
+  }
+  document.addEventListener("click", ev => { const r = ev.target.closest(".cos-row"); if (r) openSheet(r.dataset.id, r.dataset.day); });
+
   // Signature events get poster treatment; everything else is a timeline row.
   const PICK = /day of the dead festival|cirque du horror|blocktober|hallo-?wing|boo at the u|parker house|addams family|tripping daisy|caligari|sam bass|pine ?box|coffin race|halloween night party|halloween town market|rocky horror picture show|nightmare on brew street|first fright/i;
   const isPick = e => PICK.test(e.title);
@@ -554,7 +631,7 @@
     const t = (day && e.times && e.times[day]) || e.time || "";
     const tm = b.hot ? `<span class="tm now">${esc(b.txt)}</span>` : `<span class="tm">${esc((t.split(/\s*[–-]\s*/)[0] || "TBA").replace(/^All day$/i, "All day"))}</span>`;
     const v = (GEO.venues[GEO.byId[e.id]] || {}).name || e.venue || (e.address || "").split(",")[0];
-    const fl = [(e.tags || []).includes("free") && `<span class="fl">free</span>`, (e.tags || []).includes("21plus") && `<span class="fl a">21+</span>`, (e.tags || []).includes("family") && `<span class="fl">kids</span>`].filter(Boolean).join("");
+    const fl = [(e.tags || []).includes("free") && `<span class="fl">free</span>`, (e.tags || []).includes("21plus") && `<span class="fl a">21+</span>`, (e.tags || []).includes("family") && `<span class="fl">kids</span>`, COS_KIND(e) === "contest" && `<span class="fl c">costume contest</span>`].filter(Boolean).join("");
     return `<button class="row-ev tile-row${past ? " past" : ""}" data-id="${esc(e.id)}" data-day="${day || ""}">${tm}<span class="th">${poster(e)}</span>
       <span><h4>${esc(e.title)}</h4><span class="vn">${esc(v || "")}${fl}</span></span></button>`;
   }
@@ -723,7 +800,11 @@
     document.getElementById("dayhero").innerHTML = dayHeroHTML(state.day, pairs.length);
     document.getElementById("daynav").innerHTML = state.view === "list" ? dayNavHTML(state.day) : "";
     mw.hidden = state.view !== "map";
-    if (state.view === "map") {
+    if (state.view === "costumes") {
+      document.getElementById("dayhero").innerHTML = `<span class="dn">Oct 1 – Nov 1 · what to wear and where</span><h2>Cost<em>umes</em></h2>`;
+      document.getElementById("daynav").innerHTML = "";
+      list.innerHTML = costumesHTML();
+    } else if (state.view === "map") {
       const m = mapHTML(pairs); mw.innerHTML = m.mapEl; list.innerHTML = m.sel;
     } else if (state.view === "venues") {
       const g = byVenue(pairs);

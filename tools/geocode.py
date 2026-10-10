@@ -101,7 +101,8 @@ def off_street(k, pt, ways):
 
 
 def main():
-    js = "global.window={};require('./events.js');require('./events-db.js');console.log(JSON.stringify([...window.DHW_EVENTS,...window.DHW_DB_EVENTS].map(e=>e.address||'')))"
+    js = ("global.window={};require('./events.js');require('./events-db.js');try{require('./events-feeds.js')}catch(e){};"
+          "console.log(JSON.stringify([...window.DHW_EVENTS,...window.DHW_DB_EVENTS,...(window.DHW_FEED_EVENTS||[])].map(e=>e.address||'')))")
     addrs = json.loads(subprocess.check_output(["node", "-e", js], cwd=root))
     geo = json.loads(GEO.read_text()) if GEO.exists() else {}
     keys = sorted({k for a in addrs if (k := key_of(a))})
