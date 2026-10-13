@@ -30,6 +30,12 @@
 "osm",
 "checked"
 ],
+"102 Industrial St": [
+33.2143502,
+-97.130358,
+"osm",
+"checked"
+],
 "103 Industrial St": [
 33.2141742,
 -97.1299874,
@@ -409,6 +415,12 @@
 "osm",
 "checked"
 ],
+"2300 E University Dr": [
+33.2342463,
+-97.1038021,
+"osm",
+"unchecked"
+],
 "2426 Lillian Miller Pkwy": [
 33.1858168,
 -97.1093767,
@@ -468,6 +480,12 @@
 -97.0988517,
 "osm",
 "unchecked"
+],
+"316 E Hickory St": [
+33.214349,
+-97.129325,
+"osm",
+"checked"
 ],
 "317 W Mulberry St": [
 33.2133355,
@@ -606,6 +624,12 @@
 -97.1298392,
 "osm",
 "checked"
+],
+"611 Sunset St": [
+33.2293961,
+-97.138525,
+"osm",
+"unchecked"
 ],
 "633 Hobson Ln": [
 33.176539,

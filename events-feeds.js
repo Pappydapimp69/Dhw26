@@ -76,24 +76,6 @@ window.DHW_FEED_EVENTS = [
 "time": "1pm–3pm"
 },
 {
-"id": "fd-lib-6aaaf0ec607483003827693b",
-"title": "Sewing: Pumpkin Pin Cushion",
-"start": "2026-10-12",
-"venue": "North Branch Library",
-"address": "3020 N. Locust St.",
-"cost": "Free",
-"tags": [
-"free",
-"library"
-],
-"desc": "Learn the basics of using a sewing machine with this easy-to-sew pumpkin pin cushion. A fall-themed alternative to the classic tomato pin cushion. This project is great for beginners. All supplies provided. Ages 18+",
-"link": "https://denton.bibliocommons.com/v2/events/6aaaf106607483003827694a",
-"source": "https://denton.bibliocommons.com/v2/events/6aaaf106607483003827694a",
-"verified": true,
-"feed": "library",
-"time": "2pm–4pm"
-},
-{
 "id": "fd-unt-53921997176110",
 "title": "Kappa Kappa Psi Halloween Recital",
 "start": "2026-10-13",
@@ -318,24 +300,6 @@ window.DHW_FEED_EVENTS = [
 "2026-10-24": "9am–5:45pm",
 "2026-10-25": "1pm–4:45pm"
 }
-},
-{
-"id": "fd-unt-54038006218083",
-"title": "Boo Bash",
-"start": "2026-10-26",
-"venue": "Emerald Ballroom at the University Union",
-"address": "1155 Union Circle, Room 314, Denton, TX 76201",
-"cost": "Free",
-"tags": [
-"family",
-"free"
-],
-"desc": "Student parents - bring your little eagles to campus for this children's trick-or-treat event! For student organizations - see our socials to sign up to run a game booth for the kids!",
-"link": "https://calendar.unt.edu/event/boo-bash-1867",
-"source": "https://calendar.unt.edu/event/boo-bash-1867",
-"verified": true,
-"feed": "unt",
-"time": "6pm–8pm"
 },
 {
 "id": "fd-lib-6aad6ad86059b704112b0856",
