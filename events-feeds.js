@@ -302,6 +302,25 @@ window.DHW_FEED_EVENTS = [
 }
 },
 {
+"id": "fd-unt-54038006218083",
+"title": "Boo Bash",
+"start": "2026-10-26",
+"venue": "Emerald Ballroom at the University Union",
+"address": "1155 Union Circle, Room 314, Denton, TX 76201",
+"cost": "Free",
+"tags": [
+"art",
+"family",
+"free"
+],
+"desc": "Calling all Families! Boo Bash is UPC's Halloween event for the Denton community. Join UPC and UNT student organizations for this UNT Halloween Trick-or-Treating Tradition. Student Organizations will host carnival games for kids! There will also be craft activities and some inflatables. UNT Students, sign your student organization up for the table and hand out candy (provided by UPC)! The organization with the most popular table activity will win a prize! Tabling application is on UPC's Linktree (linktr.ee/unt_upc) There will be free parking in lots 36 and 37. Enter off West Highland St. to ge",
+"link": "https://calendar.unt.edu/event/boo-bash-1867",
+"source": "https://calendar.unt.edu/event/boo-bash-1867",
+"verified": true,
+"feed": "unt",
+"time": "6pm–8pm"
+},
+{
 "id": "fd-lib-6aad6ad86059b704112b0856",
 "title": "Haunted Halloween Tote Bags",
 "start": "2026-10-26",
