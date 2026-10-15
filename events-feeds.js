@@ -95,26 +95,6 @@ window.DHW_FEED_EVENTS = [
 "time": "8pm–9:30pm"
 },
 {
-"id": "fd-lib-6aa9ac59d6577100383d181c",
-"title": "STEAM Explorers- Halloween Theme",
-"start": "2026-10-14",
-"venue": "South Branch Library",
-"address": "3228 Teasley Lane",
-"cost": "Free",
-"tags": [
-"art",
-"family",
-"free",
-"library"
-],
-"desc": "Get ready to imagine, build, experiment, and explore! STEAM Explorers is a hands-on program for curious kids who love to ask questions and try new things. Each session features a fun, new theme. With guided activities and creative challenges, elementary students will dive into the exciting world of STEAM and discover how science, technology, engineering, art, and math shape the world around us. Ages 6-10.",
-"link": "https://denton.bibliocommons.com/v2/events/6aa9ac59d6577100383d1820",
-"source": "https://denton.bibliocommons.com/v2/events/6aa9ac59d6577100383d1820",
-"verified": true,
-"feed": "library",
-"time": "4:30pm–5:30pm"
-},
-{
 "id": "fd-unt-53797725047782",
 "title": "Dance & Theatre Presents: The Lesson & The Red House Monster",
 "start": "2026-10-15",
