@@ -144,24 +144,6 @@ window.DHW_FEED_EVENTS = [
 "time": "6pm–9pm"
 },
 {
-"id": "fd-lib-6ab55d8d8cf597003f962cea",
-"title": "Ghost Hunt with Teal Gray",
-"start": "2026-10-18",
-"venue": "Emily Fowler Library",
-"address": "502 Oakland St.",
-"cost": "Free",
-"tags": [
-"free",
-"library"
-],
-"desc": "Explore ghost‑hunting tools and watch experienced investigators demonstrate their use at the Emily Fowler Central Library, a site where many believe they’ve uncovered signs of possible paranormal activity. Program sponsored by Denton Parks and Recreation.",
-"link": "https://denton.bibliocommons.com/v2/events/6ab55d8ea5dbde002aa6ed92",
-"source": "https://denton.bibliocommons.com/v2/events/6ab55d8ea5dbde002aa6ed92",
-"verified": true,
-"feed": "library",
-"time": "6pm–9pm"
-},
-{
 "id": "fd-unt-54108860114121",
 "title": "Medieval Ghost Stories at Harvest House",
 "start": "2026-10-20",
