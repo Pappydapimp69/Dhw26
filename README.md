@@ -1,5 +1,7 @@
 # dhw26 — Denton Halloween 2026
 
+**Live site:** https://pappydapimp69.github.io/Dhw26/ (GitHub Pages, updated daily by the refresh)
+
 One-page guide to the **31 Days of Denton Halloween** (Oct 2026). `index.html` is self-contained — open it anywhere.
 
 The page source is `src/page.html`. After editing it, `events.js` or `events-db.js`, run `python3 tools/bundle.py` — it writes `index.html` (standalone) and `dist/artifact.html` (published at https://claude.ai/artifact/PL6hpEYq7ZzXmWjBSy5t8k).
