@@ -161,45 +161,6 @@ window.DHW_FEED_EVENTS = [
 "time": "7pm–9pm"
 },
 {
-"id": "fd-lib-6a84ac8baafa6100295d7522",
-"title": "Spooky Story Time",
-"start": "2026-10-20",
-"venue": "Emily Fowler Library",
-"address": "502 Oakland St.",
-"cost": "Free",
-"tags": [
-"art",
-"family",
-"free",
-"library"
-],
-"desc": "Join us for this not too spooky Story Time! Come have a spooktacular good time at this Halloween-themed Story Time. Bring your little ghosts and goblins in costume and take part in a library trick-or-treat parade. For children ages 1-5 and their caregivers. Due to limited room capacity, this is a ticketed event. Tickets will be given out at service desk 30 minutes before program starts. Books of the Week: Zip! Zoom! On a Broom by Teri Sloat Little Ghost Makes a Friend by Maggie Edkins Willis ***Books are subject to change based on availability.",
-"link": "https://denton.bibliocommons.com/v2/events/6a84ac8c3b6c71003e59b67c",
-"source": "https://denton.bibliocommons.com/v2/events/6a84ac8c3b6c71003e59b67c",
-"verified": true,
-"feed": "library",
-"time": "6:30pm–7pm"
-},
-{
-"id": "fd-lib-6aaaf184607483003827695f",
-"title": "Sweet & Spooky Felted Pumpkins",
-"start": "2026-10-20",
-"venue": "North Branch Library",
-"address": "3020 N. Locust St.",
-"cost": "Free",
-"tags": [
-"art",
-"free",
-"library"
-],
-"desc": "Learn how to make needle-felted pumpkins and jack-o-lanterns to decorate for Halloween or the fall season. This class covers the basics of needle felting, common tools, and felting techniques. Ages 18+",
-"link": "https://denton.bibliocommons.com/v2/events/6aaaf1848cf597003f945781",
-"source": "https://denton.bibliocommons.com/v2/events/6aaaf1848cf597003f945781",
-"verified": true,
-"feed": "library",
-"time": "2:30pm–4:30pm"
-},
-{
 "id": "fd-lib-6a7b67c9d033f1003e0aa129",
 "title": "Pokémon Club: Ghost Types",
 "start": "2026-10-21",
