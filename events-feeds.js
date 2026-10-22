@@ -161,25 +161,6 @@ window.DHW_FEED_EVENTS = [
 "time": "7pm–9pm"
 },
 {
-"id": "fd-lib-6a7b67c9d033f1003e0aa129",
-"title": "Pokémon Club: Ghost Types",
-"start": "2026-10-21",
-"venue": "Emily Fowler Library",
-"address": "502 Oakland St.",
-"cost": "Free",
-"tags": [
-"art",
-"free",
-"library"
-],
-"desc": "It's a Pokémon Halloween! If you love Pokémon Ghost Types, I Choose you... to join fellow trainers for spooky crafts, ghoulish games, and more! Ages 6 - 10.",
-"link": "https://denton.bibliocommons.com/v2/events/6aa878608cf597003f93dcd3",
-"source": "https://denton.bibliocommons.com/v2/events/6aa878608cf597003f93dcd3",
-"verified": true,
-"feed": "library",
-"time": "4:30pm–5:30pm"
-},
-{
 "id": "fd-twu-54135613884073",
 "title": "Campus Hauntings and Mysteries",
 "start": "2026-10-24",
