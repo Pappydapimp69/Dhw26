@@ -282,6 +282,25 @@ window.DHW_FEED_EVENTS = [
 "time": "7pm"
 },
 {
+"id": "fd-unt-54250744380750",
+"title": "The Cabinet of Dr. Caligari: Halloween Silent Movie and Improvised Organ",
+"start": "2026-10-27",
+"venue": "Murchison Performing Arts Center",
+"address": "2100 N. I-35E, Denton, TX 76205",
+"cost": "$10-$50",
+"tags": [
+"movie",
+"show"
+],
+"desc": "On October 27, the UNT College of Music is hosting a screening of The Cabinet of Dr. Caligari. Dr. Megan Bryan and guest organist Todd Wilson will lead a lecture beginning at 7:00pm. They will be discussing the historical context of the film, German Expressionism, and the history of improvised organ accompaniment for silent films. A costume contest will follow at 8:00pm. Finally, the screening of the film, with Mr. Wilson's live improvised accompaniment, will proceed at 8:30pm.",
+"link": "https://calendar.unt.edu/event/the-cabinet-of-dr-caligari-halloween-silent-movie-and-improvised-organ-6455",
+"source": "https://calendar.unt.edu/event/the-cabinet-of-dr-caligari-halloween-silent-movie-and-improvised-organ-6455",
+"verified": true,
+"feed": "unt",
+"tickets": "https://www.etix.com/ticket/p/75815596/the-cabinet-of-drcaligari-halloween-silent-movie-and-improvised-organ-denton-murchison-performing-arts-center?gclid=",
+"time": "7pm–10pm"
+},
+{
 "id": "fd-lib-6a7f62cb3f18f80030bb2512",
 "title": "Spooky Story Time",
 "start": "2026-10-28",
