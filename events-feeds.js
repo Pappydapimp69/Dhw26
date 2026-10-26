@@ -178,25 +178,6 @@ window.DHW_FEED_EVENTS = [
 "time": "1pm"
 },
 {
-"id": "fd-lib-6aaaf2558cf597003f945791",
-"title": "Make and Take: Ghost Paintings",
-"start": "2026-10-25",
-"venue": "North Branch Library",
-"address": "3020 N. Locust St.",
-"cost": "Free",
-"tags": [
-"art",
-"free",
-"library"
-],
-"desc": "Drop in the library and paint ghostly images onto ordinary scenes to make your own haunted paintings. Scenes included from famous haunted Denton locales like Old Alton Bridge and Emily Fowler Central Library. Ages 6+",
-"link": "https://denton.bibliocommons.com/v2/events/6aaaf2558cf597003f945797",
-"source": "https://denton.bibliocommons.com/v2/events/6aaaf2558cf597003f945797",
-"verified": true,
-"feed": "library",
-"time": "1pm–4:45pm"
-},
-{
 "id": "fd-unt-54038006218083",
 "title": "Boo Bash",
 "start": "2026-10-26",
