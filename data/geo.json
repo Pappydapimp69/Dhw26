@@ -270,12 +270,6 @@
 "osm",
 "checked"
 ],
-"1315 N Bell Ave": [
-33.225681136259,
--97.127327582357,
-"census",
-"checked"
-],
 "1650 Nottingham Dr": null,
 "1805 Cornell Ln": [
 33.2304975,
@@ -463,12 +457,6 @@
 "osm",
 "unchecked"
 ],
-"307 Administration Dr": [
-33.2279161,
--97.1289311,
-"osm",
-"unchecked"
-],
 "308 E Oak St": [
 33.2153187,
 -97.1297438,
@@ -612,6 +600,12 @@
 -97.147669,
 "osm",
 "unchecked"
+],
+"529 N Elm St": [
+33.2184746,
+-97.1337295,
+"osm",
+"checked"
 ],
 "5331 Hartlee Field Rd": [
 33.2642919,

@@ -197,44 +197,6 @@ window.DHW_FEED_EVENTS = [
 "time": "6pm–8pm"
 },
 {
-"id": "fd-lib-6aad6ad86059b704112b0856",
-"title": "Haunted Halloween Tote Bags",
-"start": "2026-10-26",
-"venue": "North Branch Library",
-"address": "3020 N. Locust St.",
-"cost": "Free",
-"tags": [
-"free",
-"library"
-],
-"desc": "Learn how to use the Library’s Cricut Maker software to personalize your own Halloween-themed canvas tote bag. Ages 18+. Due to limited supplies, this program is registration only. You will be notified the day before the program if the class is cancelled for not meeting the required registration minimum.",
-"link": "https://denton.bibliocommons.com/v2/events/6aad6ad919094f0c6938d7f5",
-"source": "https://denton.bibliocommons.com/v2/events/6aad6ad919094f0c6938d7f5",
-"verified": true,
-"feed": "library",
-"time": "6:30pm–8pm"
-},
-{
-"id": "fd-lib-6a8646aa69166f088b936da2",
-"title": "Spooky Story Time",
-"start": "2026-10-26",
-"venue": "South Branch Library",
-"address": "3228 Teasley Lane",
-"cost": "Free",
-"tags": [
-"art",
-"family",
-"free",
-"library"
-],
-"desc": "Join us for this not too spooky Story Time! Come have a spooktacular good time at this Halloween-themed Story Time. Bring your little ghosts and goblins in costume and take part in a library trick-or-treat parade. For children ages 1-5 and their caregivers. Due to limited room capacity, this is a ticketed event. Tickets will be given out at service desk 30 minutes before program starts.",
-"link": "https://denton.bibliocommons.com/v2/events/6a8646ab69166f088b936da8",
-"source": "https://denton.bibliocommons.com/v2/events/6a8646ab69166f088b936da8",
-"verified": true,
-"feed": "library",
-"time": "11:30am–12:15pm & 10am–10:45am"
-},
-{
 "id": "fd-unt-54180534742661",
 "title": "The Cabinet of Dr. Caligari: Halloween Silent Movie and Improvised Organ",
 "start": "2026-10-27",
