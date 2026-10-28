@@ -270,6 +270,12 @@
 "osm",
 "checked"
 ],
+"1315 N Bell Ave": [
+33.225681136259,
+-97.127327582357,
+"census",
+"checked"
+],
 "1650 Nottingham Dr": null,
 "1805 Cornell Ln": [
 33.2304975,
@@ -454,6 +460,12 @@
 "304 Administration Dr": [
 33.2272894,
 -97.1243272,
+"osm",
+"unchecked"
+],
+"307 Administration Dr": [
+33.2279161,
+-97.1289311,
 "osm",
 "unchecked"
 ],
