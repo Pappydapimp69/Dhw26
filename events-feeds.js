@@ -216,23 +216,20 @@ window.DHW_FEED_EVENTS = [
 "time": "7pm"
 },
 {
-"id": "fd-lib-6a7f62cb3f18f80030bb2512",
-"title": "Spooky Story Time",
-"start": "2026-10-28",
-"venue": "North Branch Library",
-"address": "3020 N. Locust St.",
+"id": "fd-unt-54241496807163",
+"title": "Frisco Student Union Halloween Social",
+"start": "2026-10-29",
+"venue": "Frisco Landing -- UNT at Frisco",
+"address": "12995 Preston Rd. Frisco, TX 75033",
 "cost": "Free",
 "tags": [
-"art",
-"family",
-"free",
-"library"
+"free"
 ],
-"desc": "Join us for this not too spooky Story Time! Come have a spooktacular good time at this Halloween-themed Story Time. Bring your little ghosts and goblins in costume and take part in a library trick-or-treat parade. For children ages 1-5 and their caregivers. Due to limited room capacity, this is a ticketed event. Tickets will be given out at service desk 30 minutes before program starts. Books of the week: The Bats on the Bus by Alison Jackson Vlad is Mad by Su Moon *** Books are subject to change based on availability",
-"link": "https://denton.bibliocommons.com/v2/events/6a7f62cc4cb69d003e20d781",
-"source": "https://denton.bibliocommons.com/v2/events/6a7f62cc4cb69d003e20d781",
+"desc": "Frisco Student Union is hosting a Halloween social. Bring your friends!!",
+"link": "https://calendar.unt.edu/event/frisco-student-union-halloween-social",
+"source": "https://calendar.unt.edu/event/frisco-student-union-halloween-social",
 "verified": true,
-"feed": "library",
-"time": "6:30pm–7:30pm"
+"feed": "unt",
+"time": "2pm–3pm"
 }
 ];
